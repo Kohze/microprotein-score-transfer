@@ -1,0 +1,7 @@
+family,stratum,n,groups
+L_to_A,all,1014,754
+L_to_A,source_rule_retained,798,611
+L_to_A,source_rule_omitted,216,178
+microprotein_10mer_ext,all,1007,759
+microprotein_10mer_ext,source_rule_retained,802,623
+microprotein_10mer_ext,source_rule_omitted,205,169

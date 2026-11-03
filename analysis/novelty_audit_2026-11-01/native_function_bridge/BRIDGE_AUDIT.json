@@ -1,0 +1,44 @@
+{
+  "status": "passed independent source-workbook and portable verification",
+  "candidates": 60,
+  "unique_candidate_sequences": 60,
+  "candidate_name_duplicates": 16,
+  "candidate_sequences_with_natural_assay": 24,
+  "candidate_sequences_with_primary_GFP": 17,
+  "candidate_sequences_with_measured_edits": 17,
+  "exact_natural_record_links": 74,
+  "exact_edit_links": 32,
+  "identifier_sequence_conflict_candidates": 1,
+  "identifier_sequence_conflict_links": 4,
+  "all_candidates_retained": true,
+  "sequence_normalization": "whitespace and one terminal stop only",
+  "outcome_fitting": false,
+  "inferential_testing": false,
+  "native_function_label_assigned": false,
+  "sources": {
+    "novelty_audit_2026-11-01\\native_function_bridge\\TableS2_publisher.xlsx": {
+      "sha256": "0ebb3997c99195df5e56554fd5cb3a80a33bb8244ff7e47995c5976f0a3eeaab",
+      "bytes": 787173
+    },
+    "novelty_audit_2026-11-01\\native_function_bridge\\TableS3_publisher.xlsx": {
+      "sha256": "abf2d4574534cd6e3db0139d9f2e8070d98e0bc7a81107564e31d0e328486c88",
+      "bytes": 2018128
+    },
+    "stability_benchmark_2026-10-31\\natural_assay_records.parquet": {
+      "sha256": "03d3b6bf4dd3dbcda843ab03fdb19c0d6da346ff0c79c1e7ef2b3fd7084e5304",
+      "bytes": 362862
+    },
+    "stability_benchmark_2026-10-31\\results\\native_GFP_MP.parquet": {
+      "sha256": "db47d24420513b8469b0e5323640c2baa2cdb903caa51e6520ef11d6157d5ca0",
+      "bytes": 297714
+    },
+    "stability_benchmark_2026-10-31\\primary_mutation_pairs.parquet": {
+      "sha256": "1824326c0593cfdab043475b7c95d167edf254cc0c8028108479bb874631e920",
+      "bytes": 239252
+    },
+    "novelty_audit_2026-11-01\\native_function_bridge\\BRIDGE_JOIN_PROTOCOL.txt": {
+      "sha256": "9679ac293715cd38acc122c2969ca26e431360ffc018d9914474ae25929ae0fa",
+      "bytes": 1548
+    }
+  }
+}

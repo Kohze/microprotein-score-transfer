@@ -1,0 +1,154 @@
+[
+  {
+    "provenance_file": "analysis/stability_benchmark_2026-10-31/REPRODUCTION_GUIDE.txt",
+    "upstream_urls": [
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc1.pdf",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc2.xlsx",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc3.xlsx",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc4.xlsx",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc7.xlsx",
+      "https://doi.org/10.1016/j.molcel.2026.04.021",
+      "https://doi.org/10.1038/s41467-024-46240-9",
+      "https://doi.org/10.1126/sciadv.adz3483",
+      "https://doi.org/10.1186/s44330-025-00037-4",
+      "https://doi.org/10.17632/jjxy3f462r.1",
+      "https://github.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/blob/main/models/PAP.py",
+      "https://github.com/brendan-miller-salk/ShortStop/releases/tag/v1.2.0",
+      "https://github.com/qinti2023/Microprotein_2025"
+    ]
+  },
+  {
+    "provenance_file": "analysis/paired_context_2026-11-01/INPUT_FREEZE.json",
+    "upstream_urls": [
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc4.xlsx"
+    ]
+  },
+  {
+    "provenance_file": "analysis/paired_context_2026-11-01/SOURCE_WORKBOOK_RECEIPT.json",
+    "upstream_urls": [
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc4.xlsx"
+    ]
+  },
+  {
+    "provenance_file": "analysis/novelty_audit_2026-11-01/INDEPENDENT_DATA_INTAKE.json",
+    "upstream_urls": [
+      "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/README.md",
+      "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/degron_train.csv.gz",
+      "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/model_data.r",
+      "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/regression_analysis.r",
+      "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/score/degrons.csv.gz",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/main/README.md",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/main/calculate-desc.py",
+      "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-026-68979-z/MediaObjects/41467_2026_68979_MOESM1_ESM.xlsx",
+      "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-026-68979-z/MediaObjects/41467_2026_68979_MOESM6_ESM.zip"
+    ]
+  },
+  {
+    "provenance_file": "analysis/novelty_audit_2026-11-01/pap_neural_comparison/SOURCE_RECEIPT.json",
+    "upstream_urls": [
+      "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/PAP.py",
+      "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/pap_weights.tgz",
+      "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/train_cnn2w.py"
+    ]
+  },
+  {
+    "provenance_file": "analysis/novelty_audit_2026-11-01/published_predictor_comparison/INTAKE_RECEIPT.json",
+    "upstream_urls": [
+      "https://api.github.com/repos/KULL-Centre/_2022_Mashahreh_degronome/git/trees/main?recursive=1",
+      "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al",
+      "https://openscholar.huji.ac.il/sites/default/files/ravid-lab/files/2022_prediction_of_quality-control_degradation_signals_in_yeast_proteins.pdf"
+    ]
+  },
+  {
+    "provenance_file": "analysis/novelty_audit_2026-11-01/published_predictor_comparison/Mashahreh_repository_tree.json",
+    "upstream_urls": [
+      "https://api.github.com/repos/KULL-Centre/_2022_Mashahreh_degronome/git/blobs/a130ec545208468ed9b09e15ed24c44eefcb43c1",
+      "https://api.github.com/repos/KULL-Centre/_2022_Mashahreh_degronome/git/blobs/cd3422c3b50ec2dc4f0d1d30af6e80c36999372b",
+      "https://api.github.com/repos/KULL-Centre/_2022_Mashahreh_degronome/git/blobs/d9cc74b398a98c703bbf41e883d7e3a0c429c74f",
+      "https://api.github.com/repos/KULL-Centre/_2022_Mashahreh_degronome/git/trees/31579a37871605d76661f719621baa132f809021"
+    ]
+  },
+  {
+    "provenance_file": "analysis/novelty_audit_2026-11-01/published_predictor_comparison/QCDPRED_FROZEN_SOURCE_RECEIPT.json",
+    "upstream_urls": [
+      "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/Mashahreh_wt_tiles.csv.gz",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/QCDpred.py",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/QCDpred_tiles.txt.gz",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/README.md",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/degron_model.Rmd"
+    ]
+  },
+  {
+    "provenance_file": "analysis/novelty_audit_2026-11-01/published_predictor_comparison/QCDPred_repository_contents.json",
+    "upstream_urls": [
+      "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al/Mashahreh_wt_tiles.csv.gz?ref=main",
+      "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al/QCDpred.ipynb?ref=main",
+      "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al/QCDpred.py?ref=main",
+      "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al/QCDpred_tiles.txt.gz?ref=main",
+      "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al/README.md?ref=main",
+      "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al/degron_model.Rmd?ref=main",
+      "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al/yeast_proteome.csv.gz?ref=main",
+      "https://api.github.com/repos/KULL-Centre/papers/git/blobs/06e625dd3ddb60ef7ff0aeea9677b34be452954b",
+      "https://api.github.com/repos/KULL-Centre/papers/git/blobs/343f97e1828562eb73ce422a8806c760665ba187",
+      "https://api.github.com/repos/KULL-Centre/papers/git/blobs/723eb0a415c6a09c47e78669a8d26c78b38ae288",
+      "https://api.github.com/repos/KULL-Centre/papers/git/blobs/a3e0a7a85e2613267832e1fd3f7369dd49b8dde0",
+      "https://api.github.com/repos/KULL-Centre/papers/git/blobs/bf75ba1bc38f30c8d05207afed04a148cd022cfb",
+      "https://api.github.com/repos/KULL-Centre/papers/git/blobs/d3894aa7185a2df6569c6cc7aa71098eb50ae3e5",
+      "https://api.github.com/repos/KULL-Centre/papers/git/blobs/de3da412d625567cc260907bc8364d7c97185e30",
+      "https://github.com/KULL-Centre/papers/blob/main/2022/degron-predict-Johansson-et-al/Mashahreh_wt_tiles.csv.gz",
+      "https://github.com/KULL-Centre/papers/blob/main/2022/degron-predict-Johansson-et-al/QCDpred.ipynb",
+      "https://github.com/KULL-Centre/papers/blob/main/2022/degron-predict-Johansson-et-al/QCDpred.py",
+      "https://github.com/KULL-Centre/papers/blob/main/2022/degron-predict-Johansson-et-al/QCDpred_tiles.txt.gz",
+      "https://github.com/KULL-Centre/papers/blob/main/2022/degron-predict-Johansson-et-al/README.md",
+      "https://github.com/KULL-Centre/papers/blob/main/2022/degron-predict-Johansson-et-al/degron_model.Rmd",
+      "https://github.com/KULL-Centre/papers/blob/main/2022/degron-predict-Johansson-et-al/yeast_proteome.csv.gz",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/main/2022/degron-predict-Johansson-et-al/Mashahreh_wt_tiles.csv.gz",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/main/2022/degron-predict-Johansson-et-al/QCDpred.ipynb",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/main/2022/degron-predict-Johansson-et-al/QCDpred.py",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/main/2022/degron-predict-Johansson-et-al/QCDpred_tiles.txt.gz",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/main/2022/degron-predict-Johansson-et-al/README.md",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/main/2022/degron-predict-Johansson-et-al/degron_model.Rmd",
+      "https://raw.githubusercontent.com/KULL-Centre/papers/main/2022/degron-predict-Johansson-et-al/yeast_proteome.csv.gz"
+    ]
+  },
+  {
+    "provenance_file": "analysis/novelty_audit_2026-11-01/terminal_predictor_comparison/SOURCE_INTAKE.json",
+    "upstream_urls": [
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/CITATION.cff",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/LICENSE",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/README.md",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/calculate-desc.py",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/conda.yml",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/models/c-terminus.cbm",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/models/n-terminus_iMetNO.cbm",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/models/n-terminus_iMetYES.cbm",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/seqs/0.txt",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/seqs/1.txt",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/seqs/2.txt",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/seqs/3.txt",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/sequence.txt",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/tests.sh",
+      "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/tests/results-ok.txt",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11610129/fullTextXML",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9011994/fullTextXML",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fs13059-022-02661-7%22&format=json&resultType=core",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fs13059-024-03444-y%22&format=json&resultType=core"
+    ]
+  },
+  {
+    "provenance_file": "analysis/novelty_audit_2026-11-01/native_function_bridge/GUO_PRIMARY_ACCESS_RECHECK.json",
+    "upstream_urls": [
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc9.pdf",
+      "https://www.cell.com/molecular-cell/pdf/S1097-2765(26)00275-3.pdf"
+    ]
+  },
+  {
+    "provenance_file": "analysis/novelty_audit_2026-11-01/native_function_bridge/SUPPLEMENT_RETRIEVAL.json",
+    "upstream_urls": [
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276523000758-mmc1.pdf",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276523000758-mmc3.xlsx",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1097276523000758-mmc4.xlsx",
+      "https://pmc.ncbi.nlm.nih.gov/articles/instance/10032668/bin/mmc3.xlsx"
+    ]
+  }
+]

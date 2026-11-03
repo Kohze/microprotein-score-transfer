@@ -1,0 +1,126 @@
+{
+  "source": "Hickey2020/2021 SupplementalTable5A republication of Koren2018TableS7A columnsA-L",
+  "source_doi": "10.25386/genetics.13273286",
+  "source_file_sha256": "73ddb4fd30df039784e620db3fec8777e1ccb0703f5c644512133240ae17235b",
+  "screen_rows": 22564,
+  "valid_standard_C23": 22564,
+  "unique_standard_C23": 22364,
+  "missing_PSI": 0,
+  "C23_length_counts": {
+    "23": 22564
+  },
+  "available_gene_symbols": 16255,
+  "audit_symbol_columns": [
+    "gene_name"
+  ],
+  "original_gene_ID_date_artifacts": [
+    {
+      "source_excel_row": 1403,
+      "value": "2002-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 1677,
+      "value": "2005-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 2441,
+      "value": "2007-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 4624,
+      "value": "2002-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 5883,
+      "value": "2006-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 6508,
+      "value": "2009-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 9373,
+      "value": "2001-12-01 00:00:00"
+    },
+    {
+      "source_excel_row": 9638,
+      "value": "2005-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 9700,
+      "value": "2002-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 9725,
+      "value": "2001-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 9972,
+      "value": "2011-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 10896,
+      "value": "2004-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 11572,
+      "value": "2001-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 11620,
+      "value": "2007-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 13605,
+      "value": "2001-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 13841,
+      "value": "2004-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 14173,
+      "value": "2009-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 14466,
+      "value": "2012-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 14557,
+      "value": "2010-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 14633,
+      "value": "2008-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 14813,
+      "value": "2003-09-01 00:00:00"
+    },
+    {
+      "source_excel_row": 15211,
+      "value": "2010-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 16327,
+      "value": "2003-03-01 00:00:00"
+    },
+    {
+      "source_excel_row": 17471,
+      "value": "2014-09-01 00:00:00"
+    }
+  ],
+  "primary_pairs": 1743,
+  "WT_screen_matches": 1450,
+  "RT_screen_matches": 6,
+  "either_endpoint_screen_matches": 1454,
+  "neither_endpoint_exact_screen_match": 289,
+  "available_symbol_overlap": 1496,
+  "neither_endpoint_or_symbol_overlap": 97,
+  "native_primary_tiles": 14143,
+  "native_C23_screen_matches": 336,
+  "model_training_split_membership_available": false,
+  "target_model_associations_computed": false,
+  "limit": "Exact screen/available-symbol matches only; no certified individual-training exclusion, exhaustive aliases or homology exclusion"
+}

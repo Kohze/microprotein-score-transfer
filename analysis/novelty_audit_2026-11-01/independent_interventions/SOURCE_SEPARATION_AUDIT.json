@@ -1,0 +1,17 @@
+{
+  "status": "outcome-free operational source separation complete; measurement audit and prediction freeze remain",
+  "protocol_sha256": "414baf979403a75d54014695a21b0a437d2914832b1ca5de1914d4d8fea6f034",
+  "source_manifest_sha256": "45e26c5991cad8e85a4df1bab065e3ba624d3c59db6bd9a97d2bc7b82c8cb04a",
+  "targets": 6242,
+  "aligned_pairs": 4842967,
+  "edges": 69,
+  "eligible_counts": {
+    "primary60_head_only_eligible": 2326,
+    "primary60_common_eligible": 1743,
+    "sensitivity40_head_only_eligible": 2311,
+    "sensitivity40_common_eligible": 1738
+  },
+  "primary_common_groups": 1591,
+  "target_outcomes_loaded": false,
+  "uncertainty_groups": "gene plus identical cargos; not exhaustive homology families"
+}

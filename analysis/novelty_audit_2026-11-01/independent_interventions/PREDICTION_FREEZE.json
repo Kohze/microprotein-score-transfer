@@ -1,0 +1,14 @@
+{
+  "status": "predictions frozen before any Chu predictor/outcome associations",
+  "protocol_sha256": "414baf979403a75d54014695a21b0a437d2914832b1ca5de1914d4d8fea6f034",
+  "sequence_audit_sha256": "8a492277dccd058aeb6efe8bbf697cf2077b0e3b2d1e6ea828ce48eac3fcd102",
+  "prediction_sha256": "5cb78dd0c2d4d22ea73df6d130a6f0586310f764fdbc48feaa3f7060d0644a00",
+  "source_code_sha256": "7497f009ba9e2cace4832d5b6d8e4adf506012c268b7660591adc48366d52f34",
+  "input_source_feature_max_difference": 0.0,
+  "source_heads_match_prior_source_tuning": true,
+  "target_unique_sequences": 6242,
+  "WT_calibration_source": "Guo GFP_MP only; increasing isotonic",
+  "target_outcomes_read": false,
+  "target_outcomes_used_for_fitting": false,
+  "important_scope": "58mer C-terminal sequence replacement reporters, not simple full-native-ORF extension"
+}

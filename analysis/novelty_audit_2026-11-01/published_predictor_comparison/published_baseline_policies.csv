@@ -1,0 +1,17 @@
+subset,model,n,selected,selected_mean_assay_score
+primary60,QCDPred_mean17_stability,14143,1415,0.585622205068243
+primary60,QCDPred_normalized_cargo_stability,14143,1415,0.5921507955793449
+primary60,human25_first25_stability,14143,1415,0.5940297016815491
+primary60,human25_normalized_cargo_stability,14143,1415,0.5988707263531591
+primary60,GFP_MP__A,14143,1415,0.5975694980228824
+primary60,GFP_MP__T,14143,1415,0.6120984285309955
+primary60,MP_mCherry__A,14143,1415,0.5969998253087236
+primary60,MP_mCherry__T,14143,1415,0.5506278938939114
+sensitivity40,QCDPred_mean17_stability,13730,1373,0.587950985912113
+sensitivity40,QCDPred_normalized_cargo_stability,13730,1373,0.5939223136557165
+sensitivity40,human25_first25_stability,13730,1373,0.5971302310276816
+sensitivity40,human25_normalized_cargo_stability,13730,1373,0.6033632807018355
+sensitivity40,GFP_MP__A,13730,1373,0.6005464666356911
+sensitivity40,GFP_MP__T,13730,1373,0.6124471139996762
+sensitivity40,MP_mCherry__A,13730,1373,0.6023087915810431
+sensitivity40,MP_mCherry__T,13730,1373,0.5561976977473357

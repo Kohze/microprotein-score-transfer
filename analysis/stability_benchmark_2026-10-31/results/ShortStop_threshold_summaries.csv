@@ -1,0 +1,4 @@
+threshold,n_called,n_other,median_score_called,median_score_other,median_length_called,median_length_other
+sam,76,981,0.5928968712537278,0.4362206802982542,57.0,38.0
+sam_consensus_90,23,1034,0.5074486676079704,0.4445030602783624,59.0,39.0
+sam_consensus_100,6,1051,0.1683643511041446,0.4453388442553173,59.0,39.0

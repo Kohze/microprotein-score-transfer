@@ -1,0 +1,8 @@
+{
+  "status": "completed descriptive policy extension",
+  "policy": "top ceil(10%) by each frozen score; ties lexical peptide order",
+  "primary_fraction_basis": "same 10% fraction as prior benchmark prioritization; not tuned on this target",
+  "target_definition": "top ceil(10%) measured assay ranks with same tie rule; not biological stable/function labels",
+  "uncertainty": "1000 conditional gene-bootstrap draws; selection recalculated per draw",
+  "limitation": "canonical tile assay, retrospective selection-rule analysis, not prospective candidate validation"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "original_workbook_pair_memberships_checked": 2021,
+  "metric_rows_independently_recomputed": 360,
+  "contrast_point_estimates_checked": 18,
+  "max_rank_error": 1.1102230246251565e-16,
+  "frozen_prediction_hash_unchanged": true,
+  "bootstrap_distribution_independently_recomputed": false,
+  "limitations": "Conditional interval implementation/source code provided; independent verification checks all metric and contrast point estimates, not a separate bootstrap replay"
+}

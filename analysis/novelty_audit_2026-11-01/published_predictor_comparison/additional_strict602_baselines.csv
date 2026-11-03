@@ -1,0 +1,5 @@
+cohort,model,n,rho,exact_training_window_rows
+Guo_additional_strict602,QCDPred_mean17_stability,602,0.6158036007684536,0
+Guo_additional_strict602,QCDPred_normalized_cargo_stability,602,0.6611122141672316,0
+Guo_additional_strict602,human25_first25_stability,602,0.5941921144104049,0
+Guo_additional_strict602,human25_normalized_cargo_stability,602,0.6740384184477156,0

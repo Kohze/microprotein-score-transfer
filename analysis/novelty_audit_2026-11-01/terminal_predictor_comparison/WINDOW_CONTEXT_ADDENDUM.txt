@@ -1,0 +1,17 @@
+SECONDARY MATCHED-INPUT WINDOW CHECK
+DEGRONOPEDIA C23 and PAP full58 results have now been inspected. This addendum
+is post hoc, intended to prevent interpreting the different input coverage as
+an architecture effect. Existing frozen C30 CNN1/CNN7 predictions will be added
+on the same four exposure strata. Additionally freeze both published neural
+models on the identical C23 inputs consumed by DEGRONOPEDIA. No target fitting,
+calibration, direction selection, weights or cohorts change. C23 and full58
+are supported variable-length inference outside the training30mer length.
+
+Use the same3302 input C23s, both released architectures and all four declared
+strata. Verify every C23 full/internal/terminal score by independent NumPy
+inference. Freeze before new C23-model associations. Report all C23/C30/full58
+raw neural results; do not select a favorable window. Add paired conditional
+contrasts of C-model minus CNN1 at C23 and C30 on all1743, endpoint-unmatched289
+and available-symbol97 cohorts. Original comparisons/negative results remain.
+These contrasts cannot isolate architecture because training sources also
+differ, and the97 sensitivity is not certified gene independence.

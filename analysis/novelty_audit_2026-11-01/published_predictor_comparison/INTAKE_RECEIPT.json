@@ -1,0 +1,42 @@
+[
+  {
+    "file": "QCDPred2023.pdf",
+    "requested_url": "https://openscholar.huji.ac.il/sites/default/files/ravid-lab/files/2022_prediction_of_quality-control_degradation_signals_in_yeast_proteins.pdf",
+    "final_url": "https://openscholar.huji.ac.il/sites/default/files/ravid-lab/files/2022_prediction_of_quality-control_degradation_signals_in_yeast_proteins.pdf",
+    "status": 200,
+    "sha256": "3237dc336cacdb6e6a3d73717b029086bccdc4ee8bf974fb5a45e18f13be89df",
+    "bytes": 581,
+    "pages": 1,
+    "scientific_full_text": false,
+    "content_validation": "581-byte PDF contains an institutional security error, not the paper"
+  },
+  {
+    "file": "QCDPred_repository_contents.json",
+    "requested_url": "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al",
+    "final_url": "https://api.github.com/repos/KULL-Centre/papers/contents/2022/degron-predict-Johansson-et-al",
+    "status": 200,
+    "sha256": "69ea1cf0321a402c915faf11363c5033feb89db89c2195c8157c1417adce8a36",
+    "bytes": 7033,
+    "files": [
+      "Mashahreh_wt_tiles.csv.gz",
+      "QCDpred.ipynb",
+      "QCDpred.py",
+      "QCDpred_tiles.txt.gz",
+      "README.md",
+      "degron_model.Rmd",
+      "yeast_proteome.csv.gz"
+    ]
+  },
+  {
+    "file": "Mashahreh_repository_tree.json",
+    "requested_url": "https://api.github.com/repos/KULL-Centre/_2022_Mashahreh_degronome/git/trees/main?recursive=1",
+    "final_url": "https://api.github.com/repos/KULL-Centre/_2022_Mashahreh_degronome/git/trees/main?recursive=1",
+    "status": 200,
+    "sha256": "4f5dba108d44412c205573c715eecd091e78ba327340191eb4b725c27f61db16",
+    "bytes": 936,
+    "commit": "31579a37871605d76661f719621baa132f809021",
+    "interesting_files": [
+      "psi.r"
+    ]
+  }
+]

@@ -1,0 +1,818 @@
+[
+  {
+    "source": "GFP_MP",
+    "model": "A",
+    "purpose": "external prediction",
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14311531094047347,
+      0.143268688121954,
+      0.14360466619451065,
+      0.14628775951342168,
+      0.17343167949773333
+    ],
+    "source_rows": 1072,
+    "source_groups": 800,
+    "nominal_features": 22,
+    "variable_features": 22,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "GFP_MP",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 0.1,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 0.1,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 0.1,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 0.1,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 0.1,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T",
+    "purpose": "external prediction",
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14647287099188397,
+      0.1462148332502975,
+      0.14527821582796446,
+      0.14069113166508876,
+      0.15205309119948712
+    ],
+    "source_rows": 1072,
+    "source_groups": 800,
+    "nominal_features": 227,
+    "variable_features": 207,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 100.0,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 100.0,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 100.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 100.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 100.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T_noPAP",
+    "purpose": "external prediction",
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14850399576259643,
+      0.14817260690880638,
+      0.14736449934398876,
+      0.14411151474402137,
+      0.16191167628364622
+    ],
+    "source_rows": 1072,
+    "source_groups": 800,
+    "nominal_features": 225,
+    "variable_features": 205,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 100.0,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 100.0,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 100.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 100.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 100.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "N4",
+    "purpose": "external prediction",
+    "alpha": 10.0,
+    "inner_mae": [
+      0.148496139485992,
+      0.14848566809094796,
+      0.14842619830468348,
+      0.14919629012718952,
+      0.17272586800183032
+    ],
+    "source_rows": 1072,
+    "source_groups": 800,
+    "nominal_features": 102,
+    "variable_features": 102,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "GFP_MP",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 0.1,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 10.0,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 10.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 0.1,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 10.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "C4",
+    "purpose": "external prediction",
+    "alpha": 10.0,
+    "inner_mae": [
+      0.14067632960095736,
+      0.14070383826810193,
+      0.14053679942754657,
+      0.14072969845469616,
+      0.16817268001615734
+    ],
+    "source_rows": 1072,
+    "source_groups": 800,
+    "nominal_features": 102,
+    "variable_features": 102,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "GFP_MP",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 10.0,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 100.0,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 10.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 0.1,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 10.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "I4",
+    "purpose": "external prediction",
+    "alpha": 0.1,
+    "inner_mae": [
+      0.15126727518704683,
+      0.1514012809658869,
+      0.15143363151905315,
+      0.1519421362304137,
+      0.173763070776945
+    ],
+    "source_rows": 1072,
+    "source_groups": 800,
+    "nominal_features": 102,
+    "variable_features": 102,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "GFP_MP",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 100.0,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 0.1,
+    "train_rows": 857,
+    "test_rows": 215,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 10.0,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 0.1,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "GFP_MP",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 0.1,
+    "train_rows": 858,
+    "test_rows": 214,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "A",
+    "purpose": "external prediction",
+    "alpha": 10.0,
+    "inner_mae": [
+      0.16525091329237415,
+      0.16468294468562053,
+      0.16462404251016874,
+      0.1677346813401731,
+      0.19588392746131442
+    ],
+    "source_rows": 1046,
+    "source_groups": 785,
+    "nominal_features": 22,
+    "variable_features": 22,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 0.1,
+    "train_rows": 836,
+    "test_rows": 210,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 1.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 0.1,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 1.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "A",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 0.1,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T",
+    "purpose": "external prediction",
+    "alpha": 100.0,
+    "inner_mae": [
+      0.17316857605185154,
+      0.1727120832998771,
+      0.17155565409683654,
+      0.16740794830138403,
+      0.1849229099595813
+    ],
+    "source_rows": 1046,
+    "source_groups": 785,
+    "nominal_features": 227,
+    "variable_features": 207,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 100.0,
+    "train_rows": 836,
+    "test_rows": 210,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T_noPAP",
+    "purpose": "external prediction",
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1732242255273229,
+      0.1727606562265795,
+      0.17163193819615363,
+      0.16824878752502925,
+      0.18957037901212367
+    ],
+    "source_rows": 1046,
+    "source_groups": 785,
+    "nominal_features": 225,
+    "variable_features": 205,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 100.0,
+    "train_rows": 836,
+    "test_rows": 210,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T_noPAP",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "N4",
+    "purpose": "external prediction",
+    "alpha": 10.0,
+    "inner_mae": [
+      0.15979154258944003,
+      0.15945168014248157,
+      0.15925604961655154,
+      0.1599606138666415,
+      0.18892092331367982
+    ],
+    "source_rows": 1046,
+    "source_groups": 785,
+    "nominal_features": 102,
+    "variable_features": 102,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 10.0,
+    "train_rows": 836,
+    "test_rows": 210,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 10.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 10.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "N4",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 10.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "C4",
+    "purpose": "external prediction",
+    "alpha": 10.0,
+    "inner_mae": [
+      0.17335945153136068,
+      0.17300542404820546,
+      0.17282320646297342,
+      0.1736147374958795,
+      0.19741583329122622
+    ],
+    "source_rows": 1046,
+    "source_groups": 785,
+    "nominal_features": 102,
+    "variable_features": 102,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 100.0,
+    "train_rows": 836,
+    "test_rows": 210,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 10.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 10.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "C4",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "I4",
+    "purpose": "external prediction",
+    "alpha": 10.0,
+    "inner_mae": [
+      0.17205806566188986,
+      0.17153631695289046,
+      0.17128009126124585,
+      0.1727582269242342,
+      0.19804582246922728
+    ],
+    "source_rows": 1046,
+    "source_groups": 785,
+    "nominal_features": 102,
+    "variable_features": 102,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 0,
+    "alpha": 100.0,
+    "train_rows": 836,
+    "test_rows": 210,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 1,
+    "alpha": 10.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 2,
+    "alpha": 0.1,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 3,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "I4",
+    "purpose": "source nested CV",
+    "fold": 4,
+    "alpha": 100.0,
+    "train_rows": 837,
+    "test_rows": 209,
+    "group_overlap": 0
+  }
+]

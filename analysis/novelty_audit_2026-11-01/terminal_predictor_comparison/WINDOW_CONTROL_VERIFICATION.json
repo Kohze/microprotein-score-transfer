@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "extended_metric_rows_recalculated": 16,
+  "max_rank_error": 1.1102230246251565e-16,
+  "all_C23_C30_endpoint_scores_and_deltas_reconstructed": true,
+  "original48_rows_and_all_pairs_preserved": true,
+  "frozen_hash_unchanged": true,
+  "all6604_C23_network_inputs_NumPy_checked_at_freeze": true,
+  "scope": "Post-hoc matched-input comparison; numerical verification does not imply architecture causation or full exposure independence"
+}

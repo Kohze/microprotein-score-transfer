@@ -1,0 +1,9 @@
+subset,contrast,metric,estimate,low,high,interpretation
+primary60,QCDPred_mean17 minus GFP_MP__A,rho,-0.07721838323780883,-0.08506447984149756,-0.07055536357108606,secondary conditional gene bootstrap; no multiplicity-adjusted claim
+primary60,QCDPred_mean17 minus GFP_MP__A,selected_mean,-0.011947292954639366,-0.020407475131506883,-0.0037123157014567146,secondary conditional gene bootstrap; no multiplicity-adjusted claim
+primary60,QCDPred_mean17 minus GFP_MP__T,rho,-0.0728612365719048,-0.08126693862786019,-0.06491277021263521,secondary conditional gene bootstrap; no multiplicity-adjusted claim
+primary60,QCDPred_mean17 minus GFP_MP__T,selected_mean,-0.02647622346275247,-0.035940280755800885,-0.017580482546317704,secondary conditional gene bootstrap; no multiplicity-adjusted claim
+primary60,QCDPred_mean17 minus MP_mCherry__A,rho,-0.07840598272095811,-0.0862942045158159,-0.07143025011424284,secondary conditional gene bootstrap; no multiplicity-adjusted claim
+primary60,QCDPred_mean17 minus MP_mCherry__A,selected_mean,-0.011377620240480613,-0.020868225102005512,-0.0032318060603031148,secondary conditional gene bootstrap; no multiplicity-adjusted claim
+primary60,QCDPred_mean17 minus MP_mCherry__T,rho,0.08276707512008508,0.07116325097260347,0.09460653498356565,secondary conditional gene bootstrap; no multiplicity-adjusted claim
+primary60,QCDPred_mean17 minus MP_mCherry__T,selected_mean,0.034994311174331605,0.023317602632825143,0.04544329717406,secondary conditional gene bootstrap; no multiplicity-adjusted claim

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "original_workbook_rows_independently_read": 22564,
+  "exact_screen_memberships_rechecked": 1743,
+  "complete58mer_original_descriptor_predictions_checked": 32,
+  "original_prediction_max_error": 0.0,
+  "metric_rows_recalculated": 48,
+  "rank_metric_max_error": 1.1102230246251565e-16,
+  "all_pair_deltas_reconstructed": true,
+  "frozen_hash_unchanged": true,
+  "limitations": "Numerical/source-join verification; does not certify unavailable individual-training membership, exhaustive aliases or biology"
+}

@@ -1,0 +1,90 @@
+PUBLISHED PAP NEURAL BASELINES - EXPLORATORY NOVELTY CHALLENGE
+1 November 2026 | Specified before new neural predictor/outcome associations
+
+Purpose and design status
+Test the published default cnn2w1 and released local-order cnn2w7 predictors,
+not only the interpretable human30 regression. Other models' results on these
+targets are already known. This is a secondary, outcome-informed research
+extension, not preregistration or a blinded new-cohort experiment. Frozen
+published weights, source-only calibration and all specified representations
+must be retained without target-based model/window/sign selection.
+
+Inputs and inference
+Use models/PAP.py, models/train_cnn2w.py and models/pap_weights.tgz from the
+already pinned official Voutsinos repository commit
+9b3eafa6bd9730c558cd018063fa0180edf9db1a. Both weights are HDF5 numeric arrays.
+Do not load pickle or retrain the networks. Read original architecture,
+amino-acid order, pooling, activation and training definitions. The source
+uses TensorFlow Keras; run the same published inference classes under Keras3
+with its PyTorch backend. Compatibility changes are the backend import,
+weight path and explicit loading of the same eight named layer tensors.
+The original Keras3 legacy-loader attempt rejected the nontrainable tensors;
+this loading adaptation changes no graph, numeric tensor or prediction rule.
+Confirm every named weight tensor and compare deterministic predictions to
+an independently written NumPy forward pass before target associations.
+
+Two explicitly separated cargo representations
+C30: use the final min(30,L) residues and include the C-terminal channel.
+Full cargo: use the complete cargo as supported by PAP's tile-size-zero option,
+again including the C-terminal channel. Full58 is an extrapolation beyond the
+training30mers and is not the default multi-window CLI output. Report both.
+Native-cargo scores in an N-free/C-masked reporter are a context sensitivity,
+not proof that the C-terminal predictor fails on its intended construct.
+
+Cohorts and provenance
+1. Existing Guo original GFP-MP and MP-mCherry WTs, plus the verified strict602
+   additional cohort. No fresh tuning on these outcomes.
+2. Existing Voutsinos author-held-out/source-separated14143 30mers and13730
+   sensitivity. PAP was trained in this study; report it as an author-held-out
+   within-study reference, not an equally external universal leaderboard.
+3. Existing Chu common1743 paired58mer cohort/1591 operational groups, excluding
+   source and PAP-training-linked genes/windows. Retain the existing1738
+   similarity sensitivity,2326 head-only cohort and current-transcript match.
+   Both WT and RT cargos are58mers; do not call this a simple append to WT58
+   or native nORF functional validation. Existing cohort rules stay fixed.
+
+Calibration
+For every neural architecture/representation, fit an increasing isotonic map
+from its native scores to original Guo GFP-MP WT measurements only. Save all
+thresholds, clipping and target predictions before target evaluation. Use
+no Voutsinos or Chu target outcomes to fit, invert or select a map. Report
+raw and source-WT-calibrated independent paired differences; no raw cross-scale
+MAE comparison. Calibration non-improvement and flat predictions are retained.
+
+Order diagnostic
+For each architecture and cargo representation, fix the first and final five
+residues and shuffle only the interior. Use19 deterministic per-sequence
+shuffles (hash seed20261105), with no measurement assigned to shuffled peptides.
+Repeat with a second independent19-shuffle realization (seed20261106) as a
+Monte Carlo sensitivity; retain both rather than select the favorable one.
+Average frozen predicted scores over the19 shuffles. cnn2w1 is mathematically
+composition-invariant in its internal channel and retains the same final-five
+channel, so its shuffle mean equals its native score; verify this on a fixed
+sample and record that the rest use this identity rather than claiming they
+were all evaluated. Evaluate cnn2w7 shuffles explicitly. This tests prediction
+information conditional on composition/ends, not measured shuffle biology.
+
+Report raw native-versus-shuffle-mean rank contrasts on the independent native
+tile cohort and paired-change contrasts on the Chu cohort. Do not fit target
+labels to select a favorable realization, number of shuffles or representation.
+For shuffle-mean calibration as a secondary representation, use only source
+WTs and the same increasing-map rule, fitting its own source-only map.
+
+Reporting and uncertainty
+Save predictions, source calibrations, model/input hashes and runtime versions
+before new associations. Report native WT/RT rank and independent delta rank,
+with all raw/calibrated representations and weaker/null results. Main contrasts
+are calibrated-minus-raw delta rho and native-minus-shuffle-mean rank/delta rho
+within each declared representation. Use1000 conditional operational-group
+bootstrap resamples (genes for native tiles, existing paired groups for Chu).
+No multiplicity-adjusted discovery, full-retraining uncertainty or causal
+terminal/order-mechanism claim is made. Differences between separately trained
+cnn2w1/cnn2w7 do not isolate order because both fitted branches can differ.
+
+Decision gate
+If a stronger published model explains the apparent new-method benefit, narrow
+the paper accordingly. If the order diagnostic is positive, retain it alongside
+the earlier small property-feature increment instead of generalizing the latter
+to all order representations. If calibration helps only the linear model or
+only selected windows, report that boundary rather than a universal claim.
+These tests assess portability; they do not establish a new degradation principle.

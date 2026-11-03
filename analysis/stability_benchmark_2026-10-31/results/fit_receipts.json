@@ -1,0 +1,3292 @@
+[
+  {
+    "cohort": "native_GFP_MP",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.23121543418552237,
+      0.23111931373016295,
+      0.2310893667319968,
+      0.23121275485053933,
+      0.23263291013042778
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.22816655979299816,
+      0.22816504815260757,
+      0.22825994630367713,
+      0.22844397694043575,
+      0.23002738593186098
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.22498402008544466,
+      0.22458155442884628,
+      0.22437884472575806,
+      0.22446560530341356,
+      0.22563798794603593
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.22320884267803437,
+      0.22332208570728135,
+      0.22343426626537077,
+      0.22355023656044865,
+      0.22454870430115745
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.22296728852282877,
+      0.22278546036449395,
+      0.22270891590386885,
+      0.22287297187221136,
+      0.22475907382737437
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14841008151977428,
+      0.14849165908587408,
+      0.14885812886479471,
+      0.15245609174144756,
+      0.18346186786872942
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14077644480064366,
+      0.141158334125605,
+      0.141778851441004,
+      0.1462479532221387,
+      0.1797033909925483
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14177374992280056,
+      0.1417985212888102,
+      0.14200942971601996,
+      0.14480956721388286,
+      0.17552557216373155
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.1409879474224043,
+      0.1410311344470341,
+      0.14139596479096966,
+      0.14523360771575167,
+      0.1758513073145866
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14342277122346583,
+      0.14352814402572905,
+      0.14393935752627915,
+      0.14742667167597764,
+      0.17883732641649627
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15955318102778016,
+      0.15910661224587358,
+      0.15716525160063555,
+      0.14831309440107432,
+      0.16238954919172344
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15282152341540195,
+      0.15254884271561944,
+      0.15104140368002913,
+      0.1432347145372718,
+      0.15758590819101695
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14689806065315236,
+      0.14663018917931606,
+      0.14494813379598642,
+      0.13699493603825882,
+      0.15377280947213784
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14527275639871695,
+      0.14514580408735925,
+      0.14373691789333867,
+      0.13790652234180384,
+      0.1535075366765902
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15133036728928304,
+      0.15110451269712175,
+      0.14977712666668133,
+      0.1439466170938486,
+      0.1588959434340017
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16478739511241222,
+      0.16401583278963575,
+      0.1595566013953231,
+      0.14723959675309717,
+      0.16215579915463715
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16119018211180522,
+      0.16043071142097387,
+      0.15668761753333238,
+      0.14562584162905912,
+      0.15912392689625723
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15060567209913905,
+      0.14997819133919538,
+      0.14609788702059776,
+      0.13502008944145721,
+      0.15215590341749347
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1472479060304983,
+      0.14660285727106523,
+      0.14362061350839578,
+      0.13721725411664734,
+      0.15358890553002813
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.161217851745813,
+      0.1605465353363718,
+      0.1560295834137031,
+      0.14528430438228918,
+      0.15819158674899395
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "RawOrder",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1687923539915194,
+      0.1676667231392518,
+      0.16217712430574524,
+      0.14836306176812367,
+      0.15787142172152882
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "RawOrder",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.168971870486763,
+      0.16840220855336518,
+      0.1640370133230353,
+      0.1488318859626766,
+      0.15383502695809997
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "RawOrder",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15409547365571996,
+      0.1536410142254326,
+      0.15007339715320844,
+      0.13850214738606495,
+      0.1506105299946926
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "RawOrder",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1451091895678075,
+      0.144616239436976,
+      0.14223326917304902,
+      0.13720306435042212,
+      0.15011700081421273
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "RawOrder",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15897172099947854,
+      0.15843116828000905,
+      0.15442175349311624,
+      0.14410000084088714,
+      0.15354985891954095
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16547486747297493,
+      0.16511291916223625,
+      0.16231201914653345,
+      0.15153084930506602,
+      0.1637095211285589
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1584794478921722,
+      0.15795788334813923,
+      0.15464207430507865,
+      0.14499476043751458,
+      0.15805351436119436
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15538033949046728,
+      0.15504903088289476,
+      0.15181187563154244,
+      0.14114832754990278,
+      0.15506656020519305
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15656011441745601,
+      0.15619630345923077,
+      0.15301594555087333,
+      0.14222107752940652,
+      0.15466687135354276
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16156670863477032,
+      0.16112132799921397,
+      0.15685105494071683,
+      0.14643527257434322,
+      0.16046055711042467
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle1",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16551045911178808,
+      0.16456352750320452,
+      0.1608036847703738,
+      0.14981163037965253,
+      0.16279334223791922
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle1",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1599049098060564,
+      0.15976468408992006,
+      0.15664655862765256,
+      0.1449572847573007,
+      0.15787252815706526
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle1",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15588790237176375,
+      0.15539381079943876,
+      0.15184333170459047,
+      0.14168761274021127,
+      0.1563123843027618
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle1",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1554733171355648,
+      0.15502904349380833,
+      0.15188774045292833,
+      0.14259666613283734,
+      0.15492020482508836
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle1",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16245340740576897,
+      0.16156140414578693,
+      0.15758406957308319,
+      0.14707535098569882,
+      0.15978237849860222
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle2",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1683326718658687,
+      0.16739789288629175,
+      0.16308074724050076,
+      0.15141899381655358,
+      0.1631951602400287
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle2",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16408707173395023,
+      0.163207187629217,
+      0.15854513134416195,
+      0.14509916510195398,
+      0.15784302783920115
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle2",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15943164352348266,
+      0.15900457315235003,
+      0.15513408271577325,
+      0.1416488578332752,
+      0.15507114388098608
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle2",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15374553937007152,
+      0.15312952006739508,
+      0.1491225360570761,
+      0.1397868957710766,
+      0.1547323494204246
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "Shuffle2",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15774255371652673,
+      0.15749892697070283,
+      0.15493296958789943,
+      0.1461457686354262,
+      0.15998374148422334
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A_ET",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A_ET",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A_ET",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A_ET",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "A_ET",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T_ET",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T_ET",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T_ET",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T_ET",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "T_ET",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O_ET",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O_ET",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O_ET",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O_ET",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP",
+    "model": "O_ET",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": null,
+    "inner_mae": [],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 836,
+    "n_test": 210,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.21821862073246162,
+      0.21805477453024902,
+      0.218126152288662,
+      0.21966540115350747,
+      0.23051273171401215
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.21792761125325846,
+      0.21797936615788824,
+      0.21818900659761947,
+      0.22001497589340097,
+      0.23219705950795294
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.2175566268723178,
+      0.21757600462916965,
+      0.2177482114390323,
+      0.2194095743054449,
+      0.23161300546988114
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.2198628826294128,
+      0.21990397799750735,
+      0.2201079214653834,
+      0.221743122928292,
+      0.2327699137909051
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.21055366002295922,
+      0.21056374721816282,
+      0.21074930268768607,
+      0.2125456217565473,
+      0.2247549527325692
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 836,
+    "n_test": 210,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.16992545691502925,
+      0.16997102856278867,
+      0.170246049921624,
+      0.17371250093580207,
+      0.20239225256502655
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.1637980237862977,
+      0.16371172900217962,
+      0.16389842541947897,
+      0.16755219129308044,
+      0.20092852796639632
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.1640684067142534,
+      0.1641337748491604,
+      0.1644984502575929,
+      0.16880655769282943,
+      0.2023184829330502
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.17021081700773993,
+      0.17014064897669884,
+      0.17026658536611208,
+      0.173363167810176,
+      0.2029712792452526
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.16023255547921816,
+      0.1602602427637638,
+      0.1604583932127615,
+      0.16355238164172448,
+      0.19473947375675407
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 836,
+    "n_test": 210,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.190085811555809,
+      0.18974094996664354,
+      0.1867896792698833,
+      0.17569896009300953,
+      0.19007165239656756
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1770598567433644,
+      0.17631719171478924,
+      0.17393741144188074,
+      0.16430002481500622,
+      0.18684365777674533
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.18438681817709313,
+      0.18402959639662897,
+      0.1818724570798086,
+      0.17312231733908806,
+      0.19400878365760138
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.18710736012451606,
+      0.186530047786089,
+      0.18375034086933234,
+      0.17294860262024747,
+      0.19078048801492117
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.18066502123190786,
+      0.18017007555054046,
+      0.17699603122846602,
+      0.16365659964842405,
+      0.18336125366467668
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 836,
+    "n_test": 210,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.20341860570574238,
+      0.20259850982204158,
+      0.19676778862382166,
+      0.18059933747879295,
+      0.19141043023433676
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.18966058791303128,
+      0.1889703047130046,
+      0.1839055144729985,
+      0.16791851058411403,
+      0.18688776466263712
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.19798285338069205,
+      0.1972185484324298,
+      0.1921165047189229,
+      0.1771595683445986,
+      0.19396138823798503
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.19972130714490915,
+      0.19876491948132802,
+      0.19348068710523628,
+      0.17646719711290765,
+      0.19051605339848074
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.18306047276147003,
+      0.18225901904203864,
+      0.1769051633373146,
+      0.16084935743203926,
+      0.18250076932902926
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 836,
+    "n_test": 210,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.20185950936451877,
+      0.20110620975630608,
+      0.19446421701248895,
+      0.17689705467257932,
+      0.1906510404935582
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.18606729864032626,
+      0.18543527972713994,
+      0.1817942100207196,
+      0.16874372975700674,
+      0.18872798737330534
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.19606848707521363,
+      0.19540887470162321,
+      0.1909385378669051,
+      0.1765367877599786,
+      0.19381060344847176
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.20006900750244974,
+      0.199129982422074,
+      0.19412024717220122,
+      0.1766354689118388,
+      0.1924149244399851
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_MP_mCherry",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 837,
+    "n_test": 209,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1874555484670917,
+      0.18678107005594685,
+      0.1816620500809266,
+      0.16641343650335186,
+      0.18470490948294752
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.18410711903675184,
+      0.18374522264969562,
+      0.18374230485023785,
+      0.18393241874878474,
+      0.1853675626950058
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.17102486228926342,
+      0.17147289945671243,
+      0.17184023395971296,
+      0.17196850212920156,
+      0.1731480609681647
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.1756313157425113,
+      0.17605533821061845,
+      0.17637392290895326,
+      0.17654789001908305,
+      0.17792254760800372
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.17669670690107644,
+      0.1768345739669118,
+      0.17694568293881602,
+      0.17713268420609626,
+      0.1787057899435043
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.17616679519295825,
+      0.17619407202186144,
+      0.17632123129670935,
+      0.17650618125443188,
+      0.17785486679161192
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.13065278495257304,
+      0.1308032112298745,
+      0.13115552948505635,
+      0.1332740639380807,
+      0.15397544100639476
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.12672221898136418,
+      0.12723711990551326,
+      0.12772029774775812,
+      0.12914871416293336,
+      0.14635324679528575
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.12289279256996444,
+      0.12338604026431996,
+      0.1239668452590069,
+      0.12625368752160543,
+      0.14657336761665163
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.13000978469865201,
+      0.1302074801533996,
+      0.13045940154667623,
+      0.13212976344623373,
+      0.14989290203700828
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.12897427242375437,
+      0.1292753398552984,
+      0.1296620780286627,
+      0.13128563425972925,
+      0.149648204581465
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14780404710445944,
+      0.14762229376116318,
+      0.14592079871642347,
+      0.1363377240149964,
+      0.13955408453142282
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.13881462397794733,
+      0.13932363363165665,
+      0.1382171878479399,
+      0.13025503252192733,
+      0.13187006534689158
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.13923414009903157,
+      0.139504701319,
+      0.1381926909814115,
+      0.13064484999135445,
+      0.13410835581399816
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14376959818006177,
+      0.1436517736459896,
+      0.14210840018175236,
+      0.13366617227902008,
+      0.1366288006077856
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1375252795535219,
+      0.13693342631179353,
+      0.1353323263533058,
+      0.12812253153043904,
+      0.1340834195426422
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15829376330931766,
+      0.15729857176089015,
+      0.1524431600377979,
+      0.13841840089443894,
+      0.13999608762100446
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 1000.0,
+    "inner_mae": [
+      0.14607311664164593,
+      0.14674609725871968,
+      0.14387359617374312,
+      0.13184206356355968,
+      0.13175505871166737
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15111894834139794,
+      0.15152737309647943,
+      0.14743874591337533,
+      0.13386650391239763,
+      0.1349501267401792
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15611028409750885,
+      0.15564994072580388,
+      0.1512155651317443,
+      0.1366656950257576,
+      0.1370760585366354
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14407015532014478,
+      0.14327042181165273,
+      0.13892459726426873,
+      0.1285819150048292,
+      0.13480444706287262
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1542082369268806,
+      0.15381090584100732,
+      0.15110463670801644,
+      0.13844722211518065,
+      0.1398144551862035
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1463571692740115,
+      0.14644943173534816,
+      0.14376139697974258,
+      0.13272710120072376,
+      0.13316610818167146
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14425083069055689,
+      0.14463115804561394,
+      0.14227315225092707,
+      0.13321595045514326,
+      0.13494656545654454
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15170291659400523,
+      0.15127814057974828,
+      0.14774290415251398,
+      0.13665612381607792,
+      0.13761013977154404
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15172350469733975,
+      0.15074023822801536,
+      0.14631188506349968,
+      0.1340422047754054,
+      0.1357625862447356
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.22955118178507178,
+      0.22950033804961045,
+      0.22951110321744714,
+      0.2296335928778338,
+      0.23074831415572777
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.22272596334799943,
+      0.22287152898398563,
+      0.2230140838026964,
+      0.22312886731772752,
+      0.22420862953134305
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.2246052570041536,
+      0.22485340695271702,
+      0.225036460925623,
+      0.22530603197079355,
+      0.22712576825804506
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.22898688978106235,
+      0.22899897212100825,
+      0.22901634395455664,
+      0.22914468111517466,
+      0.23049332247294485
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "L",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.22311646707439015,
+      0.22295536529373639,
+      0.22288893321185466,
+      0.22304043502926865,
+      0.22454700665276164
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14557815016249592,
+      0.14569588922312224,
+      0.14604497153213852,
+      0.14966513139959578,
+      0.1803742878829572
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14375909549931104,
+      0.14410634846389045,
+      0.14467616388265403,
+      0.14838201394061543,
+      0.1787708835389344
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14198471859088171,
+      0.14219553158984005,
+      0.14261939231541848,
+      0.14632007588750046,
+      0.17951000676900844
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14295331614796267,
+      0.14304315327711192,
+      0.1434081217776963,
+      0.14667722847081904,
+      0.17829209569668436
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "A",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14340338903686192,
+      0.1435077427901039,
+      0.1438427930293208,
+      0.14711963507857362,
+      0.1769058886878809
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15088744351405692,
+      0.15050602978068975,
+      0.14904568896309062,
+      0.14334754693847168,
+      0.15944972863298482
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15202304839841635,
+      0.15172748087534266,
+      0.15054531283239883,
+      0.14546251358788326,
+      0.15986718735705774
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15250351028303485,
+      0.15179693613732945,
+      0.14982426932191464,
+      0.14122263852035113,
+      0.15526036872557983
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1517203728168792,
+      0.15153556268598953,
+      0.15003799379591132,
+      0.1431089339259622,
+      0.15673082923215384
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "T",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15604773564961302,
+      0.15573847576573785,
+      0.15377502045318733,
+      0.14555506634583745,
+      0.15851544508092458
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1562557627349117,
+      0.15509187335803398,
+      0.15080304899417463,
+      0.1408979037393093,
+      0.15921553252112933
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1584467000870408,
+      0.15785991169735164,
+      0.1548688538198073,
+      0.14673450966318302,
+      0.16023413274286488
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16021566532201112,
+      0.1593100712562743,
+      0.15501150877581746,
+      0.14250033055497396,
+      0.15607572794985458
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15131303728194306,
+      0.15099651969968983,
+      0.1483834385265606,
+      0.1403547604276723,
+      0.15426494809550229
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "O",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16077378634322598,
+      0.16040174679324332,
+      0.1572440947596531,
+      0.14662296215997125,
+      0.1581052906660467
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15870376310074802,
+      0.15806977622260895,
+      0.15503160685976453,
+      0.14739731453141736,
+      0.16075716310088525
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15953404780896122,
+      0.15870398402928984,
+      0.15525452788691038,
+      0.14668204086349157,
+      0.16061641574472624
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16143856373004212,
+      0.16022835982373482,
+      0.15581416179676424,
+      0.1439148911585074,
+      0.15638506381604098
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1627777686646137,
+      0.16194242604961134,
+      0.15751145079769246,
+      0.14658253760930598,
+      0.15812070770885564
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_identity40",
+    "model": "Shuffle0",
+    "seed": 20261031,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.17055213227268612,
+      0.16985430286763492,
+      0.16547307658420438,
+      0.15136823828411217,
+      0.15991753291322391
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "L",
+    "seed": 20261032,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.22913417478197073,
+      0.22906596633899826,
+      0.2290500131571195,
+      0.2291755386921988,
+      0.23045800332985897
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "L",
+    "seed": 20261032,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.22587210177164146,
+      0.22599433914490877,
+      0.22614052165047124,
+      0.2263286674776543,
+      0.22768938077127368
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "L",
+    "seed": 20261032,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.2242602189856303,
+      0.22461335415044342,
+      0.22486582111370623,
+      0.22499644977590116,
+      0.22609749625032374
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "L",
+    "seed": 20261032,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.22339722338014148,
+      0.2232451211146871,
+      0.22319168462269362,
+      0.22333680259202052,
+      0.22493159456363968
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "L",
+    "seed": 20261032,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.228197264284991,
+      0.22781817373239352,
+      0.2276431151895996,
+      0.2277217616653776,
+      0.2291107395961633
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "A",
+    "seed": 20261032,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14522786635781254,
+      0.14540770213904788,
+      0.14581318612027142,
+      0.14964495488007573,
+      0.18085311613980784
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "A",
+    "seed": 20261032,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.1396685765839063,
+      0.14004936325263212,
+      0.14059299292327684,
+      0.1441210801226364,
+      0.17703001456343534
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "A",
+    "seed": 20261032,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14507831504659294,
+      0.14527327925200276,
+      0.14566942779335923,
+      0.1491279502255211,
+      0.17905643649116965
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "A",
+    "seed": 20261032,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14168608365848484,
+      0.14179478880053561,
+      0.1421801792667502,
+      0.14581422603633118,
+      0.175937879550615
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "A",
+    "seed": 20261032,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14450224967662761,
+      0.14452805724292858,
+      0.1447923877578111,
+      0.14809130997268052,
+      0.17972326798911506
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "T",
+    "seed": 20261032,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14936115818806742,
+      0.14916454876015212,
+      0.14765010837486972,
+      0.14116239706007466,
+      0.16014701592333697
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "T",
+    "seed": 20261032,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14570200885641751,
+      0.14575666236150964,
+      0.14462156954177535,
+      0.1383034554362534,
+      0.15523272344164146
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "T",
+    "seed": 20261032,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1530831574859889,
+      0.1525308829745936,
+      0.1508055565105303,
+      0.14325560637257614,
+      0.15733882263375104
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "T",
+    "seed": 20261032,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14618745417100232,
+      0.14568937366552576,
+      0.1438898437373891,
+      0.13791155660128412,
+      0.15440800020010909
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "T",
+    "seed": 20261032,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1513950959437268,
+      0.15131506175453863,
+      0.1499104791046592,
+      0.1427015806215156,
+      0.15700266546594688
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "O",
+    "seed": 20261032,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1576132971440118,
+      0.15674440139512508,
+      0.15249222786780461,
+      0.14188409925464987,
+      0.15979506722256
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "O",
+    "seed": 20261032,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1447252342084862,
+      0.144245162481083,
+      0.14181513172876464,
+      0.13517465649866015,
+      0.1540569301144749
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "O",
+    "seed": 20261032,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.163351169583361,
+      0.1625297914705349,
+      0.15811493103710306,
+      0.14606219709666515,
+      0.1578879722527049
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "O",
+    "seed": 20261032,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1493737010320497,
+      0.14846517320483257,
+      0.14497953037265116,
+      0.13636997511662602,
+      0.15453347637591552
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "O",
+    "seed": 20261032,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1599822854055315,
+      0.1592537256224997,
+      0.1550206812653842,
+      0.14340778417010974,
+      0.15548084880990093
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "Shuffle0",
+    "seed": 20261032,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15655043084474018,
+      0.15600679409333462,
+      0.1536803867041624,
+      0.14614263246656714,
+      0.1612321639557225
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "Shuffle0",
+    "seed": 20261032,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15225806398534317,
+      0.1519947116621275,
+      0.14935891223462702,
+      0.14005806629148132,
+      0.15525266265177945
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "Shuffle0",
+    "seed": 20261032,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16629141656286464,
+      0.16526116893508033,
+      0.1613287986970668,
+      0.14893484501925897,
+      0.15952271413180555
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "Shuffle0",
+    "seed": 20261032,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15498043987055654,
+      0.1544553980663053,
+      0.15134599153297726,
+      0.14049874681109917,
+      0.15453832086893363
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed32",
+    "model": "Shuffle0",
+    "seed": 20261032,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15960655781968283,
+      0.15932347189704726,
+      0.15656121802933645,
+      0.14639621877212922,
+      0.15801462098297017
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "L",
+    "seed": 20261033,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.22991900216265293,
+      0.22964614503300668,
+      0.22953066944533,
+      0.22964798944193282,
+      0.23091511200888076
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "L",
+    "seed": 20261033,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.22481143397127729,
+      0.22480725460723755,
+      0.22481884516854464,
+      0.22497231693688974,
+      0.22646250510638316
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "L",
+    "seed": 20261033,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.2250151966664393,
+      0.22505483141548213,
+      0.22512525612760434,
+      0.2252409347019826,
+      0.22655264748701912
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "L",
+    "seed": 20261033,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.22336541196012916,
+      0.22331384733042547,
+      0.22329833663122267,
+      0.2233636413953761,
+      0.22424551667175915
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "L",
+    "seed": 20261033,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.22859129151039592,
+      0.22845013424501578,
+      0.22839668052091314,
+      0.22853066079407583,
+      0.22994787742959374
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "A",
+    "seed": 20261033,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.14709310904946338,
+      0.14682335991259385,
+      0.14703356796331823,
+      0.15070291447637452,
+      0.1817561171173476
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "A",
+    "seed": 20261033,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.1432053193585861,
+      0.1431387731074229,
+      0.14340492869308358,
+      0.14679697032730568,
+      0.17765603209964037
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "A",
+    "seed": 20261033,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14670114134910944,
+      0.1469205513402523,
+      0.14721790971062262,
+      0.15015465047805623,
+      0.17917242150772802
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "A",
+    "seed": 20261033,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14308393519728793,
+      0.1433779590614956,
+      0.14386929192407819,
+      0.14749507855999547,
+      0.17784258500879524
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "A",
+    "seed": 20261033,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.13984875341151976,
+      0.1401283917805487,
+      0.14053650452598315,
+      0.14361430418321502,
+      0.17711848944036687
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "T",
+    "seed": 20261033,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15371202451276827,
+      0.15320534971501162,
+      0.15164477727884737,
+      0.1447042928505616,
+      0.16065736012557308
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "T",
+    "seed": 20261033,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1502880547667693,
+      0.149970126545103,
+      0.148117342266765,
+      0.1402090544005719,
+      0.155652027969051
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "T",
+    "seed": 20261033,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1516028864935303,
+      0.15189614913166746,
+      0.15084605440075907,
+      0.14510622382541694,
+      0.15900314303265328
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "T",
+    "seed": 20261033,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1536895534308886,
+      0.15352028765468412,
+      0.15185868295541421,
+      0.1435828674919424,
+      0.15824613192123316
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "T",
+    "seed": 20261033,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14675697479311867,
+      0.14657607926846233,
+      0.1449668942329284,
+      0.1370126532855063,
+      0.15379896791910533
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "O",
+    "seed": 20261033,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15746758536040573,
+      0.15679062404809432,
+      0.15366719258290323,
+      0.14385409316310618,
+      0.15984788448881815
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "O",
+    "seed": 20261033,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15632167475754705,
+      0.15557243818489983,
+      0.15196194402892754,
+      0.14142350696274006,
+      0.15518676175200735
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "O",
+    "seed": 20261033,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1543266466084492,
+      0.15421935757074534,
+      0.15096188973306063,
+      0.14289874724929286,
+      0.1583231258397423
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "O",
+    "seed": 20261033,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1573363909733837,
+      0.15669152575147458,
+      0.15320751937647373,
+      0.1434301395140781,
+      0.15822397745325653
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "O",
+    "seed": 20261033,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15200310792049349,
+      0.15127443766748416,
+      0.14819065700538897,
+      0.13888768594906872,
+      0.15343213522378535
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "Shuffle0",
+    "seed": 20261033,
+    "fold": 0,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.16514401888598862,
+      0.16422454830401195,
+      0.16028459670629663,
+      0.14879128194704022,
+      0.16169951888900438
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "Shuffle0",
+    "seed": 20261033,
+    "fold": 1,
+    "n_train": 857,
+    "n_test": 215,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15828802657332147,
+      0.15711309560780065,
+      0.15227349559150324,
+      0.14208492910942552,
+      0.15659033990681276
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "Shuffle0",
+    "seed": 20261033,
+    "fold": 2,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15775584408139526,
+      0.1578865143705583,
+      0.1557057894952927,
+      0.14712648672567372,
+      0.1595065741600458
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "Shuffle0",
+    "seed": 20261033,
+    "fold": 3,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.160409498713285,
+      0.16034690337343102,
+      0.15695029377124478,
+      0.14588428830235756,
+      0.15920366636684813
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "sensitivity_seed33",
+    "model": "Shuffle0",
+    "seed": 20261033,
+    "fold": 4,
+    "n_train": 858,
+    "n_test": 214,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1554991389386295,
+      0.1548313744633579,
+      0.15153083167057332,
+      0.14033952952439058,
+      0.1550118070041077
+    ],
+    "overlapping_groups": 0
+  },
+  {
+    "cohort": "additional_transfer",
+    "model": "L",
+    "alpha": 0.1,
+    "inner_mae": [
+      0.22583385636806264,
+      0.2258890474470177,
+      0.22596388110259774,
+      0.2261026844459352,
+      0.22721130177464938
+    ]
+  },
+  {
+    "cohort": "additional_transfer",
+    "model": "A",
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14311531094047347,
+      0.143268688121954,
+      0.14360466619451065,
+      0.14628775951342168,
+      0.17343167949773333
+    ]
+  },
+  {
+    "cohort": "additional_transfer",
+    "model": "T",
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14647287099188397,
+      0.1462148332502975,
+      0.14527821582796446,
+      0.14069113166508876,
+      0.15205309119948712
+    ]
+  },
+  {
+    "cohort": "additional_transfer",
+    "model": "O",
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14813185593836442,
+      0.14783296723207232,
+      0.1460484600638998,
+      0.1400280832816844,
+      0.15161848589141286
+    ]
+  },
+  {
+    "cohort": "additional_transfer",
+    "model": "Shuffle0",
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15375953723070518,
+      0.15328416059246053,
+      0.15100457342243478,
+      0.14372210398363117,
+      0.15317895882704521
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_L_native_sequence",
+    "n_train": 884,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.21687893408327066,
+      0.21690750094299618,
+      0.2170906098658021,
+      0.21884692494037036,
+      0.23062415169713327
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_A_native_sequence",
+    "n_train": 884,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.16968396939881644,
+      0.16967096124707792,
+      0.16991298239498434,
+      0.17316635343977865,
+      0.20239264814218635
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_T_native_sequence",
+    "n_train": 884,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.18492104910302887,
+      0.18424006647256305,
+      0.18185276838952036,
+      0.17256327942157004,
+      0.1896606219607274
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_O_native_sequence",
+    "n_train": 884,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1971492838946698,
+      0.19556806017523598,
+      0.19012821215373205,
+      0.1769815205909986,
+      0.19095311512316976
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_Shuffle0_native_sequence",
+    "n_train": 884,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.19610852858391828,
+      0.19534683967514,
+      0.19074718553275838,
+      0.1746492796469575,
+      0.19009543307258578
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_L_native_sequence",
+    "n_train": 902,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.23135928747883935,
+      0.23090917514281,
+      0.23074620876188004,
+      0.23082387533846885,
+      0.23192796392518902
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_A_native_sequence",
+    "n_train": 902,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.1448022680560898,
+      0.1448894050492318,
+      0.1453644851742776,
+      0.14941124604907308,
+      0.18120177443832397
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_T_native_sequence",
+    "n_train": 902,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14904845698989133,
+      0.14889330580287327,
+      0.14773387722117007,
+      0.14272298364506913,
+      0.15931482296766322
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_O_native_sequence",
+    "n_train": 902,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15694866410706887,
+      0.15614779792548103,
+      0.1521634462561202,
+      0.14226441145533772,
+      0.1585675576470645
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_Shuffle0_native_sequence",
+    "n_train": 902,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15746465312058028,
+      0.15715144368868614,
+      0.15461716301870698,
+      0.14688392418560062,
+      0.16122564646354323
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_L_fusion_sequence",
+    "n_train": 884,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.21687893408327066,
+      0.21690750094299618,
+      0.2170906098658021,
+      0.21884692494037036,
+      0.23062415169713327
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_A_fusion_sequence",
+    "n_train": 884,
+    "alpha": 1.0,
+    "inner_mae": [
+      0.16968396939881644,
+      0.16967096124707792,
+      0.16991298239498434,
+      0.17316635343977865,
+      0.20239264814218635
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_T_fusion_sequence",
+    "n_train": 884,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.18492104910302887,
+      0.18424006647256305,
+      0.18185276838952036,
+      0.17256327942157004,
+      0.1896606219607274
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_O_fusion_sequence",
+    "n_train": 884,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.1971492838946698,
+      0.19556806017523598,
+      0.19012821215373205,
+      0.1769815205909986,
+      0.19095311512316976
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "MP_mCherry_Shuffle0_fusion_sequence",
+    "n_train": 884,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.19610852858391828,
+      0.19534683967514,
+      0.19074718553275838,
+      0.1746492796469575,
+      0.19009543307258578
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_L_fusion_sequence",
+    "n_train": 902,
+    "alpha": 10.0,
+    "inner_mae": [
+      0.23135928747883935,
+      0.23090917514281,
+      0.23074620876188004,
+      0.23082387533846885,
+      0.23192796392518902
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_A_fusion_sequence",
+    "n_train": 902,
+    "alpha": 0.1,
+    "inner_mae": [
+      0.1448022680560898,
+      0.1448894050492318,
+      0.1453644851742776,
+      0.14941124604907308,
+      0.18120177443832397
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_T_fusion_sequence",
+    "n_train": 902,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14904845698989133,
+      0.14889330580287327,
+      0.14773387722117007,
+      0.14272298364506913,
+      0.15931482296766322
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_O_fusion_sequence",
+    "n_train": 902,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15694866410706887,
+      0.15614779792548103,
+      0.1521634462561202,
+      0.14226441145533772,
+      0.1585675576470645
+    ]
+  },
+  {
+    "cohort": "Yang_transfer",
+    "model": "GFP_MP_Shuffle0_fusion_sequence",
+    "n_train": 902,
+    "alpha": 100.0,
+    "inner_mae": [
+      0.15746465312058028,
+      0.15715144368868614,
+      0.15461716301870698,
+      0.14688392418560062,
+      0.16122564646354323
+    ]
+  }
+]

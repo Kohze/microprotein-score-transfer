@@ -1,0 +1,8 @@
+SECONDARY CONTRAST ADDENDUM
+The neural model associations and original calibration/order intervals have
+already been inspected. These additional paired contrasts quantify the observed
+strong-baseline and input-window differences; they are descriptive, post hoc,
+not a new preregistered discovery. Reuse the primary1743 common cohort, existing
+1591 operational groups and1000 conditional resamples. No predictions, models,
+cohorts or source calibration maps are changed. Include both CNN architectures
+and raw/calibrated window contrasts, plus their direct full-cargo contrast.

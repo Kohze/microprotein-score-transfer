@@ -1,0 +1,27 @@
+{
+  "metric_recompute_max_absolute_difference": 8.326672684688674e-17,
+  "native_group_fold_separation": true,
+  "Guo_source_columns": [
+    "protein_identifier",
+    "protein_sequence",
+    "group",
+    "stability_r1",
+    "stability_r2",
+    "mean_stability"
+  ],
+  "Yang_independent_raw_replicate_mean_max_error": 0.0,
+  "Yang_construct_sequence_FLAG_verified": true,
+  "Yang_strict_disjoint_n": 20,
+  "Yang_exact_disjoint_n": 27,
+  "annotation_training_no_assay_component_overlap": true,
+  "PAP_independent_coefficient_formula_max_error": 2.220446049250313e-16,
+  "all_2021_mutation_edits_independently_verified": true,
+  "ShortStop_release_rows_translated": 7152,
+  "Yang_ShortStop_all_coverage": 23,
+  "Yang_ShortStop_strict_coverage": 9,
+  "ShortStop_length_residual_rank_association_descriptive": 0.044377595945425716,
+  "native_complete_replicates": 1071,
+  "native_le30": 261,
+  "status": "passed",
+  "uncertainty": "1000 operational-group bootstrap draws conditional on fitted predictions; secondary descriptive intervals, no multiplicity-adjusted claims"
+}

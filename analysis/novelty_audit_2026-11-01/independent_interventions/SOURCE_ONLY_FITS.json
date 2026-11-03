@@ -1,0 +1,62 @@
+[
+  {
+    "source": "GFP_MP",
+    "model": "A",
+    "alpha": 0.1,
+    "inner_mae": [
+      0.14311531094047347,
+      0.143268688121954,
+      0.14360466619451065,
+      0.14628775951342168,
+      0.17343167949773333
+    ],
+    "source_rows": 1072,
+    "source_groups": 800,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "GFP_MP",
+    "model": "T",
+    "alpha": 100.0,
+    "inner_mae": [
+      0.14647287099188397,
+      0.1462148332502975,
+      0.14527821582796446,
+      0.14069113166508876,
+      0.15205309119948712
+    ],
+    "source_rows": 1072,
+    "source_groups": 800,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "A",
+    "alpha": 10.0,
+    "inner_mae": [
+      0.16525091329237415,
+      0.16468294468562053,
+      0.16462404251016874,
+      0.1677346813401731,
+      0.19588392746131442
+    ],
+    "source_rows": 1046,
+    "source_groups": 785,
+    "target_outcomes_used": false
+  },
+  {
+    "source": "MP_mCherry",
+    "model": "T",
+    "alpha": 100.0,
+    "inner_mae": [
+      0.17316857605185154,
+      0.1727120832998771,
+      0.17155565409683654,
+      0.16740794830138403,
+      0.1849229099595813
+    ],
+    "source_rows": 1046,
+    "source_groups": 785,
+    "target_outcomes_used": false
+  }
+]

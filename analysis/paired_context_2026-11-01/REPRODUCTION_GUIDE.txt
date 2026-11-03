@@ -1,0 +1,39 @@
+PAIRED REPORTER-CONTEXT EXTENSION
+
+This is a portable extension of the 31 October benchmark, with fixed input
+features/groups and original Table S3. It does not need the surrounding
+workspace for the analysis, figure or numerical verification commands.
+
+From the extension's parent directory, with the recorded Python requirements:
+python paired_context_2026-11-01/analyze_paired_context.py
+python paired_context_2026-11-01/verify_results.py
+python paired_context_2026-11-01/compare_representations.py
+python paired_context_2026-11-01/make_figure.py
+
+The input hashes, protocol and upstream workbook hash/URL are retained.
+The locally bundled threadpoolctl 3.6.0 avoids an older Anaconda/OpenBLAS
+compatibility problem; its distribution metadata and license are retained.
+No downloaded models or opaque model pickles are executed.
+
+Results include the complete three-context cohort, all available pairs,
+replicate agreement, all six A/T transfer directions, nested target-scale
+calibration, measured-source bridges, means, primary conditional intervals,
+stricter similarity grouping and a second split seed. The bridge needs an
+actual source measurement and is not a sequence-only method. Test-target
+outcomes never enter any fitted model or calibration. The analysis is
+retrospective/exploratory and is not a new independent experiment.
+
+prepare_revision.py integrates these results with the earlier submission
+source. To regenerate that source, extract the preceding review package so
+submission_package_2026-10-31 is a sibling directory, then run:
+python paired_context_2026-11-01/prepare_revision.py
+python submission_package_2026-11-01/build_submission_pdf.py
+
+The builder expects an installed Tectonic or the local portable compiler and
+uses cached resources only. A configured LaTeX installation can compile the
+single-file source directly. The PDF does not embed figures, following the
+inherited PLOS review format. Figure files are separate.
+
+S1 Text and S1-S7 Data describe the preceding benchmark. Today's methods are
+in the main paper, this protocol and S8 Data. Previous primary predictions,
+the independent Yang result and guide-selection paper are unchanged.

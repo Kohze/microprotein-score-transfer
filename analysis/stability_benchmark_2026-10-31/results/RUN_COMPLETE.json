@@ -1,0 +1,13 @@
+{
+  "seconds": 19.317068576812744,
+  "protocol_sha256": "842e16185b8cc0641a0eddaed7cee8ff60d1f03217867fd9ed7f48ccba576653",
+  "main_rows": 1072,
+  "additional_rows": 801,
+  "additional_strict": 602,
+  "mutation_pairs": 2021,
+  "Yang_rows": 37,
+  "Yang_strict": 20,
+  "no_validation_outcome_model_selection": true,
+  "bootstrap": "conditional on fitted predictions",
+  "status": "complete"
+}

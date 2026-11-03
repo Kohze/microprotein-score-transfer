@@ -1,0 +1,4 @@
+context,source_sheet,released_WT,measured_WT,consistent_measured_WT,complete_three_context_cohort,lost_from_consistent_measured
+GFP_original,GFP_MP,1072,1072,1072,1044,28
+mCherry_original,MP_mCherry,1048,1046,1046,1044,2
+GFP_mutagenesis,GFP_MP_mutagenesis,1072,1072,1072,1044,28

@@ -1,0 +1,20 @@
+{
+  "status": "frozen published coefficients evaluated; no target outcome fitting",
+  "protocol_sha256": "4f67a82f76233e7d38c85229f2249104284b48f6ff62cb085d47332179eb8420",
+  "source_code_sha256": "e7342bb50bdc853b003f90bbb7381c0491cbc96f533fddda94b57b6db5028e60",
+  "QCDPred_source_sha256": "027ca943f4566b1df0686de9eeb4ceba54086f719df06caa1f6b82d65e57cc5b",
+  "PAP_source_sha256": "67b32a3ada4d52427dd751b81328a30c3f1f00d3af8305817eabfbb49cd4d1f0",
+  "prediction_sha256": "9183e1e64cd4436af7d3bb4995d288e671b327fe762ac0378897e3351154a455",
+  "source_sequences": 17692,
+  "QCDPred_labeled_training_rows": 13559,
+  "training_row_audit": "14 nonstandard stop-containing rows excluded, reproducing the published 13,559 labeled peptides",
+  "QCDPred_unique_training_peptides": 13559,
+  "official_CLI_checked_windows": 182,
+  "CLI_max_rounding_error": 4.9806211325775784e-06,
+  "yeast17_coefficients_identical_to_original": true,
+  "QCDPred_higher_score_definition": "1 minus mean degron probability across complete consecutive 17mers",
+  "human25_provenance": "target-study-trained comparator, not an external training source",
+  "design": "secondary baseline challenge after original target A/T results were already seen",
+  "target_outcomes_read": false,
+  "target_outcomes_used_for_fitting": false
+}

@@ -1,0 +1,3 @@
+contrast,role,n,groups,estimate,low,high,scope
+cnn2w7__C30__full minus cnn2w7__C30__shuffle1_mean,order outside fixed ends,14143,383,0.006370397994118093,0.0049743892646781415,0.007780077319104626,conditional on frozen/source-only predictions; no retraining or multiplicity-adjusted inference
+cnn2w7__C30__full minus cnn2w7__C30__shuffle2_mean,second-shuffle sensitivity,14143,383,0.006464456673800911,0.0050379868166712275,0.007873175327726183,conditional on frozen/source-only predictions; no retraining or multiplicity-adjusted inference

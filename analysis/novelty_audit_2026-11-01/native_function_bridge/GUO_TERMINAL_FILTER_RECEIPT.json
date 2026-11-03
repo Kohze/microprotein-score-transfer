@@ -1,0 +1,48 @@
+{
+  "status": "passed independent source-membership and point-metric verification",
+  "source_prediction_sha256": "068ee635977b1665f11b8d5a00c011dda43998b5018581d5728a3f4c3fca6dac",
+  "existing_predictions_and_fits_unchanged": true,
+  "metric_rows": 360,
+  "contrast_rows": 18,
+  "cohorts": [
+    {
+      "family": "L_to_A",
+      "stratum": "all",
+      "n": 1014,
+      "groups": 754
+    },
+    {
+      "family": "L_to_A",
+      "stratum": "source_rule_retained",
+      "n": 798,
+      "groups": 611
+    },
+    {
+      "family": "L_to_A",
+      "stratum": "source_rule_omitted",
+      "n": 216,
+      "groups": 178
+    },
+    {
+      "family": "microprotein_10mer_ext",
+      "stratum": "all",
+      "n": 1007,
+      "groups": 759
+    },
+    {
+      "family": "microprotein_10mer_ext",
+      "stratum": "source_rule_retained",
+      "n": 802,
+      "groups": 623
+    },
+    {
+      "family": "microprotein_10mer_ext",
+      "stratum": "source_rule_omitted",
+      "n": 205,
+      "groups": 169
+    }
+  ],
+  "source_paper_filter_is_not_our_prior_benchmark_filter": true,
+  "new_target_fitting": false,
+  "native_function_inference": false
+}

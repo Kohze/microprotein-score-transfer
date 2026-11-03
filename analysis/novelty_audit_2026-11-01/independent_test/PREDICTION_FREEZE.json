@@ -1,0 +1,14 @@
+{
+  "status": "source-only predictions frozen; new target associations not evaluated",
+  "protocol_sha256": "5e665d74e68d8077bb5ca491272dc6a8290d86b1b22a98028cc7d8d00970a9a4",
+  "prediction_sha256": "f7bb825c7e8a4277d7073ff0282843c4ccc57f0f266110f0875ba3098b75266f",
+  "source_code_sha256": "181577b6b9dc7bf9db7f1ae44555c44600cceb45270b0b38728f164560505ca8",
+  "source_feature_equivalence_max_error": 0.0,
+  "target_rows": 15818,
+  "raw_target_outcome_file_loaded_by_this_script": false,
+  "evaluation_direction": "higher predicts greater abundance; no target-dependent reversal",
+  "feature_specification_sha256": "4b7aa72d6b05c937231302cea1ab3f5eb4358dd0e5079334e4627a29f9134e0c",
+  "source_features_sha256": "1a4b852812a4bf5d6b3675cad2e964c33cab36e0dffc5dde6ab972586caaf9cd",
+  "source_groups_sha256": "45e26c5991cad8e85a4df1bab065e3ba624d3c59db6bd9a97d2bc7b82c8cb04a",
+  "pretrained_PAP_coefficients_sha256": "97974b2d2accb84e03a312b78d02846d7baf2063bb90fc681cf26413de6ced34"
+}

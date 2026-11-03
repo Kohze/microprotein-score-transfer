@@ -1,0 +1,43 @@
+{
+  "title": "Experimental context limits transfer of microprotein sequence scores",
+  "date_written": "2026-11-03",
+  "language": "English",
+  "authors": [
+    {
+      "name": "Robin Gounder",
+      "email": "robin@gounder.com",
+      "affiliations": [
+        "University of Cambridge"
+      ],
+      "corresponding_author": true
+    },
+    {
+      "name": "Samuel Schmidt",
+      "email": "samuel@vaionex.com",
+      "affiliations": [
+        "Vaionex Corporation",
+        "Cornell University"
+      ]
+    }
+  ],
+  "keywords": [
+    "microproteins",
+    "noncanonical open reading frames",
+    "protein stability",
+    "sequence predictors",
+    "reporter assays",
+    "cross-assay transfer",
+    "reproducibility"
+  ],
+  "abstract": "We asked whether microprotein sequence scores validated for one experimental target remain useful after the assay, sequence input or decision changes. Using published data, we distinguish a core reporter benchmark from retrospective transfer extensions and exploratory diagnostics. Exact-sequence joins, dependence-controlled evaluation and source-only training define the comparisons. Among 1,072 development constructs, annotation-trained composition resemblance correlated negatively with reporter accumulation (Spearman ρ=-0.292), whereas outcome-trained composition and terminal-aware models reached 0.747 and 0.780. Tests using 1,044 identical peptides across reporter contexts, independent canonical tiles and 1,743 paired sequence changes showed that favorable within-context rankings did not imply reliable transfer. Terminal features could improve within-context prediction while reducing cross-context performance, and a model preferred by global correlation was not always preferred for top-decile selection. Source-population exclusions, matched inputs, training-exposure audits and strong published baselines also changed the eligible comparisons and narrowed apparent improvements. The practical implication is to validate a score against the intended measurement, input and decision, and to test paired effects before using a ranking model to prioritize edits. These results define specific transfer boundaries rather than a universal predictor. Native turnover and peptide-dependent activity remain separate experimental questions.",
+  "ai_disclosure": "OpenAI Codex agents contributed substantially to source discovery, literature synthesis, and mathematical exposition.",
+  "target": "SSRN preprint",
+  "submitted": false,
+  "author_confirmation_pending": [
+    "BBSRC grant identifier and funder role",
+    "Author contributions",
+    "Competing interests",
+    "Repository and data/code accession",
+    "Final author approval"
+  ]
+}

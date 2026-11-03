@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "design": "late exploratory, after primary outcomes; no primary model changes or validation model selection",
+  "additional_edit_rows": 311,
+  "specifically_verified": 311,
+  "measured_rows": 311,
+  "localization_strata": "No verified experimental localization labels in the pinned assay inputs; no inferred labels invented.",
+  "top_prioritization": "Descriptive top-decile selection on common rows, not prospective candidate validation; length and threshold confounding remain."
+}

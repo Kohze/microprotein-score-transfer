@@ -1,0 +1,11 @@
+# Reproduction scope
+
+The root `verify_saved_results.py` is the supported offline entry point. It is independent of model code and uses only the files included here. It writes its receipt to standard output unless `--output PATH` is supplied. Run it from any directory; paths resolve relative to the script.
+
+The original analysis scripts under `analysis/` preserve their frozen bytes and original relative layout. Preparation/refitting also needs the source releases pinned in `INPUT_FREEZE.json`, `SOURCE_*`, `INTAKE_*`, `PREDICTION_FREEZE.json` and the upstream registry. Download those from their original owners under their applicable terms; restore each documented input path and check the documented SHA256 before using it. Missing third-party implementations must be retrieved from their pinned upstream repository; no code or weight is silently substituted here. Historical absolute paths describe the original execution, not a requirement to use the author's account.
+
+Original per-module protocol/reproduction files record splits, seeds, source-only calibration, the order of freezing predictions and inspecting outcomes, and historical environment versions. The verification environment is deliberately smaller than the fitting environment. It cannot reproduce all training, descriptor extraction, pretrained inference or raw-data joins. Runtime adapters and a plotting script are included for provenance, not as evidence of a complete portable installation.
+
+For the current article, run `pdflatex manuscript.tex` twice and `pdflatex S1_Text.tex` twice from `paper/` with a standard TeX distribution. Both use the numbered vector artwork already included. No fitting is needed to compile the article. `analysis/make_publication_figures.py` is the historical plotting script and uses pre-consolidation figure numbers; `paper/figures/PUBLICATION_NUMBERING_MAP.json` maps them to the final paper/SI. Do not overwrite the final numbering without applying that map.
+
+The article's S1-S18 labels describe the historical full reviewer collection. This public bundle is a curated code/frozen-derived-result release, not a byte-for-byte mirror of those mixed-rights archives. Original raw-source collections and historical drafts are not redistributed here. This distinction is explicit in the manuscript's data availability statement.

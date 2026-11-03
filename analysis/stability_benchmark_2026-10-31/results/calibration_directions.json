@@ -1,0 +1,812 @@
+[
+  {
+    "cohort": "native_GFP_MP::AAC_resemblance",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP::AAC_resemblance",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP::AAC_resemblance",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP::AAC_resemblance",
+    "fold": 3,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP::AAC_resemblance",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_Cterminal",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_Cterminal",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_Cterminal",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_Cterminal",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_Cterminal",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_full",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_full",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_full",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_full",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP::PAP_full",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP::ShortStop",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 844
+  },
+  {
+    "cohort": "native_GFP_MP::ShortStop",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 847
+  },
+  {
+    "cohort": "native_GFP_MP::ShortStop",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 845
+  },
+  {
+    "cohort": "native_GFP_MP::ShortStop",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 848
+  },
+  {
+    "cohort": "native_GFP_MP::ShortStop",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 844
+  },
+  {
+    "cohort": "native_MP_mCherry::AAC_resemblance",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 836
+  },
+  {
+    "cohort": "native_MP_mCherry::AAC_resemblance",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::AAC_resemblance",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::AAC_resemblance",
+    "fold": 3,
+    "increasing": false,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::AAC_resemblance",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_Cterminal",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 836
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_Cterminal",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_Cterminal",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_Cterminal",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_Cterminal",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_full",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 836
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_full",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_full",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_full",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::PAP_full",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 837
+  },
+  {
+    "cohort": "native_MP_mCherry::ShortStop",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 823
+  },
+  {
+    "cohort": "native_MP_mCherry::ShortStop",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 827
+  },
+  {
+    "cohort": "native_MP_mCherry::ShortStop",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 823
+  },
+  {
+    "cohort": "native_MP_mCherry::ShortStop",
+    "fold": 3,
+    "increasing": false,
+    "n_train": 829
+  },
+  {
+    "cohort": "native_MP_mCherry::ShortStop",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 826
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::AAC_resemblance",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::AAC_resemblance",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::AAC_resemblance",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::AAC_resemblance",
+    "fold": 3,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::AAC_resemblance",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_Cterminal",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_Cterminal",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_Cterminal",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_Cterminal",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_Cterminal",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_full",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_full",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_full",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_full",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::PAP_full",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::ShortStop",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 843
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::ShortStop",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 850
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::ShortStop",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 843
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::ShortStop",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 845
+  },
+  {
+    "cohort": "native_GFP_MP_mutagenesis::ShortStop",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 847
+  },
+  {
+    "cohort": "sensitivity_identity40::AAC_resemblance",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_identity40::AAC_resemblance",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_identity40::AAC_resemblance",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_identity40::AAC_resemblance",
+    "fold": 3,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_identity40::AAC_resemblance",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_Cterminal",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_Cterminal",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_Cterminal",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_Cterminal",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_Cterminal",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_full",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_full",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_full",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_full",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_identity40::PAP_full",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_identity40::ShortStop",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 843
+  },
+  {
+    "cohort": "sensitivity_identity40::ShortStop",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 846
+  },
+  {
+    "cohort": "sensitivity_identity40::ShortStop",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 844
+  },
+  {
+    "cohort": "sensitivity_identity40::ShortStop",
+    "fold": 3,
+    "increasing": false,
+    "n_train": 843
+  },
+  {
+    "cohort": "sensitivity_identity40::ShortStop",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 852
+  },
+  {
+    "cohort": "sensitivity_seed32::AAC_resemblance",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed32::AAC_resemblance",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed32::AAC_resemblance",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed32::AAC_resemblance",
+    "fold": 3,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed32::AAC_resemblance",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_Cterminal",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_Cterminal",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_Cterminal",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_Cterminal",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_Cterminal",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_full",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_full",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_full",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_full",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed32::PAP_full",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed32::ShortStop",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 844
+  },
+  {
+    "cohort": "sensitivity_seed32::ShortStop",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 847
+  },
+  {
+    "cohort": "sensitivity_seed32::ShortStop",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 845
+  },
+  {
+    "cohort": "sensitivity_seed32::ShortStop",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 848
+  },
+  {
+    "cohort": "sensitivity_seed32::ShortStop",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 844
+  },
+  {
+    "cohort": "sensitivity_seed33::AAC_resemblance",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed33::AAC_resemblance",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed33::AAC_resemblance",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed33::AAC_resemblance",
+    "fold": 3,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed33::AAC_resemblance",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_Cterminal",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_Cterminal",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_Cterminal",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_Cterminal",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_Cterminal",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_full",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_full",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_full",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_full",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed33::PAP_full",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "sensitivity_seed33::ShortStop",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 844
+  },
+  {
+    "cohort": "sensitivity_seed33::ShortStop",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 847
+  },
+  {
+    "cohort": "sensitivity_seed33::ShortStop",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 845
+  },
+  {
+    "cohort": "sensitivity_seed33::ShortStop",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 848
+  },
+  {
+    "cohort": "sensitivity_seed33::ShortStop",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 844
+  },
+  {
+    "cohort": "mutation::AAC_resemblance",
+    "fold": 0,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "mutation::AAC_resemblance",
+    "fold": 1,
+    "increasing": false,
+    "n_train": 857
+  },
+  {
+    "cohort": "mutation::AAC_resemblance",
+    "fold": 2,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "mutation::AAC_resemblance",
+    "fold": 3,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "mutation::AAC_resemblance",
+    "fold": 4,
+    "increasing": false,
+    "n_train": 858
+  },
+  {
+    "cohort": "mutation::PAP_Cterminal",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "mutation::PAP_Cterminal",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "mutation::PAP_Cterminal",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "mutation::PAP_Cterminal",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "mutation::PAP_Cterminal",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "mutation::PAP_full",
+    "fold": 0,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "mutation::PAP_full",
+    "fold": 1,
+    "increasing": true,
+    "n_train": 857
+  },
+  {
+    "cohort": "mutation::PAP_full",
+    "fold": 2,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "mutation::PAP_full",
+    "fold": 3,
+    "increasing": true,
+    "n_train": 858
+  },
+  {
+    "cohort": "mutation::PAP_full",
+    "fold": 4,
+    "increasing": true,
+    "n_train": 858
+  }
+]

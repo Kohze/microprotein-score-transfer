@@ -1,0 +1,35 @@
+{
+  "commit": "85979b1b4123b6b5391b617d16551969eda9f56e",
+  "files": [
+    {
+      "file": "QCDpred.py",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/QCDpred.py",
+      "sha256": "027ca943f4566b1df0686de9eeb4ceba54086f719df06caa1f6b82d65e57cc5b",
+      "bytes": 5525
+    },
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/README.md",
+      "sha256": "c26d9289f0797054f2bfbb9fb499368879c111eee3a55fc22d70398d0392401e",
+      "bytes": 2348
+    },
+    {
+      "file": "degron_model.Rmd",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/degron_model.Rmd",
+      "sha256": "99db0a46a0993072d0c40710ff69c9f4091779102ba5d6df2c807863f4598f18",
+      "bytes": 16551
+    },
+    {
+      "file": "Mashahreh_wt_tiles.csv.gz",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/Mashahreh_wt_tiles.csv.gz",
+      "sha256": "e319a983033c048d03dd50bd441bd227795486c9cbdeb205515ccd185610b701",
+      "bytes": 678038
+    },
+    {
+      "file": "QCDpred_tiles.txt.gz",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/papers/85979b1b4123b6b5391b617d16551969eda9f56e/2022/degron-predict-Johansson-et-al/QCDpred_tiles.txt.gz",
+      "sha256": "641d41c394520a3ae6dd1311f1007b2a8717f111254d660d5fe968fe21d13d13",
+      "bytes": 23348603
+    }
+  ]
+}

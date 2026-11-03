@@ -1,0 +1,38 @@
+[
+  {
+    "name": "TableS2_publisher",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1097276523000758-mmc3.xlsx",
+    "status": 200,
+    "bytes": 787173,
+    "validated_file_header": true,
+    "sha256": "0ebb3997c99195df5e56554fd5cb3a80a33bb8244ff7e47995c5976f0a3eeaab",
+    "path": "novelty_audit_2026-11-01\\native_function_bridge\\TableS2_publisher.xlsx"
+  },
+  {
+    "name": "TableS3_publisher",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1097276523000758-mmc4.xlsx",
+    "status": 200,
+    "bytes": 2018128,
+    "validated_file_header": true,
+    "sha256": "abf2d4574534cd6e3db0139d9f2e8070d98e0bc7a81107564e31d0e328486c88",
+    "path": "novelty_audit_2026-11-01\\native_function_bridge\\TableS3_publisher.xlsx"
+  },
+  {
+    "name": "TableS2_PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/10032668/bin/mmc3.xlsx",
+    "status": 200,
+    "bytes": 1817,
+    "validated_file_header": false,
+    "sha256": "e28fa3129293ca2a47609a244fd4b8065c9a508942fbc1e80f96753aea59e90f",
+    "path": "novelty_audit_2026-11-01\\native_function_bridge\\TableS2_PMC.response.txt"
+  },
+  {
+    "name": "DocumentS1_publisher",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1097276523000758-mmc1.pdf",
+    "status": 200,
+    "bytes": 6464426,
+    "validated_file_header": true,
+    "sha256": "97c2dc32bf871732eb3f0bbd82285f797574b0194a2da867900c57cbee798956",
+    "path": "novelty_audit_2026-11-01\\native_function_bridge\\DocumentS1_publisher.pdf"
+  }
+]

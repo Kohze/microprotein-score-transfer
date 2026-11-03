@@ -1,0 +1,6 @@
+{
+  "source_sequences": "The original freeze field counts23934 unique cargos across source AND target inputs; it is not a training-row count.",
+  "Guo_calibration_rows": 1072,
+  "unique_network_inputs": 31481,
+  "original_freeze_preserved": true
+}

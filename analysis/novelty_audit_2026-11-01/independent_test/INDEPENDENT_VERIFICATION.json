@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "independently_refit_source_heads": [
+    {
+      "source": "GFP_MP",
+      "model": "A",
+      "max_error": 7.327471962526033e-15
+    },
+    {
+      "source": "GFP_MP",
+      "model": "T",
+      "max_error": 3.26405569239796e-14
+    },
+    {
+      "source": "GFP_MP",
+      "model": "N4",
+      "max_error": 5.062616992290714e-14
+    },
+    {
+      "source": "GFP_MP",
+      "model": "C4",
+      "max_error": 5.284661597215745e-14
+    },
+    {
+      "source": "GFP_MP",
+      "model": "I4",
+      "max_error": 3.68594044175552e-14
+    },
+    {
+      "source": "MP_mCherry",
+      "model": "A",
+      "max_error": 9.769962616701378e-15
+    },
+    {
+      "source": "MP_mCherry",
+      "model": "T",
+      "max_error": 2.886579864025407e-14
+    },
+    {
+      "source": "MP_mCherry",
+      "model": "N4",
+      "max_error": 1.3600232051658168e-14
+    },
+    {
+      "source": "MP_mCherry",
+      "model": "C4",
+      "max_error": 2.0872192862952943e-14
+    },
+    {
+      "source": "MP_mCherry",
+      "model": "I4",
+      "max_error": 1.7319479184152442e-14
+    }
+  ],
+  "maximum_metric_recalculation_error": 2.7755575615628914e-17,
+  "all_eligible_rows_gene_disjoint": true,
+  "frozen_predictions_unchanged": true,
+  "new_target_model_training": false,
+  "scope": "New feature values match old source features exactly; ten sklearn source fits and every saved point metric checked."
+}

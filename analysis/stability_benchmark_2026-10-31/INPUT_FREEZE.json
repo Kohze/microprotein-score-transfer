@@ -1,0 +1,152 @@
+{
+  "frozen_utc": "2026-10-31T18:59:20.106750+00:00",
+  "protocol_sha256": "842e16185b8cc0641a0eddaed7cee8ff60d1f03217867fd9ed7f48ccba576653",
+  "input_files": {
+    "Guo2026_all_assay_constructs.parquet": {
+      "bytes": 500583,
+      "sha256": "736dad2e36f62eeb7f1ab07129840fcbf959500404114c0f48a037a6a9a0a4e6"
+    },
+    "Guo2026_within_library_mutant_pairs.parquet": {
+      "bytes": 265561,
+      "sha256": "270c889ce9627b0581f4b171b86445e7dfed2c1724740f199cc15291066627e5"
+    },
+    "ShortStop_Guo_sequence_checked_mapping.parquet": {
+      "bytes": 715448,
+      "sha256": "918de0e617ecc1ba57f2bdc935da842b0d6a8c4c1eff2a6cb3df054499c85007"
+    },
+    "Yang2024_independent_constructs_and_assays.parquet": {
+      "bytes": 19238,
+      "sha256": "4208886bf32d6e37edba4885027bdcb4b0a355382e7ff206fd33e328400b6d8c"
+    },
+    "ShortStop_training_IDs_and_labels.parquet": {
+      "bytes": 71072,
+      "sha256": "d782a8d6d4fb532c9a955be9beca861259ffac823c56e1e6fda6f115ac8afeec"
+    },
+    "PAP_HUMAN30_PARSED_COEFFICIENTS.json": {
+      "bytes": 1550,
+      "sha256": "97974b2d2accb84e03a312b78d02846d7baf2063bb90fc681cf26413de6ced34"
+    },
+    "GUO_SUPPLEMENT_AUDIT.json": {
+      "bytes": 6279,
+      "sha256": "c95f4d37689b8a17d90fdaa8a14650f96868712e4b312bc9c5b2870fb854fdab"
+    },
+    "SHORTSTOP_SEQUENCE_MAPPING_AUDIT.json": {
+      "bytes": 1551,
+      "sha256": "06a86d8e24c31506b0a47d322a61be609a8d66e05211cc754560800e878fae6c"
+    },
+    "EXTERNAL_ENDPOINT_FEASIBILITY.json": {
+      "bytes": 1539,
+      "sha256": "95118c80cf294b2659f7767d1613821c0dc394494f903b82cae2436aade15f66"
+    },
+    "sources/Guo2026_mmc2.xlsx": {
+      "bytes": 10261618,
+      "sha256": "73c90455b305b34b4739e23cfc2ce091269fa1eede172ad48b0051837182e9a9"
+    },
+    "sources/Guo2026_mmc3.xlsx": {
+      "bytes": 1101810,
+      "sha256": "c014afca8843528c1e7217754d71394326f2f966dbf025732e6f8fc5fa3b000c"
+    },
+    "sources/Guo2026_mmc4.xlsx": {
+      "bytes": 676263,
+      "sha256": "716ebbb435ec058d43066b2ba1ac034d377814a341e5e39b342aaa36ce23691c"
+    },
+    "sources/Guo2026_mmc7.xlsx": {
+      "bytes": 850032,
+      "sha256": "371bc1b646bf72a40a54a42092bc462c5444924160b7155db63e07f768afaa21"
+    },
+    "sources/Guo2026_mmc1.pdf": {
+      "bytes": 21075284,
+      "sha256": "c12ca352ebd4d5f79a704f3808ecb621dc7b54bdd2decc5250cea037a4ac3863"
+    },
+    "sources/shortstop_v1.2_gencode_smorfs_classifications.csv": {
+      "bytes": 596777,
+      "sha256": "f6e7089ec5f70f0514fae85db4ef08b6ccf4685995ff96327b96a2a2cd27dacd"
+    },
+    "sources/ShortStop_v1.2.0_release_metadata.json": {
+      "bytes": 10783,
+      "sha256": "c7bf70fa185676275cddbe6336c94166e1adbfa4c446a3abcbc198945f89196a"
+    },
+    "sources/Yang2024_mmc11.xlsx": {
+      "bytes": 41787,
+      "sha256": "fce7373e3fd81fec90e023a8f354cdf96eb3c56ea274826478250399feb99336"
+    },
+    "sources/Yang2024_mmc12.xlsx": {
+      "bytes": 25013,
+      "sha256": "c99febfd7b2011137f4e5b3ba0120206199e29bd5b62c327448fe646d31bb6f6"
+    },
+    "Voutsinos2026_code/PAP.py": {
+      "bytes": 41443,
+      "sha256": "67b32a3ada4d52427dd751b81328a30c3f1f00d3af8305817eabfbb49cd4d1f0"
+    },
+    "ShortStop2025_code/train_model.py": {
+      "bytes": 17370,
+      "sha256": "9a1fa3cb5502cfb2fe86816f3220230110fbf925f5f4d5aa511bc7c3addc7cde"
+    },
+    "ShortStop2025_code/consensus_validation.md": {
+      "bytes": 7786,
+      "sha256": "5ef711b1f1f711683f168cafb657e1e9b913d38a6dd7ca943458483497d33c1d"
+    },
+    "reference/matched_comprehensive.parquet": {
+      "bytes": 296104,
+      "sha256": "f7be47b6dc508834412b5232cc8b60f45ab0673e1aa40d54d2e71ef2c268eeeb"
+    },
+    "reference/norf_catalogue_audit.parquet": {
+      "bytes": 1909708,
+      "sha256": "96ebfd07c983890d7e2d7232955d8d8fb09bc1def6e1095d3fad1861a9a3c45f"
+    },
+    "reference/canonical_proteins.parquet": {
+      "bytes": 14967565,
+      "sha256": "b5752d145f53d9defcb56e2d7117fa653b2a158047b30500c8368f338a5a5ce3"
+    },
+    "reference/sources/uniprot_reviewed_human.fasta": {
+      "bytes": 13666795,
+      "sha256": "dffdff3807ec6eb7e752035b5475aaefa26d1b36e513e3344198d521a2169c42"
+    },
+    "reference/sources/AAidx_protr_1.7.4.csv": {
+      "bytes": 60680,
+      "sha256": "610f504b9a96df68deadda7b6ef3f84d1f2d345337c0e405025bad97b1eade95"
+    }
+  },
+  "missing_full_STAR_methods": true,
+  "inconsistent_WT_identifiers": [],
+  "natural_records": 5065,
+  "cohort_counts": [
+    {
+      "source_sheet": "GFP_MP",
+      "group": "microprotein_WT",
+      "n": 1072
+    },
+    {
+      "source_sheet": "GFP_MP_MG132_MLN7243",
+      "group": "microprotein_WT",
+      "n": 1072
+    },
+    {
+      "source_sheet": "GFP_MP_mutagenesis",
+      "group": "microprotein_WT",
+      "n": 1072
+    },
+    {
+      "source_sheet": "GFP_MP_mutagenesis",
+      "group": "microprotein_ms_HLA",
+      "n": 730
+    },
+    {
+      "source_sheet": "GFP_MP_mutagenesis",
+      "group": "microprotein_ms_nonHLA",
+      "n": 71
+    },
+    {
+      "source_sheet": "MP_mCherry",
+      "group": "microprotein_WT",
+      "n": 1048
+    }
+  ],
+  "primary_development_rows": 1072,
+  "primary_development_measured": 1072,
+  "native_replicate_median_absolute_disagreement": 0.0545040414675175,
+  "descriptive_MAE_resolution": 0.02725202073375875,
+  "independent_validation_predictor_associations_computed": false,
+  "historical_ShortStop_positive_sequence_snapshot_available": false,
+  "available_ShortStop_positive_counterparts": 1571
+}

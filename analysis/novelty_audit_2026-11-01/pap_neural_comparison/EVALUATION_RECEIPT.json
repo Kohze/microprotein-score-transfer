@@ -1,0 +1,18 @@
+{
+  "status": "passed independent numerical and metric verification",
+  "target_model_training": false,
+  "calibration_only_on_Guo_GFP_WT": true,
+  "primary_native_n": 14143,
+  "primary_paired_n": 1743,
+  "primary_paired_groups": 1591,
+  "prediction_freeze_sha256": "57d6b9c7cf84c5c18e5c34b36bc7e9148632f47f7f31fcebb02309803074ee4e",
+  "model1_order_control": "exact analytic equality; sampled numerical check",
+  "model7_order_control": "two independent19-shuffle means; not measured shuffled-peptide outcomes",
+  "source_calibration_resubstitution_not_reported": true,
+  "limitations": [
+    "Target-study-trained native references are not equally external competitors",
+    "Conditional intervals, not retraining uncertainty",
+    "No causal order/terminal interpretation"
+  ],
+  "independent_verification": "INDEPENDENT_VERIFICATION.json"
+}

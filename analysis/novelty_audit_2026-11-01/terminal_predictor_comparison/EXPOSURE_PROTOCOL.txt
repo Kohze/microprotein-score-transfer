@@ -1,0 +1,21 @@
+TERMINAL-MODEL DEVELOPMENT-SCREEN EXPOSURE AUDIT
+This is a secondary provenance audit after other predictor outcomes are known.
+No DEGRONOPEDIA versus target associations have been computed. Pinned weights
+reproduce all12 author examples. The original model has2997 named features;
+the columnSet regex is not invoked by its inference path, so it is not a
+Whole/Ogryzek4-only model. Preserve all original descriptor functions.
+
+Hickey2020/2021 Supplementary Table5A explicitly republishes columnsA-L from
+Koren2018 TableS7A. Its22564 rows match the DEGRONOPEDIA C23 development-screen
+count. Treat it as a public primary redistribution of that screen, not the
+unavailable row-specific90/10 split. Inspect sequence/label validity and record
+both exact C23 matches and available exact gene-symbol overlap. An exact match
+proves development-screen membership, not membership of the90% training split.
+Absence of a symbol match does not prove absence of alias/gene exposure.
+
+Apply the frozen Chu1743 common eligibility and native14143 tile eligibility.
+Report WT/RT endpoints separately and their union. Identify neither-endpoint
+screen matches and a stricter available-symbol-disjoint sensitivity. No target
+scores, model direction or significance values choose these membership rules.
+Do not call unfiltered model comparisons equally independent. N-model training
+screens are separate and remain unaudited; initiator processing is not assumed.

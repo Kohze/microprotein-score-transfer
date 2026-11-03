@@ -1,0 +1,46 @@
+{
+  "main/Fig1": {
+    "original_asset": "Fig2",
+    "pdf_sha256": "34055fd99f2d451b9bc1ff498d99510523d21e2caec786d669b1344509962858"
+  },
+  "main/Fig2": {
+    "original_asset": "S2_Fig",
+    "pdf_sha256": "d9c54a4295d8b0b352b3a5a431784267e8318aa005fa0a7bbeaca5c1768407d6"
+  },
+  "main/Fig3": {
+    "original_asset": "Fig6",
+    "pdf_sha256": "03ff3289505915cff98d54c95a74f330fb11b14ec9a1899154b41d4ed5440be5"
+  },
+  "main/Fig4": {
+    "original_asset": "Fig7",
+    "pdf_sha256": "a04add43a8639f56f09aeb35b7086a71523f88770c93b558d409dde5cdd8586d"
+  },
+  "main/Fig5": {
+    "original_asset": "Fig9",
+    "pdf_sha256": "b4a59a88754f31c218f3febc05612c3ebf6402f32488d1a50d6d6a7b9b08d81d"
+  },
+  "supplement/FigS1": {
+    "original_asset": "S1_Fig",
+    "pdf_sha256": "88e07c32be364d91b68b9de22867f6ff24590e7e8853335eef27e2745c7f3084"
+  },
+  "supplement/FigS2": {
+    "original_asset": "Fig1",
+    "pdf_sha256": "dfe349428fdacfb28775509fd22aa8e8aeea65ffbbf54b80ca4511b3ef547029"
+  },
+  "supplement/FigS3": {
+    "original_asset": "Fig3",
+    "pdf_sha256": "17cf4961bc321fef9f781644c8807f764b699806a2c6b8eb7de127a457d22f8a"
+  },
+  "supplement/FigS4": {
+    "original_asset": "Fig4",
+    "pdf_sha256": "81a115f9c508e71ef27b6e68c225317cc033a85295228b7d64cb3af6b9bf51e3"
+  },
+  "supplement/FigS5": {
+    "original_asset": "Fig5",
+    "pdf_sha256": "97c2f228b5f22aabe85c2dd92e5cbe5bbfe24f557af485dd1c2fec78a5604add"
+  },
+  "supplement/FigS6": {
+    "original_asset": "Fig8",
+    "pdf_sha256": "760c897ec6618dbfd18fa487075044a4463c8b697e962b61b095e0a22f9d750f"
+  }
+}

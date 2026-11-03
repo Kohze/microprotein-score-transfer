@@ -1,0 +1,42 @@
+DEGRONOPEDIA C-TERMINAL TRANSFER -SECONDARY EXPOSURE-STRATIFIED CHALLENGE
+Other predictor associations and the development-screen exposure counts have
+already been inspected; no terminal model versus target associations have been
+computed. This is retrospective, not preregistered or blinded research.
+
+Use only the frozen published C-terminal CatBoost weights at pinned commit
+2703570145c3c53cf276b705e1a6cc59083dfd12 and the original descriptor/inference
+functions. All2997 named features are supplied in the original order. Do not
+apply the unused columnSet regex. Current runtime reproduced all12 released
+two-decimal example predictions. Exact original dependency versions are not
+pinned by the published conda file, so cross-version parity is limited to those
+examples. No retraining, target calibration, sign inversion or favorable model
+choice. Higher predicted PSI means greater terminal reporter stability.
+
+Inputs are the final23 residues of both endpoints of the existing1743 Chu
+common pairs, all standard58mers. This exactly matches the C input/descriptor
+rule; both endpoints remain58mer window replacements, not measured-WT appends.
+Preserve all existing primary pair memberships and gene/identical-cargo groups.
+No N-model predictions are made for this C-terminal exposed target. N-model
+weights/examples remain audited, but native initiator processing is not assumed.
+
+Report paired delta (RT-minus-WT), native WT and RT rank correlations and both
+replicate delta correlations for: all1743 pairs (provenance-limited), either
+endpoint screen-matched1454, neither-endpoint screen-matched289, and neither
+endpoint nor available gene-symbol overlap97. The latter is a conservative
+available-symbol sensitivity, not an alias-complete gene-disjoint certificate.
+An exact match proves development-screen membership, not actual membership of
+the unavailable90/10 training split. Do not rank all1743 as an equally
+independent competitor to provenance-filtered PAP/Guo heads.
+
+Retain frozen comparators on every same cohort: both source A/T contexts,
+normalized QCDPred, linear full58 PAP raw/source-WT-calibrated, and neural
+CNN1/CNN7 full58 raw/source-WT-calibrated. No cross-scale raw MAE comparison.
+Use1000 paired operational-group bootstrap resamples for C-model-minus-raw
+CNN1 and C-model-minus-calibrated-linear delta-rho contrasts for all1743,
+the289 endpoint-unmatched cohort and97 available-symbol sensitivity. These
+are descriptive conditional intervals, not full retraining uncertainty,
+multiplicity-adjusted discovery, proof of an exposure cause, or native nORF
+function. Both seen- and unseen-anchor results must be retained.
+
+Save model/source/input hashes and frozen output before evaluating new model
+associations. Retain all results, including adverse transfer and wide intervals.

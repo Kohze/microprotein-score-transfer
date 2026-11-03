@@ -1,0 +1,19 @@
+family,stratum,contrast,n,groups,estimate,low,high,bootstrap_replicates,scope
+L_to_A,all,T minus A,1014,754,0.09700875574015427,0.05414394372841973,0.14767176007651492,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+L_to_A,all,O minus T,1014,754,-0.007543804182921776,-0.024708677805909844,0.011757902544306136,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+L_to_A,all,PAP_full_calibrated minus PAP_full,1014,754,0.06945935948725274,0.02169802642656241,0.10917275144607792,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+L_to_A,source_rule_retained,T minus A,798,611,-0.013341149956306697,-0.03174251536514642,0.004707843645759489,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+L_to_A,source_rule_retained,O minus T,798,611,-0.005095312960722909,-0.027591522352111382,0.017814109729086917,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+L_to_A,source_rule_retained,PAP_full_calibrated minus PAP_full,798,611,0.09330117738023158,0.03006824681100325,0.14235116729391284,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+L_to_A,source_rule_omitted,T minus A,216,178,0.1002104522415726,0.010072441394972376,0.19712854022016885,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+L_to_A,source_rule_omitted,O minus T,216,178,-0.018629657414353518,-0.04551832302230151,0.015045319038052606,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+L_to_A,source_rule_omitted,PAP_full_calibrated minus PAP_full,216,178,-0.01842585951220843,-0.08211910583460293,0.03917242198500379,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+microprotein_10mer_ext,all,T minus A,1007,759,0.3929895822492576,0.3213624337585416,0.46999767040863055,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+microprotein_10mer_ext,all,O minus T,1007,759,-0.0029628231462410226,-0.020786017515518205,0.014248172117203053,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+microprotein_10mer_ext,all,PAP_full_calibrated minus PAP_full,1007,759,0.2652969380944577,0.2169680132242838,0.3234474808035128,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+microprotein_10mer_ext,source_rule_retained,T minus A,802,623,0.4095610991876562,0.32259074287545936,0.4947475311891088,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+microprotein_10mer_ext,source_rule_retained,O minus T,802,623,-0.006669303020544359,-0.02589460417587511,0.013452472724988583,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+microprotein_10mer_ext,source_rule_retained,PAP_full_calibrated minus PAP_full,802,623,0.2392751228250703,0.1856400784010538,0.3011957036273062,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+microprotein_10mer_ext,source_rule_omitted,T minus A,205,169,0.2618879803875137,0.08694860229281057,0.41909884110645734,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+microprotein_10mer_ext,source_rule_omitted,O minus T,205,169,0.001480686994191488,-0.03890689610955903,0.04021057083496107,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment
+microprotein_10mer_ext,source_rule_omitted,PAP_full_calibrated minus PAP_full,205,169,0.356505959879424,0.19589025770937826,0.49879154639542006,1000,post-hoc evaluation restriction; conditional on original fits; no multiplicity adjustment

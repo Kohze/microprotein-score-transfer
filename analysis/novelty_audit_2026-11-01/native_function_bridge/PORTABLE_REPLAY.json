@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "script": "verify_native_function_bridge.py",
+      "status": "passed"
+    },
+    {
+      "script": "verify_guo_terminal_filter_sensitivity.py",
+      "status": "passed"
+    }
+  ],
+  "independent_source_and_data_paths": true,
+  "network_required": false,
+  "bootstrap_distribution_replay": false,
+  "runtime_bundled": false
+}

@@ -1,0 +1,16 @@
+model,n,selected,assay_top_decile_precision,selected_mean_assay_score,selected_gene_count,interpretation
+PAP_internal,14143,1415,0.4431095406360424,0.6022129447335727,225,assay rank prioritization; not stable/function classification
+PAP_terminal,14143,1415,0.17385159010600706,0.36973297086003276,344,assay rank prioritization; not stable/function classification
+PAP_full,14143,1415,0.4664310954063604,0.6264270942561392,228,assay rank prioritization; not stable/function classification
+GFP_MP__A,14143,1415,0.423321554770318,0.5975694980228824,223,assay rank prioritization; not stable/function classification
+GFP_MP__T,14143,1415,0.43250883392226147,0.6120984285309955,251,assay rank prioritization; not stable/function classification
+GFP_MP__T_noPAP,14143,1415,0.42614840989399294,0.605343204180875,253,assay rank prioritization; not stable/function classification
+GFP_MP__N4,14143,1415,0.4070671378091873,0.5902888186469765,231,assay rank prioritization; not stable/function classification
+GFP_MP__C4,14143,1415,0.44240282685512367,0.6131287792387721,241,assay rank prioritization; not stable/function classification
+GFP_MP__I4,14143,1415,0.4169611307420495,0.5951340758612181,235,assay rank prioritization; not stable/function classification
+MP_mCherry__A,14143,1415,0.42120141342756184,0.5969998253087236,225,assay rank prioritization; not stable/function classification
+MP_mCherry__T,14143,1415,0.334982332155477,0.5506278938939114,262,assay rank prioritization; not stable/function classification
+MP_mCherry__T_noPAP,14143,1415,0.3321554770318021,0.5484172629496564,265,assay rank prioritization; not stable/function classification
+MP_mCherry__N4,14143,1415,0.36890459363957595,0.5722959023588264,259,assay rank prioritization; not stable/function classification
+MP_mCherry__C4,14143,1415,0.39363957597173144,0.5844407670011591,242,assay rank prioritization; not stable/function classification
+MP_mCherry__I4,14143,1415,0.38869257950530034,0.5858839807572591,240,assay rank prioritization; not stable/function classification

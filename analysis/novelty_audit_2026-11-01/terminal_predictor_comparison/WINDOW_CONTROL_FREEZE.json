@@ -1,0 +1,11 @@
+{
+  "status": "C23 neural controls frozen before their new associations",
+  "prediction_sha256": "8c43281f988fde28969ef5b5d11a68eb0a0eadfe0c813aae339fffd8d9256a20",
+  "protocol_sha256": "b826ea5f9bbc364dde460a8dd1df95356acdbb99a1b827b9cafee130c673b670",
+  "post_hoc_after_terminal_results": true,
+  "independent_numpy_scores_checked": 6604,
+  "numerical_max_error": 9.096262177238357e-07,
+  "original_terminal_predictions_unchanged": true,
+  "target_fitting": false,
+  "calibration": false
+}

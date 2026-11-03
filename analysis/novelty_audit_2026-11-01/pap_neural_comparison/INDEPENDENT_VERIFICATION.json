@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "published_graph": "preserved; backend import and legacy HDF5 loading adapted only",
+  "all_native_input_scores_independently_checked": 62962,
+  "native_score_max_NumPy_error": 9.897346537890428e-07,
+  "shuffled_scores_independently_checked": 15504,
+  "shuffle_mean_max_NumPy_error": 2.4357188679879904e-07,
+  "calibration_threshold_maps_reconstructed": 20,
+  "calibration_max_error": 3.500026679592594e-08,
+  "calibration_tolerance": 2.384185791015625e-07,
+  "calibration_precision": "stored sklearn float32 versus independent NumPy float64 interpolation",
+  "native_metric_rows_recalculated": 140,
+  "paired_metric_rows_recalculated": 200,
+  "metric_max_rank_error": 1.1102230246251565e-16,
+  "all_pair_delta_values_reconstructed": true,
+  "frozen_predictions_unchanged": true,
+  "limits": "Numerical/implementation verification; does not establish biology or retraining uncertainty"
+}

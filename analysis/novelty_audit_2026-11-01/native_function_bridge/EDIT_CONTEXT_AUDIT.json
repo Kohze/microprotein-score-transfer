@@ -1,0 +1,20 @@
+{
+  "status": "completed; descriptive post-hoc annotation",
+  "all_available_edit_pairs": 32,
+  "Leu_to_Ala_pairs": 17,
+  "append_pairs": 15,
+  "Leu_to_Ala_pairs_passing_source_terminal_filter": 12,
+  "observed_positive_delta_pairs": 28,
+  "observed_negative_delta_pairs": 4,
+  "candidate_sequences_with_source_domain_SLiM_rows": 3,
+  "distinct_motif_associated_WT_tiles": 5,
+  "tile_edit_annotations": 10,
+  "source_tagged_phosphorylation_rows": 1,
+  "source_tagged_phosphorylation_candidate_names": [
+    "JHDM1D-AS1"
+  ],
+  "functional_or_binding_loss_demonstrated": false,
+  "causal_kinase_assignment": false,
+  "inferential_testing": false,
+  "revised_candidate_hypothesis": "Test whether reporter-stabilizing edits preserve the same candidate's WT binding and native activity"
+}

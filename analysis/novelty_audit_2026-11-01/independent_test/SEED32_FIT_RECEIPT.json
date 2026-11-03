@@ -1,0 +1,62 @@
+{
+  "prediction_sha256": "fc41ca2da520db278b939f50c82ed56a36abe0227863ba8d6490a0ee927ec848",
+  "fits": [
+    {
+      "source": "GFP_MP",
+      "model": "A",
+      "seed": 20261032,
+      "alpha": 0.1,
+      "source_inner_errors": [
+        0.14218516940472486,
+        0.14239639638608612,
+        0.1428086645823247,
+        0.14568852534783175,
+        0.17316380608828455
+      ],
+      "target_outcomes_used_for_fitting": false
+    },
+    {
+      "source": "GFP_MP",
+      "model": "T",
+      "seed": 20261032,
+      "alpha": 100.0,
+      "source_inner_errors": [
+        0.13942897127690593,
+        0.13925915211723622,
+        0.13852365311752032,
+        0.13500756356659524,
+        0.1505322871495742
+      ],
+      "target_outcomes_used_for_fitting": false
+    },
+    {
+      "source": "MP_mCherry",
+      "model": "A",
+      "seed": 20261032,
+      "alpha": 1.0,
+      "source_inner_errors": [
+        0.16635442072724343,
+        0.16611894752005504,
+        0.1661620531483562,
+        0.16875839923484195,
+        0.19632123432345747
+      ],
+      "target_outcomes_used_for_fitting": false
+    },
+    {
+      "source": "MP_mCherry",
+      "model": "T",
+      "seed": 20261032,
+      "alpha": 100.0,
+      "source_inner_errors": [
+        0.16801855273338637,
+        0.1677201154016315,
+        0.16667211388015468,
+        0.1626197253729364,
+        0.18338296167437526
+      ],
+      "target_outcomes_used_for_fitting": false
+    }
+  ],
+  "purpose": "prespecified second-seed sensitivity; target already inspected for primary models"
+}

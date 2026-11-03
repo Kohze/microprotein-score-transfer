@@ -1,0 +1,10 @@
+{
+  "rows": 982,
+  "pairs": 491,
+  "removed_pairs": 253,
+  "blocked_components": 1390,
+  "class_counts": {
+    "nORF": 491,
+    "canonical": 491
+  }
+}

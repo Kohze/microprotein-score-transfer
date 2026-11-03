@@ -1,0 +1,14 @@
+{
+  "files": {
+    "run_benchmark.py": "3c8df4951e6a5f8ae6f192f198838ee798543ba76d71135f9a99ad2175f27609",
+    "sequence_features.parquet": "1a4b852812a4bf5d6b3675cad2e964c33cab36e0dffc5dde6ab972586caaf9cd",
+    "FEATURE_DEFINITION.json": "a17741310a67671ee0e4629d430688bd9705f5ba3cf478d33cc720d4e8397320",
+    "sequence_dependence_groups.parquet": "45e26c5991cad8e85a4df1bab065e3ba624d3c59db6bd9a97d2bc7b82c8cb04a",
+    "natural_assay_records.parquet": "03d3b6bf4dd3dbcda843ab03fdb19c0d6da346ff0c79c1e7ef2b3fd7084e5304",
+    "primary_mutation_pairs.parquet": "1824326c0593cfdab043475b7c95d167edf254cc0c8028108479bb874631e920",
+    "validation_assay_records.parquet": "7490011f3035d3d1953ae48207c914d7301e7c12ffd7846f2ac4064a1078848f",
+    "inputs/ShortStop_Guo_sequence_checked_mapping.parquet": "918de0e617ecc1ba57f2bdc935da842b0d6a8c4c1eff2a6cb3df054499c85007",
+    "inputs/PAP_HUMAN30_PARSED_COEFFICIENTS.json": "97974b2d2accb84e03a312b78d02846d7baf2063bb90fc681cf26413de6ced34"
+  },
+  "purpose": "Direct dependencies of source model import and independent verification"
+}

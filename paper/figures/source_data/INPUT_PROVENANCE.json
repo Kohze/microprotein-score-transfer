@@ -1,0 +1,139 @@
+{
+  "copied": [
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\stability_benchmark_2026-10-31\\results\\conditional_intervals.csv",
+      "copy": "figures/source_data/benchmark_conditional_intervals.csv",
+      "sha256": "0663c92903e2645f9f2d1a3e583ba641a912c8ef4e169bae9db52a03a3d02c00",
+      "bytes": 4687
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\stability_benchmark_2026-10-31\\results\\native_contrasts.json",
+      "copy": "figures/source_data/native_contrasts.json",
+      "sha256": "43cff8eba931a20bbeb99e32565fae22c7c906ed57dd93baeef860ba6f76a825",
+      "bytes": 2132
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\stability_benchmark_2026-10-31\\figures\\Figure4_source.csv",
+      "copy": "figures/source_data/mutation_mae.csv",
+      "sha256": "9fb5b6bdaf54ee81792261e0c6e2ddd29e99dce4120b3ab9b1621d5671afa547",
+      "bytes": 692
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\independent_test\\external_metrics.csv",
+      "copy": "figures/source_data/external_metrics.csv",
+      "sha256": "cf1e5c51b6e0550d7eec7a0efdab8d809878b094e65e0a7f1540776bc3e59210",
+      "bytes": 2034
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\independent_test\\top_decile_prioritization.csv",
+      "copy": "figures/source_data/top_decile_prioritization.csv",
+      "sha256": "e2f6af95d9c5b96e6e3b85bfaf5d3a35ebe237fb1146b9df737e263c336d800b",
+      "bytes": 2049
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\published_predictor_comparison\\published_baseline_metrics.csv",
+      "copy": "figures/source_data/published_baseline_metrics.csv",
+      "sha256": "14428c873957e81e5c0ca02a13adabbf179deca2d6bbd84a9e68ffb07d78210c",
+      "bytes": 1853
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\pap_neural_comparison\\native_metrics.csv",
+      "copy": "figures/source_data/neural_native_metrics.csv",
+      "sha256": "b2a02ec5f5eca05f7659eaa1034c69b90af3061d3262f19712921c9b7dfe869b",
+      "bytes": 20225
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\independent_interventions\\transfer_metrics.csv",
+      "copy": "figures/source_data/intervention_metrics.csv",
+      "sha256": "068afa467986499dadbec513f5ba843f7bdc51161ed513f646aa07751dad92d7",
+      "bytes": 37211
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\pap_neural_comparison\\paired_effect_metrics.csv",
+      "copy": "figures/source_data/neural_paired_metrics.csv",
+      "sha256": "ac9ddbfdb19f31337a007ff1bf78ddea8cd8b5abfe4a0e2b433ffab5b4e0095f",
+      "bytes": 34135
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\pap_neural_comparison\\paired_effect_contrasts.csv",
+      "copy": "figures/source_data/neural_paired_contrasts.csv",
+      "sha256": "6bf48f4dec3b4cfe805e6c31ef6a32eb083150b223d622409c682ea93bdfbd41",
+      "bytes": 2134
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\pap_neural_comparison\\native_order_contrasts.csv",
+      "copy": "figures/source_data/native_order_contrasts.csv",
+      "sha256": "9e7d4630fc662b9594bd04502370f4ce3946a087bd049adda00e13493afab11d",
+      "bytes": 544
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\terminal_predictor_comparison\\transfer_metrics.csv",
+      "copy": "figures/source_data/terminal_transfer_metrics.csv",
+      "sha256": "c65d3d3bbf50c68af9d61b7e34f214a749916d4b82d4cabde0f2084a18fff284",
+      "bytes": 8456
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\terminal_predictor_comparison\\window_control_metrics.csv",
+      "copy": "figures/source_data/terminal_window_metrics.csv",
+      "sha256": "2fae67ec0e22c2f01d0ce5a0fa6d1b2cc9af8afe0a748e1d585fec1d35d466a7",
+      "bytes": 2755
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\terminal_predictor_comparison\\window_control_contrasts.csv",
+      "copy": "figures/source_data/terminal_window_contrasts.csv",
+      "sha256": "45dae782a82a91bd6fa2d7591416b321b61d0ce3555798f17407685ca73b3aab",
+      "bytes": 1777
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\paired_context_2026-11-01\\results\\observed_agreement.csv",
+      "copy": "figures/source_data/paired_observed_agreement.csv",
+      "sha256": "a269c8ec88b86d4fd4c6611df29f7bea32f8c53bfdc45ec0cacd75017b2b14f7",
+      "bytes": 732
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\paired_context_2026-11-01\\results\\transfer_metrics.csv",
+      "copy": "figures/source_data/paired_transfer_metrics.csv",
+      "sha256": "22fc9af7b333aa2747e8c9f534a4cf38975a521b281ee73bf57668bf3b48b7dc",
+      "bytes": 24233
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\thesis_reanalysis_2026-10-31\\clusters\\cluster_metrics.csv",
+      "copy": "figures/source_data/cluster_metrics.csv",
+      "sha256": "17d5e6496d98ff2b51d7662e135b689b65a2df34e3a3b08d5acba1ce5ef8ccdb",
+      "bytes": 5472
+    }
+  ],
+  "extracted": [
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\stability_benchmark_2026-10-31\\results\\native_GFP_MP.parquet",
+      "sha256": "db47d24420513b8469b0e5323640c2baa2cdb903caa51e6520ef11d6157d5ca0",
+      "output": "development_group_sizes.csv",
+      "operation": "count existing group assignments; no refitting"
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\stability_benchmark_2026-10-31\\results\\Yang_validation.parquet",
+      "sha256": "82e7cf162478b6e9365bbfcc39d2a76db9398eb3e2a492dca43ed2245b93eb35",
+      "output": "yang_outcomes.csv",
+      "operation": "select existing columns unchanged"
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\thesis_reanalysis_2026-10-31\\clusters\\tsne_p30_s10.csv",
+      "sha256": "07b38f2f469b4b0cd309248e6d06d738f4a327c341c6987802b0a80b22aabd25",
+      "output": "clustering_display_coordinates.csv / pca_variance.json",
+      "operation": "existing coordinates only; embeddings not recomputed"
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\thesis_reanalysis_2026-10-31\\matched_comprehensive.parquet",
+      "sha256": "f7be47b6dc508834412b5232cc8b60f45ab0673e1aa40d54d2e71ef2c268eeeb",
+      "output": "clustering_display_coordinates.csv / pca_variance.json",
+      "operation": "existing coordinates only; embeddings not recomputed"
+    },
+    {
+      "source": "C:\\Users\\robin\\phdData\\norfs\\thesis_reanalysis_2026-10-31\\clusters\\per_family_pca.npz",
+      "sha256": "b95c8dd96c03469627f2ebd8fcb4fa82c16cf866983325b2835d714e0d0bfda6",
+      "output": "clustering_display_coordinates.csv / pca_variance.json",
+      "operation": "existing coordinates only; embeddings not recomputed"
+    }
+  ],
+  "new_fit": false
+}

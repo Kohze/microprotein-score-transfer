@@ -1,0 +1,5 @@
+subset,source,contrast,n,genes,estimate,low,high,design
+primary60,GFP_MP,A_minus_T_rho,14143,383,0.0043571466659040325,-0.0013311428341771458,0.01042735372428402,exploratory independent-study transfer; conditional gene bootstrap
+primary60,MP_mCherry,A_minus_T_rho,14143,383,0.1611730578410432,0.14947131518541965,0.1737427304548258,exploratory independent-study transfer; conditional gene bootstrap
+sensitivity40,GFP_MP,A_minus_T_rho,13730,383,0.006770962129194147,0.001428242736881255,0.012421380646959274,exploratory independent-study transfer; conditional gene bootstrap
+sensitivity40,MP_mCherry,A_minus_T_rho,13730,383,0.1627087430898143,0.1507482930154138,0.1755243722077151,exploratory independent-study transfer; conditional gene bootstrap

@@ -1,0 +1,24 @@
+{
+  "status": "published neural native/shuffle predictions frozen before new neural associations",
+  "prediction_sha256": "ad9fb8f07e4aca0c808e008c7b4751e48b254eb48a595d23b6f7dab8ff23ca71",
+  "protocol_sha256": "d85dac83a91cfbd075a8583032af707305f55445578aefc9389886547a1e75dd",
+  "source_code_sha256": "c57f31b0255de096f0e09c52e2a75def4962ea9a32e7cbd7a991d7119bd2d094",
+  "runtime_adapter_sha256": "f6078ae8bb72ddead004610243a60854b312eff1b4530f4c435022c871394688",
+  "published_source_receipt_sha256": "6ad1948a56ff2df5fc52bdb8d2a9f9e1b195e94f52df542dbc848922299f3849",
+  "native_sequence_membership_sha256": "a6923b385a984b99c37240323d91d14937a78957994b373bb00198a5acd1195f",
+  "paired_sequence_membership_sha256": "8a492277dccd058aeb6efe8bbf697cf2077b0e3b2d1e6ea828ce48eac3fcd102",
+  "source_sequences": 23934,
+  "unique_network_inputs": 31481,
+  "target_model_fitting": false,
+  "calibration_source": "Guo GFP_MP WT only",
+  "other_predictor_target_results_already_known": true,
+  "shuffles_per_seed": 19,
+  "seeds": [
+    20261105,
+    20261106
+  ],
+  "cnn2w1_full_shuffle_mean": "analytic identity with fixed-sample numerical checks",
+  "cnn2w7_shuffles": "explicitly evaluated",
+  "Voutsinos_training_provenance": "author-held-out within-study reference",
+  "elapsed_seconds": 37.4
+}

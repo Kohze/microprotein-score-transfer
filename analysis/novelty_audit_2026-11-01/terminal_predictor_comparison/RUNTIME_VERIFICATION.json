@@ -1,0 +1,113 @@
+{
+  "status": "passed original12 rounded-example predictions",
+  "examples": [
+    {
+      "example": 0,
+      "terminus": "C",
+      "prediction": 2.439315954706497,
+      "published_rounded_prediction": 2.44,
+      "feature_count": 2997,
+      "input_window": "GNLLGRNSFEVRVCACPGRDRRT"
+    },
+    {
+      "example": 0,
+      "terminus": "NiMetYes",
+      "prediction": 5.241271237717564,
+      "published_rounded_prediction": 5.24,
+      "feature_count": 2997,
+      "input_window": "EEPQSDPSVEPPLSQETFSDLWK"
+    },
+    {
+      "example": 0,
+      "terminus": "NiMetNo",
+      "prediction": 4.062404759127773,
+      "published_rounded_prediction": 4.06,
+      "feature_count": 2997,
+      "input_window": "EEPQSDPSVEPPLSQETFSDLWK"
+    },
+    {
+      "example": 1,
+      "terminus": "C",
+      "prediction": 2.539533583391198,
+      "published_rounded_prediction": 2.54,
+      "feature_count": 2997,
+      "input_window": "IKPQNLLLDPENGILKLCDFGSA"
+    },
+    {
+      "example": 1,
+      "terminus": "NiMetYes",
+      "prediction": 4.26435624305567,
+      "published_rounded_prediction": 4.26,
+      "feature_count": 2997,
+      "input_window": "KRVLQDKRFKNRELQIMRIMKHP"
+    },
+    {
+      "example": 1,
+      "terminus": "NiMetNo",
+      "prediction": 2.2727490605433496,
+      "published_rounded_prediction": 2.27,
+      "feature_count": 2997,
+      "input_window": "KRVLQDKRFKNRELQIMRIMKHP"
+    },
+    {
+      "example": 2,
+      "terminus": "C",
+      "prediction": 3.153846543610678,
+      "published_rounded_prediction": 3.15,
+      "feature_count": 2997,
+      "input_window": "ENEEYNLSGTKKNFSSLKDLLNC"
+    },
+    {
+      "example": 2,
+      "terminus": "NiMetYes",
+      "prediction": 3.050823105852143,
+      "published_rounded_prediction": 3.05,
+      "feature_count": 2997,
+      "input_window": "GMACLTMTEMEGTSTSSIYQNGD"
+    },
+    {
+      "example": 2,
+      "terminus": "NiMetNo",
+      "prediction": 3.0536099911258177,
+      "published_rounded_prediction": 3.05,
+      "feature_count": 2997,
+      "input_window": "GMACLTMTEMEGTSTSSIYQNGD"
+    },
+    {
+      "example": 3,
+      "terminus": "C",
+      "prediction": 3.3250008897614154,
+      "published_rounded_prediction": 3.33,
+      "feature_count": 2997,
+      "input_window": "HHSPLFRGQEDASPDRFSNTDYA"
+    },
+    {
+      "example": 3,
+      "terminus": "NiMetYes",
+      "prediction": 2.6581557358875942,
+      "published_rounded_prediction": 2.66,
+      "feature_count": 2997,
+      "input_window": "GVKASQTGFVVLVLLQCCSAYKL"
+    },
+    {
+      "example": 3,
+      "terminus": "NiMetNo",
+      "prediction": 2.8414558380786703,
+      "published_rounded_prediction": 2.84,
+      "feature_count": 2997,
+      "input_window": "GVKASQTGFVVLVLLQCCSAYKL"
+    }
+  ],
+  "versions": {
+    "catboost": "1.2.8",
+    "peptides": "0.3.4",
+    "rdkit": "2024.3.6",
+    "numpy": "1.26.4",
+    "pandas": "2.0.3"
+  },
+  "metadata_file": "MODEL_METADATA.json",
+  "original_feature_and_inference_functions_used": true,
+  "target_predictions_evaluated": false,
+  "training_split_sequence_membership_available": false,
+  "processing": "Both N models exclude initiator M from descriptors; learned weights differ. Do not assume native cleavage state."
+}

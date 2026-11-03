@@ -1,0 +1,11 @@
+{
+  "status": "completed; interpretation and manuscript implications pending",
+  "freeze_sha256": "3b91295bea356445d32a8f43b17753b8528c61da33e99b22b254b2e90007df30",
+  "target_outcome_training": false,
+  "new_experimental_data": false,
+  "primary_mean17_aggregation_fixed_before_this_comparison": true,
+  "target_A_T_outcomes_already_seen": true,
+  "independent_scope": "QCDPred is trained on yeast; human25 is target-study trained",
+  "training_overlap": "Exact labeled yeast 17mer windows audited; this is not a homology-separation guarantee",
+  "conditional_bootstrap_draws": 1000
+}

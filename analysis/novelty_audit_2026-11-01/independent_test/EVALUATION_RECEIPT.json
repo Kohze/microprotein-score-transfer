@@ -1,0 +1,10 @@
+{
+  "status": "external transfer evaluated; interpretation and verification still required",
+  "independent_source": "Voutsinos canonical cytosolic peptide tiles; not full-length nORF validation",
+  "new_target_used_for_model_fitting": false,
+  "target_dependent_reversal_or_model_selection": false,
+  "prediction_freeze_sha256": "ab43a4d5ef6a1f0c63c1345ca5161955ae1c478be515e444e98f211e7a605e6c",
+  "published_vs_released_count": "Paper 15,815; official data/model_data.out 15,818; all released valid test members retained before exclusions",
+  "subgroup_and_feature_diagnostics": "all retained, secondary; only A/T primary contrasts have conditional bootstrap intervals",
+  "uncertainty": "1000 gene-cluster resamples of frozen predictions, not full retraining intervals"
+}

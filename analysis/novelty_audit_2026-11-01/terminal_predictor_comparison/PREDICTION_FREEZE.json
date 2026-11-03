@@ -1,0 +1,16 @@
+{
+  "status": "C-model predictions frozen before its new target associations",
+  "prediction_sha256": "34087791d5db782b77968577cf281d933f28bb85dcceac76c70319ee12794987",
+  "protocol_sha256": "ed54e7c4d43baf04eb4b807b588b972de0bb317f09fc3fe0b8a361eaf3c3f251",
+  "source_code_sha256": "a25beba7191585fb1e4588d05c99f7499bd610ed06d647cb89a21da0445e2a10",
+  "model_sha256": "a94ccfc524cb7e279ec5e9b8cc7b5115ade8620653f42e57bc10504eb112e8c4",
+  "published_source_sha256": "ca4c5e9847802669c0fbe5cf8390d979ba832c41b5cf5ec4d62b9e43a53a2629",
+  "pair_membership_sha256": "42cfb1be4b09612cb7f1ee543ab3fc1d8706f76ab1a45802f1621f707fed9be1",
+  "unique_C23_inputs": 3302,
+  "pairs": 1743,
+  "source_model_retraining": false,
+  "target_outcomes_used_for_fitting": false,
+  "other_model_results_already_known": true,
+  "features": 2997,
+  "elapsed_seconds": 702.46
+}

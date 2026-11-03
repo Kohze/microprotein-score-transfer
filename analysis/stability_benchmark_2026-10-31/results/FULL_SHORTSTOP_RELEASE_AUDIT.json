@@ -1,0 +1,9 @@
+{
+  "release_rows": 7152,
+  "valid_translations": 7152,
+  "Yang_peptides_with_match": 23,
+  "Yang_unambiguous_score_matches": 23,
+  "gtf_sha256": "3770c2ab4f776076c553ea8f13e141664785dcdd45c5a19098b8fcf35771fe1b",
+  "prepared_table_sha256": "4e37f3571dd885514fb9a069b400e05deaf26af4143f16bf4124e1dfc29cfe37",
+  "scope": "Late coverage audit of entire frozen release, no labels used in translation/mapping; no predictor fitting or validation selection."
+}

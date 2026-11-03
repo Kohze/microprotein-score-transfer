@@ -1,0 +1,14 @@
+POST-HOC SOURCE TERMINAL-LEUCINE FILTER SENSITIVITY
+Newly accessible Guo STAR Methods exclude microproteins with leucine at -1/-2
+from the global Leu-to-Ala analysis. The paper's Figure 4 caption also states
+this exclusion for WT/Leu-to-Ala/extension comparison. Our existing benchmark
+retained all sequence-valid measured pairs. Earlier results are known.
+
+Retain every original prediction and fit. Evaluate all original predictor
+variants on all, source-rule-retained and source-rule-omitted pairs within
+each edit family. The restriction concerns test-population interpretation,
+not a new fit or reproduction of all original assay-processing decisions.
+Retain mean and both replicate effects, raw rank and compatible-scale errors.
+Use 1,000 operational-group resamples for fixed T-minus-A, O-minus-T and
+calibrated-minus-raw full-PAP rank contrasts. No multiplicity-adjusted discovery,
+causal assignment, target fitting or sign choice. Preserve all prior results.

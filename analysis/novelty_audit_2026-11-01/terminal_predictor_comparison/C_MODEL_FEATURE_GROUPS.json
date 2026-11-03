@@ -1,0 +1,52 @@
+{
+  "Whole": {
+    "named_features": 315,
+    "nonzero_importance_features": 219,
+    "importance_sum": 54.78858511088701
+  },
+  "Ogryzek2": {
+    "named_features": 294,
+    "nonzero_importance_features": 172,
+    "importance_sum": 8.099719345414693
+  },
+  "Ogryzek3": {
+    "named_features": 295,
+    "nonzero_importance_features": 174,
+    "importance_sum": 5.654344810512079
+  },
+  "Ogryzek4": {
+    "named_features": 296,
+    "nonzero_importance_features": 174,
+    "importance_sum": 4.504093620932406
+  },
+  "Ogryzek5": {
+    "named_features": 297,
+    "nonzero_importance_features": 173,
+    "importance_sum": 4.961464327176736
+  },
+  "Ogryzek6": {
+    "named_features": 298,
+    "nonzero_importance_features": 176,
+    "importance_sum": 3.739829818706636
+  },
+  "Ogryzek7": {
+    "named_features": 299,
+    "nonzero_importance_features": 176,
+    "importance_sum": 3.0444527063710005
+  },
+  "Ogryzek8": {
+    "named_features": 300,
+    "nonzero_importance_features": 174,
+    "importance_sum": 3.497793588020223
+  },
+  "Ogryzek9": {
+    "named_features": 301,
+    "nonzero_importance_features": 174,
+    "importance_sum": 5.609381005107685
+  },
+  "Ogryzek10": {
+    "named_features": 302,
+    "nonzero_importance_features": 180,
+    "importance_sum": 6.10033566687163
+  }
+}

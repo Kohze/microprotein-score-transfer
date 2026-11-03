@@ -1,0 +1,7 @@
+kind,source,target,n,rho,rho_low,rho_high
+between_context,GFP_original,mCherry_original,1044,0.5222202280085424,0.47112977651800975,0.5660330737099618
+between_context,GFP_original,GFP_mutagenesis,1044,0.8670560724859457,0.8448758331728583,0.8894001635622649
+between_context,mCherry_original,GFP_mutagenesis,1044,0.4957850247765759,0.4403466486412393,0.5395626824373388
+within_context_replicates,GFP_original,GFP_original,1043,0.9631555477160226,0.9558433367145546,0.9690585703845187
+within_context_replicates,mCherry_original,mCherry_original,1041,0.9862773911644727,0.9813645962167119,0.9893189443944604
+within_context_replicates,GFP_mutagenesis,GFP_mutagenesis,1039,0.8774441041979684,0.8525287296873219,0.9008715374815965

@@ -1,0 +1,68 @@
+PUBLISHED COMPOSITION BASELINES - SECONDARY NOVELTY CHALLENGE
+1 November 2026
+
+Motivation
+QCDPred and its companion paper already demonstrate composition-based degron
+prediction and transfer from yeast to human terminal-peptide reporters. The
+strong nORF-trained A transfer cannot establish novelty without this baseline.
+This comparison is specified after the A/T target results were inspected.
+It is not a blinded new-cohort experiment, preregistration or primary analysis.
+Keep all specified outputs even if they defeat the publication narrative.
+
+Frozen models
+1. Original QCDPred (Johansson et al., JMB 2023, 10.1016/j.jmb.2022.167915):
+   published 20 coefficients and intercept; no retraining or calibration.
+   Primary peptide score: one minus the arithmetic mean degron probability
+   over every consecutive complete 17-mer (the original predictor's windows).
+   This direction follows the published endpoint; higher means more stable.
+   Sequences shorter than 17 are missing, not padded or extrapolated.
+   Secondary representation: one minus the sigmoid of the length-normalized
+   complete-cargo composition, using the same coefficients and 17/L factor.
+   This is the later PAP implementation's whole-cargo option, not the original
+   QCDPred full-protein output. Both results must be retained, without choosing
+   an aggregation based on the target outcome.
+2. PAP human25: a target-study-trained composition reference. The Voutsinos
+   model methods train it on the first 25 residues, excluding the final five.
+   Report one-minus-degron probability on the first 25 residues as its target
+   internal-region reference, and separately the whole-cargo normalized
+   sequence transfer. This shares training provenance with the target study;
+   do not call it a wholly external predictor or a fair universal leaderboard.
+
+Implementation verification
+Read and hash original QCDPred Python/R source and training table. Extract
+only literal numeric parameters from the pinned source via AST, never execute
+model serialization. Compare independently calculated 17-mer predictions to
+the original official CLI and check coefficients against the yeast17 block
+already present in pinned PAP. Document score aggregation and eligible rows.
+For human25 use literal values from pinned PAP; no untrusted pickle loading.
+
+Training provenance
+QCDPred training is yeast 17-mers from the published peptide screen, with
+>50 reads and extreme stable/unstable PSI labels. Audit exact target 17-mer
+window matches against the actual labeled training rows. A no-exact-match
+result is not homology independence. Cross-species homologs, partial matches
+and overlapping training windows may remain. Do not reuse the current
+source-separation certificate as proof of QCDPred homology separation.
+
+Evaluation
+Use the existing 14,143 eligible author-held-out canonical tiles; repeat on
+13,730 under the existing stricter similarity sensitivity. Do not change
+membership for a favorable result. Evaluate original GFP-MP and MP-mCherry
+WTs separately as the source-domain context, and the existing strict602
+additional subset if its saved membership can be verified without changes.
+Use Spearman correlation; higher abundance/stability is the reporting direction.
+Use no target-dependent inversion, head fitting or outcome-based source choice.
+Compare frozen QCDPred to both source-trained A/T predictions on identical
+covered target rows. Show selected mean assay score under the existing top
+ceil(10%) rule, ties lexical sequence. Conditional gene-bootstrap paired
+intervals are secondary, not multiplicity-adjusted discoveries or retraining
+uncertainty. Distinguish learned nORF-head transfer from a generic frozen
+composition model and a target-study-trained reference.
+
+Interpretation gate
+If QCDPred matches the nORF-trained composition heads, portable composition is
+a replication/extension of known biology rather than our novel predictor.
+A deficit alone does not establish a new mechanism or general superiority.
+The remaining claim must concern a specified transfer/decision boundary and
+survive appropriate closer precedents, construct semantics and independent
+intervention validation. Native nORF function remains a separate endpoint.

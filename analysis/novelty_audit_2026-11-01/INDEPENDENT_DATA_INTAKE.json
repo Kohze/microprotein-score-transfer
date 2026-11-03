@@ -1,0 +1,104 @@
+{
+  "source_commit": "9b3eafa6bd9730c558cd018063fa0180edf9db1a",
+  "downloads": [
+    {
+      "file": "Voutsinos_model_data.r",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/model_data.r",
+      "http_status": 200,
+      "bytes": 4080,
+      "sha256": "5c032411e5cb58b46520de16353d4865b4501a6f0c5657171ac60403dd4c9d74",
+      "retrieval": "retained successful download from first attempt"
+    },
+    {
+      "file": "Voutsinos_regression_analysis.r",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/regression_analysis.r",
+      "http_status": 200,
+      "bytes": 20373,
+      "sha256": "97b65e7fedf3797302a19168cd17c2a30fa2e948f49184633a23e375dc7cf2b9",
+      "retrieval": "retained successful download from first attempt"
+    },
+    {
+      "file": "Voutsinos_README.txt",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/README.md",
+      "http_status": 200,
+      "bytes": 3073,
+      "sha256": "8200cb13c1e4b50443310b456b102634942ac9ac35dc55f668c1e52c05bec3e7",
+      "retrieval": "retained successful download from first attempt"
+    },
+    {
+      "file": "Degronopedia_README.txt",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/main/README.md",
+      "http_status": 200,
+      "bytes": 4201,
+      "sha256": "f28c0107e2d11c27e1f4e3c167f411139afd78354fc3b56fd883349f202fc927",
+      "retrieval": "retained successful download from first attempt"
+    },
+    {
+      "file": "Degronopedia_calculate_desc.py",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/main/calculate-desc.py",
+      "http_status": 200,
+      "bytes": 8083,
+      "sha256": "ca4c5e9847802669c0fbe5cf8390d979ba832c41b5cf5ec4d62b9e43a53a2629",
+      "retrieval": "retained successful download from first attempt"
+    },
+    {
+      "file": "Voutsinos_degron_train.csv.gz",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/degron_train.csv.gz",
+      "http_status": 200,
+      "bytes": 15281303,
+      "sha256": "ef091ba473660c43a0fbae8dce5cbf41551f26627c149fc7700cd867ea8da51a",
+      "retrieval": "retained successful download from first attempt"
+    },
+    {
+      "file": "Chu2026_SupplementaryData1.xlsx",
+      "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-026-68979-z/MediaObjects/41467_2026_68979_MOESM1_ESM.xlsx",
+      "http_status": null,
+      "error": "HTTPSConnectionPool(host='static-content.springer-cdn.com', port=443): Max retries exceeded with url: /esm/art%3A10.1038%2Fs41467-026-68979-z/MediaObjects/41467_2026_68979_MOESM1_ESM.xlsx (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E319EB0F10>: Failed to resolve 'static-content.springer-cdn.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "file": "Chu2026_SourceData.zip",
+      "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-026-68979-z/MediaObjects/41467_2026_68979_MOESM6_ESM.zip",
+      "http_status": null,
+      "error": "HTTPSConnectionPool(host='static-content.springer-cdn.com', port=443): Max retries exceeded with url: /esm/art%3A10.1038%2Fs41467-026-68979-z/MediaObjects/41467_2026_68979_MOESM6_ESM.zip (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E37F239350>: Failed to resolve 'static-content.springer-cdn.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "file": "Voutsinos_degron_scores.csv.gz",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/score/degrons.csv.gz",
+      "http_status": 200,
+      "bytes": 16487263,
+      "sha256": "1e8cdd9d3bfe876705160b70de606129b47b786664dba9d162c4ac18a7df722e",
+      "retrieval": "retained successful download from first attempt"
+    }
+  ],
+  "schemas": [
+    {
+      "file": "Voutsinos_degron_train.csv.gz",
+      "columns": [
+        "name",
+        "dna",
+        "aa",
+        "n",
+        "degron_score",
+        "degron_std",
+        "abundance_score",
+        "abundance_std",
+        "set"
+      ]
+    },
+    {
+      "file": "Voutsinos_degron_scores.csv.gz",
+      "columns": [
+        "name",
+        "dna",
+        "aa",
+        "n",
+        "degron_score",
+        "degron_std",
+        "abundance_score",
+        "abundance_std"
+      ]
+    }
+  ],
+  "outcomes_modelled": false,
+  "purpose": "identify auditable independent validation opportunities"
+}

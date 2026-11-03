@@ -1,0 +1,136 @@
+RETROSPECTIVE MICROPROTEIN BENCHMARK EXECUTION SPECIFICATION
+31 October 2026
+
+This executes PUBLICATION_ANALYSIS_PLAN.txt after the exploratory research
+pilots. It is retrospective and outcome-informed, not a preregistration or a
+blinded confirmatory experiment. All results, including contrary ones, will be
+retained. The existing catalogue paper and exploratory research files stay intact.
+
+Targets and provenance
+Use authors' released normalized reporter scores, not endogenous half-life,
+thermodynamic stability or function. Original FACS/sequencing normalization will
+not be reconstructed from aggregate values. Full STAR Methods is currently
+unavailable through the accessible publisher endpoints; document the available
+supplement, biological-replicate definitions, synthesized oligos, score direction
+and code. Rank and within-library score analyses do not require assuming a new
+normalization formula. Unavailable raw-depth/censoring metadata limits inference.
+
+The primary development cohort is original Guo GFP-MP WT, with mean scores and
+available biological replicates. Keep all valid amino-acid lengths. Report missing
+replicates and complete-replicate sensitivity. Treat new 730 HLA-associated and
+71 digest-MS-associated sequences as additional within-study cohorts, not new
+studies. Evaluate deposited Guo ESM scores there only; distinguish released-
+training-disjointness from prospective blinding. Do not compare its in-sample
+native scores against other methods' held-out performance as a model contest.
+
+Use same-library WT for mutation effects, primary global Leu-to-Ala and exact
+DNYNEPKANQ extension. Flag WT identifiers with inconsistent native sequences
+across libraries and exclude their affected comparisons from primary inference.
+Same sequence/parent/gene/overlap groups stay together. All engineered variants
+inherit parental groups; exact cross-parent construct identity adds a link.
+
+Sequence-similarity grouping
+Audit every pair of native assay/validation peptides, reference-classification
+sequences and available ShortStop positive-reference counterparts that can meet
+bidirectional coverage. Smith-Waterman BLOSUM62, gap-open 10, gap-extension 1;
+traceback identity counts exact matches over alignment columns, coverage counts
+non-gap residues over each full sequence. Primary links require >=60% identity
+and >=80% coverage in BOTH sequences. Sensitivity links require >=40% identity
+and the same coverage. Exact identities and shared gene/overlap groups are linked
+regardless of alignment. These are operational similarity groups, not proof of
+absence of evolutionary homology or pretraining contamination. Record low
+complexity and group sizes, including any large component.
+
+Annotation-trained score
+Refit the original fixed AAC ExtraTrees classifier after removing all reference
+pairs/components connected to any Guo or Yang assay parent, including similarity
+links. Use 200 trees, depth 10, leaf minimum 10, sqrt features, balanced classes,
+seed 100; report seeds 101/102 sensitivity. Higher output denotes canonical
+resemblance. This is neither a stability probability nor a functional label.
+
+Experimental endpoint baselines
+Use grouped nested cross-validation in development WT: five outer folds (seed
+20261031), three inner group folds and Ridge alpha {0.1,1,10,100,1000} selected
+by inner MAE. Standardize using training data only. Models:
+L: log length and its square.
+A: L + 20 amino-acid frequencies.
+T: A + one-hot first five/last five residues, whole/N10/C10 hydropathy and
+   published PAP human30 composition/terminal terms.
+O: T + eight standardized AAindex property lag-1..5 product descriptors,
+   centered/scaled against 199 independent within-peptide shuffles preserving
+   the first and last five residues and exact composition. Zero null variance
+   produces a zero residual, not a fabricated measured feature. Record null SD.
+   Raw low-lag descriptors are a declared sensitivity. No lag-30 imputation.
+   Three independently shuffled cargo controls use the SAME composition and
+   fixed terminal residues; refit T plus their standardized order descriptors
+   on the same folds. Native O must also be compared with these controls before
+   attributing any improvement to residue order rather than nonlinear composition
+   or finite-sample feature distributions. Shuffled peptides have no measured
+   outcome; this is a representation control, not experimental negative labels.
+Also run fixed ExtraTrees-regression sensitivity for A/T/O (200 trees, depth 10,
+leaf 10, feature fraction 0.7); do not select whichever model wins the outer test.
+
+Frozen external predictors
+ShortStop standard/consensus scores are matched by sequence-verified GTF IDs.
+Keep continuous ranking, published cutoffs and top-candidate enrichment distinct.
+PAP human30 C-terminal min(30,L) window is the primary transfer, scaled according
+to the published formula; full-peptide normalized composition is secondary.
+Published historical positive sequences are not fully archived; audit available
+counterparts and state that limitation. Guo ESM scores are secondary frozen
+comparators on released-training-disjoint sequence/group subsets. PepScore is
+included in the independent assay where authors supply exact construct scores;
+do not invent missing domain, PhyloCSF or transcript-null values elsewhere.
+
+Calibration, comparisons and uncertainty
+Primary native contrast: O versus T Spearman and MAE on common held-out rows.
+No formal equivalence claim. Report estimates and 95% group-bootstrap intervals
+(1000 draws) conditional on predictions, plus declared seed/grouping sensitivities.
+For practical scale context, report median absolute replicate disagreement and
+half that value as a descriptive MAE resolution, not a biological cutoff.
+Secondary contrasts use BH adjustment within each prespecified endpoint family.
+Report short (<=30), >=31, ORF context and low-complexity summaries without
+choosing favorable subgroups. Missing predictors reduce coverage, never become 0.
+
+For fixed-score calibration, fit a training-WT-only isotonic map inside each
+parent/group outer split. Learn orientation from training correlation; report
+when the mapping reverses an annotation score rather than concealing it.
+For mutation effects, compare raw and calibrated frozen-score differences and
+direct endpoint models; native/mutant predictions use the SAME held-out parent
+model/calibration. Include baseline score as a descriptive coupling diagnostic
+and replicate-difference analyses. Do not infer a mechanism from delta correlation.
+Assess cross-family transfer with any mutation-trained correction explicitly
+secondary; no model is allowed to train on its held-out parent's mutant outcomes.
+
+Independent validation
+Freeze the 37 Yang constructs before scoring them. Primary transfer is the
+sequence-disjoint subset after excluding both exact and operational-similarity
+connections to Guo development/extra cohorts; also report all 37 and exact-only
+27 for coverage. Interpret the outcome as normalized FLAG-positive cell fraction.
+Use actual C-terminal FLAG-fusion sequence for construct-aware predictions and
+report native-only sensitivity. Do not calibrate to the 37 validation outcomes.
+For direct models, train on the appropriate Guo orientation as a prespecified
+context sensitivity; label the assay/scale shift. PepScore is evaluated as the
+authors' frozen supplied baseline, with its own selection history acknowledged.
+Do not make a strong general claim from this small cohort's point estimate.
+
+Brain data is optional supporting evidence only. ShortStop-dependent selection
+cannot independently validate ShortStop; no new AD biology is claimed.
+
+Implementation choices frozen before model fitting
+Primary independent transfer trains on MP-mCherry WT (free cargo N terminus,
+masked C terminus, closer to the FLAG constructs); GFP-MP is the alternate
+orientation. Absolute cross-assay errors are not compared. Secondary mutation-
+trained Ridge uses changes in A/T/O features and grouped nested validation;
+cross-family transfer trains on the opposite family after excluding every
+held-out test-parent group. A training-family mean and zero change are baselines.
+Fold groups are assigned greedily by descending group size after seeded random
+tie breaking, without labels. All reported bootstrap intervals are conditional
+on fitted predictions, not full retraining intervals. Primary MAE differences
+are error reductions (T minus O); rank differences are O minus T.
+
+Deliverables
+Pinned inputs and manifests; exact joins; group/split assignments and similarity
+edges; feature definitions; held-out/transfer/variant predictions; calibrated
+comparisons and uncertainty; independent assay results; figures with source
+data; revised manuscript PDF and editable source; reproducible review package;
+numerical/model/provenance audits and visual review of every PDF page.

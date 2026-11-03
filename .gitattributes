@@ -1,0 +1,6 @@
+* -text
+*.sh text eol=lf
+*.pdf binary
+*.png binary
+*.parquet binary
+*.zip binary

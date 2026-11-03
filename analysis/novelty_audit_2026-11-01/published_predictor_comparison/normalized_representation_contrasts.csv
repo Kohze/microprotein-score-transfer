@@ -1,0 +1,9 @@
+contrast,metric,estimate,low,high,design
+QCDPred normalized cargo minus GFP_MP__A,rho,-0.015964633579756415,-0.01950066125362834,-0.013053054903122191,secondary predefined representation; conditional gene bootstrap; no multiplicity-adjusted claim
+QCDPred normalized cargo minus GFP_MP__A,selected_mean,-0.005418702443537482,-0.010774797824192436,0.002439519966690369,secondary predefined representation; conditional gene bootstrap; no multiplicity-adjusted claim
+QCDPred normalized cargo minus GFP_MP__T,rho,-0.011607486913852383,-0.018621393695924485,-0.005435395742427558,secondary predefined representation; conditional gene bootstrap; no multiplicity-adjusted claim
+QCDPred normalized cargo minus GFP_MP__T,selected_mean,-0.019947632951650585,-0.027520427125640044,-0.011310134655138594,secondary predefined representation; conditional gene bootstrap; no multiplicity-adjusted claim
+QCDPred normalized cargo minus MP_mCherry__A,rho,-0.017152233062905697,-0.02101777211921469,-0.013615419763994458,secondary predefined representation; conditional gene bootstrap; no multiplicity-adjusted claim
+QCDPred normalized cargo minus MP_mCherry__A,selected_mean,-0.004849029729378729,-0.011776790219545993,0.0038998099639500432,secondary predefined representation; conditional gene bootstrap; no multiplicity-adjusted claim
+QCDPred normalized cargo minus MP_mCherry__T,rho,0.1440208247781375,0.13231377191821636,0.1561476002489119,secondary predefined representation; conditional gene bootstrap; no multiplicity-adjusted claim
+QCDPred normalized cargo minus MP_mCherry__T,selected_mean,0.04152290168543349,0.030576239143722397,0.05278707546178788,secondary predefined representation; conditional gene bootstrap; no multiplicity-adjusted claim

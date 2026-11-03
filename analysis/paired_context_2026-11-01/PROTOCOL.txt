@@ -1,0 +1,66 @@
+PAIRED REPORTER-CONTEXT EXTENSION - 1 November 2026
+
+Question
+How much of the sequence-ranking signal transports when the same native
+peptide is measured in different published reporter/library contexts?
+This extends the thesis-related benchmark; it is not an independent study.
+
+Status and prior inspection
+This is a retrospective exploratory extension, specified after inspecting the
+previous benchmark and aggregate paired correlations (GFP versus mCherry
+approximately 0.523; original versus mutagenesis GFP approximately 0.865).
+It is not preregistered. These correlations were not used to choose new
+features, model families, split seeds or a best-performing primary direction.
+
+Sources and pairing
+Use the pinned Guo supplementary-table extraction and existing audited
+sequence features/dependence groups from stability_benchmark_2026-10-31.
+Retain microprotein_WT rows only. Join on BOTH protein_identifier and exact
+protein_sequence, one to one. The common complete-mean cohort across original
+GFP-MP, MP-mCherry and mutagenesis-library GFP-MP is the modelling population.
+Report all available pairs separately and retain an attrition audit.
+Report biological-replicate agreement on the same common cohort where both
+replicates are available; it is descriptive, not a noise ceiling.
+
+Fixed analysis
+Reuse the earlier A (length + amino acid composition) and T (A + terminal)
+representations, training-only standardization, Ridge penalties
+0.1/1/10/100/1000, five outer and three inner group folds, seed 20261031.
+Use the same complete-cohort folds for all contexts and representations.
+Every source model excludes the evaluated group across ALL contexts. Reuse
+the previous operational 60% identity/80% bidirectional coverage plus
+gene/parent graph. The already defined 40% graph and seed 20261032 are
+sensitivities. Do not select a model or orientation using the separate Yang
+validation panel; do not re-score that panel or reverse its primary result.
+
+For all six directed context transfers compare:
+1. Source-trained sequence prediction: raw ranking of target measurements.
+2. Source-trained sequence prediction calibrated to target units: an isotonic
+   map fitted to source predictions cross-fitted WITHIN the outer training
+   groups and their paired target outcomes. Its direction is chosen on those
+   training data. No outer test target enters either fit. Evaluate target-unit
+   MAE and ranking. Cross-fitting includes inner alpha selection.
+3. Target-trained sequence prediction: identical held-out groups, target labels
+   from training groups only. This is the endpoint-specific reference.
+4. Measured-source bridge: train an isotonic mapping between source and target
+   measurements in training groups. Predict from a test peptide's MEASURED
+   source score. This requires an additional assay measurement and is NOT a
+   sequence-only predictor. Report separately.
+5. Training-target mean: same outer-fold training groups, target-unit MAE.
+
+Uncertainty and reporting
+Use 1,000 operational-group bootstrap draws of saved predictions, seed
+20261101, for descriptive 95% intervals and paired contrasts. These are
+conditional on the fitted models, do not cover retraining uncertainty and
+do not support multiplicity-adjusted discoveries. Preserve all six directions.
+No cross-assay raw-score absolute-error comparison. No new functional classes,
+half-lives, degradation mechanisms or causal reporter-tag effects are inferred.
+Reporter identity, orientation, construct architecture and library/batch are
+jointly changed; the design cannot identify their individual causal effects.
+
+Outputs
+Audited matched measurements and attrition, saved folds and predictions,
+model/calibration receipts, descriptive uncertainty, paired-context figure,
+a revised manuscript, a thesis-interpretation note and a portable extension.
+Previous manuscripts, published guide-selection materials and all original
+primary benchmark results are retained unchanged.

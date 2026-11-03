@@ -1,0 +1,13 @@
+{
+  "status": "passed original and matched-window independent verification",
+  "target_fitting": false,
+  "prediction_hash_unchanged": true,
+  "models": 12,
+  "metric_rows": 48,
+  "all_exposure_strata_retained": true,
+  "actual90_10_training_split_unavailable": true,
+  "available_symbol_sensitivity_is_not_certified_gene_independence": true,
+  "intervals": "conditional operational-group bootstrap; no retraining uncertainty or multiplicity-adjusted discovery",
+  "original_metric_rows": 48,
+  "additional_window_metric_rows": 16
+}

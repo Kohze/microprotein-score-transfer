@@ -1,0 +1,24 @@
+NATIVE-INTERACTION / REPORTER CANDIDATE BRIDGE - RETROSPECTIVE AUDIT
+Other reporter results and Sandmann main text have already been inspected.
+This is a descriptive candidate/coverage audit, not blinded or preregistered
+validation, a new training target, or a population-level function test.
+
+Start with all 60 candidates in Sandmann Table S2. Normalize whitespace and
+one terminal stop symbol only; retain raw sequence and identifiers. Match
+exact full standard-amino-acid sequences to Guo natural records and primary
+reporter results. Ribo-seq ID and gene-symbol overlap are separate weaker
+mapping diagnostics, never replacements for exact peptide identity. Preserve
+all unmatched candidates and ID/sequence conflicts. Do not combine variants
+or assign a short-ORF isoform using gene name alone.
+
+Inspect original PRISMA table/QC flags and tile coordinates, not only gene
+names or interaction counts. PRISMA binding and selected tagged detection
+are not native function labels; absent/not-tested evidence is not negative.
+Do not fit or select models or directions from candidate outcomes. Any
+reported scores are existing reporter observations/predictions, not new
+experimental measurements. Do not compute a function classifier or claim
+independent predictive validation on this selected panel.
+
+The aim is to identify an exact, traceable candidate/assay bridge and define
+what native accumulation/activity measurements are still missing. Report
+whether sequence identity and assay coverage actually permit that claim.

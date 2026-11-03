@@ -1,0 +1,141 @@
+cohort,model,n,groups,rho,provenance
+Voutsinos_primary60,cnn2w1__C30__full,14143,383.0,0.8728156232129698,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__C30__full__source_WT_calibrated,14143,383.0,0.8718753873817917,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__C30__internal,14143,383.0,0.8289984633504512,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__C30__internal__source_WT_calibrated,14143,383.0,0.8280583876709334,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__C30__terminal,14143,383.0,0.24232122644632637,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__C30__terminal__source_WT_calibrated,14143,383.0,0.21987075408316614,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__C30__shuffle1_mean,14143,383.0,0.8728156232129698,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__C30__shuffle1_mean__source_WT_calibrated,14143,383.0,0.8718753873817917,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__C30__shuffle2_mean,14143,383.0,0.8728156232129698,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__C30__shuffle2_mean__source_WT_calibrated,14143,383.0,0.8718753873817917,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__full,14143,383.0,0.8728156232129698,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__full__source_WT_calibrated,14143,383.0,0.8724151345722516,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__internal,14143,383.0,0.8289984633504512,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__internal__source_WT_calibrated,14143,383.0,0.82736339984695,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__terminal,14143,383.0,0.24232122644632637,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__terminal__source_WT_calibrated,14143,383.0,0.21987075408316614,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__shuffle1_mean,14143,383.0,0.8728156232129698,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__shuffle1_mean__source_WT_calibrated,14143,383.0,0.8724151345722516,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__shuffle2_mean,14143,383.0,0.8728156232129698,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w1__full_cargo__shuffle2_mean__source_WT_calibrated,14143,383.0,0.8724151345722516,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__full,14143,383.0,0.877212271822699,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__full__source_WT_calibrated,14143,383.0,0.8761289472955273,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__internal,14143,383.0,0.828796995961487,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__internal__source_WT_calibrated,14143,383.0,0.8276836562608261,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__terminal,14143,383.0,0.409128813297197,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__terminal__source_WT_calibrated,14143,383.0,0.40714448122084,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__shuffle1_mean,14143,383.0,0.8708418738285809,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__shuffle1_mean__source_WT_calibrated,14143,383.0,0.8697557554335056,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__shuffle2_mean,14143,383.0,0.8707478151488981,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__C30__shuffle2_mean__source_WT_calibrated,14143,383.0,0.870042202683538,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__full,14143,383.0,0.877212271822699,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__full__source_WT_calibrated,14143,383.0,0.8769133662410183,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__internal,14143,383.0,0.828796995961487,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__internal__source_WT_calibrated,14143,383.0,0.8270942247358621,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__terminal,14143,383.0,0.409128813297197,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__terminal__source_WT_calibrated,14143,383.0,0.40714448122084,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__shuffle1_mean,14143,383.0,0.8708418738285809,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__shuffle1_mean__source_WT_calibrated,14143,383.0,0.8700231448825988,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__shuffle2_mean,14143,383.0,0.8707478151488981,author-held-out target-study-trained reference
+Voutsinos_primary60,cnn2w7__full_cargo__shuffle2_mean__source_WT_calibrated,14143,383.0,0.8705691887913137,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__full,13730,383.0,0.8725554141219688,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__full__source_WT_calibrated,13730,383.0,0.8716278567118326,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__internal,13730,383.0,0.8318173906035599,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__internal__source_WT_calibrated,13730,383.0,0.8308447995336625,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__terminal,13730,383.0,0.24333318750866856,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__terminal__source_WT_calibrated,13730,383.0,0.21945067312260458,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__shuffle1_mean,13730,383.0,0.8725554141219688,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__shuffle1_mean__source_WT_calibrated,13730,383.0,0.8716278567118326,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__shuffle2_mean,13730,383.0,0.8725554141219688,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__C30__shuffle2_mean__source_WT_calibrated,13730,383.0,0.8716278567118326,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__full,13730,383.0,0.8725554141219688,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__full__source_WT_calibrated,13730,383.0,0.8722118852656545,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__internal,13730,383.0,0.8318173906035599,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__internal__source_WT_calibrated,13730,383.0,0.8302189750044212,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__terminal,13730,383.0,0.24333318750866856,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__terminal__source_WT_calibrated,13730,383.0,0.21945067312260458,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__shuffle1_mean,13730,383.0,0.8725554141219688,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__shuffle1_mean__source_WT_calibrated,13730,383.0,0.8722118852656545,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__shuffle2_mean,13730,383.0,0.8725554141219688,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w1__full_cargo__shuffle2_mean__source_WT_calibrated,13730,383.0,0.8722118852656545,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__full,13730,383.0,0.8771608327207903,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__full__source_WT_calibrated,13730,383.0,0.8759632780878837,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__internal,13730,383.0,0.8314055170565695,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__internal__source_WT_calibrated,13730,383.0,0.8302902325601015,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__terminal,13730,383.0,0.40807990091598156,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__terminal__source_WT_calibrated,13730,383.0,0.40609677519167364,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__shuffle1_mean,13730,383.0,0.8706342145523124,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__shuffle1_mean__source_WT_calibrated,13730,383.0,0.8695291603521375,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__shuffle2_mean,13730,383.0,0.8705219266438692,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__C30__shuffle2_mean__source_WT_calibrated,13730,383.0,0.8698874338746238,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__full,13730,383.0,0.8771608327207903,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__full__source_WT_calibrated,13730,383.0,0.8769427408979802,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__internal,13730,383.0,0.8314055170565695,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__internal__source_WT_calibrated,13730,383.0,0.8296885178813728,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__terminal,13730,383.0,0.40807990091598156,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__terminal__source_WT_calibrated,13730,383.0,0.40609677519167364,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__shuffle1_mean,13730,383.0,0.8706342145523124,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__shuffle1_mean__source_WT_calibrated,13730,383.0,0.8698345642418495,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__shuffle2_mean,13730,383.0,0.8705219266438692,author-held-out target-study-trained reference
+Voutsinos_sensitivity40,cnn2w7__full_cargo__shuffle2_mean__source_WT_calibrated,13730,383.0,0.8703709849858382,author-held-out target-study-trained reference
+Guo_GFP_MP,cnn2w1__C30__full,1072,,0.7054936350630789,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w1__C30__internal,1072,,0.6428986140444595,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w1__C30__terminal,1072,,0.1305362204290539,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w1__C30__shuffle1_mean,1072,,0.7054936350630789,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w1__C30__shuffle2_mean,1072,,0.7054936350630789,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w1__full_cargo__full,1072,,0.7919997853893851,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w1__full_cargo__internal,1072,,0.7256304493655225,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w1__full_cargo__terminal,1072,,0.1305410804823223,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w1__full_cargo__shuffle1_mean,1072,,0.7919997853893851,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w1__full_cargo__shuffle2_mean,1072,,0.7919997853893851,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__C30__full,1072,,0.7119694704515449,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__C30__internal,1072,,0.6333821985983328,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__C30__terminal,1072,,0.3400590626322824,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__C30__shuffle1_mean,1072,,0.711215664301423,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__C30__shuffle2_mean,1072,,0.7104732500864387,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__full_cargo__full,1072,,0.8105229569616953,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__full_cargo__internal,1072,,0.7328745024880399,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__full_cargo__terminal,1072,,0.34006009433530854,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__full_cargo__shuffle1_mean,1072,,0.7996872132108342,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_GFP_MP,cnn2w7__full_cargo__shuffle2_mean,1072,,0.8005457725614914,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__C30__full,1046,,0.40932347361342697,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__C30__internal,1046,,0.46307357691137907,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__C30__terminal,1046,,-0.09246671286026759,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__C30__shuffle1_mean,1046,,0.40932347361342697,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__C30__shuffle2_mean,1046,,0.40932347361342697,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__full_cargo__full,1046,,0.4776630671397354,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__full_cargo__internal,1046,,0.5312337277464199,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__full_cargo__terminal,1046,,-0.09246339373410942,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__full_cargo__shuffle1_mean,1046,,0.4776630671397354,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w1__full_cargo__shuffle2_mean,1046,,0.4776630671397354,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__C30__full,1046,,0.3954256068955389,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__C30__internal,1046,,0.42848929276176423,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__C30__terminal,1046,,0.04098809963239915,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__C30__shuffle1_mean,1046,,0.40753111897912203,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__C30__shuffle2_mean,1046,,0.4057288660909244,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__full_cargo__full,1046,,0.46898710205877,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__full_cargo__internal,1046,,0.5089311582892112,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__full_cargo__terminal,1046,,0.04098797894240772,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__full_cargo__shuffle1_mean,1046,,0.4765147176523347,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_MP_mCherry,cnn2w7__full_cargo__shuffle2_mean,1046,,0.47453385581084634,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__C30__full,602,,0.6542852478924631,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__C30__internal,602,,0.6078386876062429,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__C30__terminal,602,,0.18956517499051906,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__C30__shuffle1_mean,602,,0.6542852478924631,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__C30__shuffle2_mean,602,,0.6542852478924631,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__full_cargo__full,602,,0.7247457134787694,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__full_cargo__internal,602,,0.6861570838912618,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__full_cargo__terminal,602,,0.1895672350277422,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__full_cargo__shuffle1_mean,602,,0.7247457134787694,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w1__full_cargo__shuffle2_mean,602,,0.7247457134787694,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__C30__full,602,,0.6538683463078453,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__C30__internal,602,,0.600027070138515,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__C30__terminal,602,,0.3348739587721752,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__C30__shuffle1_mean,602,,0.650301457468304,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__C30__shuffle2_mean,602,,0.6476011265830952,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__full_cargo__full,602,,0.7213304702185924,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__full_cargo__internal,602,,0.6822971071048063,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__full_cargo__terminal,602,,0.3348730695011027,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__full_cargo__shuffle1_mean,602,,0.7204838236533531,published frozen model; exact source-genome/pretraining separation not exhaustive
+Guo_additional_strict602,cnn2w7__full_cargo__shuffle2_mean,602,,0.7199712703957156,published frozen model; exact source-genome/pretraining separation not exhaustive

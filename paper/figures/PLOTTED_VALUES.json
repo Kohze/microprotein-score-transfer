@@ -1,0 +1,986 @@
+[
+  {
+    "figure": "Fig1",
+    "panel": "a",
+    "label": "Guo WT / GFP\u2013MP",
+    "value": 1072.0,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig1",
+    "panel": "a",
+    "label": "Additional Guo",
+    "value": 602.0,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig1",
+    "panel": "a",
+    "label": "Yang FLAG panel",
+    "value": 20.0,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig2",
+    "panel": "a",
+    "label": "AAC_resemblance",
+    "value": -0.291726904953155,
+    "low": -0.3440045806470343,
+    "high": -0.2365949801369253
+  },
+  {
+    "figure": "Fig2",
+    "panel": "a",
+    "label": "ShortStop",
+    "value": -0.0181765445671454,
+    "low": -0.077285209055279,
+    "high": 0.0413956079389271
+  },
+  {
+    "figure": "Fig2",
+    "panel": "a",
+    "label": "PAP_Cterminal",
+    "value": 0.6805811970490078,
+    "low": 0.6427820179992458,
+    "high": 0.7144833693674576
+  },
+  {
+    "figure": "Fig2",
+    "panel": "a",
+    "label": "PAP_full",
+    "value": 0.7607439731403206,
+    "low": 0.7334733714702885,
+    "high": 0.7906669542513879
+  },
+  {
+    "figure": "Fig2",
+    "panel": "a",
+    "label": "A",
+    "value": 0.7468840062159934,
+    "low": 0.7103874907431932,
+    "high": 0.7782296612780971
+  },
+  {
+    "figure": "Fig2",
+    "panel": "a",
+    "label": "T",
+    "value": 0.7804205676454666,
+    "low": 0.7567101237129444,
+    "high": 0.806071641718312
+  },
+  {
+    "figure": "Fig2",
+    "panel": "a",
+    "label": "O",
+    "value": 0.7844012623920049,
+    "low": 0.7588579682486678,
+    "high": 0.809252500930188
+  },
+  {
+    "figure": "Fig2",
+    "panel": "b",
+    "label": "AAC_resemblance",
+    "value": -0.2915072466386779,
+    "low": -0.3629126480520904,
+    "high": -0.2158436046870972
+  },
+  {
+    "figure": "Fig2",
+    "panel": "b",
+    "label": "ShortStop",
+    "value": -0.0847904770205151,
+    "low": -0.1617913727217035,
+    "high": -0.0060972787475616
+  },
+  {
+    "figure": "Fig2",
+    "panel": "b",
+    "label": "PAP_Cterminal",
+    "value": 0.6305243602438375,
+    "low": 0.5730618752054824,
+    "high": 0.6804743882330642
+  },
+  {
+    "figure": "Fig2",
+    "panel": "b",
+    "label": "A",
+    "value": 0.7190146161559285,
+    "low": 0.6704069080365251,
+    "high": 0.7623871491145721
+  },
+  {
+    "figure": "Fig2",
+    "panel": "b",
+    "label": "T",
+    "value": 0.712000141799893,
+    "low": 0.6644628985085954,
+    "high": 0.7558259941042199
+  },
+  {
+    "figure": "Fig2",
+    "panel": "b",
+    "label": "O",
+    "value": 0.7101858402274117,
+    "low": 0.6594858689034556,
+    "high": 0.7527454904210935
+  },
+  {
+    "figure": "Fig2",
+    "panel": "b",
+    "label": "Guo_regression",
+    "value": 0.7365886171841428,
+    "low": 0.6907441302643984,
+    "high": 0.7758316032690988
+  },
+  {
+    "figure": "Fig3",
+    "panel": "a",
+    "label": "Primary GFP\u2013MP",
+    "value": 0.0039806947465382825,
+    "low": -0.004628932639315533,
+    "high": 0.011530374063771174
+  },
+  {
+    "figure": "Fig3",
+    "panel": "a",
+    "label": "MP\u2013mCherry",
+    "value": -0.010213100126138297,
+    "low": -0.018627349287925282,
+    "high": -0.0017276330008687867
+  },
+  {
+    "figure": "Fig3",
+    "panel": "a",
+    "label": "Mutagenesis WT",
+    "value": -0.007615277386878505,
+    "low": -0.017070644915131786,
+    "high": 0.0021438851335449398
+  },
+  {
+    "figure": "Fig3",
+    "panel": "a",
+    "label": "40% identity grouping",
+    "value": 0.005935013115969778,
+    "low": -0.0034396547259415156,
+    "high": 0.013844360248268314
+  },
+  {
+    "figure": "Fig3",
+    "panel": "a",
+    "label": "Fold seed +1",
+    "value": -0.00014667299095216801,
+    "low": -0.009231112772848521,
+    "high": 0.006996540373565876
+  },
+  {
+    "figure": "Fig3",
+    "panel": "a",
+    "label": "Fold seed +2",
+    "value": 0.0051712956432078405,
+    "low": -0.003716885802492964,
+    "high": 0.012298989392172307
+  },
+  {
+    "figure": "Fig3",
+    "panel": "b",
+    "label": "Primary GFP\u2013MP",
+    "value": 0.0007740759595968316,
+    "low": -0.0014899774577667676,
+    "high": 0.003323989912359156
+  },
+  {
+    "figure": "Fig3",
+    "panel": "b",
+    "label": "MP\u2013mCherry",
+    "value": -0.0030422639281466046,
+    "low": -0.005817851714037067,
+    "high": -0.0006206375057074653
+  },
+  {
+    "figure": "Fig3",
+    "panel": "b",
+    "label": "Mutagenesis WT",
+    "value": -0.0034124072950162954,
+    "low": -0.005744454480354409,
+    "high": -0.0014246965723963066
+  },
+  {
+    "figure": "Fig3",
+    "panel": "b",
+    "label": "40% identity grouping",
+    "value": 0.0016549228015479422,
+    "low": -0.0006346949001412097,
+    "high": 0.004216284234728559
+  },
+  {
+    "figure": "Fig3",
+    "panel": "b",
+    "label": "Fold seed +1",
+    "value": -0.0006523642789694473,
+    "low": -0.0028692101517180575,
+    "high": 0.001905956508448929
+  },
+  {
+    "figure": "Fig3",
+    "panel": "b",
+    "label": "Fold seed +2",
+    "value": 0.0011954433260293884,
+    "low": -0.0011460102955236202,
+    "high": 0.003917094591156499
+  },
+  {
+    "figure": "Fig4",
+    "panel": "a",
+    "label": "family_mean",
+    "value": 0.1485441113623585,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "a",
+    "label": "T",
+    "value": 0.1368591533685248,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "a",
+    "label": "O",
+    "value": 0.1383553064939634,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "a",
+    "label": "PAP_Cterminal_calibrated",
+    "value": 0.1364744027182299,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "a",
+    "label": "PAP_full_calibrated",
+    "value": 0.1295790330138288,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "a",
+    "label": "delta_trained_T",
+    "value": 0.1366155188256445,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "a",
+    "label": "cross_family_T",
+    "value": 0.1619193236138553,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "b",
+    "label": "family_mean",
+    "value": 0.1500054721193792,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "b",
+    "label": "T",
+    "value": 0.1668270973895952,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "b",
+    "label": "O",
+    "value": 0.1690572567168387,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "b",
+    "label": "PAP_Cterminal_calibrated",
+    "value": 0.1668223771009364,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "b",
+    "label": "PAP_full_calibrated",
+    "value": 0.1379984841168225,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "b",
+    "label": "delta_trained_T",
+    "value": 0.1397943655805637,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig4",
+    "panel": "b",
+    "label": "cross_family_T",
+    "value": 0.1593854507498132,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig5",
+    "panel": "a",
+    "label": "published_PepScore",
+    "value": 0.6560794332198959,
+    "low": 0.3076038170947808,
+    "high": 0.8653965963046008
+  },
+  {
+    "figure": "Fig5",
+    "panel": "a",
+    "label": "Length",
+    "value": 0.5772892934336729,
+    "low": 0.1654109231371847,
+    "high": 0.8318661804252531
+  },
+  {
+    "figure": "Fig5",
+    "panel": "a",
+    "label": "PAP_Cterminal_fusion_sequence",
+    "value": -0.1242459896628902,
+    "low": -0.5376844529735825,
+    "high": 0.3456149276408207
+  },
+  {
+    "figure": "Fig5",
+    "panel": "a",
+    "label": "PAP_full_fusion_sequence",
+    "value": 0.0833357247738897,
+    "low": -0.3762745282101197,
+    "high": 0.5112985790954157
+  },
+  {
+    "figure": "Fig5",
+    "panel": "a",
+    "label": "MP_mCherry_T_fusion_sequence",
+    "value": -0.6515338482322293,
+    "low": -0.8875486605038088,
+    "high": -0.2461087764497797
+  },
+  {
+    "figure": "Fig5",
+    "panel": "a",
+    "label": "MP_mCherry_O_fusion_sequence",
+    "value": -0.6500186532363403,
+    "low": -0.8814688180118557,
+    "high": -0.2429553395468251
+  },
+  {
+    "figure": "Fig5",
+    "panel": "a",
+    "label": "GFP_MP_T_native_sequence",
+    "value": 0.1666714495477795,
+    "low": -0.321274077270378,
+    "high": 0.6160022655961054
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "GFP_MP__A",
+    "value": 0.8158796850986955,
+    "low": 0.8075256664829374,
+    "high": 0.8230717845891742
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "GFP_MP__T",
+    "value": 0.8115225384327914,
+    "low": 0.8036936544271418,
+    "high": 0.8183744799224492
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "GFP_MP__T_noPAP",
+    "value": 0.7927865651220436,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "GFP_MP__N4",
+    "value": 0.777995715257749,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "GFP_MP__C4",
+    "value": 0.8195192397261994,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "GFP_MP__I4",
+    "value": 0.7933348165227984,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "b",
+    "label": "GFP_MP__A",
+    "value": 0.5975694980228824,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "b",
+    "label": "GFP_MP__T",
+    "value": 0.6120984285309955,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "MP_mCherry__A",
+    "value": 0.8170672845818447,
+    "low": 0.8083074810454334,
+    "high": 0.8243369984786195
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "MP_mCherry__T",
+    "value": 0.6558942267408016,
+    "low": 0.6395417469662772,
+    "high": 0.670449498384108
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "MP_mCherry__T_noPAP",
+    "value": 0.6476431239054248,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "MP_mCherry__N4",
+    "value": 0.6847041283423547,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "MP_mCherry__C4",
+    "value": 0.757766309479064,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "a",
+    "label": "MP_mCherry__I4",
+    "value": 0.7652054653254939,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "b",
+    "label": "MP_mCherry__A",
+    "value": 0.5969998253087236,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig6",
+    "panel": "b",
+    "label": "MP_mCherry__T",
+    "value": 0.5506278938939114,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "a",
+    "label": "QCDPred: mean 17-mer windows",
+    "value": 0.7386613018608866,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "a",
+    "label": "QCDPred: whole composition",
+    "value": 0.799915051518939,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "a",
+    "label": "GFP-trained A",
+    "value": 0.8158796850986955,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "a",
+    "label": "GFP-trained T",
+    "value": 0.8115225384327914,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "a",
+    "label": "mCherry-trained A",
+    "value": 0.8170672845818447,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "a",
+    "label": "mCherry-trained T",
+    "value": 0.6558942267408016,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "a",
+    "label": "PAP CNN1: same-study reference",
+    "value": 0.8728156232129698,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "a",
+    "label": "PAP CNN7: same-study reference",
+    "value": 0.877212271822699,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "b",
+    "label": "GFP-trained A",
+    "value": 0.6173665863810159,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "b",
+    "label": "GFP-trained T",
+    "value": 0.5474623448451443,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "b",
+    "label": "QCDPred: whole composition",
+    "value": 0.6015689389288386,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "b",
+    "label": "Linear PAP: full 58 aa",
+    "value": 0.6505521184317314,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "b",
+    "label": "Linear PAP: full 58 aa + WT map",
+    "value": 0.6915996108193853,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "b",
+    "label": "PAP CNN1: last 30 aa",
+    "value": 0.5178392178387402,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "b",
+    "label": "PAP CNN1: full 58 aa",
+    "value": 0.7285766633203449,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "b",
+    "label": "PAP CNN1: full 58 aa + WT map",
+    "value": 0.7346035532376533,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig7",
+    "panel": "b",
+    "label": "PAP CNN7: full 58 aa",
+    "value": 0.7251958261785952,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig8",
+    "panel": "a",
+    "label": "cnn2w1__C30__full__source_WT_calibrated minus cnn2w1__C30__full",
+    "value": 0.0117349190929281,
+    "low": 0.0034562116555035,
+    "high": 0.0197697816096148
+  },
+  {
+    "figure": "Fig8",
+    "panel": "a",
+    "label": "cnn2w1__full_cargo__full__source_WT_calibrated minus cnn2w1__full_cargo__full",
+    "value": 0.0060268899173083,
+    "low": -0.0020385166352426,
+    "high": 0.014229987994029
+  },
+  {
+    "figure": "Fig8",
+    "panel": "a",
+    "label": "cnn2w7__C30__full__source_WT_calibrated minus cnn2w7__C30__full",
+    "value": 0.0088061580916358,
+    "low": 0.0007234495053878,
+    "high": 0.0172082896934884
+  },
+  {
+    "figure": "Fig8",
+    "panel": "a",
+    "label": "cnn2w7__full_cargo__full__source_WT_calibrated minus cnn2w7__full_cargo__full",
+    "value": -0.0005392363089355,
+    "low": -0.0078612905004881,
+    "high": 0.0063603699396146
+  },
+  {
+    "figure": "Fig8",
+    "panel": "b",
+    "label": "cnn2w7__C30__full minus cnn2w7__C30__shuffle1_mean",
+    "value": 0.006370397994118,
+    "low": 0.0049743892646781,
+    "high": 0.0077800773191046
+  },
+  {
+    "figure": "Fig8",
+    "panel": "b",
+    "label": "cnn2w7__C30__full minus cnn2w7__C30__shuffle1_mean",
+    "value": -9.693016817202692e-05,
+    "low": -0.0109638507656904,
+    "high": 0.011119916714199
+  },
+  {
+    "figure": "Fig8",
+    "panel": "b",
+    "label": "cnn2w7__full_cargo__full minus cnn2w7__full_cargo__shuffle1_mean",
+    "value": 0.0056894440433429,
+    "low": -0.0023910057511396,
+    "high": 0.0129392954022534
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "all1743_provenance_limited / DEGRONOPEDIA_C23",
+    "value": 0.4996581043396991,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "neither_endpoint_screen_matched / DEGRONOPEDIA_C23",
+    "value": 0.5372917286041297,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "neither_endpoint_or_available_symbol_overlap / DEGRONOPEDIA_C23",
+    "value": 0.6690160986534588,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "all1743_provenance_limited / cnn2w1__C23__full",
+    "value": 0.4791338554363633,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "neither_endpoint_screen_matched / cnn2w1__C23__full",
+    "value": 0.5212017472077352,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "neither_endpoint_or_available_symbol_overlap / cnn2w1__C23__full",
+    "value": 0.6506852692622286,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "all1743_provenance_limited / cnn2w1__C30__full",
+    "value": 0.5178392178387402,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "neither_endpoint_screen_matched / cnn2w1__C30__full",
+    "value": 0.5276458275564802,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "neither_endpoint_or_available_symbol_overlap / cnn2w1__C30__full",
+    "value": 0.7021315765250438,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "all1743_provenance_limited / cnn2w1__full_cargo__full",
+    "value": 0.7285766633203449,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "neither_endpoint_screen_matched / cnn2w1__full_cargo__full",
+    "value": 0.761478379225277,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "a",
+    "label": "neither_endpoint_or_available_symbol_overlap / cnn2w1__full_cargo__full",
+    "value": 0.7785331536379194,
+    "low": null,
+    "high": null
+  },
+  {
+    "figure": "Fig9",
+    "panel": "b",
+    "label": "all1743_provenance_limited",
+    "value": 0.0205242489033357,
+    "low": -0.0039462497339783,
+    "high": 0.0423540214597363
+  },
+  {
+    "figure": "Fig9",
+    "panel": "b",
+    "label": "neither_endpoint_screen_matched",
+    "value": 0.0160899813963945,
+    "low": -0.0312454255341524,
+    "high": 0.0635990384474351
+  },
+  {
+    "figure": "Fig9",
+    "panel": "b",
+    "label": "neither_endpoint_or_available_symbol_overlap",
+    "value": 0.0183308293912302,
+    "low": -0.0672193074025317,
+    "high": 0.1167289589576654
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_original / mCherry_original / Source A",
+    "value": 0.6626661925549413,
+    "low": 0.6176441975057158,
+    "high": 0.6964557793615402
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_original / GFP_mutagenesis / Source A",
+    "value": 0.6856269475319591,
+    "low": 0.6476959798899652,
+    "high": 0.7205942360866734
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "mCherry_original / GFP_original / Source A",
+    "value": 0.6478637505561206,
+    "low": 0.6007751925402024,
+    "high": 0.6864048964504694
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "mCherry_original / GFP_mutagenesis / Source A",
+    "value": 0.6097927438832492,
+    "low": 0.5624135913308261,
+    "high": 0.6487384565419493
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_mutagenesis / GFP_original / Source A",
+    "value": 0.743306273158149,
+    "low": 0.7087321513496858,
+    "high": 0.773991798600523
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_mutagenesis / mCherry_original / Source A",
+    "value": 0.6658419434992348,
+    "low": 0.6219973991572539,
+    "high": 0.6996236980379945
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_original / mCherry_original / Source T",
+    "value": 0.559965366066756,
+    "low": 0.5093409040246337,
+    "high": 0.6007362605428865
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_original / GFP_mutagenesis / Source T",
+    "value": 0.6906369901800269,
+    "low": 0.6591095031677761,
+    "high": 0.7202149202299122
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "mCherry_original / GFP_original / Source T",
+    "value": 0.5659912349722266,
+    "low": 0.5132420682541586,
+    "high": 0.6057255047346095
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "mCherry_original / GFP_mutagenesis / Source T",
+    "value": 0.5278629851823123,
+    "low": 0.4748157125795228,
+    "high": 0.5708793957356817
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_mutagenesis / GFP_original / Source T",
+    "value": 0.7374690853381395,
+    "low": 0.70674921381107,
+    "high": 0.7625637443279227
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_mutagenesis / mCherry_original / Source T",
+    "value": 0.5464539042843259,
+    "low": 0.4934674775424056,
+    "high": 0.5847748858311231
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_original / mCherry_original / Target T",
+    "value": 0.7417566843383593,
+    "low": 0.705489356014712,
+    "high": 0.7697775343121659
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_original / GFP_mutagenesis / Target T",
+    "value": 0.6729342204508301,
+    "low": 0.6383460644316316,
+    "high": 0.703725257334299
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "mCherry_original / GFP_original / Target T",
+    "value": 0.7668593285165184,
+    "low": 0.7390591923782757,
+    "high": 0.7901095794836794
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "mCherry_original / GFP_mutagenesis / Target T",
+    "value": 0.6729342204508301,
+    "low": 0.6383460644316316,
+    "high": 0.703725257334299
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_mutagenesis / GFP_original / Target T",
+    "value": 0.7668593285165184,
+    "low": 0.7390591923782757,
+    "high": 0.7901095794836794
+  },
+  {
+    "figure": "S2_Fig",
+    "panel": "b",
+    "label": "GFP_mutagenesis / mCherry_original / Target T",
+    "value": 0.7417566843383593,
+    "low": 0.705489356014712,
+    "high": 0.7697775343121659
+  }
+]

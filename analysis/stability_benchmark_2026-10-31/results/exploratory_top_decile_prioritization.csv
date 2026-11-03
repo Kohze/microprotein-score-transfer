@@ -1,0 +1,18 @@
+cohort,model,n_common,n_selected,selection,mean_outcome_selected,mean_outcome_all,mean_outcome_rest,median_length_selected,ratio_to_cohort_mean
+native,L,1057,106,top ceil(10%); descending frozen score; ties sequence lexical,0.5758759295546783,0.4652201507572913,0.45288627846231433,26.0,1.2378568052507186
+native,A,1057,106,top ceil(10%); descending frozen score; ties sequence lexical,0.7711571878153971,0.4652201507572913,0.43111991318824894,30.0,1.6576177677602693
+native,T,1057,106,top ceil(10%); descending frozen score; ties sequence lexical,0.8308997919828884,0.4652201507572913,0.4244609057836705,31.0,1.786035687900318
+native,O,1057,106,top ceil(10%); descending frozen score; ties sequence lexical,0.8367973501890293,0.4652201507572913,0.42380355439581463,30.0,1.7987126069816193
+native,AAC_resemblance,1057,106,top ceil(10%); descending frozen score; ties sequence lexical,0.3187000542191686,0.4652201507572913,0.48155151798446366,38.5,0.6850521279019934
+native,PAP_Cterminal,1057,106,top ceil(10%); descending frozen score; ties sequence lexical,0.8194456782081434,0.46522015075729123,0.4257375998532004,39.0,1.7614148417136262
+native,PAP_full,1057,106,top ceil(10%); descending frozen score; ties sequence lexical,0.8515786601790301,0.4652201507572913,0.42215600564824357,38.0,1.8304853278449342
+native,ShortStop,1057,106,top ceil(10%); descending frozen score; ties sequence lexical,0.47453589108388883,0.4652201507572913,0.46418180325506264,58.5,1.020024369777262
+additional_strict,L,595,60,top ceil(10%); descending frozen score; ties sequence lexical,0.5296642045981346,0.4358150979722774,0.4252899645189103,26.0,1.2153415681616129
+additional_strict,A,595,60,top ceil(10%); descending frozen score; ties sequence lexical,0.7585139401465937,0.4358150979722774,0.39962457361627934,31.5,1.7404489740620308
+additional_strict,T,595,60,top ceil(10%); descending frozen score; ties sequence lexical,0.7245169117207116,0.4358150979722774,0.40343732446778013,33.0,1.6624410560618046
+additional_strict,O,595,60,top ceil(10%); descending frozen score; ties sequence lexical,0.7500127149853305,0.4358150979722774,0.40057798204557993,33.0,1.7209424787597412
+additional_strict,AAC_resemblance,595,60,top ceil(10%); descending frozen score; ties sequence lexical,0.32812212898722176,0.4358150979722774,0.4478928141201341,39.0,0.7528929826292845
+additional_strict,PAP_Cterminal,595,60,top ceil(10%); descending frozen score; ties sequence lexical,0.7183493810085722,0.4358150979722774,0.40412901015512287,47.0,1.6482893418581543
+additional_strict,PAP_full,595,60,top ceil(10%); descending frozen score; ties sequence lexical,0.79361239058372,0.4358150979722774,0.3956882988009007,44.5,1.8209841611182602
+additional_strict,ShortStop,595,60,top ceil(10%); descending frozen score; ties sequence lexical,0.4247451620684408,0.4358150979722774,0.4370565861110254,62.5,0.9745994667111308
+additional_strict,Guo_regression,595,60,top ceil(10%); descending frozen score; ties sequence lexical,0.7753223481156669,0.4358150979722774,0.397739518516944,37.0,1.7790167245765907

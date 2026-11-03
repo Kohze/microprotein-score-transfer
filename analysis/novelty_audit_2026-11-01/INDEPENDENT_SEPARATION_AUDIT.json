@@ -1,0 +1,21 @@
+{
+  "status": "outcome-free operational separation complete; author release-count discrepancy still open",
+  "author_holdout_rows": 15818,
+  "source_native_reference_sequences": 3323,
+  "source_genes": 2979,
+  "source_gene_linked_rows": 1673,
+  "primary60_eligible": 14143,
+  "sensitivity40_eligible": 13730,
+  "primary60_gene_groups": 383,
+  "sensitivity40_gene_groups": 383,
+  "eligible_pairs_aligned": 12401966,
+  "similarity_edges": 517,
+  "target_outcomes_used": false,
+  "algorithm": "Smith-Waterman BLOSUM62; open 10, extend 1; identity over alignment columns; >=80% coverage of both sequences",
+  "source_manifest_sha256": "45e26c5991cad8e85a4df1bab065e3ba624d3c59db6bd9a97d2bc7b82c8cb04a",
+  "limitations": [
+    "operational separation does not exclude remote homology",
+    "PAP feature training independence relies additionally on the original author holdout audit",
+    "15,818 public test rows versus 15,815 described in the final paper requires resolution"
+  ]
+}

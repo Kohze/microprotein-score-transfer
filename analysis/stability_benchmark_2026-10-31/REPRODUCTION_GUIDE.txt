@@ -1,0 +1,173 @@
+MICROPROTEIN REPRESENTATION TRANSFER BENCHMARK
+31 October 2026
+
+Read first
+----------
+manuscript.pdf is the revised research draft. This directory is an executed
+retrospective benchmark, not the earlier feasibility/pilot study. Results are
+in results/, including row-level predictions. The original catalogue manuscript
+and guide-selection manuscript were not overwritten. The bundled preceding
+catalogue package supplies the earlier full annotation/clustering analysis.
+
+The revised paper is an unsubmitted draft for scientific review. No new
+endogenous half-life, protein function, biological cluster or mechanism is
+established. The independent assay is small and deliberately selected.
+
+Primary sources
+---------------
+Guo et al., Molecular Cell 2026:
+https://doi.org/10.1016/j.molcel.2026.04.021
+https://doi.org/10.17632/jjxy3f462r.1
+Author code: https://github.com/qinti2023/Microprotein_2025
+Public supplementary PDF and Tables S1/S2/S3/S6:
+https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc1.pdf
+https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc2.xlsx
+https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc3.xlsx
+https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc4.xlsx
+https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc7.xlsx
+Full STAR Methods and raw FACS/sequencing depth/censoring processing were not
+available through accessible endpoints. Aggregate normalized scores were used
+as released. Do not describe them as endogenous half-lives.
+
+ShortStop publication: https://doi.org/10.1186/s44330-025-00037-4
+Frozen release: https://github.com/brendan-miller-salk/ShortStop/releases/tag/v1.2.0
+Precomputed scores are exact sequence-verified GTF joins; no author pickle or
+notebook was executed. Actual positive training IDs were distinguished from
+target records. Current positive-reference counterparts are not a historical
+sequence snapshot or a pretraining-overlap guarantee.
+
+PAP human30: https://doi.org/10.1126/sciadv.adz3483
+https://github.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/blob/main/models/PAP.py
+Only literal numeric coefficients were parsed. Primary C30 and secondary
+full-peptide transfers are explicitly distinct. The full version was not
+selected after validation or refitted to Yang.
+
+Yang independent assay: https://doi.org/10.1038/s41467-024-46240-9
+Supplementary Data 8/9 are Yang2024_mmc11.xlsx and Yang2024_mmc12.xlsx in
+inputs/sources/. All 37 synthesized constructs were translated; native lengths
+and terminal DYKDDDDK verified. Untreated replicate cells were joined by ORF
+name. The endpoint is normalized FLAG-positive fraction, not the Guo score.
+
+Input and design provenance
+---------------------------
+INPUT_FREEZE.json hashes the pinned source inputs and execution protocol.
+EXECUTION_PROTOCOL.txt records the specification frozen before these model fits.
+Exploratory pilots predate it; this is not prospective preregistration. A later
+code-only correction suppressed cross-scale MAE and added common-coverage
+summaries without changing model fitting or choosing a better validation result.
+VALIDATION_RELEASE.json records persisted main predictions before validation
+scoring in the run. Repeated deterministic runs do not make this blinded.
+
+Sequence verification and historical catalogue reconstruction were performed
+in the preceding source audits. Their receipts and scripts are included under
+supporting/. Re-running those from genomes requires the cited hg38/GENCODE and
+release GTF inputs; the roughly 835 MB hg38 2bit is not duplicated here. The
+benchmark itself can be reproduced from the pinned prepared inputs supplied.
+
+Environment and commands
+------------------------
+The executed analysis used Python 3.11 on Windows, NumPy 1.26.4, pandas 2.0.3,
+SciPy 1.11.1, scikit-learn 1.3.0, matplotlib 3.7.2, pyarrow 16.0.0 and
+openpyxl 3.0.10. Ridge eigen-solves were checked against sklearn Ridge to
+8.4e-15 maximum absolute prediction error. The installed threadpoolctl 2.2.0
+is incompatible with this Windows environment; run_benchmark.py used the
+preceding vendored threadpoolctl 3.6.0. A fresh environment should install
+threadpoolctl 3.6.0. Parasail 1.3.4 was installed into vendor/ and used for
+alignments. requirements.txt records these dependencies. No GPU is required.
+
+From the parent directory, with an activated suitable Python environment:
+
+python stability_benchmark_2026-10-31/prepare_benchmark.py
+python stability_benchmark_2026-10-31/sequence_dependence.py
+python stability_benchmark_2026-10-31/compute_features.py
+python stability_benchmark_2026-10-31/run_benchmark.py
+python stability_benchmark_2026-10-31/summarize_and_verify.py
+python stability_benchmark_2026-10-31/secondary_diagnostics.py
+python stability_benchmark_2026-10-31/make_figures.py
+python stability_benchmark_2026-10-31/build_paper.py
+python stability_benchmark_2026-10-31/render_and_check_pdf.py
+
+Existing identical-sequence features and completed alignment edges are reused.
+To force those computations, move their cached outputs aside, including their
+matching manifest/definition. If changing algorithms or definitions, invalidate
+the caches; sequence-list identity alone does not verify a changed algorithm.
+The eligible-pair alignment step took about two minutes; full grouped model
+fitting took about 21 seconds on this machine. Bootstrap summaries take longer.
+
+Tectonic and a populated TeX cache are needed for build_paper.py. In the original
+workspace the portable compiler/cache under tmp/ssrn_tools/ were used. They are
+not bundled. Alternatively compile manuscript.tex with a configured LaTeX
+installation. Tectonic runs only cached resources and in untrusted mode in this
+script. PyMuPDF 1.28.2 and Pillow render PDF previews. The final PDF is included.
+
+Main saved results
+------------------
+native_GFP_MP.parquet: 1,072 grouped held-out native rows, including all 261
+length <=30 cargos. native_MP_mCherry.parquet: 1,046 measured opposite-orientation
+rows. native_GFP_MP_mutagenesis.parquet: 1,072 library-specific WT rows.
+
+additional_transfer.parquet: 801 within-study sequences; strict_disjoint flags
+602 without a primary development-component connection. Both exact and
+operational similarity/gene separation matter. These are not a new publication
+or proof that published model authors never inspected their outcomes.
+
+mutation_predictions.parquet: 1,014 exact global Leu-to-Ala and 1,007 exact
+DNYNEPKANQ extensions. Native and variant predictions use the same held-out
+parent model/calibration. The family-mean baseline and delta-trained models
+also exclude test-parent groups. Opposite-family correction excludes those
+parents even if they occur in the other family.
+
+Yang_validation.parquet: all 37 separate-study constructs, exact-disjoint 27,
+strict-disjoint 20. Direct-model training excludes every Yang-connected group.
+No validation outcome enters fitting, direction inversion or calibration.
+Primary transfer uses MP-mCherry WT training and FLAG-fusion features; GFP-MP
+and native-only are declared sensitivities. A late release-wide audit translated
+all 7,152 ShortStop GTF entries and recovered 23 Yang matches, including nine
+strict matches, extending the initial Guo-only identifier join. This uses the
+same frozen precomputed scores and no predictor fitting. Missing is not zero.
+
+metrics.csv distinguishes raw ranking, calibrated reporter prediction and
+cross-assay noncomparable MAE. Mutation raw score differences are retained for
+ranking; direct comparison of their raw MAE to reporter-scale models is not
+meaningful. common_coverage_metrics.csv compares identical available rows.
+native_contrasts.json gives primary paired gains and conditional group intervals.
+conditional_intervals.csv gives descriptive secondary intervals, not adjusted
+discovery claims. subgroup_summaries.csv retains length/context/complexity
+results. ShortStop_threshold_summaries.csv separates calls from continuous rank.
+fit_receipts.json records nested penalty choices; calibration_directions.json
+records learned isotonic directions. Reference membership, split groups,
+alignment edges, feature/null definitions and figure source data are supplied.
+
+secondary_diagnostics.py is explicitly late exploratory work. It reports
+top-decile prioritization on common rows (mean reporter score, not function),
+baseline/delta coupling, replicate-delta agreement, and 311 specifically verified
+additional substitutions across A-to-D, C-to-D, G-to-D, N-to-E, N-to-P and V-to-D.
+All changed positions must match the named source/target and other positions
+must be preserved; these edits are not assumed to substitute every occurrence.
+It applies the fixed WT-model/calibration protocol without selecting a new
+primary representation. Small family results are retained, not promoted as
+mechanistic discoveries. Verified experimental localization strata are absent
+from these pinned inputs and were not invented. See SECONDARY_DIAGNOSTICS_SCOPE.
+
+Verification and interpretation
+-------------------------------
+results/INDEPENDENT_VERIFICATION.json recomputes source replicate means,
+PAP coefficients/formula, all primary edits, reference exclusion, group-fold
+separation and metrics. PDF review renders every final page and checks bounds,
+references and key numeric claims. PACKAGE_MANIFEST.json records file hashes;
+PACKAGE_VERIFICATION.json checks the final archive contents. Manuscript numbers
+are independently checked against results by finalize_package.py.
+
+The original thesis clustering is NOT exactly reproduced. The new controlled
+PCA memberships and two t-SNE maps are computationally repeatable with identical
+inputs/settings; broad structure is weakly separated and largely survives
+composition-preserving shuffling in family-weighted PCA. UMAP was not rerun,
+and functional subclasses were not verified. See supporting/ for the exact
+clustering receipt and note, and the preceding complete package for rerun code.
+
+Study limits: outcome-informed retrospective design; aggregate score provenance;
+incomplete historical training/pretraining audit; operational sequence grouping;
+conditional bootstrap intervals; and a small, selected, construct-shifted
+independent panel. No new experimental function or endogenous turnover data.
+Publication value is a candidate reproducible benchmark/limitations result,
+not an established biological discovery or assurance of acceptance.

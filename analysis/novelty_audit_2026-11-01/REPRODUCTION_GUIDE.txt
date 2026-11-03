@@ -1,0 +1,110 @@
+INDEPENDENT CANONICAL-PEPTIDE TRANSFER EXTENSION
+1 November 2026
+
+Read INDEPENDENT_RESULTS_AND_THESIS_INSIGHTS.txt first. This is an exploratory
+retrospective extension, not prospective validation or a new biological
+mechanism. The broader related-literature reading/citation audit is incomplete.
+
+Archive layout
+Extract S9_Data.zip into an empty directory. Three sibling directories are
+required and included: novelty_audit_2026-11-01 (this extension),
+stability_benchmark_2026-10-31 (the source model/data dependencies), and
+thesis_reanalysis_2026-10-31/vendor (threadpoolctl 3.6.0 compatibility copy).
+Do not flatten this layout. The source benchmark dependencies are a subset
+needed by this extension; use the earlier full review archive to reproduce
+all original benchmark/thesis analyses.
+
+The included MODEL_INPUT_DEPENDENCIES.json and S9_MANIFEST.json identify every
+file and SHA-256 hash. The package also includes pinned Voutsinos official
+data, R processing code/log, repository tree/history and download receipts.
+No author-hosted paper PDFs are redistributed in S9. The source paper DOI is
+10.1126/sciadv.adz3483 and the pinned official repository commit is
+9b3eafa6bd9730c558cd018063fa0180edf9db1a.
+
+Environment
+Use Python and packages recorded in environment_versions.json. Core packages:
+numpy, pandas, scipy, scikit-learn, pyarrow, matplotlib, requests and Pillow.
+The original source benchmark inserts the included threadpoolctl 3.6.0 copy
+before sklearn; this avoids an old local OpenBLAS/threadpoolctl incompatibility.
+The similarity audit uses the included parasail library. New environments
+should install compatible wheels for their platform rather than use a Windows
+DLL on another operating system. Source code and licence metadata accompany
+the compatibility copies. No executable model pickle is loaded.
+
+Quick independent numerical verification
+From the extraction root:
+  python -X utf8 novelty_audit_2026-11-01/verify_external_transfer.py
+
+This independently refits ten sklearn source heads at the saved source-only
+penalties and recomputes every external point correlation from frozen outputs.
+It checks the prediction freeze and gene exclusions. It does not rerun the
+slow similarity audit or all bootstrap intervals. The main review package's
+review/PORTABLE_REPLAY.json records the same verification after the archived
+files were extracted separately.
+
+Full computation order (make a fresh extraction for a rerun)
+  python -X utf8 novelty_audit_2026-11-01/audit_independent_cohort.py
+  python -X utf8 novelty_audit_2026-11-01/audit_independent_separation.py
+  python -X utf8 novelty_audit_2026-11-01/freeze_external_predictions.py
+  python -X utf8 novelty_audit_2026-11-01/evaluate_external_transfer.py
+  python -X utf8 novelty_audit_2026-11-01/check_external_seed_sensitivity.py
+  python -X utf8 novelty_audit_2026-11-01/assess_external_prioritization.py
+  python -X utf8 novelty_audit_2026-11-01/verify_external_transfer.py
+  python -X utf8 novelty_audit_2026-11-01/plot_external_results.py
+
+The separation step aligns approximately 12.4 million candidate pairs and is
+the slow stage. The official files are included; no download is needed if
+their paths remain intact. Re-running computations overwrites their generated
+outputs in that extraction. This does not recreate historical blinding:
+the original protocol and freeze receipts document the original analysis order.
+
+The prediction-freeze script reads only sequence and membership target data,
+and fits/tunes only on source outcomes. It saves predictions and hashes before
+the evaluation script joins abundance_score. The source was chosen after
+earlier Guo transfer results were seen. The second-seed sensitivity was run
+after primary evaluation, as stated in its receipt. The top-decile policy is
+also secondary after initial independent transfer inspection; its 10% cutoff
+reuses the previous benchmark rule and was not optimized on this target.
+
+Target membership and endpoint
+The official author split and processing output have 15,818 test members,
+whereas the final paper text has 15,815. No three rows were selected for
+deletion. The complete released valid split precedes gene/sequence exclusions.
+The primary operationally source-separated subset has 14,143 tiles/383 ENSG
+gene groups; the 40% identity sensitivity has 13,730 tiles/383 groups. A
+protein_id column is inherited from the intake naming; values are ENSG gene
+identifiers, and uncertainty clusters by gene, not by peptide row.
+
+This assay measures canonical 30-mer fusion-reporter abundance, not native
+nORF half-life, endogenous accumulation or peptide function. PAP full/internal
+references were trained in the target study; they do not have the same
+external training provenance as the nORF heads. T includes pretrained PAP
+components, terminal encodings and hydropathy. Equal-size positional controls
+do not isolate a causal terminal-exposure effect, and N4 uses coded positions,
+not a measured processed N terminus.
+
+Inspectible output tables
+independent_test/external_metrics.csv: all individual primary/sensitivity rho.
+external_paired_contrasts.csv: conditional paired A-minus-T gene-bootstrap CIs.
+source_nested_metrics.csv and source_nested_predictions.*: source CV context.
+seed32_sensitivity.csv: second source-only tuning seed, without winner selection.
+top_decile_prioritization.csv: all frozen-score policies, including weaker ones.
+top_decile_policy_contrasts.csv: conditional selected-mean policy contrasts.
+evaluated_external_predictions.*: every author-held-out tile, exclusions,
+measured outcome and saved source-only predictions. Parquet/CSV counterparts
+are included for the main saved tables. CSV bytes are not the prediction-freeze
+artifact; PREDICTION_FREEZE.json refers to the original Parquet file.
+
+Uncertainty
+Intervals are 1,000 gene-cluster bootstrap resamples conditional on fitted
+models. They do not estimate training-data/retraining uncertainty. Policy
+resamples repeat the selection rule. Feature diagnostic differences lack
+dedicated paired intervals and are reported as point estimates. No
+multiplicity-adjusted discovery or formal feature-equivalence claim is made.
+
+Paper and previous extensions
+The main review manuscript describes these methods, reports Table 3 and
+supplies the separate Figure 6. Earlier S1 Text remains the prior benchmark
+supplement; its scope has not silently expanded. S8 is the paired same-study
+extension. S1-S8 data/figures and earlier result blocks were retained.
+Author facts, durable deposition and journal submission are still pending.

@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-01T11:14:27.011863+00:00",
+  "inputs": [
+    {
+      "file": "FEATURE_DEFINITION.json",
+      "sha256": "a17741310a67671ee0e4629d430688bd9705f5ba3cf478d33cc720d4e8397320",
+      "bytes": 29462
+    },
+    {
+      "file": "natural_assay_records.parquet",
+      "sha256": "03d3b6bf4dd3dbcda843ab03fdb19c0d6da346ff0c79c1e7ef2b3fd7084e5304",
+      "bytes": 362862
+    },
+    {
+      "file": "sequence_dependence_groups.parquet",
+      "sha256": "45e26c5991cad8e85a4df1bab065e3ba624d3c59db6bd9a97d2bc7b82c8cb04a",
+      "bytes": 492082
+    },
+    {
+      "file": "sequence_features.parquet",
+      "sha256": "1a4b852812a4bf5d6b3675cad2e964c33cab36e0dffc5dde6ab972586caaf9cd",
+      "bytes": 12951764
+    }
+  ],
+  "protocol_sha256": "7d3ff51a01477ef3130c584d3f392a403c739ccb739d93e5b8945817abee3577",
+  "parent_benchmark": "stability_benchmark_2026-10-31",
+  "upstream_source_sha256": "716ebbb435ec058d43066b2ba1ac034d377814a341e5e39b342aaa36ce23691c",
+  "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc4.xlsx"
+}

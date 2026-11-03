@@ -1,0 +1,4 @@
+source,target,n,rho
+GFP_original,mCherry_original,1045,0.5227445032043936
+GFP_original,GFP_mutagenesis,1071,0.8649070285792105
+mCherry_original,GFP_mutagenesis,1045,0.496608537002866

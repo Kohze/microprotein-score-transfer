@@ -1,0 +1,7 @@
+contrast,role,n,groups,delta_rho_gap,low,high,scope
+GFP_MP__T minus GFP_MP__A,primary fitted contrast,1743,1591,-0.0699042415358716,-0.10317923846058694,-0.039133901132903236,conditional on source-only predictions; no full retraining or multiplicity correction
+MP_mCherry__T minus MP_mCherry__A,context sensitivity,1743,1591,-0.27832400438695554,-0.32128730104216785,-0.237942939595471,conditional on source-only predictions; no full retraining or multiplicity correction
+PAP_C30__source_WT_calibrated minus PAP_C30,secondary calibration,1743,1591,0.02995976028586661,0.016706650284704784,0.04373632366672918,conditional on source-only predictions; no full retraining or multiplicity correction
+PAP_full_cargo__source_WT_calibrated minus PAP_full_cargo,secondary calibration,1743,1591,0.04104749238765382,0.027463459192876776,0.05705572763579859,conditional on source-only predictions; no full retraining or multiplicity correction
+PAP_full_cargo minus PAP_full_cargo_composition,secondary terminal component,1743,1591,0.023759594077688018,-0.0022527379575376333,0.04631530522308203,conditional on source-only predictions; no full retraining or multiplicity correction
+PAP_C30 minus PAP_C30_composition,secondary terminal component,1743,1591,0.04955989069318284,0.03015902676618812,0.0675343974817472,conditional on source-only predictions; no full retraining or multiplicity correction

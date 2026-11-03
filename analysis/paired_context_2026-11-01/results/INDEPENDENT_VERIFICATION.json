@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "original_workbook_values_checked": 9396,
+  "common_rows": 1044,
+  "strict_join_keys": [
+    "identifier",
+    "exact peptide"
+  ],
+  "settings": 3,
+  "all_saved_metrics_recomputed": true,
+  "max_metric_rho_error": 9.020562075079397e-17,
+  "max_metric_mae_error": 8.326672684688674e-17,
+  "measured_source_bridges_independently_refit": 18,
+  "sklearn_outer_fold_selected_alpha": 100.0,
+  "sklearn_refit_max_error": 1.5987211554602254e-14,
+  "primary_five_fold_group_sizes": {
+    "0": 209,
+    "1": 209,
+    "2": 209,
+    "3": 209,
+    "4": 208
+  }
+}

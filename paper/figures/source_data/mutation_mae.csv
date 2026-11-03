@@ -1,0 +1,15 @@
+family,model,mae
+L_to_A,family_mean,0.1485441113623585
+L_to_A,T,0.1368591533685248
+L_to_A,O,0.1383553064939634
+L_to_A,PAP_Cterminal_calibrated,0.1364744027182299
+L_to_A,PAP_full_calibrated,0.1295790330138288
+L_to_A,delta_trained_T,0.1366155188256445
+L_to_A,cross_family_T,0.1619193236138553
+microprotein_10mer_ext,family_mean,0.1500054721193792
+microprotein_10mer_ext,T,0.1668270973895952
+microprotein_10mer_ext,O,0.1690572567168387
+microprotein_10mer_ext,PAP_Cterminal_calibrated,0.1668223771009364
+microprotein_10mer_ext,PAP_full_calibrated,0.1379984841168225
+microprotein_10mer_ext,delta_trained_T,0.1397943655805637
+microprotein_10mer_ext,cross_family_T,0.1593854507498132

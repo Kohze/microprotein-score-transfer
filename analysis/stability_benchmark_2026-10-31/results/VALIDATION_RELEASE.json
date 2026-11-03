@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-31T19:12:53.486298+00:00",
+  "main_prediction_files": {
+    "additional_transfer.parquet": "11b4783989fa678a6c73570e39c2d2b3f194cdcfa1849a49dc6a96d27e957c19",
+    "annotation_seed100.parquet": "dbbb8c23b29279d7006cb3c44ce14ef0349abba9ffaecda00653e83dbbb2914f",
+    "annotation_seed101.parquet": "4e5c084f552c60aca6fbd6853187f1c4656455278e1d7588fea646a155b84ade",
+    "annotation_seed102.parquet": "d0d755a8ddbafa73a7990b927d261c9b21b1d9ad78dd7fd05a5d3c2aa90d713b",
+    "annotation_training_membership.parquet": "ead5d4cc765b56c7440497f6db600e6b63fa6bdb867739c76652976ff29db9d8",
+    "exploratory_additional_edit_audit.parquet": "d9d102927547d7a4853f5285199cdf9e49840e9cab720696aa4d1aee1d33b3a6",
+    "exploratory_additional_substitution_predictions.parquet": "a1bb03193c71d636ef5ee1df20c58335ae217585ce30e1dac8957bf08d618cfc",
+    "mutation_predictions.parquet": "068ee635977b1665f11b8d5a00c011dda43998b5018581d5728a3f4c3fca6dac",
+    "native_GFP_MP.parquet": "db47d24420513b8469b0e5323640c2baa2cdb903caa51e6520ef11d6157d5ca0",
+    "native_GFP_MP_mutagenesis.parquet": "cdd370f96b64fd6af80e6c1d2f79feb82445343791266463fae723abe115d048",
+    "native_MP_mCherry.parquet": "2075fd18a89031d0ae14316e48712a28b069b59e8fe1e0e0f3a8162f208436ef",
+    "sensitivity_identity40.parquet": "89ab23f702e88a40a77f01d02187d59c06220da62f5aa43a9dbf7498447d84e0",
+    "sensitivity_seed32.parquet": "5bf48a694d5458ccbe9b4ad2a9aee173302ba2e9ce06cba0f0e9c7c4607c98a6",
+    "sensitivity_seed33.parquet": "30d07115a0f31ba6dc536b2fed9164d958c1b2803b25c826c6b17d2a4a124340",
+    "Yang_validation.parquet": "d5b08050a96abac9d7a9cacc47386bc2cfb576a6d44ca52c3d5d92c60a85470b"
+  },
+  "no_validation_fitting": true,
+  "primary_orientation": "MP_mCherry",
+  "primary_representation": "fusion_sequence"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "independent intervention evaluation completed; independent numerical verification pending",
+  "target_pairs_released": 3249,
+  "complete_quality_pairs": 3249,
+  "eligible_counts": {
+    "primary60_head_only_eligible": 2326,
+    "primary60_common_eligible": 1743,
+    "sensitivity40_head_only_eligible": 2311,
+    "sensitivity40_common_eligible": 1738
+  },
+  "primary_groups": 1591,
+  "source_average_max_disagreement": {
+    "released_wt_mean": 0.0,
+    "released_rt_mean": 0.0,
+    "released_delta": 0.0
+  },
+  "primary_replicate_delta_rho": 0.9665892382553716,
+  "prediction_freeze_sha256": "39725e48af835b0cc3d3c53874c4fa168560e4ab04454279e7d0e7117c7d6d8d",
+  "target_outcome_fitting": false,
+  "prediction_direction_reversed_after_target_inspection": false,
+  "biological_scope": "Independent canonical C-terminal 58mer sequence-replacement reporter pairs; not native nORF function"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Guo2026_mmc9_response",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1097276526002753-mmc9.pdf",
+    "status": 200,
+    "bytes": 25677200,
+    "PDF_header": true,
+    "sha256": "b15b212c241cc1280f446002f2acf65ab97c6eee17f135e2188be28f3ef09b58"
+  },
+  {
+    "name": "Guo2026_primary_pdf_response",
+    "url": "https://www.cell.com/molecular-cell/pdf/S1097-2765(26)00275-3.pdf",
+    "status": 403,
+    "bytes": 5631,
+    "PDF_header": false,
+    "sha256": "4ca47333c829729b24a34e01eb2f233990d7548537010b9f784435e038b69ef6"
+  }
+]

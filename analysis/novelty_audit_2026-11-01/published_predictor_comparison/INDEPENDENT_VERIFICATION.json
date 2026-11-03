@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "independent_convolution_checked_sequences": 17692,
+  "max_QCDPred_value_error": 4.440892098500626e-16,
+  "rank_metrics_recomputed": 24,
+  "max_rank_metric_error": 1.1102230246251565e-16,
+  "all_policy_point_means_recomputed": true,
+  "max_policy_error": 0.0,
+  "frozen_prediction_hash_unchanged": true,
+  "training_rows_match_published_count": true,
+  "scope": "Point values/metrics and policy means verified; uncertainty is conditional and not retraining validation"
+}

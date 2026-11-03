@@ -1,0 +1,11 @@
+POST-HOC WT BINDING-TILE / EXISTING EDIT ANNOTATION
+The exact overlap counts and six reporter effects for three candidates have
+already been inspected. Retain every one of the 32 available edit pairs.
+For each source domain-SLiM row, require exact full WT identity and locate
+all exact occurrences of its 15mer binding tile in that WT. Global Leu-to-Ala
+changes mapped leucines. The verified append retains the entire WT sequence.
+Record residue changes inside a motif-associated binding tile, not a claimed
+change to the causal motif or actual binding. No edited PRISMA or native
+functional measurement exists here. Do not infer kinase causality from a
+source domain/SLiM match or claim that phosphorylation was changed by the edit.
+This is candidate design support, without enrichment or significance testing.

@@ -1,0 +1,102 @@
+INDEPENDENT C-TERMINAL INTERVENTION TRANSFER - BEFORE PREDICTOR ASSOCIATIONS
+1 November 2026
+
+Question
+Can a frozen sequence model that ranks native peptide reporters predict the
+direction/ranking of a paired C-terminal sequence change in another study?
+Does source-WT-only calibration change that result? The biological effects
+of readthrough and C-terminal context are already demonstrated by Chu et al.
+This is a transport test, not a new mechanism or readthrough discovery.
+
+Design status
+Selected after Guo perturbation and Voutsinos native-transfer findings.
+Published aggregate Chu results and sequence metadata have been inspected.
+No model-versus-Chu-outcome association has been evaluated. All choices are
+exploratory research extensions; do not call this a preregistered study.
+
+Source and constructs
+Use Supplementary Data 1 (official Table S1, SHA-256
+71f17b81c7a2a0965e3216a2c16538c074e32f3dc3bba5a0744ec16bc3a2d652),
+retrieved via the official Europe PMC supplemental archive. It contains 3,249
+paired constructs. Both WT and RT-derived reporter cargos have 58 residues.
+The latter is the retained WT suffix plus RT-part cells, not WT58 followed
+by a full extension. For 339 pairs, the retained WT part is empty and RT
+alone occupies the entire reporter cargo. There are no simple append pairs.
+Do not call the measured cargos full-length proteins or the physical edit
+the same fixed 10-residue append intervention as the Guo assay.
+
+Sequence and membership rules
+Retain standard 58/58-residue pairs with exact WT-suffix/retained-part
+agreement, nonidentical endpoints, consistent reported RT length and a unique
+ENSG gene mapping. Map by ENST first, then gene symbol, then unambiguous exact
+current canonical C58 sequence; preserve the original identifiers. Six gene
+name cells are numeric Excel-date artifacts; transcript/sequence mapping
+avoids interpreting these as real gene symbols. Two WT/shared-part sequence
+inconsistencies are flagged and excluded, not repaired from outcome values.
+Historical/current-transcript terminal matching is reported as a sensitivity,
+not required for the main population.
+
+Exclude genes shared with retrieved Guo/annotation source inputs (conservative
+union of ENSG and available symbols), and any WT or RT cargo sharing >=60%
+Smith-Waterman identity with >=80% coverage of both sequences with those
+source sequences. Use BLOSUM62, gap open10/extend1; 40% identity is sensitivity.
+For the primary all-model common cohort also exclude PAP-training source
+genes and exact 30-mer/PAP or first25-mer/human25 training windows in either
+endpoint. This prevents treating pretrained PAP features as having independent
+gene/sequence provenance merely because the final Ridge head used nORFs.
+Show an additional source-head-only cohort without the PAP-training exclusions,
+with provenance limitations explicit; do not choose whichever looks better.
+
+Target dependence groups join gene IDs and identical WT/RT sequences across
+rows. They are operational clusters, not exhaustive evolutionary families.
+No claim of absence of cross-species or remote homology is made for QCDPred.
+
+Outcomes and quality
+Use complete WT and RT PSI values in both biological replicates, requiring
+>=60 reads for both endpoints in both replicates as in the source methods.
+Compute each replicate's RT-minus-WT PSI and their mean; verify against the
+released average WT, RT and delta columns. Preserve any disagreements and
+missingness rather than changing membership to improve correlations.
+Higher PSI means a more stable reporter. These scores do not supply an
+endogenous half-life or a peptide-mediated functional endpoint.
+
+Frozen predictions before association
+Compute/save/hash every WT and RT prediction, source fit and calibration
+receipt before joining target PSI values. No Chu outcomes select source
+orientation, sign, penalty, calibration direction or representation.
+Reproduce A/T source heads separately from the original GFP-MP and MP-mCherry
+WTs using the existing source-only tuning settings and exact feature definitions.
+Both contexts must be reported. GFP-MP is the architecture-matched context
+reference, not a source chosen for its observed Chu correlation.
+
+Score comparisons
+Primary fitted contrast: T-minus-A delta-rank correlation for GFP-trained
+heads on the identical primary common cohort; also report both native-endpoint
+rank correlations so native fitting is not confused with intervention success.
+Report mCherry-trained heads as a predeclared context sensitivity.
+Frozen comparisons: PAP human30 on the last30 residues and on full normalized
+58-residue cargo, each decomposed into composition and terminal components;
+original QCDPred mean complete17-window score and its normalized-cargo
+representation; human25 first25 and normalized-cargo references. Report all.
+For every frozen baseline additionally fit an increasing isotonic mapping from
+its scores to original Guo GFP-MP WT outcomes only and subtract mapped WT/RT
+predictions. Record clipping and flat mapped deltas. Calibration is trained
+in another assay, and raw/delta absolute errors across score scales are not
+directly comparable. It is not Chu-supervised adaptation.
+
+Reporting and uncertainty
+Report all-pair native WT/RT and paired delta Spearman correlations, including
+negative/near-zero outcomes. Primary paired intervals use 1,000 operational-
+cluster bootstrap resamples conditional on fixed fitted predictions, without
+claiming full-retraining uncertainty or multiplicity-adjusted discovery.
+Also report replicate-specific results, stricter similarity, historical WT
+match sensitivity and RT-length strata <=20, 21-57 and >=58 as descriptive.
+Classification on the source authors' |delta PSI|>=1 cutoffs is secondary;
+do not select an effect threshold or invert a score based on target results.
+
+Decision gate
+An independent delta result that survives the construct/provenance controls
+would strengthen the transport benchmark. Failure, clipping or a dependence
+on a selected representation must narrow the claims. Even a positive result
+does not establish native nORF function, a novel degron mechanism, or priority
+over existing published variant/degron models.

@@ -1,0 +1,74 @@
+INDEPENDENT PEPTIDE-REPORTER TRANSFER TEST - DESIGN BEFORE NEW ASSOCIATIONS
+1 November 2026
+
+Purpose and limits
+Test the remaining representation-transport hypothesis using an independent
+published assay. Voutsinos measures canonical cytosolic 30-residue tiles fused
+to GFP; this is an independent experimental source, NOT an independent
+full-length nORF cohort, endogenous abundance measurement or function test.
+It can assess transport of nORF-trained reporter models to a specified peptide
+reporter system. It cannot alone validate broad biological claims about nORFs.
+
+Selection already informed by prior Guo findings
+The new source was selected after seeing Guo A/T transfer results and reading
+related literature. The analysis is therefore an outcome-informed research
+extension. No association between new target measurements and our predictions
+has yet been evaluated. Source quality/missingness and membership metadata
+may be inspected before fitting; target effect values may not select models.
+
+Source and membership
+Use the pinned official repository commit and original author test membership.
+The release model_data.out independently confirms 15,818 test tiles, matching
+the actual metadata and scores. The paper text says 15,815. Retain all valid
+released test members, document the discrepancy, and do not choose three rows
+to discard to force the paper count. Require standard 30-mer sequence and a
+measured abundance target. Training/test exact peptide overlap is zero.
+Exclude genes shared with retrieved Guo and annotation-reference inputs,
+then apply the existing >=60% identity and >=80% coverage in each peptide
+criterion, with the existing 40% graph as sensitivity. Do not change thresholds
+after looking at transfer performance. Retain row-level exclusion reasons.
+The original author protein/tile split provides additional PAP training
+separation; record the limits of operational homology control.
+
+Primary models and contrast
+Train A and T exactly as defined in the existing benchmark, separately on
+original GFP-MP WTs and MP-mCherry WTs. Use training-only scaling and nested
+group-selected Ridge penalties with the existing seeds/settings. Fit on the
+full allowed source training set for external predictions. Save predictions,
+hyperparameters, memberships and hashes before joining new target scores.
+Do not select a source orientation or reverse a prediction direction based
+on target results. Report both source configurations.
+Primary external contrast: A-minus-T Spearman correlation against the released
+abundance_score on the same eligible rows, with gene-cluster bootstrap
+uncertainty conditional on saved predictions. Also show all individual
+correlations. Do not compare raw absolute errors across incompatible scales.
+Repeat with the stricter similarity criterion and existing second seed.
+
+Necessary diagnostic controls before a strong feature claim
+The current T includes many positional features and pretrained PAP terms.
+Add separately specified, dimension-aware representations for the source's
+exposed terminus, the opposite terminus, and interior positions. Keep tuning
+inside source group folds and include training-context performance. Compare
+PAP internal versus terminal components as frozen explanatory baselines on
+its published held-out data. Add published QCDPred/human25 and relevant
+N-/C-specific models where their training/implementation can be audited.
+Declare these as diagnostics and retain all outcomes. A nominal A/T contrast
+alone does not isolate a terminal mechanism or a benefit of a new method.
+
+What would support the candidate gap
+The specific transfer pattern repeats in independent measured data and remains
+after dependence, correct-terminus and model-complexity controls. A practical
+candidate-selection consequence is demonstrated on the same covered rows.
+
+What would defeat or narrow it
+No independent repetition; dependence on a selected source/model; disappearance
+with complexity controls; or a result explained by incorrectly exposed-terminal
+features. Report that outcome and revise the paper to a narrower benchmark
+contribution. Do not turn a failure into a new mechanism by changing endpoints.
+
+Remaining pre-fit verification
+Finish the live separation audit, inspect terminal completion, verify source
+membership/history and input hashes, and independently check feature extraction
+against the existing saved Guo features. Then freeze exact comparison inputs.
+The broader related-publication and citation-chain audit continues in parallel
+within this research task; source retrieval alone is not completed reading.

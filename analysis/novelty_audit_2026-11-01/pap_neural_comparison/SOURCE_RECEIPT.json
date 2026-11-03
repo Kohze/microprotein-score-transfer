@@ -1,0 +1,281 @@
+{
+  "status": "published numeric weights and source retrieved; no inference/evaluation yet",
+  "commit": "9b3eafa6bd9730c558cd018063fa0180edf9db1a",
+  "downloads": [
+    {
+      "file": "pap_weights.tgz",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/pap_weights.tgz",
+      "sha256": "594a2b4a333723ae6c95c01de5c6432a9f530ca9e2f0ea389736b69ac957f057",
+      "bytes": 97962
+    },
+    {
+      "file": "train_cnn2w.py",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/train_cnn2w.py",
+      "sha256": "9500b26f2a6819994efc3a021987b5f0fc06726fe8e033b8c3c29298154a2324",
+      "bytes": 12070
+    },
+    {
+      "file": "PAP.py",
+      "url": "https://raw.githubusercontent.com/KULL-Centre/_2025_Voutsinos_degron_cytosol/9b3eafa6bd9730c558cd018063fa0180edf9db1a/models/PAP.py",
+      "sha256": "67b32a3ada4d52427dd751b81328a30c3f1f00d3af8305817eabfbb49cd4d1f0",
+      "bytes": 41443
+    }
+  ],
+  "weights": [
+    {
+      "file": "pap_weights\\cnn2w1_weights.h5",
+      "sha256": "6ed5c50fd2c75baa0e40570be823e528677a91367beee15bfa8757fc48d716c4",
+      "datasets": [
+        {
+          "name": "ct1/ct1/bias:0",
+          "shape": [
+            25
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct1/ct1/kernel:0",
+          "shape": [
+            100,
+            25
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct2/ct2/bias:0",
+          "shape": [
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct2/ct2/kernel:0",
+          "shape": [
+            25,
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct3/ct3/bias:0",
+          "shape": [
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct3/ct3/kernel:0",
+          "shape": [
+            50,
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int2/int2/bias:0",
+          "shape": [
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int2/int2/kernel:0",
+          "shape": [
+            25,
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int3/int3/bias:0",
+          "shape": [
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int3/int3/kernel:0",
+          "shape": [
+            50,
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int_cnn/int_cnn/bias:0",
+          "shape": [
+            25
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int_cnn/int_cnn/kernel:0",
+          "shape": [
+            1,
+            20,
+            25
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "latent_ct/latent_ct/bias:0",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "latent_ct/latent_ct/kernel:0",
+          "shape": [
+            50,
+            1
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "latent_int/latent_int/bias:0",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "latent_int/latent_int/kernel:0",
+          "shape": [
+            50,
+            1
+          ],
+          "dtype": "float32"
+        }
+      ]
+    },
+    {
+      "file": "pap_weights\\cnn2w7_weights.h5",
+      "sha256": "49a944738b5ae5a04f42b8176d14a6b91494e566b4b9c55ce301920021fe1b7a",
+      "datasets": [
+        {
+          "name": "ct1/ct1/bias:0",
+          "shape": [
+            25
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct1/ct1/kernel:0",
+          "shape": [
+            100,
+            25
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct2/ct2/bias:0",
+          "shape": [
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct2/ct2/kernel:0",
+          "shape": [
+            25,
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct3/ct3/bias:0",
+          "shape": [
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ct3/ct3/kernel:0",
+          "shape": [
+            50,
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int2/int2/bias:0",
+          "shape": [
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int2/int2/kernel:0",
+          "shape": [
+            25,
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int3/int3/bias:0",
+          "shape": [
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int3/int3/kernel:0",
+          "shape": [
+            50,
+            50
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int_cnn/int_cnn/bias:0",
+          "shape": [
+            25
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "int_cnn/int_cnn/kernel:0",
+          "shape": [
+            7,
+            20,
+            25
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "latent_ct/latent_ct/bias:0",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "latent_ct/latent_ct/kernel:0",
+          "shape": [
+            50,
+            1
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "latent_int/latent_int/bias:0",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "latent_int/latent_int/kernel:0",
+          "shape": [
+            50,
+            1
+          ],
+          "dtype": "float32"
+        }
+      ]
+    }
+  ],
+  "serialization": "HDF5 numeric weights only, no pickle"
+}

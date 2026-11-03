@@ -1,0 +1,135 @@
+{
+  "articles": [
+    {
+      "id": "MAVENN2022",
+      "query_doi": "10.1186/s13059-022-02661-7",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fs13059-022-02661-7%22&format=json&resultType=core",
+      "title": "MAVE-NN: learning genotype-phenotype maps from multiplex assays of variant effect",
+      "pmcid": "PMC9011994",
+      "publication_date": "2022-04-15",
+      "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9011994/fullTextXML",
+      "http_status": 200,
+      "status": "full XML retrieved; reading not yet claimed",
+      "xml_sha256": "58507c7e36ce9e38fab4bdd22c15c906b25dbddc2ca38d856ffaae4f07a583d4",
+      "doi": [
+        "10.1186/s13059-022-02661-7"
+      ],
+      "body_words": 12957,
+      "reading_paragraphs": 107,
+      "references": 59
+    },
+    {
+      "id": "MoCHI2024",
+      "query_doi": "10.1186/s13059-024-03444-y",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fs13059-024-03444-y%22&format=json&resultType=core",
+      "title": "MoCHI: neural networks to fit interpretable models and quantify energies, energetic couplings, epistasis, and allostery from deep mutational scanning data",
+      "pmcid": "PMC11610129",
+      "publication_date": "2024-12-02",
+      "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11610129/fullTextXML",
+      "http_status": 200,
+      "status": "full XML retrieved; reading not yet claimed",
+      "xml_sha256": "d26bbfa43c4440f7c6e7097504324778b6284d12694d32e42de4f9a16e4f1153",
+      "doi": [
+        "10.1186/s13059-024-03444-y"
+      ],
+      "body_words": 12962,
+      "reading_paragraphs": 149,
+      "references": 65
+    }
+  ],
+  "terminal_model_repository_commit": "2703570145c3c53cf276b705e1a6cc59083dfd12",
+  "terminal_files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/README.md",
+      "bytes": 4201,
+      "sha256": "f28c0107e2d11c27e1f4e3c167f411139afd78354fc3b56fd883349f202fc927"
+    },
+    {
+      "path": "conda.yml",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/conda.yml",
+      "bytes": 207,
+      "sha256": "9d6fae869bf4d6738a2500024b40f30705da834444b51f893afc71d4cadd4c07"
+    },
+    {
+      "path": "CITATION.cff",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/CITATION.cff",
+      "bytes": 1454,
+      "sha256": "49d10497261f40a6db54921bc771405e8e050163e2d0ec2181d7c7f6035ab127"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/LICENSE",
+      "bytes": 1090,
+      "sha256": "25db8492668fb945e022363a7fe96a3c70e4d9660a5847e3a0bb1c92b1363866"
+    },
+    {
+      "path": "calculate-desc.py",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/calculate-desc.py",
+      "bytes": 8083,
+      "sha256": "ca4c5e9847802669c0fbe5cf8390d979ba832c41b5cf5ec4d62b9e43a53a2629"
+    },
+    {
+      "path": "tests.sh",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/tests.sh",
+      "bytes": 611,
+      "sha256": "a9120e225487f5aed1f82e52871cb473648a030f42a690c3aa54cffaea284c1f"
+    },
+    {
+      "path": "tests/results-ok.txt",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/tests/results-ok.txt",
+      "bytes": 1963,
+      "sha256": "0bb07316ec4e0d9fa708aa707900842b472e35320af2e3d2b06e176caa41ea67"
+    },
+    {
+      "path": "seqs/0.txt",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/seqs/0.txt",
+      "bytes": 285,
+      "sha256": "10eda0bfd458d20924e54bb409e7cba9c1550272a57d47d8ed480140684dd611"
+    },
+    {
+      "path": "seqs/1.txt",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/seqs/1.txt",
+      "bytes": 121,
+      "sha256": "cffd1fc8e957a7c0a3b3706ff4018d76ae81186743a81cec8784dbfa53da2181"
+    },
+    {
+      "path": "seqs/2.txt",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/seqs/2.txt",
+      "bytes": 481,
+      "sha256": "b040287ecb12eeb8c53fc1a741a8016afd29383421c572d87c2d70f704a5651a"
+    },
+    {
+      "path": "seqs/3.txt",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/seqs/3.txt",
+      "bytes": 240,
+      "sha256": "2b4109f46e1398532f46d7f0cb0adcf28c4ce655b2770bc8996d7737e7281672"
+    },
+    {
+      "path": "sequence.txt",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/sequence.txt",
+      "bytes": 284,
+      "sha256": "8260c4b33dc99c01bb636eecd4f9755d75a3af90eff8d1b2563f834b3cb08dff"
+    },
+    {
+      "path": "models/c-terminus.cbm",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/models/c-terminus.cbm",
+      "bytes": 33871168,
+      "sha256": "a94ccfc524cb7e279ec5e9b8cc7b5115ade8620653f42e57bc10504eb112e8c4"
+    },
+    {
+      "path": "models/n-terminus_iMetNO.cbm",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/models/n-terminus_iMetNO.cbm",
+      "bytes": 33778080,
+      "sha256": "ddeab037000ef44a4eb7dc9a80e546c1ee8d6b4af5f1d57c8dd1cefb4231c7ed"
+    },
+    {
+      "path": "models/n-terminus_iMetYES.cbm",
+      "url": "https://raw.githubusercontent.com/filipsPL/degronopedia-ml-psi/2703570145c3c53cf276b705e1a6cc59083dfd12/models/n-terminus_iMetYES.cbm",
+      "bytes": 9292960,
+      "sha256": "82ee05bc52990002ffce9d51f218cc397fb10f69334d2e975f8c95e41faac701"
+    }
+  ],
+  "training_split_sequences_present_in_standalone_repository": false,
+  "design": "source intake only; no new target predictor associations yet"
+}

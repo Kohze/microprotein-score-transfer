@@ -1,0 +1,41 @@
+{
+  "status": "outcome-free sequence and identifier audit complete; similarity/measurement audit pending",
+  "table_sha256": "71f17b81c7a2a0965e3216a2c16538c074e32f3dc3bba5a0744ec16bc3a2d652",
+  "canonical_reference_sha256": "26b6748a4792f9249c7881c4090053770168744fda7fbf2f6a761777dca811d8",
+  "counts": {
+    "rows": 3249,
+    "gene_names": 2945,
+    "unique_wt_sequences": 2993,
+    "unique_variant_sequences": 3249,
+    "wt_length_counts": {
+      "58": 3249
+    },
+    "variant_length_counts": {
+      "58": 3249
+    },
+    "standard_pairs": 3249,
+    "WT_endswith_shared": 3247,
+    "simple_append_pairs": 0,
+    "identical_pairs": 0,
+    "unique_gene_mapping": 3233,
+    "mapping_basis_counts": {
+      "transcript_id": 2748,
+      "gene_symbol": 455,
+      "exact_current_C58_sequence": 31,
+      "unresolved": 15
+    },
+    "reported_RT_length_consistent": 3249,
+    "current_transcript_C58_matches": 2746,
+    "source_gene_overlap": 905,
+    "PAP_training_gene_overlap": 864,
+    "PAP_exact30_window_pairs": 836,
+    "human25_exact25_window_pairs": 842
+  },
+  "outcome_values_loaded": false,
+  "construct": "Independent GFP reporter with canonical and readthrough-derived C-terminal windows; not generally simple extension of the measured WT cargo",
+  "primary_gene_identifier": "mapped ENSG when unique; source gene symbol overlap adds a conservative exclusion",
+  "limitations": [
+    "Historical ENST/sequence versions may differ from current GENCODE",
+    "Gene/PAP overlap flags do not establish all homology independence"
+  ]
+}

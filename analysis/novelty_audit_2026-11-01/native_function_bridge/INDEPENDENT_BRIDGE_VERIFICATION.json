@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "original_S2_candidates_checked": 60,
+  "exact_original_Guo_record_links_checked": 74,
+  "original_Guo_edit_pairs_checked": 32,
+  "source_S3_motif_rows_checked": 5,
+  "tile_edit_annotations_checked": 10,
+  "source_Leu_to_Ala_terminal_filter_checked_for_all32": true,
+  "alternate_reader": "openpyxl vs pandas extraction in analysis",
+  "source_workbook_sha256": "716ebbb435ec058d43066b2ba1ac034d377814a341e5e39b342aaa36ce23691c",
+  "biological_activity_or_causal_effect_verified": false
+}

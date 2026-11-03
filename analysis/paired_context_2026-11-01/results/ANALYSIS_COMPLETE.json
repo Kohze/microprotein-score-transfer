@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "common_rows": 1044,
+  "primary_groups": 783,
+  "sensitivity_groups": 719,
+  "all_six_directions_retained": true,
+  "target_test_labels_used_in_fitting": false,
+  "study_status": "retrospective exploratory; same publication, paired constructs",
+  "bootstrap": "1000 group draws conditional on saved predictions; not retraining intervals"
+}
