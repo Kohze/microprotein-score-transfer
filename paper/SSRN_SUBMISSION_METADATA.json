@@ -35,13 +35,16 @@
   "submitted": false,
   "author_confirmation_pending": [],
   "public_repository": "https://github.com/Kohze/microprotein-score-transfer",
-  "published_reproducibility_release": "v0.1.0",
-  "current_language_revision_published": false,
-  "prepared_release": "v0.1.1",
+  "published_reproducibility_release": "v0.1.1",
+  "current_language_revision_published": true,
+  "prepared_release": "v0.1.2",
   "funding": "BBSRC DTP studentship, reference 2116112",
   "competing_interests": "The authors declare no competing interests.",
   "author_contributions": {
     "Robin Gounder": "Main study work and original draft",
     "Samuel Schmidt": "Review and editing"
-  }
+  },
+  "frozen_analysis_commit": "1a22e80f60b46fefa8f370100b2e322457f3f518",
+  "data_release_url": "https://github.com/Kohze/microprotein-score-transfer/releases/tag/v0.1.1",
+  "appendix_url": "https://github.com/Kohze/microprotein-score-transfer/blob/v0.1.1/paper/S1_Text.pdf"
 }

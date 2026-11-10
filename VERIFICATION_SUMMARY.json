@@ -1,11 +1,14 @@
 {
   "status": "passed",
-  "edition": "v0.1.1",
-  "manifest_members": 414,
+  "edition": "v0.1.2",
+  "manifest_members": 415,
   "correlations_recomputed": 2155,
   "reported_MAEs_recomputed": 248,
   "previous_frozen_analysis_and_artwork_files_unchanged": 323,
   "added_derived_evidence_files_checked_against_original": 61,
   "candidate_evidence_records_per_added_panel": 60,
-  "scope": "Frozen point metrics and hashes; no model refit, raw-input reconstruction or confidence-interval recomputation"
+  "scope": "Frozen point metrics and hashes; no model refit, raw-input reconstruction or confidence-interval recomputation",
+  "documentation_only_update": true,
+  "preceding_release": "v0.1.1",
+  "unchanged_preceding_files": 406
 }

@@ -4,6 +4,22 @@ Robin Gounder (University of Cambridge) and Samuel Schmidt (Vaionex Corporation;
 
 This study asks when a microprotein sequence score remains useful outside the assay and population in which it was trained. The central result is that transfer depends on the measurement, construct context, input coverage and decision metric. Reporter prediction does not establish native protein turnover or peptide-dependent function.
 
+## Paper, appendix and data
+
+- [Read the paper (PDF)](paper/manuscript.pdf).
+- [Read the appendix: S1 Text (PDF)](paper/S1_Text.pdf).
+- [Download the frozen v0.1.1 data and code](https://github.com/Kohze/microprotein-score-transfer/releases/download/v0.1.1/microprotein_score_transfer_public_reproducibility_2026-11-10.zip).
+- [Browse the S1-S18 supporting-data map](SUPPORTING_DATA_MAP.csv).
+- [View all versioned releases and downloads](https://github.com/Kohze/microprotein-score-transfer/releases).
+
+The appendix contains supplementary methods, detailed results, six supporting
+figures and two supporting tables. Editable sources are `paper/manuscript.tex`
+and `paper/S1_Text.tex`. The v0.1.1 frozen analysis is pinned to commit
+`1a22e80f60b46fefa8f370100b2e322457f3f518`. The v0.1.2 documentation update
+identifies that published release explicitly; it changes no predictions,
+confidence intervals, data or scientific results. Its release also supplies
+the revised paper and appendix as separate PDF downloads.
+
 ## Start here
 
 - `paper/manuscript.pdf`: revised manuscript, five inline figures.
@@ -35,9 +51,10 @@ See `REPRODUCING.md`. Original scripts preserve their historical directory layou
 The core benchmark is distinguished from later retrospective transfer extensions and exploratory diagnostics. These labels describe their role in the paper and do not imply preregistration or prospective confirmation. No new predictor, dataset or model fit was added for this release.
 
 This is a research manuscript and reproducibility resource, not an SSRN
-submission or a claim of peer review. The 10 November revision is prepared
-as v0.1.1, incorporating the earlier local abstract/Fig3 revision.
-The preceding public release is [v0.1.0](https://github.com/Kohze/microprotein-score-transfer/releases/tag/v0.1.0).
+submission or a claim of peer review. The publication revision was released
+as [v0.1.1](https://github.com/Kohze/microprotein-score-transfer/releases/tag/v0.1.1)
+on 10 November 2026. The v0.1.2 documentation update makes its data and appendix
+links explicit and incorporates no new analysis.
 Robin Gounder performed the main study work and original drafting; Samuel Schmidt
 contributed review and editing. Both authors declare no competing interests.
 Robin was supported by a BBSRC DTP studentship (reference 2116112 in the Cambridge

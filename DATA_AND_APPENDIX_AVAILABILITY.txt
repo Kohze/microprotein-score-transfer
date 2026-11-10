@@ -1,0 +1,9 @@
+Published-data and appendix availability update, v0.1.2
+
+The main paper and appendix now identify the published v0.1.1 data/code release
+and its exact commit. The main paper explicitly links S1 Text as the appendix.
+The repository README prominently links the manuscript PDF, appendix PDF,
+frozen data/code ZIP, supporting-data map and versioned releases.
+Separate revised manuscript and appendix PDFs accompany the release ZIP.
+No analysis, prediction, confidence interval, figure or scientific result changes.
+The published v0.1.1 release is retained intact.
