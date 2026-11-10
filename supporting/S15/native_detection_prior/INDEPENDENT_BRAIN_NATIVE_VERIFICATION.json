@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "roster": 60,
+  "source_candidate_cells_verified": 407,
+  "full_source_table_rows_verified": {
+    "S1 Discovery": 4814,
+    "S2 Proteomics": 6592,
+    "S3 Tryptic Peptides": 3955,
+    "S5 ShortStop": 3123
+  },
+  "independent_reader": "stdlib zipfile + physical worksheet XML",
+  "declared_sheet_dimensions_ignored": true,
+  "PSM_count_endpoint_feasibility_verified": true,
+  "source_Fig7_per_well_counts": {
+    "H_Basal_OCR": {
+      "NTC": 23,
+      "Micro-MKKS63(1)": 24,
+      "Micro-MKKS63(2)": 24
+    },
+    "I_Max_Capacity": {
+      "NTC": 23,
+      "Micro-MKKS63(1)": 24,
+      "Micro-MKKS63(2)": 24
+    },
+    "J_ATP_Linked_OCR": {
+      "NTC": 23,
+      "Micro-MKKS63(1)": 21,
+      "Micro-MKKS63(2)": 27
+    },
+    "K_Reserve_OCR": {
+      "NTC": 23,
+      "Micro-MKKS63(1)": 24,
+      "Micro-MKKS63(2)": 24
+    }
+  },
+  "experiment_ID_column_in_endpoints": false,
+  "source_Fig7_rounded_ANOVA_F_reproduced": {
+    "H_Basal_OCR": 8.560839579573448,
+    "I_Max_Capacity": 8.962763589959453,
+    "J_ATP_Linked_OCR": 14.11683332372709,
+    "K_Reserve_OCR": 8.840288811640878
+  },
+  "unresolved_source_reporting": "Fig7 caption gives23/24/24 for all endpoints; ATP-linked workbook labels give23/21/27. Physical XML and openpyxl agree; labels retained without correction.",
+  "new_predictor_associations_or_function_labels": false
+}

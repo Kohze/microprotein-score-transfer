@@ -25,16 +25,16 @@
 \graphicspath{{figures/}}
 
 \renewcommand{\thetable}{S\arabic{table}}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\_\do\/}
 \begin{document}
 \section*{S1 Text. Supplementary methods and reproducibility guide}
-Experimental context limits transfer of microprotein sequence scores. 3 November 2026.
+Experimental context limits transfer of microprotein sequence scores. 10 November 2026.
 
 This companion reflects the current preprint. The complete experimental-source, independent-transfer and native-evidence methods are in the main article. All analyses reuse published measurements; no new experiment or model fit was added during preprint preparation. The historical 31 October supplement is preserved for provenance and is superseded by this guide. Full Guo source methods have since been recovered and reviewed; raw reads and spectra have not been reprocessed.
 
 \section{Benchmark specifications}
 \subsection{Dependence audit and score provenance}
-Exact peptide identity, parental construct, available gene identities and
-catalogue overlap groups supplied dependence links. Engineered sequences
+We grouped records linked by identical peptide sequences, a shared parental construct, available gene identities or overlapping catalogue entries. Engineered sequences
 shared by different parents connected those parents. We exhaustively aligned
 eligible pairs among native assay peptides, Yang natives, annotation-reference
 sequences and available ShortStop positive-reference counterparts. Local
@@ -43,8 +43,7 @@ Primary edges required at least 60\% identity over alignment columns and at
 least 80\% coverage of \textbf{both} full sequences; a 40\% identity graph was a
 declared sensitivity. Length and composition bounds only removed pairs that
 could not meet these criteria. Connected components defined split groups.
-These are operational dependence groups, not proof of no remote homology or
-pretraining exposure.
+These groups keep known linked records together during validation. They do not rule out distant homology or earlier exposure during pretraining.
 
 The annotation-trained AAC classifier retained the original fixed Extra Trees
 configuration: 200 trees, maximum depth 10, minimum leaf 10, square-root
@@ -52,7 +51,7 @@ feature sampling, balanced classes and seed 100. Whole reference pairs and
 linked reference split groups were removed to a fixed point if connected to
 any Guo or Yang parent. Seeds 101 and 102 were sensitivity analyses. Higher
 scores indicate canonical resemblance, opposite to the nORF Score convention \cite{gounder};
-this classifier never fitted reporter outcomes.
+this classifier was not trained on reporter measurements.
 
 ShortStop v1.2.0 (28 October 2026) precomputed scores were joined only after
 independent GTF translation against hg38 verified exact peptide identity.
@@ -60,20 +59,18 @@ The primary continuous score was mean SAM probability across released models.
 Published standard and stringent consensus calls were retained as distinct
 threshold analyses. Actual supervised-positive identifiers were distinguished
 from ToBePredicted records, which the inspected training code excludes from
-supervision. The available 1,571 positive counterparts are current reviewed
-sequences, not a complete historical training-sequence archive. Thus absence
+supervision. The 1,571 available positive-reference sequences are from the current reviewed release, which does not provide a complete archive of historical training sequences. Thus absence
 of exact matches does not establish complete training or pretraining separation.
 
 The frozen PAP human30 model was reimplemented from safely parsed published
 numeric coefficients \cite{voutsinos}. Primary transfer uses the final
 $\min(30,L)$ residues. Composition terms scale residue counts to 30 positions;
 terminal, pair and triplet terms follow the released positional definition.
-The full-peptide normalized-composition version is a secondary transfer, not
-a newly fitted PAP model. Deposited Guo classification/regression predictions
+The full-peptide version uses normalized composition and is evaluated as a secondary analysis; PAP was not refitted. Deposited Guo classification/regression predictions
 were evaluated only on the additional natural sequences and their strict
 subset, not against other methods' held-out predictions on Guo's own training
 rows. Supplied PepScore values were used only for the exact Yang constructs;
-missing transcript, domain or evolutionary covariates were not invented.
+unavailable transcript, domain and evolutionary inputs were left missing.
 
 \subsection{Endpoint models, order controls and nested validation}
 Models used five outer and three inner group folds. Groups were randomly
@@ -91,11 +88,10 @@ short-range property-product averages: eight default Moreau--Broto AAindex
 properties at lags 1--5, standardized across amino acids, then centered and
 scaled against 199 within-peptide shuffles. Shuffles preserve exact composition
 and the first and last five residues. Zero null variance produces a zero
-residual. This avoids lag-30 imputation and supplies features for short cargos.
+residual. This provides features for short cargos without imputing lag-30 values.
 
 Three independent shuffled-order representations add the same 40 standardized
-features to T using additional shuffled realizations. They test representation
-effects conditional on composition and terminal residues; the shuffled
+features to T using additional shuffled realizations. They test whether residue order adds predictive information after composition and terminal residues are held fixed; the shuffled
 peptides have no measured outcomes and are not labelled experimental negatives.
 Raw order features, two extra fold seeds, 40\% identity grouping and fixed
 Extra Trees regression for A/T/O were declared sensitivities. The tree
@@ -104,12 +100,10 @@ No outer-fold winner was substituted for the primary Ridge analysis.
 
 Primary contrasts are O-minus-T rank correlation and T-minus-O MAE, with
 1,000 operational-group bootstrap resamples conditional on saved predictions.
-These intervals do not include full model-retraining uncertainty. Additional
+These intervals keep the fitted models fixed and therefore omit uncertainty from retraining. Additional
 intervals and subgroup results are descriptive; no secondary significance
 claims or multiplicity-adjusted discovery list is made. No equivalence test
-was performed. Median absolute biological-replicate disagreement and half
-that value provide descriptive scale context, not a formal noise floor or
-biological relevance threshold.
+was performed. We report the median absolute difference between biological replicates and half that value to show the scale of replicate variation. Neither is a formal noise floor or a threshold for biological relevance.
 
 \subsection{Calibration, perturbation prediction and independent transfer}
 Frozen scores were mapped to reporter scale using isotonic regression fitted
@@ -125,8 +119,7 @@ were analyzed separately.
 Secondary mutation-trained Ridge models use mutant-minus-WT changes in A/T/O
 features and grouped nested evaluation within each family. Opposite-family
 transfer trains on the other edit family after excluding all held-out parent
-groups. This distinguishes native-score extrapolation, learning an edit
-family, and transfer between edit families.
+groups. These tests distinguish using an unmodified-peptide score to predict an edit, training directly on that type of edit, and applying a model trained on a different edit type.
 
 Before scoring Yang outcomes, main predictions and model choices were saved
 in a validation-release receipt. Primary direct transfer trained on MP--mCherry
@@ -135,150 +128,131 @@ context choice for a C-terminal FLAG construct. Actual FLAG-fusion sequence
 features were primary; native-only features and GFP--MP training were declared
 sensitivities. Every training group connected to any Yang construct was removed
 from these direct-model fits. We did not fit, invert, calibrate or select models
-on the Yang outcomes. The representation is still a cargo approximation: neither
-Guo carrier architecture is identical to a FLAG construct. Analyses report all
+on the Yang outcomes. The input representation remains an approximation because neither Guo reporter construct is identical to a FLAG construct. Analyses report all
 37, the 27 without exact Guo overlap, and the 20 passing strict separation from
 all retrieved Guo natural cohorts. Rank correlation and AUROC at the authors'
-5\% expression threshold are reported; cross-assay absolute MAE is suppressed.
+5\% expression threshold are reported; absolute MAE is not reported across assays with different measurement scales.
 
 
-\section{Current supporting-file map}
+\section{Guide to supporting files}
+S1--S18 Data are logical sections of one curated public reproducibility
+bundle, rather than eighteen separately supplied original-source archives.
+The repository is \url{https://github.com/Kohze/microprotein-score-transfer}.
+This revision is prepared as v0.1.1; v0.1.0 is the preceding public release.
+\texttt{SUPPORTING\_DATA\_MAP.csv}, supplied with this supplement and at the
+repository root, gives exact paths for every label. Paths below are
+relative to the bundle root. Directory entries include their frozen
+tables, protocols and original analysis scripts. Upstream-dependent
+scripts are historical source-reconstruction records; their presence does
+not certify a clean-machine replay. Original papers, figures, workbooks,
+third-party implementations and model weights must be obtained from the
+cited providers under their own terms.
 
-\paragraph{S1 Text. Supplementary methods, provenance and review map.}
-Assay definitions, representation and split specifications, interpretation
-limits, supplementary result-file mapping and reproducibility instructions.
-\paragraph{S1 Data. Native and additional reporter prediction metrics.}
-Complete metrics, common-coverage comparisons and group-bootstrap contrasts.
-\paragraph{S2 Data. Perturbation prediction summaries.}
-Same-library effects, calibrated comparisons and replicate sensitivities.
-\paragraph{S3 Data. Independent-assay predictions and coverage.}
-All 37 translated constructs, exact/strict subsets, fixed predictions and
-release-wide ShortStop mapping.
-\paragraph{S4 Data. Native and additional row-level predictions.}
-Cargo sequences, group and fold assignments, observed reporter outcomes and
-saved predictor values.
+
+\paragraph{S1 Data. Reporter prediction metrics.}
+
+{\raggedright \path{analysis/stability_benchmark_2026-10-31/results/metrics.csv}; \path{analysis/stability_benchmark_2026-10-31/results/common_coverage_metrics.csv}; \path{analysis/stability_benchmark_2026-10-31/results/conditional_intervals.csv}.\par}
+
+\paragraph{S2 Data. Paired-edit summaries.}
+
+{\raggedright \path{analysis/stability_benchmark_2026-10-31/results/metrics.csv}; \path{analysis/stability_benchmark_2026-10-31/results/native_contrasts.json}.\par}
+
+\paragraph{S3 Data. Selected expression-panel predictions and coverage.}
+
+{\raggedright \path{analysis/stability_benchmark_2026-10-31/results/Yang_validation.parquet}; \path{analysis/stability_benchmark_2026-10-31/validation_assay_records.parquet}; \path{analysis/stability_benchmark_2026-10-31/results/Yang_full_ShortStop_coverage_audit.csv}.\par}
+
+\paragraph{S4 Data. Reporter row-level predictions.}
+
+{\raggedright \path{analysis/stability_benchmark_2026-10-31/results/native_GFP_MP.parquet}; \path{analysis/stability_benchmark_2026-10-31/results/native_MP_mCherry.parquet}; \path{analysis/stability_benchmark_2026-10-31/results/native_GFP_MP_mutagenesis.parquet}; \path{analysis/stability_benchmark_2026-10-31/results/additional_transfer.parquet}.\par}
+
 \paragraph{S5 Data. Verified mutation pairs and predictions.}
-Parent and variant sequences, replicate outcomes, fold/group assignments and
-predicted changes.
-\paragraph{S6 Data. Late exploratory diagnostics.}
-Additional verified substitutions, top-decile prioritization, baseline
-coupling and replicate agreement; separated from primary comparisons.
-\paragraph{S7 Data. Audit and reproduction records.}
-Input, sequence-dependence, predictor-coverage, numerical and source-check
-receipts. The full source/data archive is identified in the accompanying
-review guide pending repository deposition.
 
-\paragraph{S2 Fig. Coverage and operational dependence.}
-Available constructs, strict transfer coverage and dependence groups.
-\paragraph{S3 Fig. Incremental order prediction.}
-Conditional order increments and source/context sensitivities.
-\paragraph{S4 Fig. Within-study perturbation prediction.}
-Paired edit errors, calibration and family-training comparisons.
-\paragraph{S5 Fig. Selected FLAG-expression challenge.}
-All reported validation outcomes, coverage and source-selection limits.
-\paragraph{S6 Fig. Calibration and order controls.}
-Neural remapping and conditional-shuffle contrasts, with their uncertainty.
+{\raggedright \path{analysis/stability_benchmark_2026-10-31/results/mutation_predictions.parquet}.\par}
 
-\paragraph{S8 Data. Paired reporter-context analysis and reproduction.}
-Protocol and input hashes, matched source measurements and attrition, all
-six directed A/T transfers, target-trained and calibrated predictions,
-measured-source bridges, baselines, sensitivity settings, fit receipts,
-uncertainty, original-workbook verification, scripts and figure source data.
-The source assay is required for the measured-source bridge; it is not a
-sequence-only comparator. The analysis does not isolate causal tag effects.
+\paragraph{S6 Data. Exploratory prediction diagnostics.}
 
-\paragraph{S9 Data. Independent canonical-peptide transfer and reproduction.}
-Pinned official inputs and author split/count audit; outcome-free gene and
-sequence exclusions; pre-association protocol and prediction hashes;
-source-only fits, tuning and nested-CV predictions; all feature diagnostics,
-similarity/seed sensitivities, paired conditional intervals and secondary
-selection-policy comparisons. Scripts, environment requirements, complete
-source dependencies and numerical verification accompany the data. This
-dataset is independent canonical-tile reporter evidence, not native nORF
-or functional validation.
+{\raggedright \path{analysis/stability_benchmark_2026-10-31/results/exploratory_top_decile_prioritization.csv}; \path{analysis/stability_benchmark_2026-10-31/results/mutation_coupling_diagnostics.csv}; \path{analysis/stability_benchmark_2026-10-31/results/exploratory_additional_substitution_metrics.csv}.\par}
 
-\paragraph{S10 Data. Frozen baselines and independent paired-effect challenge.}
-Archive containing pinned QCDPred/PAP source and weights, the original Chu
-Supplementary Data 1, sequence/membership audits, predictions, all raw and
-calibrated metrics, both order-control seeds, conditional/post-hoc contrast
-tables, runtime adapters, numerical verifiers and reproduction instructions.
-The three-sibling-folder layout extends S9; its frozen-result checks can be
-replayed offline after extracting both archives. No target fitting is used.
+\paragraph{S7 Data. Protocols, dependence records and verification.}
 
-\paragraph{S11 Data. Terminal-model exposure and matched-input controls.}
-Pinned original source and weights, primary C23 screen redistribution,
-endpoint/symbol audit, frozen predictions, all 64 metric rows and paired
-contrasts, post-hoc C23 neural controls, independent verification and
-closest-prior reading records. Extract S9--S11 Data into the same directory;
-the S11 guide states runtime dependencies and replay instructions.
+{\raggedright \path{analysis/stability_benchmark_2026-10-31/INPUT_FREEZE.json}; \path{analysis/stability_benchmark_2026-10-31/EXECUTION_PROTOCOL.txt}; \path{analysis/stability_benchmark_2026-10-31/sequence_dependence_groups.parquet}; \path{analysis/stability_benchmark_2026-10-31/results/fit_receipts.json}; \path{verify_saved_results.py}; \path{provenance/UPSTREAM_SOURCE_REGISTRY.json}.\par}
 
-\paragraph{S12 Data. Original-source edit filtering and exact candidate links.}
-All 2,021 original edit memberships, all/retained/omitted fixed-prediction
-metrics and conditional contrasts; all 60 Sandmann candidates, 74 natural
-assay links, 32 measured edit links, five motif-associated WT tiles and
-10 tile/edit annotations; original supplementary workbooks, protocols,
-independent verifiers, portable frozen inputs and source access receipts.
-The included guide specifies extraction layout and runtime dependencies.
-No edited interaction or native functional measurement is supplied.
+\paragraph{S8 Data. Same-peptide reporter transfer.}
 
-\paragraph{S13 Data. Original native-candidate evidence and RNA-context review.}
-All 60 candidates, 49 exact original heart-table links, separate targeted
-coverage and positive-run records, reference compatibility, independently
-checked source cells, RNA primary reading and unresolved reagent-reporting
-ambiguity. These materials do not verify historical plasmids, raw spectra
-or peptide-dependent activity. The included guide describes portable replay.
+{\raggedright \path{analysis/paired_context_2026-11-01/}.\par}
 
-\paragraph{S14 Data. Current MS evidence and source-specific confidence.}
-Pinned community benchmark, its figure-label correction and later proteome
-catalogue; original supporting tables, all 60 candidate lookups, 45 exact
-full-sequence matches, JHDM1D-AS1's exact shotgun USI and published rating,
-RP11 peptide-sharing records, scripts and independent table-reader checks.
-Reading coverage and remaining limits are explicit. No new spectrum
-validation, evidence tier or functional-negative label is assigned.
+\paragraph{S9 Data. Canonical-tile transfer.}
 
-\paragraph{S15 Data. Native-context literature and exact control sequences.}
-Pinned brain-atlas and Yang primary sources, verified main and supplemental
-figures, selected original workbooks, all 60 candidate lookups and exact
-MKKS/RP11 source rows; independent worksheet-XML verification and endpoint
-feasibility notes. MS spectral counts, relative disease responses, processed
-products and functional phenotypes retain their distinct meanings. No new
-predictor validation or native functional label is generated.
+{\raggedright \path{analysis/novelty_audit_2026-11-01/independent_test/}.\par}
 
+\paragraph{S10 Data. Independent paired effects and published baselines.}
 
-\paragraph{S16 Data. Literature and exact candidate annotations.}
-Exploratory sequence joins to cardiac-evolution and cancer-study source
-tables, source identifiers and hashes, endpoint-specific annotations,
-verification receipts and completed-reading summaries. The accompanying
-guide lists the separate evidence archives containing original workbooks
-and papers. These annotations supply candidate context without assigning
-new native or edited peptide-function labels.
+{\raggedright \path{analysis/novelty_audit_2026-11-01/independent_interventions/}; \path{analysis/novelty_audit_2026-11-01/published_predictor_comparison/}; \path{analysis/novelty_audit_2026-11-01/pap_neural_comparison/}.\par}
 
+\paragraph{S11 Data. Terminal exposure and matched-input controls.}
 
-\paragraph{S17 Data. Cis-regulatory, screen and native-assembly context.}
-Roster annotations for Shepelev and Schlesinger screens, MIEF1-MP/MRPL33
-structural controls, selected Samandi checks and Cloutier supporting data;
-source identities, verification receipts and separate-archive guide.
-Cloutier's main article remains unreviewed. No native turnover, edited
-binding or peptide-activity measurement is added. The bundle is not a
-self-contained raw-source archive.
+{\raggedright \path{analysis/novelty_audit_2026-11-01/terminal_predictor_comparison/}.\par}
 
+\paragraph{S12 Data. Source edit filtering and exact candidate links.}
 
-\paragraph{S18 Data. Primary validation precedents and citation scope.}
-Source-specific evidence for engineered terminal exposure, endogenous
-variant readouts and evolutionary origin, with source identities, reading
-scope and archive mappings. These annotations distinguish reading from
-raw-data reanalysis and add no predictions, calibration or native
-functional measurements.
+{\raggedright \path{analysis/novelty_audit_2026-11-01/native_function_bridge/}.\par}
 
+\paragraph{S13 Data. Native-candidate evidence and RNA-context annotations.}
 
-\section{Reproduction and external source archives}
-S1--S18 Data are supplied alongside this preprint. Extract S9--S11 into the same parent directory as instructed by their guides. Each archive retains its source-specific commands, dependencies, frozen inputs and verification records. The new figure script reads only copied frozen tables and coordinates in \texttt{figures/source\_data}; it does not fit models, recompute embeddings or resample uncertainty. Every copy and rendered output is hashed in the package manifest.
+{\raggedright \path{supporting/S13/}.\par}
 
-S16--S18 contain context annotations and maps to separate original-source evidence archives; they are not self-contained raw-source releases. The accompanying external-source catalogue records their identities and hashes. Third-party papers, code and data retain their original terms. Public/reviewer repository references and redistribution choices remain author completion items.
+Derived candidate annotations and recorded source-join checks are included. Original source documents and experiments are not replayed by the root verifier.
+
+\paragraph{S14 Data. Current MS evidence annotations.}
+
+{\raggedright \path{supporting/S14/}.\par}
+
+Derived candidate annotations and recorded source-join checks are included. Original source documents and experiments are not replayed by the root verifier.
+
+\paragraph{S15 Data. Brain-context sequence annotations.}
+
+{\raggedright \path{supporting/S15/}.\par}
+
+Derived candidate annotations and recorded source-join checks are included. Original source documents and experiments are not replayed by the root verifier.
+
+\paragraph{S16 Data. Cardiac and cancer-study candidate annotations.}
+
+{\raggedright \path{supporting/S16/}.\par}
+
+Derived candidate annotations and recorded source-join checks are included. Original source documents and experiments are not replayed by the root verifier.
+
+\paragraph{S17 Data. Regulatory, screen and structural-control annotations.}
+
+{\raggedright \path{supporting/S17/}.\par}
+
+Derived candidate annotations and recorded source-join checks are included. Original source documents and experiments are not replayed by the root verifier.
+
+\paragraph{S18 Data. Primary validation precedent annotations.}
+
+{\raggedright \path{supporting/S18/}.\par}
+
+Derived candidate annotations and recorded source-join checks are included. Original source documents and experiments are not replayed by the root verifier.
+
+\section{Reproduction and source availability}
+The supported offline entry point is \texttt{verify\_saved\_results.py} at
+the bundle root, with dependencies in
+\texttt{requirements-verification.txt}. It checks every manifest member
+and recomputes saved point metrics without fitting models or contacting
+the network. It does not recompute bootstrap intervals, recover original
+workbooks, run pretrained models or independently validate native biology.
+\texttt{REPRODUCING.md} describes the historical source workflows;
+\path{provenance/UPSTREAM_SOURCE_REGISTRY.json} identifies upstream inputs.
+The added S13--S18 derived annotations are hash-checked, but their original
+source joins are not independently rerun by this offline verifier.
+
+S1 Text contains the detailed methods and results. S1 Fig shows controlled
+catalogue clustering; S2 Fig covers assay availability and dependence;
+S3 Fig shows order-feature increments; S4 Fig shows within-study paired
+edits; S5 Fig presents the selected FLAG-expression challenge; and S6 Fig
+shows calibration and conditional-order controls. The corresponding
+artwork and frozen plotting tables are in \path{paper/figures/}.
 \clearpage
-\clearpage
-\clearpage
-\clearpage
+
 \begin{figure}[p]
 \centering
 \includegraphics[width=\linewidth]{supplement/FigS1.pdf}
@@ -286,7 +260,7 @@ S16--S18 contain context annotations and maps to separate original-source eviden
 proteins. a,b: illustrative t-SNE/PCA of the same 1,488 matched proteins.
 c,d: native/shuffle silhouettes and agreement across $k$ and weighting.
 The fixed computational rerun reproduced these controlled maps/memberships;
-the original cluster memberships remain unresolved, and functional labels were not tested.
+the original cluster memberships could not be recovered, and functional labels were not tested.
 UMAP was not rerun.}
 \end{figure}
 \clearpage
@@ -305,7 +279,7 @@ not split to improve precision (Fig~S2).
 \begin{figure}[p]
 \centering
 \includegraphics[width=\linewidth]{supplement/FigS2.pdf}
-\caption*{\textbf{S2 Fig.} Endpoint coverage and operational dependence. a: available constructs versus
+\caption*{\textbf{S2 Fig.} Peptide coverage and validation groups. a: available constructs versus
 the development set or strict transfer subset. The 1,072 development cargos
 are evaluated by grouped cross-validation, not declared externally independent.
 Additional and Yang strict subsets are separated from retrieved Guo groups
@@ -328,8 +302,7 @@ historical and remote-similarity limitations remain.
 \subsubsection{Annotation resemblance and reporter ranking diverge}
 The independently trained AAC resemblance score correlated negatively with
 the native GFP--MP outcome ($\rho=-0.292$, 95\% interval $-0.344$ to $-0.237$).
-The three fixed classifier seeds gave $\rho=-0.292$ to $-0.293$, so the direction
-was not a seed accident. ShortStop's mean SAM probability had little monotonic
+The three fixed classifier seeds gave $\rho=-0.292$ to $-0.293$, so the negative association did not depend on the chosen seed. ShortStop's mean SAM probability had little monotonic
 association ($\rho=-0.018$, interval $-0.077$ to $0.041$; $n=1,057$).
 Frozen PAP C30 reached $\rho=0.681$ and its full-sequence secondary transfer
 $0.761$ (Fig~1).
@@ -363,7 +336,7 @@ for ShortStop. The common native comparison contains 1,057 cargos.
 
 
 
-\subsubsection{Native residue order adds little consistently beyond T}
+\subsubsection{Adding residue-order features to T gives small, inconsistent improvements}
 The primary O-minus-T rank gain was 0.0040 (95\% interval $-0.0046$ to
 $0.0115$), with MAE reduction 0.00077 (interval $-0.00149$ to $0.00332$).
 Native order outperformed the three shuffled representations in the primary
@@ -390,24 +363,20 @@ constitute formal evidence of equivalence.}
 
 The median absolute native replicate disagreement was 0.0545; half this is
 0.0273, much larger than the primary point MAE reduction, but it is not a
-formal minimum useful effect or an equivalence margin. The intervals and
-sensitivities support a small, inconsistent incremental contribution in these
-representations. They do not prove that residue order is biologically irrelevant.
+formal minimum useful effect or an equivalence margin. The intervals and sensitivity analyses show that adding these order features gives small and inconsistent improvements. They do not prove that residue order is biologically irrelevant.
 All 261 cargos at most 30 aa were retained: their T/O correlations were
 0.819/0.817, versus 0.761/0.767 for 811 longer cargos. Complete-replicate,
 complexity and ORF-context summaries are supplied without choosing a winning
 subgroup. Only ten development peptides met the low-complexity flag, too few
 to support a separate conclusion.
 
-\subsubsection{Catalogue separation survives matching but does not establish functional classes}
+\subsubsection{The catalogues remain distinguishable after matching, without establishing functional classes}
 Only 9,369 of 27,670 updated nORFs (33.9\%) meet the 31-residue domain of the
 default all-family panel, compared with 19,534 of 19,563 canonical representatives.
 After exact length matching, AAC discrimination reached AUROC 0.915 versus
 0.922 for all 1,440 features. With the GC caliper, corresponding values were
 0.864 and 0.882. The previously reported six-feature panel \cite{gounder} attenuated to AUROC 0.661, compared
-with 0.950 in its unmatched comparison. These results establish distributional
-separation in the defined populations, with substantial length sensitivity;
-they do not establish a functional classification.
+with 0.950 in its unmatched comparison. These models distinguish the defined populations, but their performance depends strongly on sequence length. They do not classify peptide function.
 
 Broad clustering structure was computationally reproducible under the new
 fixed settings (S1 Fig). Family-weighted PCA at $k=2$ had
@@ -535,22 +504,19 @@ calibrated-transfer minus target-trained MAE was $0.0490$ for G to M
 ($0.0338$ to $0.0492$). Calibration is target-supervised adaptation,
 not an independent validation of a frozen predictor.
 
-Composition alone transported better than T between the original reporter
-configurations: A reached $\rho=0.663$ for G to M and $0.648$ for M to G.
+The composition-only model predicted across the original reporter configurations better than T: A reached $\rho=0.663$ for G to M and $0.648$ for M to G.
 Secondary paired contrasts of the saved predictions gave A-minus-T rank
 gains of $0.103$ (95\% conditional interval $0.078$ to $0.132$) and
 $0.082$ ($0.058$ to $0.104$), respectively. In contrast, T gave higher
 within-context point estimates than A for G ($0.767$ versus $0.746$) and
 M ($0.742$ versus $0.728$), although the corresponding incremental intervals
-included zero. Thus adding terminal features did not uniformly improve
-transport. These feature contrasts were examined after inspecting all A/T
+included zero. Adding terminal features therefore did not consistently improve prediction across reporter contexts. These feature contrasts were examined after inspecting all A/T
 estimates and are explicitly secondary (S8 Data); they do not isolate a
 terminal degradation mechanism.
 
 
 
-The same-reporter library comparison gives a useful counterexample to a
-blanket transfer-failure conclusion. G-trained T reached $\rho=0.691$ on U,
+Prediction did not fail in every comparison: performance was better when the reporter stayed the same across libraries. G-trained T reached $\rho=0.691$ on U,
 compared with $0.673$ for U-trained T, with calibrated MAE $0.1211$ versus
 $0.1305$. In the reverse direction, U-trained T reached $0.737$ on G,
 versus $0.767$ for G-trained T. The stronger source-library replicate
@@ -581,10 +547,7 @@ transfer, rather than hidden by selecting another representation.
 Native-only GFP--MP-trained T, a declared context sensitivity, had
 $\rho=0.167$ (interval $-0.321$ to $0.616$), whereas its FLAG-aware version
 had $-0.303$. FLAG-aware PAP C30 and full transfer had $\rho=-0.124$ and
-$0.083$. Native-only full PAP had $0.359$. The sensitivity to cargo/tag
-representation and reporter orientation therefore materially changes the
-answer (Fig~S5). Neither representation resolves the
-assay shift convincingly.
+$0.083$. Native-only full PAP had $0.359$. The result therefore depends strongly on whether the input includes the tag and which reporter orientation supplied the training data (Fig~S5). Neither representation gives convincing evidence of accurate prediction across these assays.
 
 \begin{figure}[p]
 \centering
@@ -606,8 +569,7 @@ Supplied PepScore reached $\rho=0.656$ (interval $0.308$ to $0.865$; AUROC
 AUROC 0.83). The source describes random selection of the 29 uORFs across
 PepScores and adds eight high-scoring ORFs of other classes. The combined
 panel and validation originate in the PepScore publication.
-These estimates are consequently not an unbiased external contest for that
-method. A release-wide sequence audit matched ShortStop to 23 constructs
+These estimates therefore do not provide an unbiased external comparison of PepScore with the other methods. A release-wide sequence audit matched ShortStop to 23 constructs
 ($\rho=-0.058$), including nine of the strict 20 ($\rho=0.268$). This small
 covered subset cannot support a strong comparison with methods covering all
 20; missing scores were not replaced by zero.
@@ -616,7 +578,7 @@ covered subset cannot support a strong comparison with methods covering all
 The independent cohorts test whether favorable within-study results extend to new sequences and interventions. Published predictors, matched sequence inputs and training-exposure audits determine which comparisons support a transfer claim.
 
 \subsubsection{Independent peptide transfer depends on source and decision metric}
-Source-only composition heads transferred to the 14,143 eligible canonical
+Composition models trained only on the source data transferred to the 14,143 eligible canonical
 tiles with $\rho=0.816$ for GFP--MP training and $0.817$ for MP--mCherry
 training (Table~3). The corresponding T correlations were
 $0.812$ and $0.656$. The GFP-trained A-minus-T difference was small and
@@ -645,14 +607,13 @@ The secondary selection analysis gave a different GFP-trained comparison.
 T selected tiles with a higher mean measured assay score despite its slightly
 lower overall rank correlation: A-minus-T selected mean was $-0.0145$
 ($-0.0211$ to $-0.0073$). For MP--mCherry-trained policies, A selected
-higher-scoring tiles: $0.0464$ ($0.0359$ to $0.0564$). Selection objectives
-therefore cannot be inferred from whole-cohort correlation alone. These are
+higher-scoring tiles: $0.0464$ ($0.0359$ to $0.0564$). Overall correlation alone therefore cannot show which model selects the peptides with the highest measured scores. These are
 retrospective policies on canonical peptide reporters, not evidence about
 native nORF abundance or biological function.
 
 
 
-\subsubsection{Published baselines narrow portable-composition improvements}
+\subsubsection{Strong published models reduce the apparent advantage of composition-based prediction}
 On the same 14,143 native tiles, frozen QCDPred reached $\rho=0.739$ using
 complete-window means and $0.800$ using normalized whole-cargo composition
 (Fig~4). The latter reduces the A-head advantage to about
@@ -671,8 +632,7 @@ Observed Chu replicate changes correlated at $\rho=0.967$. On the primary
 at $\rho=0.617$ and $0.547$. The T-minus-A gap was $-0.070$ (95\% conditional
 interval $-0.103$ to $-0.039$). The corresponding mCherry-source values were
 $0.622$ and $0.343$ (gap $-0.278$, interval $-0.321$ to $-0.238$).
-These fitted-head deficits do not imply that all terminal information is
-harmful: the frozen linear PAP C30 terminal component improved change
+The poorer performance of these fitted models does not show that terminal information is always harmful: the frozen linear PAP C30 terminal component improved change
 ranking by $0.050$ ($0.030$ to $0.068$), whereas its full58 increment was
 $0.024$ ($-0.002$ to $0.046$).
 
@@ -683,8 +643,7 @@ already reached $0.729$, and calibrated CNN1 reached $0.735$. Its calibration
 gain was only $0.006$ ($-0.002$ to $0.014$). CNN7 reached $0.725$ raw and
 $0.725$ calibrated, with gain $-0.001$ ($-0.008$ to $0.006$;
 Fig~S6). The post-hoc raw-CNN1-minus-calibrated-linear
-contrast was $0.037$ ($0.019$ to $0.056$). These results weaken a general
-calibration-advance claim while retaining the specified linear result.
+contrast was $0.037$ ($0.019$ to $0.056$). Calibration improved the linear model, but these results do not show that it generally improves the stronger neural models.
 
 
 
@@ -716,11 +675,10 @@ The conditional order test was positive for native held-out tiles: CNN7
 native-minus-shuffle-mean $\Delta\rho=0.0064$ ($0.0050$ to $0.0078$).
 Independent paired-effect increments instead had intervals spanning zero:
 $-0.0001$ ($-0.0110$ to $0.0111$) for C30 and $0.0057$ ($-0.0024$ to
-$0.0129$) for full58. The second shuffle seed retained this boundary.
+$0.0129$) for full58. The second shuffle seed gave the same pattern of results.
 Separately fitted full58 CNN7 and CNN1 did not establish a change-ranking
 advantage (post-hoc difference $-0.0034$, interval $-0.0180$ to $0.0101$).
-The richer representation therefore preserves a small native-order signal
-without demonstrating an independent paired-effect increment.
+The model therefore captures a small residue-order signal on native tiles, but we found no clear improvement in predicting independent paired changes.
 
 \subsubsection{Terminal-model comparisons change with exposure and input coverage}
 The C23 development-screen audit matched 1,450 WT endpoints and six RT endpoints;
@@ -770,9 +728,9 @@ do not demonstrate exposure-caused inflation or absence of exposure effects.
 The populations differ, and the smaller sensitivity has wider uncertainty.
 
 \subsection{Exact candidate links define native follow-up experiments}
-The transfer results motivate candidate-specific experiments. We link existing reporter edits to exact peptide sequences with interaction and native-source annotations, retaining the distinction between nomination and an experimentally demonstrated edited function.
+The results identify candidates for experiments on individual peptides. We match existing reporter edits to full peptide sequences with published interaction and native-evidence annotations. These matches identify candidates to test; they do not show how the edits affect function.
 
-\subsubsection{Exact candidate links support a bounded interaction follow-up}
+\subsubsection{Candidate interactions remain to be tested after editing}
 Of 60 selected Sandmann candidates, 24 had exact full-sequence matches in
 natural Guo records; 17 had primary GFP--MP measurements and 32 measured
 edit pairs (17 Leu-to-Ala, 15 append). Twenty-eight mean changes were positive
@@ -794,18 +752,15 @@ within all five WT binding tiles; append retains their sequence. S12 Data
 provides every matched and unmatched candidate and residue-level annotation.
 
 A source tagged-overexpression phosphorylation record places JHDM1D-AS1
-Ser36 inside its kinase-associated tile region. This is orthogonal candidate
-evidence, not endogenous phosphorylation, identification of its kinase,
-or a measurement after either edit. No edited binding, native turnover,
+Ser36 inside its kinase-associated tile region. This provides a separate observation about the candidate. It does not establish endogenous phosphorylation, identify the responsible kinase or show what happens after either edit. No edited binding, native turnover,
 peptide-dependent activity or stability--function tradeoff is established.
 The canonical SLCO5A1 transporter's activity is not assigned to its uORF.
-The three candidates nominate a test of interaction preservation after an
-accumulation-associated edit rather than validate a functional mechanism.
+These candidates can be used to test whether an edit that increases reporter accumulation also preserves interaction. That experiment has not yet been performed.
 
 \subsubsection{Native-source support differs among the three candidates}
 Forty-nine of the 60 selected peptides matched the original heart tables
 exactly: 36 lncORFs and 13 uORFs. Fifteen had reported positive SRM records.
-The heart resource contributed to the later panel's discovery provenance;
+The heart dataset helped identify candidates for the later panel;
 these counts describe coverage, not independent confirmation or functional
 enrichment. JHDM1D-AS1 had an in-vitro-translation flag, a shotgun peptide
 and three source-positive SRM runs across two hearts. The SRM signature
@@ -831,8 +786,7 @@ the selected 64-residue product. The uORF's \texttt{TPAPCGTRL} has one
 reported PSM. These single-HLA entries are not all manually validated by
 the catalogue's more selective annotation workflow. JHDM1D-AS1 has an
 exact full-sequence Table 9 row but no entry in the retrieved non-HLA,
-HLA or curated-annotation Tables 3, 7 or 12. Such missing entries do not
-establish absent translation or function. HLA presentation does not by
+HLA or curated-annotation Tables 3, 7 or 12. Missing entries do not establish that translation or function is absent. HLA presentation does not by
 itself establish stable accumulation of a full cellular product.
 
 The selected JHDM1D-AS1 peptide is encoded exactly at nucleotides 338--541
@@ -854,9 +808,7 @@ with a source strong DDA grade and 1,004 unique spectral counts; the separate
 All 60 candidates were retained, with nine exact Table S2 matches overall.
 RP11-620J15.3 is present in the atlas's RiboCode/ShortStop-selected subset
 without MS evidence, rather than as an independently confirmed protein.
-Neither MKKS peptide has an exact Guo assay match. Micro-MKKS63 can therefore
-motivate a known native-product control for new measurements, without adding
-an existing WT/edit comparison or a new functional discovery (S15 Data).
+Neither MKKS peptide has an exact Guo assay match. Micro-MKKS63 could therefore serve as a known native-product control in new experiments. It provides neither an existing WT/edit comparison nor a new functional finding (S15 Data).
 
 
 \clearpage
@@ -901,7 +853,7 @@ an existing WT/edit comparison or a new functional discovery (S15 Data).
 \bibitem{brain} Miller B et al. A microprotein atlas of the human frontal cortex in Alzheimer's disease. Nature Aging. 2026;6:1979--1997. \href{https://doi.org/10.1038/s43587-026-01207-x}{doi:10.1038/s43587-026-01207-x}. Source repository: \url{https://github.com/brendan-miller-salk/brain-microprotein-atlas}.
 \bibitem{schlesinger} Schlesinger D et al. A large-scale sORF screen identifies putative microproteins involved in cancer cell fitness. iScience. 2025;28:111884. \href{https://doi.org/10.1016/j.isci.2025.111884}{doi:10.1016/j.isci.2025.111884}.
 \bibitem{kondo} Kondo A et al. Long noncoding RNA JHDM1D-AS1 promotes tumor growth by regulating angiogenesis in response to nutrient starvation. Molecular and Cellular Biology. 2017;37:e00125-17. \href{https://doi.org/10.1128/MCB.00125-17}{doi:10.1128/MCB.00125-17}.
-\bibitem{larsen} Larsen FB et al. Comprehensive degron mapping in human transcription factors. bioRxiv [Preprint]. 2025;2025.05.16.654404. Version 1, posted 17 May 2025. \href{https://doi.org/10.1101/2025.05.16.654404}{doi:10.1101/2025.05.16.654404}.
+\bibitem{larsen} Larsen FB et al. Comprehensive degron mapping in human transcription factors. Science Advances. 2026;12(45):eaee1766. \href{https://doi.org/10.1126/sciadv.aee1766}{doi:10.1126/sciadv.aee1766}.
 \bibitem{salinas2018} Salinas VH, Ranganathan R. Coevolution-based inference of amino acid interactions underlying protein function. eLife. 2018;7:e34300. \href{https://doi.org/10.7554/eLife.34300}{doi:10.7554/eLife.34300}.
 \bibitem{architecture} Faure AJ, Mart\'{i}-Aranda A, Hidalgo-Carcedo C, Beltran A, Schmiedel JM, Lehner B. The genetic architecture of protein stability. Nature. 2024;634:995--1003. \href{https://doi.org/10.1038/s41586-024-07966-0}{doi:10.1038/s41586-024-07966-0}.
 \bibitem{pdzcomparative} Mart\'{i}-Aranda A, Lehner B. Seven complete comparative maps of allosteric mutations in a protein family. Nature Communications. 2026;17:5487. \href{https://doi.org/10.1038/s41467-026-71005-x}{doi:10.1038/s41467-026-71005-x}.

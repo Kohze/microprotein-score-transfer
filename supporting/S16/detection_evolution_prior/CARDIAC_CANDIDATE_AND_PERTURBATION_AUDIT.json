@@ -1,0 +1,549 @@
+{
+  "scope": "Exact peptide links to selected young-sORF table and source DE-table count check;not new native functional or independent reporter validation",
+  "sources": {
+    "candidate_roster": {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\native_function_bridge\\candidate_bridge.csv",
+      "sha256": "b9b13d219b815ebfa2d6b002c217e02f4209456eba253062597ce98cccd93143"
+    },
+    "young_table": {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\detection_evolution_prior\\CardiacEvolution2024\\44161_2024_544_MOESM3_ESM.xlsx",
+      "sha256": "ab54becf771ac97b346f94f8d3e6483082a4b0a4a9978801deeb5247553c758d"
+    },
+    "source_data_Fig5": {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\detection_evolution_prior\\CardiacEvolution2024\\44161_2024_544_MOESM8_ESM.xlsx",
+      "sha256": "f708584aca70e737f2c31177932df7c644ad8f9ad47999baf653f01616495f28"
+    }
+  },
+  "young_table_records": 504,
+  "young_table_species_counts": {
+    "human": 233,
+    "chimp": 131,
+    "rhesus": 140
+  },
+  "young_table_age_counts": {
+    "young translation - orphan": 15,
+    "young translation - de novo structure": 113,
+    "young translation - intact structure": 376
+  },
+  "candidate_roster_records": 60,
+  "candidate_records_with_human_exact_match": 5,
+  "human_exact_match_records": 5,
+  "nonhuman_sequence_match_records": 1,
+  "human_matching_candidate_gene_ids": 4,
+  "human_matches_with_primary_reporter_records": 2,
+  "matched_details": [
+    {
+      "candidate_key": "Sandmann_S2_row10",
+      "candidate_name": "NAV2-AS2",
+      "source_candidate_gene_id": "ENSG00000254453",
+      "sequence": "MPRRHEPVWEMTGFFLPDVLLSDSSDTSEGFRLHLEPGSIFMPLSEPPSDFLTSSPDHREFLSTCECFSASVCGQRLSELVLPQSQAGKPLTPKAKMPKHWSS",
+      "candidate_exact_primary_GFP_records": 0,
+      "candidate_exact_measured_edit_pairs": 0,
+      "cardiac": {
+        "orf": "P1_11:20043884_20044195:-:1:312",
+        "length": 103,
+        "gene_id": "STRG-HSA-8448",
+        "orf_biotype": "lncRNA-ORF",
+        "species_specific": "no",
+        "age": "young translation - intact structure",
+        "species": "human",
+        "sequence": "MPRRHEPVWEMTGFFLPDVLLSDSSDTSEGFRLHLEPGSIFMPLSEPPSDFLTSSPDHREFLSTCECFSASVCGQRLSELVLPQSQAGKPLTPKAKMPKHWSS",
+        "source_excel_row": 156
+      },
+      "human_evidence": true
+    },
+    {
+      "candidate_key": "Sandmann_S2_row33",
+      "candidate_name": "LINC00881",
+      "source_candidate_gene_id": "ENSG00000241135",
+      "sequence": "MRNKREGAFPCAALGETHTDRGSGMTGKGGNGFC",
+      "candidate_exact_primary_GFP_records": 0,
+      "candidate_exact_measured_edit_pairs": 0,
+      "cardiac": {
+        "orf": "P1_3:160647523_160647627:+:1:105",
+        "length": 34,
+        "gene_id": "STRG-PTR-23046",
+        "orf_biotype": "lncRNA-ORF",
+        "species_specific": "no",
+        "age": "young translation - de novo structure",
+        "species": "chimp",
+        "sequence": "MRNKREGAFPCAALGETHTDRGSGMTGKGGNGFC",
+        "source_excel_row": 271
+      },
+      "human_evidence": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row43",
+      "candidate_name": "RP11-12K22.1",
+      "source_candidate_gene_id": "ENSG00000250775",
+      "sequence": "MRFLHSECVLMRYDSLKVCGSSPILLSLPSPVIHKMNGLTTGRPALLQMLKKVLPRKKKGNLMETCVYQMERRAMGILTTSVRKKVECGDGENTEVQKKRRQEATHGSSFSHKSRNATDYK",
+      "candidate_exact_primary_GFP_records": 0,
+      "candidate_exact_measured_edit_pairs": 0,
+      "cardiac": {
+        "orf": "P1_4:63466220_63529750:-:3:366",
+        "length": 121,
+        "gene_id": "STRG-HSA-40844",
+        "orf_biotype": "lncRNA-ORF",
+        "species_specific": "yes",
+        "age": "young translation - de novo structure",
+        "species": "human",
+        "sequence": "MRFLHSECVLMRYDSLKVCGSSPILLSLPSPVIHKMNGLTTGRPALLQMLKKVLPRKKKGNLMETCVYQMERRAMGILTTSVRKKVECGDGENTEVQKKRRQEATHGSSFSHKSRNATDYK",
+        "source_excel_row": 10
+      },
+      "human_evidence": true
+    },
+    {
+      "candidate_key": "Sandmann_S2_row50",
+      "candidate_name": "RP11-140K17.3",
+      "source_candidate_gene_id": "ENSG00000272288",
+      "sequence": "MSRKKAQPAGLSWKPSSLWNSEMSTSLSVVPRQLNFCISSGSRSTSMPSMAGTGHPLPRLFTTKPPPRRRARGPGGGPLLASFATPLL",
+      "candidate_exact_primary_GFP_records": 0,
+      "candidate_exact_measured_edit_pairs": 0,
+      "cardiac": {
+        "orf": "P1_6:34696455_34696721:+:1:267",
+        "length": 88,
+        "gene_id": "STRG-HSA-46619",
+        "orf_biotype": "lncRNA-ORF",
+        "species_specific": "no",
+        "age": "young translation - intact structure",
+        "species": "human",
+        "sequence": "MSRKKAQPAGLSWKPSSLWNSEMSTSLSVVPRQLNFCISSGSRSTSMPSMAGTGHPLPRLFTTKPPPRRRARGPGGGPLLASFATPLL",
+        "source_excel_row": 212
+      },
+      "human_evidence": true
+    },
+    {
+      "candidate_key": "Sandmann_S2_row51",
+      "candidate_name": "RP11-140K17.3",
+      "source_candidate_gene_id": "ENSG00000272288",
+      "sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS",
+      "candidate_exact_primary_GFP_records": 1,
+      "candidate_exact_measured_edit_pairs": 2,
+      "cardiac": {
+        "orf": "P1_6:34696986_34697305:+:2:159",
+        "length": 52,
+        "gene_id": "STRG-HSA-46619",
+        "orf_biotype": "lncRNA-ORF",
+        "species_specific": "no",
+        "age": "young translation - intact structure",
+        "species": "human",
+        "sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS",
+        "source_excel_row": 213
+      },
+      "human_evidence": true
+    },
+    {
+      "candidate_key": "Sandmann_S2_row61",
+      "candidate_name": "JPX",
+      "source_candidate_gene_id": "ENSG00000225470",
+      "sequence": "MAAFARSAITASLRGLQGVRSMSPLTKVQKLAS",
+      "candidate_exact_primary_GFP_records": 1,
+      "candidate_exact_measured_edit_pairs": 2,
+      "cardiac": {
+        "orf": "P1_X:73944354_73944455:+:1:102",
+        "length": 33,
+        "gene_id": "STRG-HSA-57363",
+        "orf_biotype": "lncRNA-ORF",
+        "species_specific": "yes",
+        "age": "young translation - intact structure",
+        "species": "human",
+        "sequence": "MAAFARSAITASLRGLQGVRSMSPLTKVQKLAS",
+        "source_excel_row": 140
+      },
+      "human_evidence": true
+    }
+  ],
+  "CRISPRi_source_table_audit": {
+    "LINC01405": {
+      "numeric_rows": 36611,
+      "numeric_row_scope": "Numeric p/fold-change values with text gene names;non-text cached gene cells listed separately",
+      "nontext_gene_rows": [
+        {
+          "excel_row": 32143,
+          "cached_gene_value": "2024-12-01 00:00:00",
+          "gene_value_type": "datetime",
+          "padj": 0.734313,
+          "log2FC": 0.508098
+        }
+      ],
+      "threshold": "padj<0.05 and abs(log2FC)>0.5;target gene excluded from downstream count",
+      "significant_including_target": 62,
+      "downstream_up": 59,
+      "downstream_down": 2,
+      "selected_genes": [
+        {
+          "gene": "LINC01405",
+          "padj": 0.000379,
+          "log2FC": -31.4412
+        },
+        {
+          "gene": "MYL2",
+          "padj": 0.029785,
+          "log2FC": -4.65328
+        },
+        {
+          "gene": "FBN2",
+          "padj": 0.043365,
+          "log2FC": -1.94013
+        },
+        {
+          "gene": "SRP14-AS1",
+          "padj": 0.710403,
+          "log2FC": -0.23444
+        }
+      ],
+      "significant_downstream_genes": [
+        {
+          "gene": "IVNS1ABP",
+          "padj": 0.026239,
+          "log2FC": 2.158305
+        },
+        {
+          "gene": "HSPA13",
+          "padj": 0.026239,
+          "log2FC": 2.714379
+        },
+        {
+          "gene": "RAPH1",
+          "padj": 0.026239,
+          "log2FC": 3.075717
+        },
+        {
+          "gene": "ISCU",
+          "padj": 0.026239,
+          "log2FC": 2.35285
+        },
+        {
+          "gene": "RPL17",
+          "padj": 0.026239,
+          "log2FC": 1.563912
+        },
+        {
+          "gene": "TTC4",
+          "padj": 0.026239,
+          "log2FC": 2.412967
+        },
+        {
+          "gene": "RPS8",
+          "padj": 0.026239,
+          "log2FC": 1.060746
+        },
+        {
+          "gene": "IBTK",
+          "padj": 0.026239,
+          "log2FC": 1.811068
+        },
+        {
+          "gene": "FBL",
+          "padj": 0.026239,
+          "log2FC": 1.611693
+        },
+        {
+          "gene": "MPZL1",
+          "padj": 0.026239,
+          "log2FC": 2.11328
+        },
+        {
+          "gene": "SNHG32",
+          "padj": 0.026239,
+          "log2FC": 2.027399
+        },
+        {
+          "gene": "DIPK2A",
+          "padj": 0.026239,
+          "log2FC": 1.829906
+        },
+        {
+          "gene": "RPL10",
+          "padj": 0.026239,
+          "log2FC": 1.070749
+        },
+        {
+          "gene": "CLINT1",
+          "padj": 0.026239,
+          "log2FC": 2.045092
+        },
+        {
+          "gene": "RPS4X",
+          "padj": 0.026239,
+          "log2FC": 1.498811
+        },
+        {
+          "gene": "H3F3B",
+          "padj": 0.026239,
+          "log2FC": 2.155355
+        },
+        {
+          "gene": "PGD",
+          "padj": 0.026239,
+          "log2FC": 1.956332
+        },
+        {
+          "gene": "LEPROTL1",
+          "padj": 0.026239,
+          "log2FC": 1.921123
+        },
+        {
+          "gene": "RPLP0",
+          "padj": 0.029785,
+          "log2FC": 1.074731
+        },
+        {
+          "gene": "MYL2",
+          "padj": 0.029785,
+          "log2FC": -4.65328
+        },
+        {
+          "gene": "RPL8",
+          "padj": 0.030078,
+          "log2FC": 1.252608
+        },
+        {
+          "gene": "MRPS5",
+          "padj": 0.031298,
+          "log2FC": 2.254221
+        },
+        {
+          "gene": "AKR1A1",
+          "padj": 0.034488,
+          "log2FC": 2.560144
+        },
+        {
+          "gene": "RNF24",
+          "padj": 0.037595,
+          "log2FC": 2.522151
+        },
+        {
+          "gene": "VDAC2",
+          "padj": 0.037595,
+          "log2FC": 1.721934
+        },
+        {
+          "gene": "ATF4",
+          "padj": 0.040417,
+          "log2FC": 1.965926
+        },
+        {
+          "gene": "MKLN1",
+          "padj": 0.043146,
+          "log2FC": 1.630039
+        },
+        {
+          "gene": "URI1",
+          "padj": 0.043146,
+          "log2FC": 1.381209
+        },
+        {
+          "gene": "LINC00685",
+          "padj": 0.043365,
+          "log2FC": 1.851204
+        },
+        {
+          "gene": "RPL11",
+          "padj": 0.043365,
+          "log2FC": 1.084194
+        },
+        {
+          "gene": "RPL5",
+          "padj": 0.043365,
+          "log2FC": 0.951864
+        },
+        {
+          "gene": "CARS",
+          "padj": 0.043365,
+          "log2FC": 2.333281
+        },
+        {
+          "gene": "AKR7A2",
+          "padj": 0.043365,
+          "log2FC": 1.620435
+        },
+        {
+          "gene": "NUB1",
+          "padj": 0.043365,
+          "log2FC": 1.267179
+        },
+        {
+          "gene": "C1D",
+          "padj": 0.043365,
+          "log2FC": 1.590075
+        },
+        {
+          "gene": "PDCD6IP",
+          "padj": 0.043365,
+          "log2FC": 1.713891
+        },
+        {
+          "gene": "DNTTIP2",
+          "padj": 0.043365,
+          "log2FC": 1.931762
+        },
+        {
+          "gene": "GMDS",
+          "padj": 0.043365,
+          "log2FC": 2.999324
+        },
+        {
+          "gene": "RPS27",
+          "padj": 0.043365,
+          "log2FC": 1.029317
+        },
+        {
+          "gene": "FBN2",
+          "padj": 0.043365,
+          "log2FC": -1.94013
+        },
+        {
+          "gene": "RPL13A",
+          "padj": 0.044658,
+          "log2FC": 1.220664
+        },
+        {
+          "gene": "PACSIN2",
+          "padj": 0.046009,
+          "log2FC": 1.32321
+        },
+        {
+          "gene": "HNRNPH3",
+          "padj": 0.046024,
+          "log2FC": 1.374011
+        },
+        {
+          "gene": "IREB2",
+          "padj": 0.046024,
+          "log2FC": 1.731587
+        },
+        {
+          "gene": "RPL15",
+          "padj": 0.046024,
+          "log2FC": 1.185476
+        },
+        {
+          "gene": "COX15",
+          "padj": 0.046024,
+          "log2FC": 1.985112
+        },
+        {
+          "gene": "ID1",
+          "padj": 0.046024,
+          "log2FC": 2.223333
+        },
+        {
+          "gene": "EIF3B",
+          "padj": 0.046024,
+          "log2FC": 2.183683
+        },
+        {
+          "gene": "NDST1",
+          "padj": 0.046024,
+          "log2FC": 1.661887
+        },
+        {
+          "gene": "RAB10",
+          "padj": 0.046024,
+          "log2FC": 1.445865
+        },
+        {
+          "gene": "TMBIM4",
+          "padj": 0.046024,
+          "log2FC": 1.761162
+        },
+        {
+          "gene": "RPL39",
+          "padj": 0.046024,
+          "log2FC": 0.843871
+        },
+        {
+          "gene": "YAF2",
+          "padj": 0.046024,
+          "log2FC": 1.587026
+        },
+        {
+          "gene": "FLJ37453",
+          "padj": 0.046024,
+          "log2FC": 2.735724
+        },
+        {
+          "gene": "RPS12",
+          "padj": 0.046024,
+          "log2FC": 1.296638
+        },
+        {
+          "gene": "FRY",
+          "padj": 0.04683,
+          "log2FC": 1.997478
+        },
+        {
+          "gene": "MED8",
+          "padj": 0.04683,
+          "log2FC": 3.332773
+        },
+        {
+          "gene": "TMED9",
+          "padj": 0.0477,
+          "log2FC": 1.987364
+        },
+        {
+          "gene": "MANF",
+          "padj": 0.0477,
+          "log2FC": 1.664138
+        },
+        {
+          "gene": "LINC00667",
+          "padj": 0.048158,
+          "log2FC": 1.539626
+        },
+        {
+          "gene": "SEC61B",
+          "padj": 0.048632,
+          "log2FC": 1.853339
+        }
+      ]
+    },
+    "SRP14-AS1": {
+      "numeric_rows": 36611,
+      "numeric_row_scope": "Numeric p/fold-change values with text gene names;non-text cached gene cells listed separately",
+      "nontext_gene_rows": [
+        {
+          "excel_row": 33345,
+          "cached_gene_value": "2024-12-01 00:00:00",
+          "gene_value_type": "datetime",
+          "padj": 0.959887,
+          "log2FC": -1.22104
+        }
+      ],
+      "threshold": "padj<0.05 and abs(log2FC)>0.5;target gene excluded from downstream count",
+      "significant_including_target": 1,
+      "downstream_up": 0,
+      "downstream_down": 0,
+      "selected_genes": [
+        {
+          "gene": "SRP14-AS1",
+          "padj": 2.42e-06,
+          "log2FC": -29.0022
+        },
+        {
+          "gene": "MYL2",
+          "padj": 0.916439,
+          "log2FC": 0.196871
+        },
+        {
+          "gene": "FBN2",
+          "padj": 0.916439,
+          "log2FC": -0.68725
+        },
+        {
+          "gene": "LINC01405",
+          "padj": 0.932315,
+          "log2FC": -1.26652
+        }
+      ],
+      "significant_downstream_genes": []
+    }
+  },
+  "negative_match_interpretation": "No exact match in the selected young table;not evidence of no cardiac translation,absence from preserved ORFs or no biological function",
+  "cross_species_interpretation": "An exact chimp peptide match is not human cardiac evidence or transfer of chimp locus evolutionary age",
+  "human_LV_source_reused_from_vanHeesch2019": true,
+  "new_predictor_fit_or_inference": false,
+  "new_native_function_label": false
+}

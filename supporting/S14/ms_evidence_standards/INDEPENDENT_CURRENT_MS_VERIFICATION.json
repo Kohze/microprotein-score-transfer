@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "roster": 60,
+  "exact_S9_candidates": 45,
+  "source_table_cells_checked": 4143,
+  "JHDM_shotgun_exact_USI_curator_rating_verified": true,
+  "RP11_HLA_signature_shared_with_other_ORF_verified": true,
+  "raw_spectra_reprocessed": false,
+  "new_functional_or_tier_labels_assigned": false
+}

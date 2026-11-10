@@ -1,0 +1,509 @@
+{
+  "sources": {
+    "roster": {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\native_function_bridge\\candidate_bridge.csv",
+      "sha256": "b9b13d219b815ebfa2d6b002c217e02f4209456eba253062597ce98cccd93143"
+    },
+    "Tables1_17": {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\detection_evolution_prior\\Prensner2021\\41587_2020_806_MOESM3_ESM.xlsx",
+      "sha256": "14b6a2cca6c440750971d5fb6e967ab9dba953987ddd38782ac656221e837ac8"
+    },
+    "Tables21_32": {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\detection_evolution_prior\\Prensner2021\\41587_2020_806_MOESM5_ESM.xlsx",
+      "sha256": "8be00abc5a2bd302d820fc84fb1041375aba53f496191e3368b27af71845a4bd"
+    }
+  },
+  "source_ORFs": 553,
+  "source_residue_length_scope": {
+    "min": 23,
+    "max": 1200,
+    "residues31_150": 462,
+    "below31": 25,
+    "above150": 66
+  },
+  "source_summary_flag_counts": {
+    "V5 validation": 257,
+    "CRISPR phenotype": 57,
+    "Both RR and TAS": 237
+  },
+  "terminal_stop_notation_records": [
+    {
+      "name": "LINC00493",
+      "raw_string_length": 96,
+      "residue_length": 95,
+      "source_length": 96
+    },
+    {
+      "name": "AX747325",
+      "raw_string_length": 112,
+      "residue_length": 111,
+      "source_length": 112
+    },
+    {
+      "name": "G029442/GREP1",
+      "raw_string_length": 415,
+      "residue_length": 414,
+      "source_length": 415
+    }
+  ],
+  "candidates_checked": 60,
+  "exact_candidate_records": 11,
+  "matched_V5_flagged": 5,
+  "matched_RR_and_TAS_flagged": 8,
+  "matched_CRISPR_flagged": 0,
+  "matches_with_primary_reporter": 6,
+  "matches_with_existing_edits": 6,
+  "source_TableS16_rows_checked": 14,
+  "source_TableS16_label_aliases": {
+    "MKKS uORF": "MKKS",
+    "MIEF1 uORF": "MIEF1"
+  },
+  "exact_match_details": [
+    {
+      "candidate_key": "Sandmann_S2_row12",
+      "candidate_name": "TBX5-AS1",
+      "length": 79,
+      "candidate_gene_id": "ENSG00000255399",
+      "source_gene_id": "ENSG00000255399",
+      "source_name": "TBX5-AS1",
+      "source_excel_row": 312,
+      "source_raw_sequence": "MSSYLTSEPRWAGNRGLGPAGAARKRGNSERSVFSLWFLSPASRTAGPAATWTGIQRILQVQLHRLAFPDAPKPAPRTE",
+      "source_V5_flag": null,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": null,
+      "source_max_RR": 0.13,
+      "source_max_TAS": 0.183023,
+      "primary_GFP_records": 1,
+      "existing_measured_edit_pairs": 1,
+      "TableS16_label": "TBX5-AS1",
+      "TableS16_rows": [
+        {
+          "excel_row": 578,
+          "kind": "Wild_Type",
+          "label": "TBX5-AS1",
+          "replicates": [
+            -1.6500000000000057,
+            -0.3999999999999915,
+            -3.3499999999999943
+          ],
+          "mean": -1.7999999999999972,
+          "above_noise": "No"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row17",
+      "candidate_name": "CRNDE",
+      "length": 84,
+      "candidate_gene_id": "ENSG00000245694",
+      "source_gene_id": "ENSG00000245694",
+      "source_name": "CRNDE",
+      "source_excel_row": 541,
+      "source_raw_sequence": "MLAEIHPKAGLQSLQFIMELLYWLLEGGDSEDKEDATGNVEMKNIQPLVFEISCDVFQSRCKEHGKIKVLEWFKYVLGIPVYRL",
+      "source_V5_flag": 1,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": null,
+      "source_max_RR": 0.21,
+      "source_max_TAS": 0.106517,
+      "primary_GFP_records": 0,
+      "existing_measured_edit_pairs": 0,
+      "TableS16_label": "CRNDE",
+      "TableS16_rows": [
+        {
+          "excel_row": 62,
+          "kind": "Wild_Type",
+          "label": "CRNDE",
+          "replicates": [
+            3.5,
+            11.300000000000011,
+            10.049999999999997
+          ],
+          "mean": 8.283333333333337,
+          "above_noise": "Yes"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row23",
+      "candidate_name": "MTLN",
+      "length": 56,
+      "candidate_gene_id": "ENSG00000175701",
+      "source_gene_id": "ENSG00000175701",
+      "source_name": "LINC00116",
+      "source_excel_row": 81,
+      "source_raw_sequence": "MADVSERTLQLSVLVAFASGVLLGWQANRLRRRYLDWRKRRLQDKLAATQKKLDLA",
+      "source_V5_flag": 1,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": 1,
+      "source_max_RR": 0.26,
+      "source_max_TAS": 0.310765,
+      "primary_GFP_records": 0,
+      "existing_measured_edit_pairs": 0,
+      "TableS16_label": "LINC00116",
+      "TableS16_rows": [
+        {
+          "excel_row": 179,
+          "kind": "Wild_Type",
+          "label": "LINC00116",
+          "replicates": [
+            36.3,
+            1103.35,
+            64.6
+          ],
+          "mean": 401.4166666666666,
+          "above_noise": "Yes"
+        },
+        {
+          "excel_row": 180,
+          "kind": "Paired_Mutant",
+          "label": "LINC00116",
+          "replicates": [
+            1.9500000000000028,
+            1.7000000000000028,
+            -1.1500000000000057
+          ],
+          "mean": 0.8333333333333334,
+          "above_noise": "No"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row28",
+      "candidate_name": "MKKS",
+      "length": 63,
+      "candidate_gene_id": "ENSG00000285723",
+      "source_gene_id": "ENSG00000125863",
+      "source_name": "MKKS uORF",
+      "source_excel_row": 24,
+      "source_raw_sequence": "MSLRNLWRDYKVLVVMVPLVGLIHLGWYRIKSSPVFQIPKNDDIPEQDSLGLSNLQKSQIQGK",
+      "source_V5_flag": 1,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": 1,
+      "source_max_RR": 0.3,
+      "source_max_TAS": 0.470561,
+      "primary_GFP_records": 0,
+      "existing_measured_edit_pairs": 0,
+      "TableS16_label": "MKKS",
+      "TableS16_rows": [
+        {
+          "excel_row": 399,
+          "kind": "Wild_Type",
+          "label": "MKKS",
+          "replicates": [
+            6.5,
+            4.300000000000011,
+            27
+          ],
+          "mean": 12.600000000000003,
+          "above_noise": "Yes"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row31",
+      "candidate_name": "MIEF1-MP",
+      "length": 70,
+      "candidate_gene_id": "ENSG00000285025",
+      "source_gene_id": "ENSG00000100335",
+      "source_name": "MIEF1 uORF",
+      "source_excel_row": 35,
+      "source_raw_sequence": "MAPWSREAVLSLYRALLRQGRQLRYTDRDFYFASIRREFRKNQKLEDAEARERQLEKGLVFLNGKLGRII",
+      "source_V5_flag": 1,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": 1,
+      "source_max_RR": 0.24,
+      "source_max_TAS": 0.420827,
+      "primary_GFP_records": 0,
+      "existing_measured_edit_pairs": 0,
+      "TableS16_label": "MIEF1",
+      "TableS16_rows": [
+        {
+          "excel_row": 386,
+          "kind": "Wild_Type",
+          "label": "MIEF1",
+          "replicates": [
+            4.099999999999994,
+            2.8000000000000114,
+            69
+          ],
+          "mean": 25.3,
+          "above_noise": "Yes"
+        },
+        {
+          "excel_row": 387,
+          "kind": "Paired_Mutant",
+          "label": "MIEF1",
+          "replicates": [
+            -5.400000000000006,
+            1,
+            -2.6999999999999886
+          ],
+          "mean": -2.366666666666665,
+          "above_noise": "No"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row32",
+      "candidate_name": "PRR34-AS1",
+      "length": 38,
+      "candidate_gene_id": "ENSG00000241990",
+      "source_gene_id": "ENSG00000241990",
+      "source_name": "PRR34-AS1",
+      "source_excel_row": 203,
+      "source_raw_sequence": "MFCCAQCEEAKEKKDLLKMCTSTCSLKIPSARHFSWRK",
+      "source_V5_flag": null,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": 1,
+      "source_max_RR": 0.37,
+      "source_max_TAS": 0.229022,
+      "primary_GFP_records": 1,
+      "existing_measured_edit_pairs": 2,
+      "TableS16_label": "PRR34-AS1",
+      "TableS16_rows": [
+        {
+          "excel_row": 436,
+          "kind": "Wild_Type",
+          "label": "PRR34-AS1",
+          "replicates": [
+            1.0999999999999943,
+            0.8000000000000114,
+            -4.200000000000003
+          ],
+          "mean": -0.7666666666666657,
+          "above_noise": "No"
+        },
+        {
+          "excel_row": 437,
+          "kind": "Paired_Mutant",
+          "label": "PRR34-AS1",
+          "replicates": [
+            -3.799999999999997,
+            0,
+            -2.3999999999999915
+          ],
+          "mean": -2.066666666666663,
+          "above_noise": "No"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row38",
+      "candidate_name": "SNHG8",
+      "length": 36,
+      "candidate_gene_id": "ENSG00000269893",
+      "source_gene_id": "ENSG00000269893",
+      "source_name": "SNHG8",
+      "source_excel_row": 170,
+      "source_raw_sequence": "MDDGNIRLSRNPSGNGRSLFSIRQWTYRSWGNGCSE",
+      "source_V5_flag": null,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": 1,
+      "source_max_RR": 0.24,
+      "source_max_TAS": 0.250269,
+      "primary_GFP_records": 1,
+      "existing_measured_edit_pairs": 2,
+      "TableS16_label": "SNHG8",
+      "TableS16_rows": [
+        {
+          "excel_row": 566,
+          "kind": "Wild_Type",
+          "label": "SNHG8",
+          "replicates": [
+            -0.5499999999999972,
+            -3,
+            -2.9499999999999886
+          ],
+          "mean": -2.166666666666662,
+          "above_noise": "No"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row41",
+      "candidate_name": "DANCR",
+      "length": 59,
+      "candidate_gene_id": "ENSG00000226950",
+      "source_gene_id": "ENSG00000226950",
+      "source_name": "DANCR",
+      "source_excel_row": 158,
+      "source_raw_sequence": "MLVATGQCSRCFMFTFSTFSFNCHNSEVDSVRDRLPQDHSAPANSMQLTLTLNTLQLHS",
+      "source_V5_flag": null,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": 1,
+      "source_max_RR": 0.23,
+      "source_max_TAS": 0.256241,
+      "primary_GFP_records": 1,
+      "existing_measured_edit_pairs": 2,
+      "TableS16_label": "DANCR",
+      "TableS16_rows": [
+        {
+          "excel_row": 81,
+          "kind": "Wild_Type",
+          "label": "DANCR",
+          "replicates": [
+            -1.8999999999999915,
+            -0.7999999999999972,
+            -7.150000000000006
+          ],
+          "mean": -3.2833333333333314,
+          "above_noise": "No"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row45",
+      "candidate_name": "CTD-2366F13.1",
+      "length": 85,
+      "candidate_gene_id": "ENSG00000247796",
+      "source_gene_id": "ENSG00000247796",
+      "source_name": "LOC257396",
+      "source_excel_row": 529,
+      "source_raw_sequence": "MGRGGERKQSVWKWRNGLPCMSFSPGGRSWCRRADARLLDTCRLRYGGLANNLAGVFRLFHWLTFRLLTLLPTIEKRRDSMRLEM",
+      "source_V5_flag": null,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": null,
+      "source_max_RR": 0.23,
+      "source_max_TAS": 0.114019,
+      "primary_GFP_records": 0,
+      "existing_measured_edit_pairs": 0,
+      "TableS16_label": "LOC257396",
+      "TableS16_rows": [
+        {
+          "excel_row": 338,
+          "kind": "Wild_Type",
+          "label": "LOC257396",
+          "replicates": [
+            -0.29999999999999716,
+            2.1000000000000085,
+            -5
+          ],
+          "mean": -1.0666666666666629,
+          "above_noise": "No"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row51",
+      "candidate_name": "RP11-140K17.3",
+      "length": 52,
+      "candidate_gene_id": "ENSG00000272288",
+      "source_gene_id": "ENSG00000272288",
+      "source_name": "LOC101929243",
+      "source_excel_row": 99,
+      "source_raw_sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS",
+      "source_V5_flag": 1,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": 1,
+      "source_max_RR": 0.41,
+      "source_max_TAS": 0.295541,
+      "primary_GFP_records": 1,
+      "existing_measured_edit_pairs": 2,
+      "TableS16_label": "LOC101929243",
+      "TableS16_rows": [
+        {
+          "excel_row": 310,
+          "kind": "Wild_Type",
+          "label": "LOC101929243",
+          "replicates": [
+            11.049999999999997,
+            4.199999999999989,
+            10
+          ],
+          "mean": 8.416666666666663,
+          "above_noise": "Yes"
+        }
+      ]
+    },
+    {
+      "candidate_key": "Sandmann_S2_row56",
+      "candidate_name": "SNHG6",
+      "length": 25,
+      "candidate_gene_id": "ENSG00000245910",
+      "source_gene_id": "ENSG00000245910",
+      "source_name": "SNHG6",
+      "source_excel_row": 133,
+      "source_raw_sequence": "MPVWWRRRRLRARSWALRGARKPLR",
+      "source_V5_flag": null,
+      "source_CRISPR_flag": null,
+      "source_RR_and_TAS_flag": 1,
+      "source_max_RR": 0.19,
+      "source_max_TAS": 0.268609,
+      "primary_GFP_records": 1,
+      "existing_measured_edit_pairs": 2,
+      "TableS16_label": "SNHG6",
+      "TableS16_rows": [
+        {
+          "excel_row": 563,
+          "kind": "Wild_Type",
+          "label": "SNHG6",
+          "replicates": [
+            -1.5499999999999972,
+            -0.7999999999999972,
+            -3.6499999999999915
+          ],
+          "mean": -1.9999999999999953,
+          "above_noise": "No"
+        }
+      ]
+    }
+  ],
+  "gene_ID_only_different_product_records": [
+    {
+      "candidate_key": "Sandmann_S2_row15",
+      "candidate_name": "RP11-620J15.3",
+      "candidate_sequence": "MKWTQHVKTILSRSLAVKENRECAKEHTDTEQTGHLCNHMEVCLILKLKKLSWKTERPSPDDIV",
+      "candidate_length": 64,
+      "source_name": "LOC100506844",
+      "source_sequence": "MKCGPVAPHCRFSSFLPPFRKCAKEHTDTEQTGHLCNHMEVCLILKLKKLSWKTERPSPDDIV",
+      "source_length": 63,
+      "source_excel_row": 413,
+      "function_transferred": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row37",
+      "candidate_name": "SNHG8",
+      "candidate_sequence": "MIIGPKLTALPKRQRSQDIGRSGAALETLKFTSMRGLECSLGRRASTCSPGP",
+      "candidate_length": 52,
+      "source_name": "SNHG8",
+      "source_sequence": "MDDGNIRLSRNPSGNGRSLFSIRQWTYRSWGNGCSE",
+      "source_length": 36,
+      "source_excel_row": 170,
+      "function_transferred": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row44",
+      "candidate_name": "C5orf56",
+      "candidate_sequence": "MKAVVARTGAAAVSGEGRRMQRPPAWSAGPGAATRAGRGGSTPWAPHSPPQVLRMASRETRKWTPWLLES",
+      "candidate_length": 70,
+      "source_name": "C5orf56",
+      "source_sequence": "MEEPVPVGRSAAGAFPLTAGLPSLPPSPGPGPAEAGVRGGLALGHSAGPAPPRTPPGQATRRPEPGAPASGCRPAPAARPAFTARSAPVPPPGGFRFRFPADVVEENESGRGQDWRSCRFRRGAQNAAAASLERGPWGRNPRRARWQHTLGPPLPAASPEDGQQRNKKMDSLAAGELNASHQPWVPEFVAYWRKTHQDHLCSLHSRAFGLLDARVTWALRRAPEPVPGKDRLLLAAFPAEASPVDTASVSVYGRAPRYMHKGVKKCVCTPVSKNSTAWLLLGGIS",
+      "source_length": 285,
+      "source_excel_row": 161,
+      "function_transferred": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row50",
+      "candidate_name": "RP11-140K17.3",
+      "candidate_sequence": "MSRKKAQPAGLSWKPSSLWNSEMSTSLSVVPRQLNFCISSGSRSTSMPSMAGTGHPLPRLFTTKPPPRRRARGPGGGPLLASFATPLL",
+      "candidate_length": 88,
+      "source_name": "LOC101929243",
+      "source_sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS",
+      "source_length": 52,
+      "source_excel_row": 99,
+      "function_transferred": false
+    }
+  ],
+  "source_tiling_class_counts": {
+    "No viability phenotype": 5,
+    "Nonspecific to genome region": 7,
+    "Phenotype shared by ORF and adjacent coding gene": 5,
+    "Specific to ORF": 12,
+    "Specific to ORF and transcript subregions": 6,
+    "Specific to transcript": 6
+  },
+  "scope": "Exact complete source peptide sequence after removal only of terminal stop notation;no initiator adjustment,residue substitution or substring acceptance. TableS16 cross-references use two explicit source label aliases. Source assay flags are annotations,not new endogenous function or measurements of our stability edits.",
+  "new_predictor_fit_or_inference": false,
+  "new_native_function_label_assigned": false,
+  "new_native_or_edited_function_measurement": false
+}

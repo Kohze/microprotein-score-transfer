@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "independent_reader": "Original XLSX ZIP/XML; no openpyxl",
+  "candidates": 60,
+  "source_definitions": 8008,
+  "source_definition_exact_candidates": 49,
+  "PPM_gt1_atleast5_exact_candidates": 33,
+  "exact_screen_candidates": 21,
+  "screen_summary_resolved_candidates": 20,
+  "screen_summary_unresolved_candidates": 1,
+  "source_screen_hit_candidates": 4,
+  "source_screen_hit_keys": [
+    "Sandmann_S2_row4",
+    "Sandmann_S2_row12",
+    "Sandmann_S2_row38",
+    "Sandmann_S2_row56"
+  ],
+  "tiling_records": 50,
+  "ASDURF96_roster_exact_matches": 0,
+  "new_native_or_edited_function_measurement": false
+}

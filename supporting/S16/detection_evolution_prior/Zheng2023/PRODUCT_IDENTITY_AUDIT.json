@@ -1,0 +1,459 @@
+{
+  "sources": {
+    "roster": {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\native_function_bridge\\candidate_bridge.csv",
+      "sha256": "b9b13d219b815ebfa2d6b002c217e02f4209456eba253062597ce98cccd93143"
+    },
+    "Table1": {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\detection_evolution_prior\\Zheng2023\\jci-133-159940-s011.xlsx",
+      "sha256": "4a2c248847ba036aa0f6d63278d7132de3212d40cd655936243ec002008c11b6"
+    },
+    "Table2": {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\novelty_audit_2026-11-01\\detection_evolution_prior\\Zheng2023\\jci-133-159940-s013.xlsx",
+      "sha256": "a40720d64af0998e7e345aedb4337b8e5c76c66d6aabdb88e03326c702f28d2f"
+    }
+  },
+  "selected_hit_ORFs": 28,
+  "source_sequence_records": 29,
+  "extra_record": "RACE-supported 120-aa GENCODE v39 version of the original 63-aa ORF7;not an extra screen hit",
+  "candidates_checked": 60,
+  "exact_candidate_matches": 0,
+  "same_gene_id_matches": 0,
+  "figure_peptide_source_mapping": [
+    {
+      "sequence": "QERFPIILLSR",
+      "matches": [
+        {
+          "ORF": "(GENCODE V39)",
+          "length": 120,
+          "position_1based": 30
+        },
+        {
+          "ORF": "ORF-23",
+          "length": 131,
+          "position_1based": 30
+        }
+      ]
+    },
+    {
+      "sequence": "TDSFAGHLFSTAR",
+      "matches": [
+        {
+          "ORF": "ORF-7 (GENCODE V22)",
+          "length": 63,
+          "position_1based": 24
+        },
+        {
+          "ORF": "(GENCODE V39)",
+          "length": 120,
+          "position_1based": 81
+        },
+        {
+          "ORF": "ORF-23",
+          "length": 131,
+          "position_1based": 81
+        }
+      ]
+    },
+    {
+      "sequence": "ATENTCTMVSGR",
+      "matches": [
+        {
+          "ORF": "ORF-7 (GENCODE V22)",
+          "length": 63,
+          "position_1based": 5
+        },
+        {
+          "ORF": "(GENCODE V39)",
+          "length": 120,
+          "position_1based": 62
+        },
+        {
+          "ORF": "ORF-23",
+          "length": 131,
+          "position_1based": 62
+        }
+      ]
+    },
+    {
+      "sequence": "TLPLSVER",
+      "matches": [
+        {
+          "ORF": "ORF-7 (GENCODE V22)",
+          "length": 63,
+          "position_1based": 37
+        },
+        {
+          "ORF": "(GENCODE V39)",
+          "length": 120,
+          "position_1based": 94
+        },
+        {
+          "ORF": "ORF-23",
+          "length": 131,
+          "position_1based": 94
+        }
+      ]
+    }
+  ],
+  "Table2": [
+    {
+      "sheet": "GT3-INCP-Flag-peptides",
+      "source_record_count": 333,
+      "distinct_unmodified_sequences": 8,
+      "peptide_mapping": [
+        {
+          "sequence": "ATENTCTMVSGR",
+          "source_record_count": 120,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "FPIILLSR",
+          "source_record_count": 35,
+          "source_ORFs": [
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "QERFPIILLSR",
+          "source_record_count": 1,
+          "source_ORFs": [
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "QLHILDR",
+          "source_record_count": 2,
+          "source_ORFs": [
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "SLFPQPK",
+          "source_record_count": 58,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "TDSFAGHLFSTAR",
+          "source_record_count": 28,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "TLPLSVER",
+          "source_record_count": 85,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "TLPLSVERGR",
+          "source_record_count": 4,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "MCF7-IP-endogenous(PRM-MS)",
+      "source_record_count": 146,
+      "distinct_unmodified_sequences": 9,
+      "peptide_mapping": [
+        {
+          "sequence": "ATENTCTMVSGR",
+          "source_record_count": 54,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "FPIILLSR",
+          "source_record_count": 16,
+          "source_ORFs": [
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "GRGSAYGAR",
+          "source_record_count": 1,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "LRATENTCTMVSGR",
+          "source_record_count": 3,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "QERFPIILLSR",
+          "source_record_count": 13,
+          "source_ORFs": [
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "QLHILDR",
+          "source_record_count": 3,
+          "source_ORFs": [
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "SLFPQPK",
+          "source_record_count": 3,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "TDSFAGHLFSTAR",
+          "source_record_count": 34,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "TLPLSVER",
+          "source_record_count": 19,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "T47D-IP-endogenous(PRM-MS)",
+      "source_record_count": 141,
+      "distinct_unmodified_sequences": 8,
+      "peptide_mapping": [
+        {
+          "sequence": "ATENTCTMVSGR",
+          "source_record_count": 54,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "FPIILLSR",
+          "source_record_count": 13,
+          "source_ORFs": [
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "LRATENTCTMVSGR",
+          "source_record_count": 4,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "QERFPIILLSR",
+          "source_record_count": 16,
+          "source_ORFs": [
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "QLHILDR",
+          "source_record_count": 1,
+          "source_ORFs": [
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "SLFPQPK",
+          "source_record_count": 1,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "TDSFAGHLFSTAR",
+          "source_record_count": 37,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        },
+        {
+          "sequence": "TLPLSVER",
+          "source_record_count": 15,
+          "source_ORFs": [
+            "ORF-7 (GENCODE V22)",
+            "(GENCODE V39)",
+            "ORF-23"
+          ],
+          "source_AA_lengths": [
+            63,
+            120,
+            131
+          ]
+        }
+      ]
+    }
+  ],
+  "normalization": "Remove only the single terminal * from Table1;uppercase Table2 residue letters to remove modification-case notation;no substitutions or initiator changes",
+  "scope": "Sharing tested only against the 29 Table1 records;not whole-proteome uniqueness, spectral confidence, abundance or alternative-isoform expression",
+  "new_function_label_assigned": false,
+  "new_predictor_fit_or_inference": false,
+  "raw_spectra_reprocessed": false
+}

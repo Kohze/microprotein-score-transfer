@@ -1,0 +1,235 @@
+{
+  "assets_checked": 9,
+  "all_repository_MD5_and_saved_SHA256_pass": true,
+  "selected_original_rows": [
+    {
+      "file": "pr9b00599_si_003.xlsx",
+      "title": "Table S2. Significantly enriched protein from MaxQuant label-free quantification analysis of PIH1D1 BioID experiment. Related to Figure 1A.",
+      "source_data_rows": 814,
+      "ASDURF_rows": [
+        {
+          "excel_row": 10,
+          "values": {
+            "-Log Student's T-test p-value PIH1D1_EGFP": 5.3591282235376,
+            "Difference PIH1D1_EGFP": 5.04833730061849,
+            "Protein IDs": "L0R819;U3KQP1;U3KQP6;U3KQ49;U3KQE3",
+            "Majority protein IDs": "L0R819;U3KQP1;U3KQP6;U3KQ49",
+            "Protein names": null,
+            "Gene names": "ASDURF",
+            "Peptides": 8,
+            "Razor + unique peptides": 8,
+            "Unique peptides": 8,
+            "Sequence coverage [%]": 79.2,
+            "Unique + razor sequence coverage [%]": 79.2,
+            "Unique sequence coverage [%]": 79.2,
+            "Mol. weight [kDa]": 11.25,
+            "Q-value": 0,
+            "Score": 107.77,
+            "Intensity": 35508000000,
+            "MS/MS count": 851,
+            "Student's T-test q-value PIH1D1_EGFP": 0,
+            "Log2 LFQ intensity EGFP_1": 25.6101760864258,
+            "Log2 LFQ intensity EGFP_2": 25.5588245391846,
+            "Log2 LFQ intensity EGFP_3": 25.218376159668,
+            "Log2 LFQ intensity PIH1D1_1": 30.4376773834229,
+            "Log2 LFQ intensity PIH1D1_2": 30.6742992401123,
+            "Log2 LFQ intensity PIH1D1_3": 30.4204120635986
+          }
+        }
+      ]
+    },
+    {
+      "file": "pr9b00599_si_004.xlsx",
+      "title": "Table S3. Significantly enriched protein from MaxQuant label-free quantification analysis of UXT BioID experiment. Related to Figure 1B.",
+      "source_data_rows": 598,
+      "ASDURF_rows": [
+        {
+          "excel_row": 5,
+          "values": {
+            "-Log Student's T-test p-value UXT_EGFP": 6.05351455762378,
+            "Difference UXT_EGFP": 9.44611040751139,
+            "Protein IDs": "L0R819;U3KQP1;U3KQP6;U3KQ49;U3KQE3",
+            "Majority protein IDs": "L0R819;U3KQP1;U3KQP6;U3KQ49",
+            "Protein names": null,
+            "Gene names": "ASDURF",
+            "Peptides": 8,
+            "Razor + unique peptides": 8,
+            "Unique peptides": 8,
+            "Sequence coverage [%]": 79.2,
+            "Unique + razor sequence coverage [%]": 79.2,
+            "Unique sequence coverage [%]": 79.2,
+            "Mol. weight [kDa]": 11.25,
+            "Q-value": 0,
+            "Score": 107.77,
+            "Intensity": 35508000000,
+            "MS/MS count": 851,
+            "Student's T-test q-value UXT_EGFP": 0,
+            "Log2 LFQ intensity EGFP_1": 25.6101760864258,
+            "Log2 LFQ intensity EGFP_2": 25.5588245391846,
+            "Log2 LFQ intensity EGFP_3": 25.218376159668,
+            "Log2 LFQ intensity UXT_1": 34.81201171875,
+            "Log2 LFQ intensity UXT_2": 34.7320137023926,
+            "Log2 LFQ intensity UXT_3": 35.1816825866699
+          }
+        }
+      ]
+    },
+    {
+      "file": "pr9b00599_si_005.xlsx",
+      "title": "Table S4. Significantly enriched protein from MaxQuant label-free quantification analysis of RPAP3 FLAG-based affinity purification. Related to Figure 1C.",
+      "source_data_rows": 43,
+      "ASDURF_rows": [
+        {
+          "excel_row": 8,
+          "values": {
+            "-Log Student's T-test p-value RPAP3_FLAG": 3.14661763855058,
+            "Difference RPAP3_FLAG": 5.0821475982666,
+            "Protein IDs": "L0R819;U3KQP1;U3KQP6;U3KQ49;U3KQE3",
+            "Majority protein IDs": "L0R819;U3KQP1;U3KQP6;U3KQ49",
+            "Protein names": null,
+            "Gene names": "ASDURF",
+            "Peptides": 6,
+            "Razor + unique peptides": 6,
+            "Unique peptides": 6,
+            "Sequence coverage [%]": 64.6,
+            "Unique + razor sequence coverage [%]": 64.6,
+            "Unique sequence coverage [%]": 64.6,
+            "Mol. weight [kDa]": 11.25,
+            "Q-value": 0,
+            "Score": 170.46,
+            "Intensity": 2333500000,
+            "MS/MS count": 297,
+            "Student's T-test q-value RPAP3_FLAG": 0.0181,
+            "Log2 LFQ intensity FLAG_1": 21.2175674438477,
+            "Log2 LFQ intensity FLAG_2": 21.0915508270264,
+            "Log2 LFQ intensity FLAG_3": 21.1057109832764,
+            "Log2 LFQ intensity RPAP3_1": 25.2149715423584,
+            "Log2 LFQ intensity RPAP3_2": 27.0604400634766,
+            "Log2 LFQ intensity RPAP3_3": 26.3858604431152
+          }
+        }
+      ]
+    },
+    {
+      "file": "pr9b00599_si_006.xlsx",
+      "title": "Table S5. Significantly enriched protein from MaxQuant label-free quantification analysis of URI1 FLAG-based affinity purification. Related to Figure 1D.",
+      "source_data_rows": 142,
+      "ASDURF_rows": [
+        {
+          "excel_row": 7,
+          "values": {
+            "-Log Student's T-test p-value URI1_FLAG": 6.59569930434048,
+            "Difference URI1_FLAG": 8.72916158040364,
+            "Protein IDs": "L0R819;U3KQP1;U3KQP6;U3KQ49;U3KQE3",
+            "Majority protein IDs": "L0R819;U3KQP1",
+            "Protein names": null,
+            "Gene names": "ASDURF",
+            "Student's T-test Significant URI1_FLAG": "+",
+            "Peptides": 9,
+            "Razor + unique peptides": 9,
+            "Unique peptides": 9,
+            "Sequence coverage [%]": 81.2,
+            "Unique + razor sequence coverage [%]": 81.2,
+            "Unique sequence coverage [%]": 81.2,
+            "Mol. weight [kDa]": 11.25,
+            "Q-value": 0,
+            "Score": 179.04,
+            "Intensity": 9975200000,
+            "MS/MS count": 287,
+            "Student's T-test q-value URI1_FLAG": 0,
+            "Log2 LFQ intensity FLAG_1": 20.6280326843262,
+            "Log2 LFQ intensity FLAG_2": 20.2967376708984,
+            "Log2 LFQ intensity FLAG_3": 20.6791248321533,
+            "Log2 LFQ intensity URI1_1": 29.2435665130615,
+            "Log2 LFQ intensity URI1_2": 29.2136383056641,
+            "Log2 LFQ intensity URI1_3": 29.3341751098633
+          }
+        }
+      ]
+    },
+    {
+      "file": "pr9b00599_si_007.xlsx",
+      "title": "Table S6: Significantly enriched protein from MaxQuant label-free quantification analysis of PPP1CA FLAG-based affinity purification in combination with URI1 knockdown. Related to Figure 1E.",
+      "source_data_rows": 93,
+      "ASDURF_rows": [
+        {
+          "excel_row": 48,
+          "values": {
+            "-Log Student's T-test p-value PPP1CA_siURI1_PPP1CA_siCTRL": 2.08739498208208,
+            "Difference PPP1CA_siURI1_PPP1CA_siCTRL": -1.02553812662761,
+            "Protein IDs": "L0R819;U3KQP1;U3KQP6;U3KQ49;U3KQE3",
+            "Majority protein IDs": "L0R819;U3KQP1",
+            "Protein names": null,
+            "Gene names": "ASDURF",
+            "Student's T-test Significant PPP1CA_siURI1_FLAG": "+",
+            "Student's T-test Significant PPP1CA_siCTRL_FLAG": "+",
+            "Student's T-test Significant PPP1CA_siURI1_PPP1CA_siCTRL": "+",
+            "Peptides": 5,
+            "Razor + unique peptides": 5,
+            "Unique peptides": 5,
+            "Sequence coverage [%]": 72.9,
+            "Unique + razor sequence coverage [%]": 72.9,
+            "Unique sequence coverage [%]": 72.9,
+            "Mol. weight [kDa]": 11.25,
+            "Q-value": 0,
+            "Score": 45.303,
+            "Intensity": 438010000,
+            "MS/MS count": 48,
+            "-Log Student's T-test p-value PPP1CA_siURI1_FLAG": 3.05579420637057,
+            "Difference PPP1CA_siURI1_FLAG": 3.20378748575846,
+            "-Log Student's T-test p-value PPP1CA_siCTRL_FLAG": 3.50739501654222,
+            "Difference PPP1CA_siCTRL_FLAG": 4.22932561238607,
+            "Student's T-test q-value PPP1CA_siURI1_PPP1CA_siCTRL": 0,
+            "Log2 LFQ intensity PPP1CA_siURI1_1": 25.1432037353516,
+            "Log2 LFQ intensity PPP1CA_siURI1_2": 25.0628700256348,
+            "Log2 LFQ intensity PPP1CA_siURI1_3": 24.6750831604004,
+            "Log2 LFQ intensity PPP1CA_siCTRL_1": 26.2793407440186,
+            "Log2 LFQ intensity PPP1CA_siCTRL_2": 25.9127826690674,
+            "Log2 LFQ intensity PPP1CA_siCTRL_3": 25.7656478881836,
+            "Log2 LFQ intensity FLAG_1": 21.1007442474365,
+            "Log2 LFQ intensity FLAG_2": 22.0283355712891,
+            "Log2 LFQ intensity FLAG_3": 22.1407146453857
+          }
+        }
+      ]
+    },
+    {
+      "file": "pr9b00599_si_008.xlsx",
+      "title": "Table S7. Significantly enriched protein from MaxQuant label-free quantification analysis of ASDURF FLAG-based affinity purification. Related to Figure 1F.",
+      "source_data_rows": 22,
+      "ASDURF_rows": [
+        {
+          "excel_row": 3,
+          "values": {
+            "-Log Student's T-test p-value ASDURF_FLAG": 7.94253599734395,
+            "Difference ASDURF_FLAG": 13.4895413716634,
+            "Protein IDs": "L0R819;U3KQP1;U3KQ49;U3KQP6;U3KQE3",
+            "Majority protein IDs": "L0R819;U3KQP1",
+            "Protein names": null,
+            "Gene names": "ASDURF",
+            "Peptides": 20,
+            "Razor + unique peptides": 20,
+            "Unique peptides": 20,
+            "Sequence coverage [%]": 93.8,
+            "Unique + razor sequence coverage [%]": 93.8,
+            "Unique sequence coverage [%]": 93.8,
+            "Mol. weight [kDa]": 11.25,
+            "Q-value": 0,
+            "Score": 323.31,
+            "Intensity": 111490000000,
+            "MS/MS count": 788,
+            "Student's T-test q-value ASDURF_FLAG": 0,
+            "Log2 LFQ intensity ASDURF_1": 33.8383636474609,
+            "Log2 LFQ intensity ASDURF_2": 34.0102195739746,
+            "Log2 LFQ intensity ASDURF_3": 34.0808410644531,
+            "Log2 LFQ intensity FLAG_1": 20.3839721679688,
+            "Log2 LFQ intensity FLAG_2": 20.5207920074463,
+            "Log2 LFQ intensity FLAG_3": 20.5560359954834
+          }
+        }
+      ]
+    }
+  ],
+  "full_main_scientific_text_read": false,
+  "no_new_half_life_or_binding_affinity_measurement": true
+}

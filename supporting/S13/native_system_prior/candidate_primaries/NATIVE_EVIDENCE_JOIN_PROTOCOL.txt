@@ -1,0 +1,24 @@
+EXPLORATORY NATIVE EVIDENCE / REFERENCE COMPATIBILITY AUDIT
+All60 Sandmann full-sequence candidates are retained. The three motif-linked
+candidates and selected source rows have already been inspected; this is
+post-hoc descriptive provenance, not a blinded validation or enrichment test.
+Join HumanHeart2019 S3/S5 only by full amino-acid identity (whitespace and one
+terminal stop normalized). Gene/ORF names annotate and check a sequence join;
+they cannot substitute for it. Preserve source rows, original values and
+all unmatched candidates. Source ORF lengths are nucleotides, not residues.
+
+For S5 SRM, use exact full source sequence and source ORF ID for results.
+Set-up IDs may list multiple ORFs separated by semicolons; explicitly split
+those fields and require a targeted peptide to occur in the matched WT.
+Separate reported detection, targeted nondetection and unavailable/untested
+coverage. Retain every dot product/area/retention-time cell. The source's
+dot-product threshold is0.7; no threshold is selected here. No raw spectral
+reanalysis, calibrated FDR, native half-life or functional label is supplied.
+
+Map the exact68aa JHDM1D-AS1 peptide into all three plus-strand frames of
+NR_024451.1, cited by the2017 RNA study. Require ATG plus immediate in-frame
+stop. Report1-based coordinates from the reference, not equivalence of the
+951nt heart assembly and2398nt RefSeq transcript or of historical plasmids.
+Map reported SRM peptide and source binding tiles within the exact WT and
+compare their literal sequences under each existing edit. Sequence overlap
+is not kinase causality, edited phosphorylation or interaction loss.

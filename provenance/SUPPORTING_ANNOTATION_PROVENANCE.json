@@ -1,0 +1,396 @@
+{
+  "scope": "Previously computed derived candidate annotations; no new outcomes or source reprocessing",
+  "files": [
+    {
+      "label": "S13",
+      "public_path": "supporting/S13/native_system_prior/candidate_primaries/candidate_native_evidence.json",
+      "source_path": "novelty_audit_2026-11-01/native_system_prior/candidate_primaries/candidate_native_evidence.json",
+      "sha256": "844bf69f7420a98f8df992c17fee4f64cc27fe1d4bafe81edf9b541774c04b34"
+    },
+    {
+      "label": "S13",
+      "public_path": "supporting/S13/native_system_prior/candidate_primaries/NATIVE_EVIDENCE_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/native_system_prior/candidate_primaries/NATIVE_EVIDENCE_AUDIT.json",
+      "sha256": "ec5b8e86f89171ac0133f48b7cd87584c8d3d0e5c506e41dad300c86017f84c9"
+    },
+    {
+      "label": "S13",
+      "public_path": "supporting/S13/native_system_prior/candidate_primaries/INDEPENDENT_NATIVE_EVIDENCE_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/native_system_prior/candidate_primaries/INDEPENDENT_NATIVE_EVIDENCE_VERIFICATION.json",
+      "sha256": "843c18c88f490be5151f1bf2e8dbeae38eec232f9fa9e12ea0e2d6992c6a31ba"
+    },
+    {
+      "label": "S13",
+      "public_path": "supporting/S13/native_system_prior/candidate_primaries/NATIVE_EVIDENCE_JOIN_PROTOCOL.txt",
+      "source_path": "novelty_audit_2026-11-01/native_system_prior/candidate_primaries/NATIVE_EVIDENCE_JOIN_PROTOCOL.txt",
+      "sha256": "9984e16b3778f92733a46f4b7a188ee638f123203c8323ee3963528ddd350bdb"
+    },
+    {
+      "label": "S13",
+      "public_path": "supporting/S13/native_system_prior/candidate_primaries/JHDM_REFERENCE_COMPATIBILITY.json",
+      "source_path": "novelty_audit_2026-11-01/native_system_prior/candidate_primaries/JHDM_REFERENCE_COMPATIBILITY.json",
+      "sha256": "cf12e5f5907dddbbac8b9918a49380861205e6f4c0ff1dfea9743d376cbb17cb"
+    },
+    {
+      "label": "S13",
+      "public_path": "supporting/S13/native_system_prior/candidate_primaries/RP11_REAGENT_REPORTING_AMBIGUITY.json",
+      "source_path": "novelty_audit_2026-11-01/native_system_prior/candidate_primaries/RP11_REAGENT_REPORTING_AMBIGUITY.json",
+      "sha256": "17163af397d4ce5eb80bc79c00de10d2392acf068e3ff23cd878f5eb8d175ae9"
+    },
+    {
+      "label": "S13",
+      "public_path": "supporting/S13/native_system_prior/candidate_primaries/SOURCE_INTAKE.json",
+      "source_path": "novelty_audit_2026-11-01/native_system_prior/candidate_primaries/SOURCE_INTAKE.json",
+      "sha256": "7375e938e4e3bb849c1a5b32680499fb9e4ebd0aa668c0bf39c50408df72a31a"
+    },
+    {
+      "label": "S13",
+      "public_path": "supporting/S13/audit_candidate_native_evidence.py",
+      "source_path": "novelty_audit_2026-11-01/audit_candidate_native_evidence.py",
+      "sha256": "340469c2464fc3b9f68099d95c0ef8c8a31b187e6f6ac805eaff85cd49a08244"
+    },
+    {
+      "label": "S13",
+      "public_path": "supporting/S13/verify_candidate_native_evidence.py",
+      "source_path": "novelty_audit_2026-11-01/verify_candidate_native_evidence.py",
+      "sha256": "1398d21bd422e99be42d40dac56c5f73e08c99e7f7da925c992a58f8d35998c9"
+    },
+    {
+      "label": "S14",
+      "public_path": "supporting/S14/ms_evidence_standards/current_candidate_ms_evidence.json",
+      "source_path": "novelty_audit_2026-11-01/ms_evidence_standards/current_candidate_ms_evidence.json",
+      "sha256": "a68a6ce40ea1e6113eb2665b95d841021b1068d2bd257721b5157fa3bfad2875"
+    },
+    {
+      "label": "S14",
+      "public_path": "supporting/S14/ms_evidence_standards/CURRENT_CANDIDATE_MS_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/ms_evidence_standards/CURRENT_CANDIDATE_MS_AUDIT.json",
+      "sha256": "34638f48834236b38857c3950859022cb28ef23029cbf4b3169cb5a6d0ce88ad"
+    },
+    {
+      "label": "S14",
+      "public_path": "supporting/S14/ms_evidence_standards/INDEPENDENT_CURRENT_MS_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/ms_evidence_standards/INDEPENDENT_CURRENT_MS_VERIFICATION.json",
+      "sha256": "be581d76e1efe3acc3affa48936c53c37d63d238af26e38a1b849307a7087fee"
+    },
+    {
+      "label": "S14",
+      "public_path": "supporting/S14/ms_evidence_standards/ADDITIONAL_TABLE_INTAKE.json",
+      "source_path": "novelty_audit_2026-11-01/ms_evidence_standards/ADDITIONAL_TABLE_INTAKE.json",
+      "sha256": "68c6407d7d0a2ffb0dfdd70c1db83ef1ec48989b97f21378378c85ec172712fe"
+    },
+    {
+      "label": "S14",
+      "public_path": "supporting/S14/audit_current_candidate_ms.py",
+      "source_path": "novelty_audit_2026-11-01/audit_current_candidate_ms.py",
+      "sha256": "9fb430d759c42e193e9d4a2a80b9a6320e47ab7d12dfe2d6800cc9b6e806a104"
+    },
+    {
+      "label": "S14",
+      "public_path": "supporting/S14/verify_current_candidate_ms.py",
+      "source_path": "novelty_audit_2026-11-01/verify_current_candidate_ms.py",
+      "sha256": "7dde61ab749bda8bcb0e048d2e727f95a30913959cff0f1cb14dc47a4d5ac426"
+    },
+    {
+      "label": "S15",
+      "public_path": "supporting/S15/native_detection_prior/brain_candidate_sequence_evidence.json",
+      "source_path": "novelty_audit_2026-11-01/native_detection_prior/brain_candidate_sequence_evidence.json",
+      "sha256": "8e13e94a832b8e3b0cafed6b1b5813eb8f368e97ecdb0b8fbf6dd333db69c073"
+    },
+    {
+      "label": "S15",
+      "public_path": "supporting/S15/native_detection_prior/BRAIN_NATIVE_CONTEXT_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/native_detection_prior/BRAIN_NATIVE_CONTEXT_AUDIT.json",
+      "sha256": "72c982abb875811ff43deadaa708ea1e6b9682ee806c81f3a15f0d44677d78a3"
+    },
+    {
+      "label": "S15",
+      "public_path": "supporting/S15/native_detection_prior/INDEPENDENT_BRAIN_NATIVE_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/native_detection_prior/INDEPENDENT_BRAIN_NATIVE_VERIFICATION.json",
+      "sha256": "35de3e5d7dfc0ae4ba007b0bb1dd6a5f803c29909c6daed866081de9396b1d80"
+    },
+    {
+      "label": "S15",
+      "public_path": "supporting/S15/audit_brain_native_context.py",
+      "source_path": "novelty_audit_2026-11-01/audit_brain_native_context.py",
+      "sha256": "a0f01373176a437c966d32a438fb4904fa31298832aa682349513a98f2e01ffa"
+    },
+    {
+      "label": "S15",
+      "public_path": "supporting/S15/verify_brain_native_context.py",
+      "source_path": "novelty_audit_2026-11-01/verify_brain_native_context.py",
+      "sha256": "411bacf9183f6f0807824204a495136c7fe192a93082cde779188a8bd362f1e7"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/CARDIAC_CANDIDATE_CONTEXT.csv",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/CARDIAC_CANDIDATE_CONTEXT.csv",
+      "sha256": "bc2835d59f3ae7cc072b18ec081a6dc5959a4b8c991c103532015324337b28cd"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/CARDIAC_CANDIDATE_AND_PERTURBATION_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/CARDIAC_CANDIDATE_AND_PERTURBATION_AUDIT.json",
+      "sha256": "0d9bd46d6fb88c389353985aa764ed41b955cee4cd805a3c5782bc4f60a8bc60"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/CARDIAC_CANDIDATE_AUDIT_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/CARDIAC_CANDIDATE_AUDIT_VERIFICATION.json",
+      "sha256": "82f2471e7cee7b2702250183e25f8a2385596b55be468e5bc952305ff9afe982"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/Hofman2024/CANDIDATE_ASSAY_CONTEXT.csv",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Hofman2024/CANDIDATE_ASSAY_CONTEXT.csv",
+      "sha256": "ca0f034770939ed5442a9511fc402b0a347ea95d6422056bf0edcfb494c85146"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/Hofman2024/CANDIDATE_ASSAY_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Hofman2024/CANDIDATE_ASSAY_AUDIT.json",
+      "sha256": "99a3a8d8c5f176394e14ac8b05df14d2a9d8e20f51e33cdb0b43f3cc1bfc0331"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/Hofman2024/CANDIDATE_ASSAY_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Hofman2024/CANDIDATE_ASSAY_VERIFICATION.json",
+      "sha256": "889d9dc13fae5a39fdc9ade1e12b5327016bb53077f45688b129725abf8fd992"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/Prensner2021/CANDIDATE_ASSAY_CONTEXT.csv",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Prensner2021/CANDIDATE_ASSAY_CONTEXT.csv",
+      "sha256": "524d3e7ab774e91eaa811c570233c36e3331bc1182b8b3d0e89128f5e278c91e"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/Prensner2021/CANDIDATE_ASSAY_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Prensner2021/CANDIDATE_ASSAY_AUDIT.json",
+      "sha256": "16cdc6c021402aad0d9d5057f0e5e2f12413670f0c5b2a166a7b65cb50035873"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/Prensner2021/CANDIDATE_ASSAY_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Prensner2021/CANDIDATE_ASSAY_VERIFICATION.json",
+      "sha256": "fb5c03fdce3753d160d1e560b5774cfe22f0966265557eaf66cd48c5f2c88538"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/Zheng2023/CANDIDATE_PRODUCT_CONTEXT.csv",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Zheng2023/CANDIDATE_PRODUCT_CONTEXT.csv",
+      "sha256": "aafa9b0a13868083432487357daf01c658e6704f34b9f5870e133675fca6ae74"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/Zheng2023/PRODUCT_IDENTITY_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Zheng2023/PRODUCT_IDENTITY_AUDIT.json",
+      "sha256": "a64284dee267f69116c7e634433affc9ff42722eee06d1388868e6a604aa47d6"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/detection_evolution_prior/Zheng2023/PRODUCT_IDENTITY_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Zheng2023/PRODUCT_IDENTITY_VERIFICATION.json",
+      "sha256": "7745e4cb1b6fd9b00dabf2cc034b61aad26ad6f2c27fe143d10cba6e311aad53"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/audit_cardiac_candidate_context.py",
+      "source_path": "novelty_audit_2026-11-01/audit_cardiac_candidate_context.py",
+      "sha256": "08d6713401227799a3e2181bdd1539c11dd5e2c18bb9f6e77009da0e7fcd6949"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/verify_cardiac_candidate_context.py",
+      "source_path": "novelty_audit_2026-11-01/verify_cardiac_candidate_context.py",
+      "sha256": "b92c10b1a430ea27b9af8badcd71c158cb5f547b720903b80bb7ba0df4a0100a"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/audit_hofman_candidate_context.py",
+      "source_path": "novelty_audit_2026-11-01/audit_hofman_candidate_context.py",
+      "sha256": "86496fcc28e0216348eed5923a52195dd315f7455e7d9e134af8a326f5853a33"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/verify_hofman_candidate_context.py",
+      "source_path": "novelty_audit_2026-11-01/verify_hofman_candidate_context.py",
+      "sha256": "1e5309be111b4de7fa23b59d9819ecae3248840cdbe9552b7d04019dfcb53918"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/audit_prensner_candidate_context.py",
+      "source_path": "novelty_audit_2026-11-01/audit_prensner_candidate_context.py",
+      "sha256": "6779d310a5ec4b5023420179a80232798d406d21736263ac1f16fa7ca3985270"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/verify_prensner_candidate_context.py",
+      "source_path": "novelty_audit_2026-11-01/verify_prensner_candidate_context.py",
+      "sha256": "5260c4be306c0aaa776d09187ef66d6682e9ac60ed0d419925c815fe3a74541f"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/audit_zheng_product_identity.py",
+      "source_path": "novelty_audit_2026-11-01/audit_zheng_product_identity.py",
+      "sha256": "5730d6be23a4dd706553f8ac787a92cfd0eb836992ac5f888f5536d52b08f706"
+    },
+    {
+      "label": "S16",
+      "public_path": "supporting/S16/verify_zheng_product_identity.py",
+      "source_path": "novelty_audit_2026-11-01/verify_zheng_product_identity.py",
+      "sha256": "1b4fd8110a59fa971ae3f10d7127ce7b6407e770b76ad33448b898aac9c91416"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/RathoreMIEF2018/KNOWN_CONTROL_CONTEXT.csv",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/RathoreMIEF2018/KNOWN_CONTROL_CONTEXT.csv",
+      "sha256": "36868a843b8978f1a2cd76e8a37918463c7e8bb9eb18e282847cef62bb42e68f"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/RathoreMIEF2018/MIEF_STRUCTURAL_CONTEXT_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/RathoreMIEF2018/MIEF_STRUCTURAL_CONTEXT_AUDIT.json",
+      "sha256": "daaacabfe18b61297042f6235c92d5cbff3c296b61f60baa30370f5b26dec4fb"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/RathoreMIEF2018/MIEF_STRUCTURAL_CONTEXT_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/RathoreMIEF2018/MIEF_STRUCTURAL_CONTEXT_VERIFICATION.json",
+      "sha256": "79a1ca80c57e1b424a47f13138b87b1d05068a370ce9e5ee839ca09ca8ca1356"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/BrownMitoribosome2017/PDB_MIEF_MODELED_RESIDUES.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/BrownMitoribosome2017/PDB_MIEF_MODELED_RESIDUES.json",
+      "sha256": "0a19d8dade10057ed796aab462cb5d4a75af2efd9b12c6d6fe713f08133475e6"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/BrownMitoribosome2017/PDB_POLYMER_ENTITIES.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/BrownMitoribosome2017/PDB_POLYMER_ENTITIES.json",
+      "sha256": "a8c0d0e7636f8ffc6743e18982f7e7fe53c81126f9cc431599e4545e5c8e8562"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/BrownMitoribosome2017/PDB_INTAKE.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/BrownMitoribosome2017/PDB_INTAKE.json",
+      "sha256": "8a749eefb3b9a59d6a51a056ee89e3dd3e9234172597ae03a3c9e3a16b0c8b90"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/Schlesinger2025/CANDIDATE_ASSAY_CONTEXT.csv",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Schlesinger2025/CANDIDATE_ASSAY_CONTEXT.csv",
+      "sha256": "0d10df5ed1540563cf1689c121a11bca9cf2560ae45218a7c9d5f7561f20ffb2"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/Schlesinger2025/CANDIDATE_ASSAY_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Schlesinger2025/CANDIDATE_ASSAY_AUDIT.json",
+      "sha256": "eb1ceb9541f13038cb84a064970748f59d2ba3f383bd3b6b24a2276780bbedac"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/Schlesinger2025/CANDIDATE_ASSAY_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Schlesinger2025/CANDIDATE_ASSAY_VERIFICATION.json",
+      "sha256": "4f1169858f2dc6a3561dcad2280245a3cead7cf3fccad9c52c6b0d2a66b2949e"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/Shepelev2025/CANDIDATE_ASSAY_CONTEXT.csv",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Shepelev2025/CANDIDATE_ASSAY_CONTEXT.csv",
+      "sha256": "48e8dfa77a2fefda9df5b10e2085f569a8b27baa734c2333878e68ab87afbe18"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/Shepelev2025/CANDIDATE_ASSAY_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Shepelev2025/CANDIDATE_ASSAY_AUDIT.json",
+      "sha256": "9eb17c0f79e5a32f2a6ecc4e40ac707751c4cb57dd243f6c23810adff44f6b2f"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/Shepelev2025/CANDIDATE_ASSAY_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Shepelev2025/CANDIDATE_ASSAY_VERIFICATION.json",
+      "sha256": "da91cb349e0be6f8f70ea1f9454543abc024f322b8452c23aa03a54a2279131e"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/Samandi2017/SELECTED_SOURCE_PROGRESS_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Samandi2017/SELECTED_SOURCE_PROGRESS_AUDIT.json",
+      "sha256": "92c6026d8ce30bbd0be4a037d2719cc7bc1360518dc17bb7c87f308b3f2623bd"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/Samandi2017/SELECTED_SOURCE_PROGRESS_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/Samandi2017/SELECTED_SOURCE_PROGRESS_VERIFICATION.json",
+      "sha256": "7f4874774e95fc3b426dc9d8d81d299ee35769eb107e5ce54d3a7b853d7416e2"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/CloutierASDURF2020/SUPPLEMENT_SCOPE_AUDIT.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/CloutierASDURF2020/SUPPLEMENT_SCOPE_AUDIT.json",
+      "sha256": "20e0279aa45f3a8a79c76a714ee9677c0ff281b1aae30c3cead0654222849f93"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/detection_evolution_prior/CloutierASDURF2020/SUPPLEMENT_VERIFICATION.json",
+      "source_path": "novelty_audit_2026-11-01/detection_evolution_prior/CloutierASDURF2020/SUPPLEMENT_VERIFICATION.json",
+      "sha256": "a513275048e1626029c30ba7f7c3e486d8194c2403b3eda4a6133ca25702d6a3"
+    },
+    {
+      "label": "S17",
+      "public_path": "supporting/S17/read_xlsx_physical_cells.py",
+      "source_path": "novelty_audit_2026-11-01/read_xlsx_physical_cells.py",
+      "sha256": "74554b0600dc489f1ed6790fbbd36b90dc16f15f4bd4de5bab00c6c2f397e647"
+    },
+    {
+      "label": "S18",
+      "public_path": "supporting/S18/mechanistic_prior/validation_scope_annotations/primary_validation_scope.csv",
+      "source_path": "novelty_audit_2026-11-01/mechanistic_prior/validation_scope_annotations/primary_validation_scope.csv",
+      "sha256": "0527341f63ce0e87bb24af95af171e8bcb51e5ffd585b0d5fd1bde8f61c8366e"
+    },
+    {
+      "label": "S18",
+      "public_path": "supporting/S18/mechanistic_prior/validation_scope_annotations/primary_validation_scope.json",
+      "source_path": "novelty_audit_2026-11-01/mechanistic_prior/validation_scope_annotations/primary_validation_scope.json",
+      "sha256": "fb860f0f21db9633b3ca094c1f8b4210121670d3179129c2544bb1fed008f72e"
+    },
+    {
+      "label": "S18",
+      "public_path": "supporting/S18/mechanistic_prior/validation_scope_annotations/ANNOTATION_SCOPE_CHECK.json",
+      "source_path": "novelty_audit_2026-11-01/mechanistic_prior/validation_scope_annotations/ANNOTATION_SCOPE_CHECK.json",
+      "sha256": "aa1fab9df76edfe4742b6f09b71ba6b92fa5d1e5a3d57f99d46689ecc25decdd"
+    },
+    {
+      "label": "S18",
+      "public_path": "supporting/S18/mechanistic_prior/validation_scope_annotations/GUIDE.txt",
+      "source_path": "novelty_audit_2026-11-01/mechanistic_prior/validation_scope_annotations/GUIDE.txt",
+      "sha256": "79f74ce9665d900c060db17a037815283151259165fd6bcd9e424a70381fcd80"
+    }
+  ],
+  "funding_source": {
+    "url": "https://www.repository.cam.ac.uk/items/d1651e76-ebaf-47e2-94a2-9f39eea3a901",
+    "sponsorship": "Biotechnology and Biological Sciences Research Council (2116112)",
+    "studentship_scheme": "BBSRC DTP, confirmed by corresponding author",
+    "parent_BB_grant_not_inferred": true
+  },
+  "related_analysis": {
+    "url": "https://github.com/Kohze/norf-guide-selection",
+    "source_commit": "f519e1fb31d248e2e4ae2dc9330c4572a5467c2d"
+  },
+  "upstream_article_dois": [
+    "10.1016/j.cell.2019.05.010",
+    "10.1038/s41467-025-68002-x",
+    "10.1038/s41586-026-10459-x",
+    "10.1038/s43587-026-01207-x",
+    "10.1016/j.molcel.2023.01.023",
+    "10.1038/s41587-020-00806-2",
+    "10.1016/j.molcel.2023.12.003",
+    "10.1016/j.isci.2025.111884",
+    "10.7554/eLife.27860",
+    "10.1038/nsmb.3464",
+    "10.1021/acs.biochem.8b00726",
+    "10.1126/sciadv.aee1766"
+  ],
+  "source_reconstruction": "See source-specific audit scripts, input identifiers/hashes and published upstream references; not a self-contained raw-data pipeline"
+}

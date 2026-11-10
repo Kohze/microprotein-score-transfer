@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "source_candidates_checked": 60,
+  "exact_source_links_checked": 49,
+  "original_workbook_field_values_checked": 2674,
+  "original_SRM_positive_run_records_checked": 89,
+  "readers": "Original Sandmann S2 and human-heart S3/S5 openpyxl vs pandas analysis",
+  "reference_verifier": "Independent NCBI FASTA and amino-acid codon regex vs GenBank three-frame translation",
+  "exact_reference_ORFs_checked": 1,
+  "signature_edit_region_records_checked": 4,
+  "source_spectral_raw_data_or_function_verified": false,
+  "plasmid_sequence_verified": false
+}

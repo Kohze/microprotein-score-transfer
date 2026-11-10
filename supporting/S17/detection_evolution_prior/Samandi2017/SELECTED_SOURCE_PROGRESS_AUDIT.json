@@ -1,0 +1,1104 @@
+{
+  "updated_utc": "2026-11-01T19:23:46.970446+00:00",
+  "scope": "Selected original workbook audit and exact-sequence detection join; scientific reading remains partial in figures/code/reporting form.",
+  "source_xml_sha256": "30d4aeb3f6d97c35a5f07192329a18ea18a374162610a0829f8da18b6c7993cd",
+  "frozen_roster_sha256": "b9b13d219b815ebfa2d6b002c217e02f4209456eba253062597ce98cccd93143",
+  "candidate_roster_size": 60,
+  "detection_source_audits": [
+    {
+      "method": "TIS",
+      "file": "elife-27860-supp1.xlsx",
+      "sheet": "AltORFs TIS",
+      "sha256": "c8cd73e42a22515419dbf349bdc8a451b596ade0027ec8dbf86634a6a53b2882",
+      "populated_accession_rows": 12616,
+      "unique_accessions": 12616,
+      "exact_matching_source_rows": 22
+    },
+    {
+      "method": "MS",
+      "file": "elife-27860-supp2.xlsx",
+      "sheet": "Detected alternative proteins",
+      "sha256": "f650ec203ea1fd92e625b12c889553c1f43e69147d15ef187c6892a5f974a830",
+      "populated_accession_rows": 4872,
+      "unique_accessions": 4872,
+      "exact_matching_source_rows": 1
+    }
+  ],
+  "source_accession_intersection": 420,
+  "source_accession_union": 17068,
+  "candidate_TIS_exact_matches": 22,
+  "candidate_MS_exact_matches": 1,
+  "candidate_either_exact_matches": 22,
+  "candidates": [
+    {
+      "candidate_key": "Sandmann_S2_row2",
+      "candidate_name": "RP1-206D15.6",
+      "length": 55,
+      "sequence": "MRPVGLVLRWKKRAVLPNHRLSFLFTVSGMSIQFPLLRDLVTEARQRFHLGEGER",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row3",
+      "candidate_name": "GAS5",
+      "length": 50,
+      "sequence": "MVLGADAVWLWIAPYGQLCPQGRMRIATEVLKSKPNSSHWHTGIRQKAGS",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 1347,
+          "accession": "IP_081750.1",
+          "source_gene": "GAS5",
+          "sequence": "MVLGADAVWLWIAPYGQLCPQGRMRIATEVLKSKPNSSHWHTGIRQKAGS"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row4",
+      "candidate_name": "LINC01128",
+      "length": 91,
+      "sequence": "MEFFIPTSVDLKILPLSACLGSAVSSLPWFSDDACNNAMRFAHSWVTLVIHSGGDLTCHCEQLLLLDDPGHRPASTYPSVLENRARLLPLC",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row5",
+      "candidate_name": "IDI2-AS1",
+      "length": 80,
+      "sequence": "MQWPEVPALPLLSSLCMAMVRKSSALGKEVGRRVKEMVMLVAPFRQSSSLSRTFSSRKVVKAHASLHGARLSPLSRNIRG",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row6",
+      "candidate_name": "RP11-432J24.5",
+      "length": 118,
+      "sequence": "MHIQVFVDMCFLLSWINVSTWASWVSRTSPADVAGPGLAMEKAEPASQWVPVRNSSTGLSSFWEMHFASSRNLPDDPECSPPTFPALCGHLISTGLGKQMQSAFQNVFVLHMTLLWKK",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row7",
+      "candidate_name": "RP11-432J24.5",
+      "length": 18,
+      "sequence": "MKKKKYSHWKRGKVIVIS",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row8",
+      "candidate_name": "RP11-464C19.3",
+      "length": 67,
+      "sequence": "MRFMPLDPTGALGKRWLGSLRGSRRAFGAHGCRPEWRWLWLGRKRNHPARSQDTFGGPGRRVCWWGR",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row9",
+      "candidate_name": "CUL5",
+      "length": 35,
+      "sequence": "MLPLPSQVGSRYLLSIRRSGLPERVHEVFRVGKLR",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 7211,
+          "accession": "IP_201434.1",
+          "source_gene": "CUL5",
+          "sequence": "MLPLPSQVGSRYLLSIRRSGLPERVHEVFRVGKLR"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row10",
+      "candidate_name": "NAV2-AS2",
+      "length": 103,
+      "sequence": "MPRRHEPVWEMTGFFLPDVLLSDSSDTSEGFRLHLEPGSIFMPLSEPPSDFLTSSPDHREFLSTCECFSASVCGQRLSELVLPQSQAGKPLTPKAKMPKHWSS",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row11",
+      "candidate_name": "NAV2-AS2",
+      "length": 31,
+      "sequence": "MRPVEELWLGTPPLLREMSMDSQLVWRLLTD",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row12",
+      "candidate_name": "TBX5-AS1",
+      "length": 79,
+      "sequence": "MSSYLTSEPRWAGNRGLGPAGAARKRGNSERSVFSLWFLSPASRTAGPAATWTGIQRILQVQLHRLAFPDAPKPAPRTE",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 1,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 8136,
+          "accession": "IP_218191.1",
+          "source_gene": "TBX5-AS1",
+          "sequence": "MSSYLTSEPRWAGNRGLGPAGAARKRGNSERSVFSLWFLSPASRTAGPAATWTGIQRILQVQLHRLAFPDAPKPAPRTE"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row13",
+      "candidate_name": "RNF10",
+      "length": 86,
+      "sequence": "MKAENRCRRRPPPALNAMSLGPRRARSAPTAVAAEAPVDAAELPQRRRHRLRHGQEQRLQQLLRLFGQQQRATAAPLRLGGASRRV",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 8045,
+          "accession": "IP_215950.1",
+          "source_gene": "RNF10",
+          "sequence": "MKAENRCRRRPPPALNAMSLGPRRARSAPTAVAAEAPVDAAELPQRRRHRLRHGQEQRLQQLLRLFGQQQRATAAPLRLGGASRRV"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row14",
+      "candidate_name": "RP11-644F5.11",
+      "length": 69,
+      "sequence": "MAGRLWRRSGEQKKGVFIRFLIVLPLDARHVLGLGAARRGRQRPCPLLAGRTEFWPHCEERQKPAVAAG",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row15",
+      "candidate_name": "RP11-620J15.3",
+      "length": 64,
+      "sequence": "MKWTQHVKTILSRSLAVKENRECAKEHTDTEQTGHLCNHMEVCLILKLKKLSWKTERPSPDDIV",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row16",
+      "candidate_name": "SOCS4",
+      "length": 40,
+      "sequence": "MAMVMAAVTRTTPVKLRSGRYIQKVPRRNFLLEKMKKQYL",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 8506,
+          "accession": "IP_225499.1",
+          "source_gene": "SOCS4",
+          "sequence": "MAMVMAAVTRTTPVKLRSGRYIQKVPRRNFLLEKMKKQYL"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row17",
+      "candidate_name": "CRNDE",
+      "length": 84,
+      "sequence": "MLAEIHPKAGLQSLQFIMELLYWLLEGGDSEDKEDATGNVEMKNIQPLVFEISCDVFQSRCKEHGKIKVLEWFKYVLGIPVYRL",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row18",
+      "candidate_name": "ABR",
+      "length": 53,
+      "sequence": "MVSRCLSEPVSLTACPRLLQPLLGLMGTGPAWWVVSEVLAEQRRPGMRLQNSG",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row19",
+      "candidate_name": "SNHG16",
+      "length": 33,
+      "sequence": "MATPVGVEHGEQSQAFSDDGAVSLSFQSRKRIL",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 10514,
+          "accession": "IP_262966.1",
+          "source_gene": "SNHG16",
+          "sequence": "MATPVGVEHGEQSQAFSDDGAVSLSFQSRKRIL"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row20",
+      "candidate_name": "RAB12",
+      "length": 60,
+      "sequence": "MRVWIRAPRCRGGPGAAAVWARAPRRCRAARAAGGSSPPGRPTSSCRSSLSAPAAWARPA",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 10542,
+          "accession": "IP_263580.1",
+          "source_gene": "RAB12",
+          "sequence": "MRVWIRAPRCRGGPGAAAVWARAPRRCRAARAAGGSSPPGRPTSSCRSSLSAPAAWARPA"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row21",
+      "candidate_name": "PPP1R15A",
+      "length": 26,
+      "sequence": "MNALASLTVRTCDRFWQTEPALLPPG",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row22",
+      "candidate_name": "CTC-471J1.11",
+      "length": 50,
+      "sequence": "MMAVTSQLNGKLKSPLGTSVTIVNAKRFRSRIKTEARETRTKNKRAVRCR",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row23",
+      "candidate_name": "MTLN",
+      "length": 56,
+      "sequence": "MADVSERTLQLSVLVAFASGVLLGWQANRLRRRYLDWRKRRLQDKLAATQKKLDLA",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row24",
+      "candidate_name": "ZEB2",
+      "length": 40,
+      "sequence": "MLTLRALQLSLPTKIGGACFRVSRLSPTEKKKKKMSLEEA",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row25",
+      "candidate_name": "NDUFB3",
+      "length": 98,
+      "sequence": "MAHEHGHEHGHHKMELPDYRQWKIEGTPLETIQKKLAAKGLRDPWGRNEAWRYMGGFAKSVSFSDVFFKGFKWGFAAFVVAVGAEYYLESLNKDKKHH",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row26",
+      "candidate_name": "MRPL33",
+      "length": 65,
+      "sequence": "MFLSAVFFAKSKSKNILVRMVSEAGTGFCFNTKRNRLREKLTLLHYDPVVKQRVLFVEKKKIRSL",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row27",
+      "candidate_name": "MKKS",
+      "length": 50,
+      "sequence": "MKNTSWIRKNWLLVAGISFIGVHLGTYFLQRSAKQSVKFQSQSKQKSIEE",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 11519,
+          "accession": "IP_282623.1",
+          "source_gene": "MKKS",
+          "sequence": "MKNTSWIRKNWLLVAGISFIGVHLGTYFLQRSAKQSVKFQSQSKQKSIEE"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row28",
+      "candidate_name": "MKKS",
+      "length": 63,
+      "sequence": "MSLRNLWRDYKVLVVMVPLVGLIHLGWYRIKSSPVFQIPKNDDIPEQDSLGLSNLQKSQIQGK",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 11518,
+          "accession": "IP_282619.1",
+          "source_gene": "MKKS",
+          "sequence": "MSLRNLWRDYKVLVVMVPLVGLIHLGWYRIKSSPVFQIPKNDDIPEQDSLGLSNLQKSQIQGK"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row29",
+      "candidate_name": "THAP7",
+      "length": 87,
+      "sequence": "MARACRVTAPPPAAAHGTRARRATAASPSTDFPRRTTRGEACGWPTASGWTPAARACGTRHPSTSTSAPNTLRRTALSWWESVDITG",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 11960,
+          "accession": "IP_292023.1",
+          "source_gene": "THAP7",
+          "sequence": "MARACRVTAPPPAAAHGTRARRATAASPSTDFPRRTTRGEACGWPTASGWTPAARACGTRHPSTSTSAPNTLRRTALSWWESVDITG"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row30",
+      "candidate_name": "TUG1",
+      "length": 153,
+      "sequence": "MARPPPLPGLVGRRNGRAVDRAIGWRLFLLLWHPALGAQARPPRRAPGGRWRSRRVFLLVRRTRAAAYAFAIRRGVVRVVGGGGQLLRPAPGEAAAAAAAGFGAAGEAGVAGAGLEAWRHPSGPARTQLGGQEGAGGWLVVGFLLCLFLLMPP",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row31",
+      "candidate_name": "MIEF1-MP",
+      "length": 70,
+      "sequence": "MAPWSREAVLSLYRALLRQGRQLRYTDRDFYFASIRREFRKNQKLEDAEARERQLEKGLVFLNGKLGRII",
+      "TIS_exact_match": true,
+      "MS_exact_match": true,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 12111,
+          "accession": "IP_294711.1",
+          "source_gene": "MIEF1",
+          "sequence": "MAPWSREAVLSLYRALLRQGRQLRYTDRDFYFASIRREFRKNQKLEDAEARERQLEKGLVFLNGKLGRII"
+        },
+        {
+          "method": "MS",
+          "file": "elife-27860-supp2.xlsx",
+          "sheet": "Detected alternative proteins",
+          "excel_row": 4646,
+          "accession": "IP_294711.1",
+          "source_gene": "MIEF1",
+          "sequence": "MAPWSREAVLSLYRALLRQGRQLRYTDRDFYFASIRREFRKNQKLEDAEARERQLEKGLVFLNGKLGRII"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row32",
+      "candidate_name": "PRR34-AS1",
+      "length": 38,
+      "sequence": "MFCCAQCEEAKEKKDLLKMCTSTCSLKIPSARHFSWRK",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row33",
+      "candidate_name": "LINC00881",
+      "length": 34,
+      "sequence": "MRNKREGAFPCAALGETHTDRGSGMTGKGGNGFC",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row34",
+      "candidate_name": "LINC00881",
+      "length": 44,
+      "sequence": "MASVNLSFSFSRPSHALFLFPFPVLTVTQGTTCEMKDLRCCIGS",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row35",
+      "candidate_name": "PARL",
+      "length": 40,
+      "sequence": "MVGQRLGRWRGEAGRREAGAAARRGVRRWAAAAARSSLRS",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 2896,
+          "accession": "IP_112112.1",
+          "source_gene": "PARL",
+          "sequence": "MVGQRLGRWRGEAGRREAGAAARRGVRRWAAAAARSSLRS"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row36",
+      "candidate_name": "PDZRN3-AS1",
+      "length": 47,
+      "sequence": "MLTAEVRTGRRLITPMIMSTTALLQFWFVLCVHSVIFPLRKLRLEEG",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row37",
+      "candidate_name": "SNHG8",
+      "length": 52,
+      "sequence": "MIIGPKLTALPKRQRSQDIGRSGAALETLKFTSMRGLECSLGRRASTCSPGP",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 3404,
+          "accession": "IP_124748.1",
+          "source_gene": "SNHG8",
+          "sequence": "MIIGPKLTALPKRQRSQDIGRSGAALETLKFTSMRGLECSLGRRASTCSPGP"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row38",
+      "candidate_name": "SNHG8",
+      "length": 36,
+      "sequence": "MDDGNIRLSRNPSGNGRSLFSIRQWTYRSWGNGCSE",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 3403,
+          "accession": "IP_124747.1",
+          "source_gene": "SNHG8",
+          "sequence": "MDDGNIRLSRNPSGNGRSLFSIRQWTYRSWGNGCSE"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row39",
+      "candidate_name": "PALLD",
+      "length": 44,
+      "sequence": "MKTVQICQGPPPMSPSMTPSQTCRKKARILTSSRAFLLSSARKR",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row40",
+      "candidate_name": "HAND2-AS1",
+      "length": 39,
+      "sequence": "MILPALKLLLFLKYVLLFFSLHVEHYTLLFFRILFFPSG",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row41",
+      "candidate_name": "DANCR",
+      "length": 59,
+      "sequence": "MLVATGQCSRCFMFTFSTFSFNCHNSEVDSVRDRLPQDHSAPANSMQLTLTLNTLQLHS",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 3401,
+          "accession": "IP_124432.1",
+          "source_gene": "DANCR",
+          "sequence": "MLVATGQCSRCFMFTFSTFSFNCHNSEVDSVRDRLPQDHSAPANSMQLTLTLNTLQLHS"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row42",
+      "candidate_name": "RP11-12K22.1",
+      "length": 86,
+      "sequence": "MNGLTTGRPALLQMLKKVLPRKKKGNLMETCVYQMERRAMGILTTSVRKKVECGDGENTEVQKKRRQEATHGSSFSHKSRNATDYK",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row43",
+      "candidate_name": "RP11-12K22.1",
+      "length": 121,
+      "sequence": "MRFLHSECVLMRYDSLKVCGSSPILLSLPSPVIHKMNGLTTGRPALLQMLKKVLPRKKKGNLMETCVYQMERRAMGILTTSVRKKVECGDGENTEVQKKRRQEATHGSSFSHKSRNATDYK",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row44",
+      "candidate_name": "C5orf56",
+      "length": 70,
+      "sequence": "MKAVVARTGAAAVSGEGRRMQRPPAWSAGPGAATRAGRGGSTPWAPHSPPQVLRMASRETRKWTPWLLES",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row45",
+      "candidate_name": "CTD-2366F13.1",
+      "length": 85,
+      "sequence": "MGRGGERKQSVWKWRNGLPCMSFSPGGRSWCRRADARLLDTCRLRYGGLANNLAGVFRLFHWLTFRLLTLLPTIEKRRDSMRLEM",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 3960,
+          "accession": "IP_135740.1",
+          "source_gene": "LOC257396",
+          "sequence": "MGRGGERKQSVWKWRNGLPCMSFSPGGRSWCRRADARLLDTCRLRYGGLANNLAGVFRLFHWLTFRLLTLLPTIEKRRDSMRLEM"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row46",
+      "candidate_name": "TRDN-AS1",
+      "length": 42,
+      "sequence": "MNGNKSWDWKGASQPQGNHKVLYKERYSSVKEAWMKKQRQSQ",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row47",
+      "candidate_name": "TRDN-AS1",
+      "length": 31,
+      "sequence": "MNGNKSWDWKGLMKPAVMLMRLMCQGTEDGP",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row48",
+      "candidate_name": "RP3-332B22.1",
+      "length": 59,
+      "sequence": "MAILRQNMASLDFFLWRLDSKIESRSYMFSPSRAFRLHFCNILLMKASHKTRLIQGVEK",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row49",
+      "candidate_name": "PSMB8-AS1",
+      "length": 63,
+      "sequence": "MECAGLRRLSFWSICRSLHHGPVAPLFLHELLVGSPLPDSASFQKEDVVSLLHQAEVLGDEKH",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 4660,
+          "accession": "IP_148415.1",
+          "source_gene": "TAPSAR1",
+          "sequence": "MECAGLRRLSFWSICRSLHHGPVAPLFLHELLVGSPLPDSASFQKEDVVSLLHQAEVLGDEKH"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row50",
+      "candidate_name": "RP11-140K17.3",
+      "length": 88,
+      "sequence": "MSRKKAQPAGLSWKPSSLWNSEMSTSLSVVPRQLNFCISSGSRSTSMPSMAGTGHPLPRLFTTKPPPRRRARGPGGGPLLASFATPLL",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row51",
+      "candidate_name": "RP11-140K17.3",
+      "length": 52,
+      "sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 4664,
+          "accession": "IP_148496.1",
+          "source_gene": "LOC101929243",
+          "sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row52",
+      "candidate_name": "IFRD1",
+      "length": 52,
+      "sequence": "MYRFRSQLFTGISAAATAHSYPRRFSTLLLAEDSPLSRPPHRRTSKKCSSIG",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 5072,
+          "accession": "IP_156269.1",
+          "source_gene": "IFRD1",
+          "sequence": "MYRFRSQLFTGISAAATAHSYPRRFSTLLLAEDSPLSRPPHRRTSKKCSSIG"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row53",
+      "candidate_name": "JHDM1D-AS1",
+      "length": 68,
+      "sequence": "MCRGIQTLENVPPEFPASSKETRASMEPPLVAGGLSPRGIHHCRPLGGTNLEMGLVERGIEKSRRAYK",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row54",
+      "candidate_name": "EBAG9",
+      "length": 77,
+      "sequence": "MLRSRVGDWAVGYRPGKHAASKAAFLREICVTLLPSVYRPCTSPGRFFHNLNLSSPGIQLQQLRAFHVTPGARRRLV",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 1,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 5513,
+          "accession": "IP_166527.1",
+          "source_gene": "EBAG9",
+          "sequence": "MLRSRVGDWAVGYRPGKHAASKAAFLREICVTLLPSVYRPCTSPGRFFHNLNLSSPGIQLQQLRAFHVTPGARRRLV"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row55",
+      "candidate_name": "PVT1",
+      "length": 149,
+      "sequence": "MGPRAGRARGGRDEEGRRRAASKDVPRDPRHLPVDFLAERMLAVPVTCGDTARSALQPDLLARRRLKRCPSRWLCLSAAWSFVQVFSEPDGFTVIFSGLGNNAGGTMHWNDTRPAHFRILKVVLREAVAECLMDSYSLDVHGGRRTAAG",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row56",
+      "candidate_name": "SNHG6",
+      "length": 25,
+      "sequence": "MPVWWRRRRLRARSWALRGARKPLR",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row57",
+      "candidate_name": "SLCO5A1",
+      "length": 55,
+      "sequence": "MSPGRARRLPQATARRGTPSRAHRSTARTPAPCGTRLRSLEAVSVIRMHWAPRSW",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row58",
+      "candidate_name": "PEX2",
+      "length": 61,
+      "sequence": "MRQGFHRRTWSKNSHCHSYRLSSLEGAAGTGKRDLQRRHGFQKRECEECKQSAKNKPVGCT",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 5448,
+          "accession": "IP_165153.1",
+          "source_gene": "PEX2",
+          "sequence": "MRQGFHRRTWSKNSHCHSYRLSSLEGAAGTGKRDLQRRHGFQKRECEECKQSAKNKPVGCT"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row59",
+      "candidate_name": "BANCR",
+      "length": 37,
+      "sequence": "MDSTVILSCVRSKNLLVGSGLGPFSGNIFLVTMKGQY",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row60",
+      "candidate_name": "LINC01560",
+      "length": 94,
+      "sequence": "MGALFRLLLQERGKAAEFYSRGRKQRRPSASCTFGGIWSSGVDMLPNGAVGSLTQLGPSRPVLGIDYSKKEFRGTAENVTGLNTILHFRKRTRS",
+      "TIS_exact_match": false,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 0,
+      "exact_measured_edit_pairs": 0,
+      "source_matches": [],
+      "native_function_label_assigned_from_detection": false
+    },
+    {
+      "candidate_key": "Sandmann_S2_row61",
+      "candidate_name": "JPX",
+      "length": 33,
+      "sequence": "MAAFARSAITASLRGLQGVRSMSPLTKVQKLAS",
+      "TIS_exact_match": true,
+      "MS_exact_match": false,
+      "exact_primary_GFP_records": 1,
+      "exact_measured_edit_pairs": 2,
+      "source_matches": [
+        {
+          "method": "TIS",
+          "file": "elife-27860-supp1.xlsx",
+          "sheet": "AltORFs TIS",
+          "excel_row": 12598,
+          "accession": "IP_305647.1",
+          "source_gene": "JPX",
+          "sequence": "MAAFARSAITASLRGLQGVRSMSPLTKVQKLAS"
+        }
+      ],
+      "native_function_label_assigned_from_detection": false
+    }
+  ],
+  "morphology_sources": {
+    "elife-27860-fig12-data1.xlsx": {
+      "sha256": "59ce0c937276738865e0b2e799bb31c997284aa87bb73627ed65b81763d659f2",
+      "sheet": "Feuil1",
+      "internal_figure_label": "FIGURE 13d",
+      "condition_header_excel_row": 5,
+      "conditions": [
+        {
+          "source_condition": "NT",
+          "source_column_1based": 3,
+          "percentages": {
+            "Tubular": 92.58846048673776,
+            "Fragmented": 5.449275362318841,
+            "Elongated": 1.9622641509433965
+          },
+          "sum_as_deposited": 100.0
+        },
+        {
+          "source_condition": "AltMiD51-2xflag",
+          "source_column_1based": 4,
+          "percentages": {
+            "Tubular": 34.18722786647315,
+            "Fragmented": 65.47943880019352,
+            "Elongated": 0.3333333333333333
+          },
+          "sum_as_deposited": 100.0
+        },
+        {
+          "source_condition": "AltMiD51(AAA)-2xflag",
+          "source_column_1based": 5,
+          "percentages": {
+            "Tubular": 65.15531341618299,
+            "Fragmented": 27.565217391304348,
+            "Elongated": 5.366829279872758
+          },
+          "sum_as_deposited": 98.0873600873601
+        },
+        {
+          "source_condition": "Drp1(K38A)-HA",
+          "source_column_1based": 6,
+          "percentages": {
+            "Tubular": 11.662839838940465,
+            "Fragmented": 0.0,
+            "Elongated": 88.33716016105954
+          },
+          "sum_as_deposited": 100.00000000000001
+        },
+        {
+          "source_condition": "Drp1(K38A)-HA + AltMiD51-2F",
+          "source_column_1based": 7,
+          "percentages": {
+            "Tubular": 54.5154404269353,
+            "Fragmented": 17.3889788331235,
+            "Elongated": 28.095580739941237
+          },
+          "sum_as_deposited": 100.00000000000004
+        }
+      ],
+      "reported_summary_values_only": true,
+      "raw_replicate_counts_available_in_this_table": false,
+      "renormalized_or_statistical_test_replayed": false
+    },
+    "elife-27860-fig13-data1.xlsx": {
+      "sha256": "6d87b50c80f94f57f9675a9ce7089c4e5244512d0ca8a4dc267ee1dfd19a5137",
+      "sheet": "Feuil1",
+      "internal_figure_label": "FIGURE 14a",
+      "condition_header_excel_row": 4,
+      "conditions": [
+        {
+          "source_condition": "NT",
+          "source_column_1based": 3,
+          "percentages": {
+            "tubular": 95.4,
+            "fragmented": 2.3,
+            "Elongated": 2.3
+          },
+          "sum_as_deposited": 100.0
+        },
+        {
+          "source_condition": "AltMiD51-2xflag",
+          "source_column_1based": 4,
+          "percentages": {
+            "tubular": 32.24,
+            "fragmented": 67.76,
+            "Elongated": 0.0
+          },
+          "sum_as_deposited": 100.0
+        },
+        {
+          "source_condition": "SiRNA Drp1",
+          "source_column_1based": 5,
+          "percentages": {
+            "tubular": 8.0,
+            "fragmented": 0.0,
+            "Elongated": 92.0
+          },
+          "sum_as_deposited": 100.0
+        },
+        {
+          "source_condition": "SiRNA Drp1 + AltMiD51-2F",
+          "source_column_1based": 6,
+          "percentages": {
+            "tubular": 34.9,
+            "fragmented": 33.86,
+            "Elongated": 31.24
+          },
+          "sum_as_deposited": 99.99999999999999
+        }
+      ],
+      "reported_summary_values_only": true,
+      "raw_replicate_counts_available_in_this_table": false,
+      "renormalized_or_statistical_test_replayed": false
+    }
+  },
+  "limitations": [
+    "Detection flags do not establish cellular activity, a native half-life, or our edit effects.",
+    "AA identity does not resolve MS peptide-to-protein ambiguity or native termini.",
+    "Reported percentages are retained without renormalizing the AAA column or redoing Fisher tests.",
+    "Samandi L12/Y13/R14-to-A differs from Rathore L12/Y13/R14/F39-to-A and our global L-to-A edits.",
+    "Not all 35 figures, all workbook cells, or the complete Perl code/reporting form have been read."
+  ]
+}

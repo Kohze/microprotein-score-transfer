@@ -9,3 +9,13 @@ Original per-module protocol/reproduction files record splits, seeds, source-onl
 For the current article, run `pdflatex manuscript.tex` twice and `pdflatex S1_Text.tex` twice from `paper/` with a standard TeX distribution. Both use the numbered vector artwork already included. No fitting is needed to compile the article. `analysis/make_publication_figures.py` is the historical plotting script and uses pre-consolidation figure numbers; `paper/figures/PUBLICATION_NUMBERING_MAP.json` maps them to the final paper/SI. Do not overwrite the final numbering without applying that map.
 
 The article's S1-S18 labels describe the historical full reviewer collection. This public bundle is a curated code/frozen-derived-result release, not a byte-for-byte mirror of those mixed-rights archives. Original raw-source collections and historical drafts are not redistributed here. This distinction is explicit in the manuscript's data availability statement.
+
+To redraw only the current grouped-dot Fig3, run `python redraw_figure3.py` from `paper/` with NumPy, pandas, Matplotlib, Pillow and PyMuPDF installed. The helper reads saved plotting tables and runs no model fitting. Rerendering changes file hashes; keep the frozen release intact when checking its manifest.
+
+
+The 10 November revision replaces the historical S1-S18 archive promises with
+an explicit `SUPPORTING_DATA_MAP.csv`. These labels are sections of this bundle.
+`supporting/S13` through `supporting/S18` contain frozen derived annotations and
+original source-audit scripts. The root verifier checks their manifest hashes
+but does not rerun these upstream-dependent joins. No original third-party
+article, figure, workbook, model implementation or weight is distributed there.

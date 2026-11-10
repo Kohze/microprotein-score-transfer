@@ -1,0 +1,94 @@
+{
+  "accession": "NR_024451.1",
+  "reference_length_nt": 2398,
+  "peptide_length_aa": 68,
+  "exact_peptide": "MCRGIQTLENVPPEFPASSKETRASMEPPLVAGGLSPRGIHHCRPLGGTNLEMGLVERGIEKSRRAYK",
+  "hits": [
+    {
+      "start_1based": 338,
+      "last_sense_nt_1based": 541,
+      "stop_start_1based": 542,
+      "stop_end_1based": 544,
+      "frame_offset": 1,
+      "first_codon": "ATG",
+      "stop_codon": "TAA",
+      "exact_ATG_to_stop": true
+    }
+  ],
+  "reference_sequence_compatible": true,
+  "historical_plasmid_sequence_or_translation_verified": false,
+  "original_heart_assembly_transcript_length_nt": 951,
+  "reference_vs_heart_isoform_identity_established": false,
+  "SRM_signature_edit_and_tile_context": [
+    {
+      "SRM_target_peptide": "ASMEPPLVAGGLSPR",
+      "start_1based": 24,
+      "end_1based": 38,
+      "reported_detected_in_source": true,
+      "edit_family": "L_to_A",
+      "edited_region": "ASMEPPAVAGGASPR",
+      "signature_sequence_preserved": false,
+      "binding_tile_overlaps": [
+        {
+          "tile_ID": "1_092",
+          "interactor": "CSNK2A1",
+          "overlap_start_1based": 24,
+          "overlap_end_1based": 36
+        },
+        {
+          "tile_ID": "1_093",
+          "interactor": "CSNK2A1",
+          "overlap_start_1based": 29,
+          "overlap_end_1based": 38
+        }
+      ],
+      "edit_effect_on_MS_detection_measured": false
+    },
+    {
+      "SRM_target_peptide": "ASMEPPLVAGGLSPR",
+      "start_1based": 24,
+      "end_1based": 38,
+      "reported_detected_in_source": true,
+      "edit_family": "microprotein_10mer_ext",
+      "edited_region": "ASMEPPLVAGGLSPR",
+      "signature_sequence_preserved": true,
+      "binding_tile_overlaps": [
+        {
+          "tile_ID": "1_092",
+          "interactor": "CSNK2A1",
+          "overlap_start_1based": 24,
+          "overlap_end_1based": 36
+        },
+        {
+          "tile_ID": "1_093",
+          "interactor": "CSNK2A1",
+          "overlap_start_1based": 29,
+          "overlap_end_1based": 38
+        }
+      ],
+      "edit_effect_on_MS_detection_measured": false
+    },
+    {
+      "SRM_target_peptide": "GIQTLENVPPEFPASSK",
+      "start_1based": 4,
+      "end_1based": 20,
+      "reported_detected_in_source": false,
+      "edit_family": "L_to_A",
+      "edited_region": "GIQTAENVPPEFPASSK",
+      "signature_sequence_preserved": false,
+      "binding_tile_overlaps": [],
+      "edit_effect_on_MS_detection_measured": false
+    },
+    {
+      "SRM_target_peptide": "GIQTLENVPPEFPASSK",
+      "start_1based": 4,
+      "end_1based": 20,
+      "reported_detected_in_source": false,
+      "edit_family": "microprotein_10mer_ext",
+      "edited_region": "GIQTLENVPPEFPASSK",
+      "signature_sequence_preserved": true,
+      "binding_tile_overlaps": [],
+      "edit_effect_on_MS_detection_measured": false
+    }
+  ]
+}

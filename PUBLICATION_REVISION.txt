@@ -1,0 +1,12 @@
+Publication revision, 10 November 2026
+Added related guide-selection citation and distinguished questions/resources.
+Qualified the matched-cohort within-reporter increment and reported existing
+paired cross-reporter contrasts without changing predictions or intervals.
+Updated Larsen to the published 6 November 2026 article and discussed its
+strong overall compartmental transfer with terminal-specific exceptions.
+Completed contributions, studentship acknowledgment and competing interests
+from user instructions and the public Cambridge thesis record.
+Mapped all S1-S18 labels to actual public files; added frozen derived S13-S18
+evidence while excluding original upstream articles, workbooks and figures.
+Selected the MIT licence for original study code; upstream rights persist.
+No new model fit, predictor outcome, confidence interval or experiment.

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "independent_reader": "Original XLSX ZIP/XML; no openpyxl",
+  "source_uORFs": 969,
+  "source_summary_flags_checked": 2907,
+  "source_any_hits": 155,
+  "source_all_three_hits": 6,
+  "candidates_checked": 60,
+  "exact_candidate_matches": 9,
+  "exact_source_hit_candidates": 1,
+  "exact_source_hit_product": "MIEF1-MP70 inHAP1",
+  "ASDURF_source_98_vs96_representation_kept_distinct": true,
+  "new_native_or_edited_function_measurement": false
+}

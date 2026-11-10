@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "independent_reader": "Original XLSX ZIP/XML, no openpyxl",
+  "candidates_checked": 60,
+  "source_sequence_records": 29,
+  "source_screen_hits": 28,
+  "exact_candidate_matches": 0,
+  "same_gene_id_matches": 0,
+  "Table2_source_records_checked": 620,
+  "figure_peptides_checked": 4,
+  "sharing_scope": "Table1 records only;not alternative-isoform expression or whole-proteome uniqueness",
+  "new_native_function_validation": false
+}

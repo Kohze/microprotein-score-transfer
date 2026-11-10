@@ -30,126 +30,160 @@
 \small\textsuperscript{3}Cornell University\\[4pt]
 \small Correspondence: \href{mailto:robin@gounder.com}{robin@gounder.com}\\
 \small Samuel Schmidt: \href{mailto:samuel@vaionex.com}{samuel@vaionex.com}}
-\date{3 November 2026}
+\date{10 November 2026}
 \begin{document}
 \maketitle
 
 \begin{abstract}
-We asked whether microprotein sequence scores validated for one experimental
-target remain useful after the assay, sequence input or decision changes.
-Using published data, we distinguish a core reporter benchmark from
-retrospective transfer extensions and exploratory diagnostics. Exact-sequence
-joins, dependence-controlled evaluation and source-only training define the
-comparisons. Among 1,072 development constructs, annotation-trained
-composition resemblance correlated negatively with reporter accumulation
-(Spearman $\rho=-0.292$), whereas outcome-trained composition and
-terminal-aware models reached $0.747$ and $0.780$. Tests using 1,044 identical
-peptides across reporter contexts, independent canonical tiles and 1,743
-paired sequence changes showed that favorable within-context rankings did
-not imply reliable transfer. Terminal features could improve within-context
-prediction while reducing cross-context performance, and a model preferred
-by global correlation was not always preferred for top-decile selection.
-Source-population exclusions, matched inputs, training-exposure audits and
-strong published baselines also changed the eligible comparisons and
-narrowed apparent improvements. The practical implication is to validate a
-score against the intended measurement, input and decision, and to test
-paired effects before using a ranking model to prioritize edits. These
-results define specific transfer boundaries rather than a universal
-predictor. Native turnover and peptide-dependent activity remain separate
-experimental questions.
+Sequence scores offer a way to prioritize microproteins encoded by
+noncanonical open reading frames and propose edits that alter their
+accumulation. We reanalysed published measurements to test whether these
+scores remain useful across reporter contexts, independent peptide datasets
+and paired sequence edits. Among 1,072 development constructs, an
+annotation-based composition score correlated negatively with reporter
+accumulation (Spearman $\rho=-0.292$), whereas models trained on accumulation
+reached $0.747$ using composition and $0.780$ with a richer terminal-aware
+representation. On the same 1,044 peptides across reporters, the
+within-GFP advantage of the richer representation was uncertain
+($\Delta\rho=0.021$, conditional 95\% interval $-0.005$ to $0.046$).
+When applied to microprotein--mCherry, the GFP-trained richer model reached
+$\rho=0.560$, compared with $0.663$ for composition alone and $0.742$ for a
+model trained on the target reporter. The paired composition-minus-richer
+contrast was $0.103$ (conditional 95\% interval $0.078$ to $0.132$).
+Tests on independent canonical peptides and 1,743 paired sequence changes
+showed that model comparisons also depended on input coverage, training
+exposure and whether the task was ranking peptides, selecting a subset or
+predicting edit effects. Strong published baselines reduced several apparent
+advantages. These retrospective benchmarks quantify predictive portability
+within the tested populations; they do not isolate causal effects of reporter
+components. Performance in one reporter does not justify sequence editing or
+use in another assay without testing. Native turnover and peptide-dependent
+function require separate experiments.
 \end{abstract}
 \noindent\textbf{Keywords:} microproteins; noncanonical open reading frames; protein stability; sequence predictors; reporter assays; cross-assay transfer; reproducibility
 \clearpage
 \section{Introduction}
-Microprotein sequence scores can address three different questions: whether
-a sequence resembles an annotated protein, how much product accumulates in
-a reporter assay, and how a sequence edit changes the measured outcome.
-Performance on one question does not establish performance on the others.
-
 Thousands of translated open reading frames fall outside conventional
-protein annotations. Standardized catalogues support their study
-\cite{mudge,chothani}, but translation, peptide accumulation and
-peptide-dependent function require distinct evidence. Selected noncanonical
-peptides already have motif-dependent cellular phenotypes and native
-complex structures \cite{samandi,brownmitoribosome,rathoremief}.
-Conversely, an upstream ORF can regulate downstream expression through its
-RNA architecture or the act of translation \cite{shepelev}.
-Endogenous variant/pathway tests and engineered degron-exposure experiments
-provide further validation precedents \cite{ghosh,hasenjaeger}.
+protein annotations, creating a large set of candidate microproteins
+\cite{mudge,chothani}. We refer to these as noncanonical ORFs (nORFs);
+canonical proteins are those encoded by conventionally annotated coding
+genes. Sequence scores can help prioritize these candidates,
+but deciding which peptide to study requires clarity about what a score
+predicts. Translation, accumulation of a peptide product and
+peptide-dependent function are different observations. Some noncanonical
+peptides have established cellular phenotypes or native complex structures
+\cite{samandi,brownmitoribosome,rathoremief}; an upstream ORF can also affect
+downstream expression through its RNA or the act of translation
+\cite{shepelev}. Endogenous-variant and degron-exposure experiments illustrate
+how particular biological effects can be tested \cite{ghosh,hasenjaeger}.
 
-The six-feature XGBoost nORF Score showed no significant association with
-EggNOG Gene Ontology annotation \cite{gounder}. Our controlled reanalysis
-retained compositional differences after exact length matching.
-We evaluate sequence representations
-against measured reporter outcomes and sequence interventions.
-
-Annotation and detection predictors have their own intended targets.
-ShortStop prioritizes resemblance to curated microproteins relative to
+Existing predictors address different parts of this problem. ShortStop
+classifies sequences by resemblance to curated microproteins relative to
 synthetic references \cite{shortstop}. PepScore integrates ORF features and
 was accompanied by individual expression assays \cite{yang}. Recent
-preprints distinguish Ribo-supported from MS-supported prediction or model
-repository MS detection using translation, conservation and peptide
-attributes \cite{trans2ms,fierro}. Reporter transfer evaluates a different
-endpoint; a faithful comparison must also retain any native RNA context
-and other inputs required by the original model.
+preprints distinguish support from ribosome profiling and mass spectrometry,
+or predict detection in MS repositories using translation, conservation and
+peptide attributes \cite{trans2ms,fierro}. These are useful but distinct
+tasks. A score for annotation resemblance or detection is not automatically
+a predictor of how much peptide accumulates in a reporter assay. Testing
+such a score also requires the inputs expected by the original model,
+including native RNA context where applicable.
 
-Composition-based degradation prediction and sequence-context effects have
-established precedents. QCDPred predicts yeast quality-control degrons from
-composition, with companion work testing human reporters
-\cite{qcdpred,mashahreh}. Composition-only prediction also supports internal
-degron mapping \cite{zhanginternal}. Guo et al. relate composition, genetic-code
-and GC biases, disorder and terminal residues to reporter stability, including
-substitutions, extensions and paired reporters \cite{guo}.
-Cytosolic degron maps and terminal stability screens supply released PAP and
-DEGRONOPEDIA baselines \cite{voutsinos,degronopedia,koren,timms}.
-C-terminal sequence variation, composition-preserving shuffles and degradation
-signatures have also been studied \cite{chu,casola}, with GC constraints as
-established context \cite{roginski}.
+This distinction also matters when interpreting sequence features. The
+six-feature XGBoost nORF Score showed no significant association with EggNOG
+Gene Ontology annotation \cite{gounder}. Our controlled reanalysis retained
+compositional differences after exact length matching. Detecting such
+differences between annotated and noncanonical sequences, however, does not
+show that the same features predict reporter accumulation or the effect of
+editing a particular peptide. Those claims require tests against the
+corresponding measurements.
 
-Calibration and richer sequence representations likewise require comparison
-with existing methods. Experiment-specific nonlinear calibration and variable
-feature gains are documented \cite{schulze}. MAVE-NN and MoCHI model
-genotype--phenotype and measurement relationships, with limits on identifying
-their separate nonlinearities \cite{mavenn,mochi}. Joint abundance--binding
-and abundance--activation models \cite{faureenergetic,leblancactivation},
-and experimentally tested multi-mutant improvements \cite{gmma}, further
-distinguish predictive fit from physical or functional interpretation.
+For predicting accumulation, published degradation models provide more
+direct comparators. These models score degrons: sequences that can direct
+a protein toward degradation. QCDPred predicts yeast quality-control degrons from
+composition, with companion experiments on human reporters
+\cite{qcdpred,mashahreh}; composition-based methods also support internal
+degron mapping \cite{zhanginternal}. Guo et al. studied composition,
+genetic-code and GC biases, disorder and terminal residues using
+microprotein reporters, substitutions, extensions and paired reporter
+configurations \cite{guo}. The core assays fuse microproteins to fluorescent
+reporter proteins and measure the resulting signal. Fusions and tags can
+change which peptide termini are exposed, making construct context a
+plausible reason for differences between assays. Cytosolic degron maps and
+terminal stability screens provide the released peptide abundance predictor
+(PAP) and DEGRONOPEDIA models
+\cite{voutsinos,degronopedia,koren,timms}. C-terminal variation and
+composition-preserving shuffles have also been studied \cite{chu,casola},
+alongside the role of GC constraints in newly evolved sequences
+\cite{roginski}. Thus, the importance of composition and sequence context
+is already established. The practical question is how reliably a score
+trained in one of these settings can be used in another.
 
-The central question is when prediction validated in one context remains
-useful in another. We first establish the core annotation-versus-reporter
-comparison, then evaluate matched peptides across reporter contexts and
-independent canonical-tile and paired-edit targets. Strong frozen baselines,
-source-population rules and input/exposure controls bound those comparisons.
-Secondary diagnostics and exploratory candidate links are retained in
-S1 Text. The extensions are retrospective and outcome-informed; detailed
-methods follow the main findings.
+Calibration introduces a related question: does a better numerical fit
+reflect improved prediction, a change in measurement scale or a biological
+relationship? Experiment-specific nonlinear calibration and variable gains
+from added features are documented \cite{schulze}. MAVE-NN and MoCHI model
+genotype--phenotype and measurement relationships, while recognizing limits
+on separating their nonlinearities \cite{mavenn,mochi}. Joint
+abundance--binding and abundance--activation models
+\cite{faureenergetic,leblancactivation}, and experimentally tested
+multi-mutant improvements \cite{gmma}, further show why predictive accuracy,
+physical interpretation and function must be evaluated separately.
+
+We ask whether a score that predicts reporter accumulation in one setting
+remains useful with another reporter or for choosing sequence edits. We
+first compare annotation-based scores with models trained on reporter
+measurements. We then hold peptide identity fixed to test prediction across
+reporter contexts, before testing independent canonical-peptide and
+paired-edit datasets. Comparisons with strong published models, identical
+sequence inputs and checks for overlap with training data help explain
+apparent differences in performance. This provides a controlled account of
+when the tested scores remain useful and where they fail. The later
+analyses were developed retrospectively after earlier results were known;
+detailed exploratory results and candidate follow-up remain in S1 Text.
+
+Our related guide-selection analysis quantified how earlier CRISPR
+reagent choices change later depletion estimates \cite{guideselection}.
+Some ORFs, reference resources and biological precedents are shared with
+that work. Here the primary measurements are reporter accumulation and
+paired sequence changes, and the endpoints are predictive portability,
+input coverage and training exposure; we do not repeat its guide-selection
+estimands. The contribution is a peptide-matched benchmark of these
+predictions and their limits, rather than a new reporter experiment or
+evidence of native peptide function.
 
 \section{Results}
-The core reporter benchmark, central transfer extensions and exploratory
-follow-up have different roles in the argument. All use existing data.
-The later extensions are retrospective and outcome-informed; their central
-narrative role does not make them preregistered or prospective confirmatory
-tests. Detailed results, sensitivities and candidate-source audits are
-retained in S1 Text.
+We organize the analyses around the same practical question: when does
+a score remain useful outside the setting in which it was trained? The core
+benchmark tests whether training on reporter measurements improves prediction
+over annotation-based scores. We then ask whether that accuracy survives a
+change of reporter, a change of study or a change from ranking peptides to
+predicting edits. Finally, we examine how peptide selection, sequence inputs
+and training overlap affect the comparisons. All analyses use existing data.
+The later analyses were developed after earlier results were known and were
+not preregistered or designed as prospective confirmation. S1 Text contains
+the detailed results, sensitivity analyses and exploratory candidate checks.
 
-\subsection{Core benchmark: training target determines reporter prediction}
-On the 1,072 development constructs, the annotation-trained composition
-resemblance score correlated negatively with the GFP--microprotein reporter
-outcome ($\rho=-0.292$, 95\% conditional interval $-0.344$ to $-0.237$).
-ShortStop's mean SAM probability had little monotonic association on its
-covered set ($\rho=-0.018$; $n=1,057$). Models trained on the measured outcome
+\subsection{Training on the measured outcome improves reporter prediction}
+We first asked whether a sequence score trained to recognize annotated
+proteins also predicts reporter accumulation. To separate the training task
+from the sequence features, we compared annotation-based scores with models
+trained on the reporter measurements. Model A uses length and amino-acid
+composition, T adds terminal features, and O adds residue-order features;
+all use the same grouped validation folds.
+
+Among the 1,072 development constructs, the composition score trained to
+distinguish annotated proteins from reference sequences correlated
+negatively with the GFP--microprotein reporter outcome ($\rho=-0.292$, 95\% conditional interval $-0.344$ to $-0.237$).
+ShortStop's mean SAM probability showed little rank correlation among peptides with available scores ($\rho=-0.018$; $n=1,057$). Models trained on the measured outcome
 performed substantially better: composition model A reached $\rho=0.747$,
 and terminal-aware T reached $0.780$ (Fig~\ref{fig:ranking};
-Table~\ref{tab:native}). Useful composition prediction persisted in the
-strict additional library ($\rho=0.719$).
-These results distinguish annotation resemblance from this reporter
-endpoint; they do not invalidate the original annotation task.
+Table~\ref{tab:native}). The composition model also predicted reporter scores in the additional library after the strict exclusions ($\rho=0.719$).
+A score that distinguishes annotated proteins from reference sequences therefore need not predict reporter accumulation. This result does not assess its accuracy on the original annotation task.
 
-Adding native-order features to T gave a small primary rank increment,
+Adding native-order features to T produced a small increase in rank correlation in the primary analysis,
 $\Delta\rho=0.0040$ (95\% conditional interval $-0.0046$ to $0.0115$).
-The increment varied across contexts. Coverage, dependence groups,
-catalogue matching and all order sensitivities are reported in S1 Text
-and Figs~S1--S3.
+The increase varied across contexts. S1 Text and Figs~S1--S3 report which peptides were included, how related peptides were grouped, the catalogue matching and all residue-order sensitivity analyses.
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{main/Fig1.pdf}
@@ -179,23 +213,27 @@ T plus shuffled order 2 & 0.775 & 0.1380 & --- & ---\\
 T plus shuffled order 3 & 0.771 & 0.1378 & --- & ---\\\bottomrule
 \end{tabular}\end{table}
 
-\subsection{Central retrospective transfer: the same peptides behave differently across contexts}
-Matching 1,044 peptide identities fixes sequence-cohort composition in the
-comparison of Guo reporter contexts \cite{guo}. Observed rank agreement was
+\subsection{The same peptides give different results across reporter contexts}
+Accurate prediction within a reporter assay does not show whether the
+model will work with a different reporter. We therefore compared the same
+1,044 peptides across the Guo reporter contexts, keeping the tested peptide
+set fixed \cite{guo}. Observed rank agreement was
 $\rho=0.522$ between the original GFP--MP and MP--mCherry configurations,
 compared with $0.867$ between the two GFP libraries (Fig~\ref{fig:pairedtransfer}).
-Source-trained T reached $\rho=0.560$ on MP--mCherry, versus $0.742$ for
+T trained on the source reporter reached $\rho=0.560$ on MP--mCherry, versus $0.742$ for
 target-trained T; reverse transfer reached $0.566$ on GFP--MP, versus
 $0.767$ for target-trained T (Table~\ref{tab:pairedcontext}).
-Composition alone transferred better than T between the original reporter
-configurations, reaching $0.663$ and $0.648$ in the two directions.
+The composition-only model performed better than T when applied across the original reporter configurations, reaching $0.663$ and $0.648$ in the two directions.
+On this same 1,044-peptide population, the within-GFP T-minus-A contrast
+was $0.0205$ (95\% conditional interval $-0.0047$ to $0.0458$), so the
+within-context increment was uncertain. Across reporters, A-minus-T was
+$0.1027$ ($0.0780$ to $0.1316$) for GFP--MP to MP--mCherry and $0.0819$
+($0.0581$ to $0.1039$) in reverse. These paired group-bootstrap contrasts
+keep fitted predictions fixed and were examined retrospectively. The
+1,044-peptide comparison uses its own common-group folds and must be
+distinguished from the earlier 1,072-construct development estimates.
 
-The added terminal information therefore improved some within-context
-rankings without uniformly improving transfer. Reporter identity,
-orientation, linker/tag architecture and library conditions co-vary, so
-this comparison does not isolate their causal contributions. Target-supervised
-calibration did not remove the target-scale error gaps and is adaptation,
-not independent validation of a frozen model.
+The richer T representation includes terminal encodings, hydropathy and pretrained PAP components, so its contrast with A does not isolate terminal residues. Its higher within-context point estimates did not imply improved transfer. Reporter identity, orientation, linkers, tags and library conditions all differ between contexts, so their individual effects cannot be separated here. Calibration using target-assay measurements did not close the error gaps. Because that calibration uses target data, it adapts the model rather than independently validating the original predictor.
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{main/Fig2.pdf}
@@ -226,25 +264,24 @@ U to G & 0.737 & 0.767 & 0.1453 & 0.1401\\
 U to M & 0.546 & 0.742 & 0.2065 & 0.1572\\
 \bottomrule\end{tabular}\end{table}
 
-\subsection{Central retrospective transfer: source and decision matter on independent cohorts}
+\subsection{Performance on independent data depends on the training assay and selection task}
+The preceding comparison uses reporter contexts from the same study.
+To test prediction across studies, we next applied the models to independent
+canonical-protein tiles \cite{voutsinos}. These peptide segments test whether
+models trained on nORF reporters can rank a different sequence population;
+they do not measure native microprotein function.
+
 Composition models trained in the two nORF reporter configurations reached
 $\rho=0.816$ and $0.817$ on 14,143 eligible canonical tiles from 383 genes.
 The corresponding T correlations were $0.812$ and $0.656$
 (Fig~\ref{fig:external}; Table~\ref{tab:external}).
-The GFP-source A-minus-T contrast was small and uncertain, whereas the
-MP--mCherry-source gap was $0.161$ (95\% conditional interval $0.149$ to
-$0.174$). This supports source-specific transfer behavior, not a general
-claim that terminal features are harmful.
+The difference between A and T was small and uncertain for GFP-trained models, whereas the gap for MP--mCherry-trained models was $0.161$ (95\% conditional interval $0.149$ to
+$0.174$). The A/T difference therefore depended on the training assay; it does not establish a general harmful effect of terminal residues. T also incorporates pretrained PAP features derived from the target study, so its complete representation is not wholly external to that study even though its regression head is trained only on Guo measurements.
 
-The decision metric also changed the comparison. GFP-trained T selected
-higher-scoring top-decile tiles despite its slightly lower overall
-correlation. Global rank association and prioritizing a subset are therefore
-different evaluation targets. Frozen normalized QCDPred reached $\rho=0.800$,
-narrowing the composition-head advantage; the top-decile selected-mean
-difference intervals spanned zero.
+The choice of evaluation metric also changed which model performed better. GFP-trained T selected a top decile with higher measured reporter scores despite its slightly lower overall correlation. Overall correlation alone therefore did not identify the model best suited to selecting high-scoring peptides. Published normalized QCDPred reached $\rho=0.800$, reducing the apparent advantage of the composition model; intervals for the difference in mean scores among the selected top deciles spanned zero.
 \begin{table}[H]
 \centering
-\caption{Source-only nORF models evaluated on independent canonical tiles.
+\caption{nORF models trained only on the source data evaluated on independent canonical tiles.
 All rows use the same 14,143 held-out tiles from 383 gene groups. Selected
 means are measured target-assay scores among the highest-scoring 1,415
 tiles under each frozen policy; they are not source-scale predictions.}
@@ -261,25 +298,29 @@ MP--mCherry & T & 0.656 & 0.5506\\\bottomrule
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{main/Fig3.pdf}
-\caption{Source context and decision metric change the transfer comparison. a: independent-target Spearman correlation for both source-trained heads.
+\caption{Source context and decision metric change the transfer comparison. a: independent-target Spearman correlation for both models trained on the source data.
 Intervals for A/T are conditional 95\% gene-bootstrap intervals; other
 diagnostics are point estimates. The dashed PAP reference was trained in the
 target study. N4/C4/I4 each add 80 positional columns to A; T without PAP
-removes its pretrained components. b: mean measured target score among
-each policy's highest-scoring 10\%; policy contrasts and uncertainty are
-reported in the text and S9 Data. The source of the 30-mer assay is
-independent; the target objects are canonical tiles rather than native nORFs.}
+removes its pretrained components. b: grouped dots show the mean measured target score among the 1,415
+peptides selected by each model's highest-scoring 10\%. Colors and markers
+identify the training reporter; labels give the means. Each model selects
+its own subset. Policy contrasts and uncertainty are reported in the text
+and S9 Data. The source of the 30-mer assay is
+independent; the test sequences are canonical tiles rather than native nORFs.}
 \label{fig:external}
 \end{figure}
 
-Independent paired changes supplied a separate intervention test. On the
+Ranking unmodified peptides and predicting what happens after an edit
+are different tasks. A model could do the former well without doing the
+latter. We therefore tested whether the scores predicted measured changes
+between paired sequences in the independent Chu study \cite{chu}. On the
 1,743 matched 58-mer pairs retained after common source/PAP exclusions,
 source-WT calibration improved linear full58 PAP from $\rho=0.651$ to
 $0.692$. Raw published nonlinear PAP already reached $0.729$, and its
 additional calibration gain was $0.006$ (95\% conditional interval
 $-0.002$ to $0.014$; Fig~\ref{fig:published}; Table~\ref{tab:neural}).
-Thus the specified linear improvement does not establish a general
-calibration advance. PAP's author-held-out canonical-tile performance is
+Calibration therefore improved this linear model, but the result does not show that calibration generally improves prediction. PAP's author-held-out canonical-tile performance is
 a target-study reference, not independent external validation of PAP.
 \begin{figure}[!htbp]
 \centering
@@ -318,32 +359,33 @@ PAP CNN7, full58 & 0.725 & 0.725\\
 \end{tabular}
 \end{table}
 
-\subsection{Retrospective controls: population, inputs and exposure bound the comparisons}
-Eligibility rules changed an apparent feature advantage without changing
-the predictions. On all 1,014 valid Leu-to-Ala pairs, T exceeded A by
+\subsection{Comparisons depend on the tested peptides, model inputs and overlap with training data}
+Apparent differences between models can reflect the peptides selected
+for evaluation, the amount of sequence supplied or overlap with training
+data. We examined these possibilities before interpreting a performance
+gap as a benefit of particular features or a model architecture.
+
+Changing which peptides were included changed the apparent benefit of
+terminal features, even though all predictions remained fixed. On all 1,014 valid Leu-to-Ala pairs, T exceeded A by
 $\Delta\rho=0.097$. Applying the original terminal-Leu exclusion left
 798 pairs and a contrast of $-0.013$ (95\% conditional interval $-0.032$
-to $0.005$). The append-edit advantage persisted. These are post-hoc
-population contrasts using the source authors' rule \cite{guo}, not a
-newly identified causal confound (Table~S1; S1 Text).
+to $0.005$). The append-edit advantage persisted. These comparisons were made after the initial analysis, using the source authors' exclusion rule \cite{guo}; they do not identify a new causal explanation (Table~S1; S1 Text).
 
-Input coverage also mattered. On the independent pairs, raw CNN1 reached
+We next asked whether the sequence supplied to a model affected its performance. Input coverage also mattered. On the independent pairs, raw CNN1 reached
 $\rho=0.518$ on C30 and $0.729$ on full58. The full58 representation
 extrapolates beyond the training length, and this comparison does not
 identify which residues or mechanisms explain the difference.
 
-The terminal-model development-screen audit matched an endpoint in
-1,454 of the 1,743 common-cohort pairs. Neither endpoint matched in
-289 pairs. In that subset, DEGRONOPEDIA reached $\rho=0.537$, compared
+A final check asked whether the supposedly independent test sequences
+had already appeared in the terminal model's development data. At least one
+sequence in 1,454 of the 1,743 pairs matched that development screen. Neither sequence matched in 289 pairs. In that subset, DEGRONOPEDIA reached $\rho=0.537$, compared
 with $0.521$ for PAP on identical C23 inputs and $0.761$ for full58 PAP
 (Fig~\ref{fig:terminal}; Table~S2). The same-input difference interval
-spanned zero. The audit does not recover individual training-split
-membership or certify all historical exposure; its purpose is to bound
-the eligible comparison.
+spanned zero. These checks identify overlap with the development screen. They cannot determine which sequences entered the individual training split or rule out all earlier training exposure.
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{main/Fig5.pdf}
-\caption{\textbf{Predictor exposure and matched-input controls bound model comparisons.}
+\caption{\textbf{Overlap with training data and matched sequence inputs change model comparisons.}
 (a) Paired-effect rank correlations for the C23 terminal model and PAP CNN1
 using C23, C30 and full58 on three nested populations. The original
 1,743-pair cohort excluded source/PAP training exposure, while 1,454 pairs
@@ -358,64 +400,55 @@ inference extrapolates beyond the training length.}
 \end{figure}
 
 \subsection{Exploratory challenges and candidate follow-up}
-The separate, selected FLAG-expression panel retained a failed transfer:
+The main comparisons show that a score's usefulness depends on the
+assay and task. Two exploratory analyses examine the implications: a separate
+expression panel tests a further assay change, and sequence matching
+identifies peptides for experimental follow-up.
+
+The scores failed to predict expression in the separate, selected FLAG panel:
 primary MP--mCherry-trained T had $\rho=-0.652$ on the strict 20 constructs.
-Selection, construct differences and the detection endpoint prevent a
-population-wide failure estimate. All model/representation sensitivities,
+Because the panel was selected and used different constructs and an expression-detection assay, this result cannot estimate failure across all microproteins. All model/representation sensitivities,
 within-study edit analyses and conditional-order controls remain available
 in S1 Text and Figs~S3--S6.
 
-Exact sequence joins also nominated three follow-up candidates:
+Matching full peptide sequences across studies identified three candidates for follow-up:
 RP11-620J15.3, JHDM1D-AS1 and the SLCO5A1 uORF peptide. Their existing
 Leu-to-Ala and append measurements increased reporter output in both source
-replicates, and the WT sequences have source interaction-tile annotations
-\cite{guo,sandmann}. These exploratory links do not measure edited binding,
-native turnover or peptide-dependent activity. The full 60-candidate roster,
-source-positive/negative records, native-evidence reassessment and RNA-context
-qualifications are retained in S1 Text and S12--S18 Data.
+replicates, and the original study reports interaction-tile annotations for their WT sequences
+\cite{guo,sandmann}. These matches do not show how either edit affects binding, native protein turnover or peptide-dependent activity. S1 Text and S12--S18 Data retain all 60 candidates, the source-reported positive and negative results, the reassessment of native evidence and the limits imposed by RNA context.
 
 \section{Discussion}
 \subsection{Transfer depends on the experimental question}
-The central result is that microprotein sequence scores transfer according to
-their training target, assay context and evaluation decision. Composition
-distinguishes the defined reference populations and predicts reporter
-accumulation when trained on that outcome. Annotation resemblance alone does
-not provide a portable accumulation score. Terminal features, calibration and
-residue order add predictive information in particular settings, without
-establishing a universally preferred representation.
+A microprotein sequence score can perform well in one assay and less well in another. Its usefulness depends on what it was trained to predict, how the peptide was measured and how the score will be used. Composition can distinguish the reference populations studied here and predict reporter accumulation when trained on those measurements. Resemblance to annotated proteins alone does not reliably predict accumulation across assays. Terminal features, calibration and residue order improve prediction in some settings, but no representation performs best in every comparison.
 
-The evaluation population can change the conclusion even when predictions
-remain fixed. The pooled terminal-feature advantage for Leu-to-Ala effects
+The peptides chosen for evaluation can change the conclusion even when the predictions remain fixed. The pooled terminal-feature advantage for Leu-to-Ala effects
 disappears under the original source exclusion, whereas the append contrast
-remains positive \cite{guo}. This limits generalization of the pooled result
-without identifying a causal molecular explanation. The intended decision
-also matters: GFP-trained T selects a higher-scoring top decile on canonical
+remains positive \cite{guo}. The result from all pairs therefore does not apply equally to the subset defined by the original exclusion rule, and it does not explain the molecular cause of the difference. The intended use of the score also matters: GFP-trained T selects a higher-scoring top decile on canonical
 tiles despite its slightly lower overall correlation. Ranking unmodified
 peptides, selecting a subset and predicting an intervention are separate tests.
 
-The matched-peptide analysis extends existing paired-reporter and
-same-sequence context comparisons \cite{guo,larsen}. Fixing peptide identity
-removes a sequence-cohort explanation, but reporter identity, orientation and
-library conditions still co-vary; MP--mCherry also has a variable-length GS
-linker and an HA tag. The comparison therefore measures transfer behavior
-without isolating the responsible construct component. The selected
-FLAG-expression panel adds an adverse transfer case, but its selection,
-architecture and detection endpoint prevent a population-wide failure
-estimate \cite{yang}.
+Guo et al. already measured both reporter orientations, terminal-degron
+effects and sequence edits, and supplied predictive models \cite{guo}.
+Our contribution is the grouped, peptide-matched prediction comparison and
+its extension to edit effects, matched inputs and development exposure.
+Larsen et al. compared 8,645 common nuclear and cytosolic tiles, finding
+strong overall agreement alongside terminal-specific exceptions, and
+applied cytosol-trained PAP to the nuclear screen \cite{larsen}.
+Context changes therefore need not impair prediction: portability must be
+measured for the particular construct, population and decision task.
+The matched-peptide analysis extends these existing reporter and
+same-sequence context comparisons. Using identical peptides rules out differences in peptide composition between the tested sets, but reporter identity, orientation and library conditions still change together; MP--mCherry also has a variable-length GS
+linker and an HA tag. The comparison shows how prediction changes across contexts but cannot identify which construct component causes the change. The selected FLAG-expression panel provides another example of failed prediction across assays. Its selection, construct design and expression-detection readout prevent us from generalizing the failure rate to all microproteins \cite{yang}.
 
 \subsection{Input coverage and provenance shape predictor comparisons}
-Strong published baselines materially narrow the calibration result.
-Source-WT mapping improves linear PAP change prediction, but raw nonlinear
-PAP performs better on the same independent pairs. The additional full58
-neural-calibration interval spans zero, while the C30-to-full58 input change
-has a much larger association with performance. Full58 inference extrapolates
+Comparison with strong published models reduces the apparent benefit of calibration.
+Calibrating linear PAP on source WT measurements improves its predictions of sequence changes, but uncalibrated nonlinear PAP performs better on the same independent pairs. For the full58 neural model, the interval for the additional calibration gain spans zero. Using the full58 input rather than C30 is associated with a much larger improvement. Full58 inference extrapolates
 beyond the training length, and this contrast does not identify a biological
-cause. These comparisons make model architecture and input coverage essential
-parts of evaluating a calibration claim.
+cause. Claims about improved calibration therefore need comparisons that account for both model architecture and the sequence supplied to each model.
 
 Experiment-specific nonlinear readouts and separation of measurement from
 latent biological maps are established methods \cite{schulze,mavenn,mochi}.
-Physical interpretation requires additional anchors: Salinas and Ranganathan
+Interpreting a fitted score as a physical quantity requires independent measurements: Salinas and Ranganathan
 used affinity-characterized mutants and WT-affinity corrections, while their
 homologue comparison retained a hypothesized internal-equilibrium mechanism
 \cite{salinas2018}. Joint folding/binding and abundance/activity models have
@@ -423,17 +456,12 @@ their own physical assumptions and validation targets
 \cite{faureenergetic,leblancactivation}. Higher-order prediction and
 domain-extension or ligand maps also use distinct proteins, substitutions
 and validation settings \cite{architecture,pdzextensions,pdzcomparative}.
-Our source-WT remapping has no independent molecular anchor and does not
-recover an assay-independent physical stability scale.
+Our calibration uses source WT reporter measurements, without an independent molecular measurement. It therefore does not convert reporter scores into a physical stability scale that applies across assays.
 
-Training exposure determines which model comparisons can be called
-independent. The terminal-model audit restricts the eligible pairs, and
-matched C23 inputs remove most of its apparent point-estimate gap against
-CNN1. Intervals spanning zero demonstrate neither equivalence nor a universal
+A test is independent only to the extent that its sequences and related training records have been excluded. The terminal-model audit identifies a smaller set of pairs without known development-screen overlap. Comparing identical C23 inputs also removes most of the apparent performance gap between that model and CNN1. Intervals spanning zero demonstrate neither equivalence nor a universal
 winner. Higher correlations after exclusions do not establish that exposure
 caused inflation. Population and decision-metric effects have precedents
-\cite{fawzy,gmma}; the added result is the specified shared-population
-comparison with inspectable provenance. Likewise, the small property-feature
+\cite{fawzy,gmma}; our contribution is to compare the models on the same defined peptide sets and provide the records needed to inspect their source and training overlap. Likewise, the small property-feature
 increment cannot be generalized to all order-aware models. CNN7 retains an
 order increment on its source study's held-out tiles, while independent
 paired-effect intervals span zero. Model shuffles test conditional predictive
@@ -450,62 +478,49 @@ distinct stages \cite{tripartite}, potentially affected by accessibility and
 partner occupancy \cite{hasenjaeger,guharoymasking}. Steady-state accumulation
 also depends on production: under a simple first-order balance,
 $P_{\mathrm{ss}}=s/k$, where $s$ is production and $k$ includes degradation
-and dilution. Production and turnover measurements are therefore needed for
-a candidate-specific stability mechanism.
+and dilution. Determining why a particular peptide accumulates therefore requires measurements of both production and turnover.
 
 Annotation, detection and evolutionary origin address further distinct
 targets \cite{shortstop,trans2ms,fierro,middendorf,roginski,cardiacevolution,vakirlis}.
 A peptide-only reporter test cannot refute a model requiring unavailable
 native RNA context. HLA presentation, intact-product accumulation and
 peptide-dependent function also require different evidence
-\cite{wacholder,deutsch}; missing detection or screen records are not
-established functional negatives.
+\cite{wacholder,deutsch}; absence from a detection dataset or screen does not establish lack of function.
 
-The three candidate links define experiments rather than complete them.
+The three matched candidates suggest experiments; their effects still need to be tested.
 Synthetic-peptide interactions need not reproduce native stability,
 concentration or compartmentalization \cite{sandmann}, and the edited
 products were not tested for binding or activity. Characterized MIEF1-MP70
 and MRPL33\_65 controls have native structural evidence
-\cite{brownmitoribosome}, but neither has an exact primary GFP/edit pair in
-our bridge. Selected rescue and assembly studies establish functional
+\cite{brownmitoribosome}, but neither has a matching primary GFP measurement and edit pair in our linked records. Selected rescue and assembly studies establish functional
 noncanonical products \cite{chenfunctional,prensner,hofman,samandi,rathoremief},
 while abundance and functional readouts can diverge \cite{salghetti,matreyek}.
 JHDM1D-AS1/DHX15 and RP11-620J15.3 RNA studies do not isolate the nominated
 peptides \cite{yao,malmstrom,liu}; the reported DHX15 turnover assay measures
-DHX15 rather than JHDM1D-AS1 peptide clearance. RNA architecture, translation and
-released-peptide activity require candidate-appropriate controls
+DHX15 rather than JHDM1D-AS1 peptide clearance. Tests of RNA architecture, translation and released-peptide activity require controls tailored to the candidate
 \cite{yang,shepelev,devaux}.
 
 \subsection{Practical implications}
-For reporter accumulation, choose or validate a score against the actual
-measurement and construct context; annotation resemblance or detection
-probability is not an interchangeable endpoint.
+To predict reporter accumulation, test the score against measurements from the relevant assay and construct. Scores for annotation resemblance or peptide detection answer different questions and cannot be substituted without testing.
 
-For cross-study comparisons, retain the input sequence seen by each model,
-audit training exposure and compare strong frozen baselines on a common
-eligible population. Report coverage and the intended decision metric
-alongside global correlation.
+When comparing models across studies, specify the sequence given to each model and check for overlap with its training data. Compare strong published models on the same eligible peptides. Report how many peptides receive scores and whether the score is being evaluated for overall ranking or for selecting a subset.
 
-For edit prioritization, evaluate paired changes in the relevant sequence
-population. Increased reporter output does not establish slower native
-clearance or preserved activity; those require product-compatible
-production, turnover and functional measurements.
+Before using a score to choose sequence edits, test whether it predicts measured changes between WT and edited peptides in the relevant population. Higher reporter output does not by itself show slower native turnover or preserved activity. Those claims require assays that can measure both the original and edited products, together with production, turnover and functional tests.
 
 \subsection{Limitations and next experiments}
-Several extensions were retrospective and outcome-informed. We use aggregate
+Several extensions were retrospective and developed after earlier results were known. We use aggregate
 assay releases, operational dependence groups and intervals conditional on
 fitted models, rather than raw-data reconstruction, exhaustive remote-homology
 control or full retraining. Historical training snapshots are incomplete,
 and post-hoc intervals are not multiplicity-adjusted discovery tests.
-Canonical tiles independently test our source-trained heads, but their
+Canonical tiles independently test our models trained on the source data, but their
 PAP-development provenance prevents treating the accompanying PAP scores
 as independent validation of PAP. The three-row paper/release discrepancy
 is recorded. The common paired cohort audits source/PAP genes and windows,
 without certifying independence for every predictor. The terminal-model
 audit lacks individual split membership, does not resolve every alias or
 remote homologue, and does not audit N-terminal exposure. Comparisons must
-retain these coverage and provenance limits. The claim-focused literature
-assessment does not establish exhaustive priority.
+retain these coverage and provenance limits. Our literature review focused on the claims made in this paper and cannot establish that no earlier study reached a similar conclusion.
 
 Native validation should first identify the intact or processed product
 with an edit-compatible measurement and distinguish production from
@@ -515,38 +530,20 @@ across overlapping measured protein amounts, with a predefined equivalence
 criterion for preservation. RNA, translation and recoded-peptide rescue
 controls should separate transcript, translation-process and peptide-sequence
 explanations. A masking hypothesis additionally requires a validated partner
-perturbation and a clearance measurement. These experiments could establish
-a candidate-specific biological relationship; the present work supplies
-their nomination and the measured prediction-transfer limits.
+perturbation and a clearance measurement. These experiments could show whether the edits change native turnover, binding or activity. The present work identifies candidates for those tests and shows where predictions remain accurate or fail across the assays examined.
 
 \section{Conclusions}
-Microprotein sequence scores should be validated for the measurement and
-decision they will support. Composition transfers usefully in several
-reporter settings, while gains from terminal features, calibration and
-residue order depend on the source, input and endpoint. Strong published
-baselines, matched inputs and predictor-specific exposure controls are
-therefore necessary to interpret an apparent improvement. Exact candidate
-links nominate native experiments that test production, clearance,
-interaction and activity separately. The contribution is a reproducible
-empirical account of these transfer boundaries; native peptide-dependent
-function remains to be measured for the proposed edits.
+Before using a microprotein sequence score to select peptides or design sequence edits, test whether it predicts the relevant experimental outcome. Composition-based models predict reporter measurements across several settings, but the benefit of terminal features, calibration and residue order depends on the training data, sequence input and assay. Apparent improvements must be compared with strong published models using matched inputs and checks for overlap with training data. Matching peptide sequences across studies also identifies candidates for experiments that distinguish changes in production, turnover, binding and activity. These results show when scores remain useful across the tested assays and when they fail. The effects of the proposed edits on native peptide function remain untested.
 
 \section{Materials and methods}
 \subsection{Analysis hierarchy}
-The core benchmark comprises the original dependence-controlled reporter
-evaluation. We distinguish it from the later same-peptide, canonical-tile
-and independent paired-effect transfer extensions. Those extensions are
-central to the present scientific question but retrospective and informed
-by earlier results. Source-population exclusions, input/exposure challenges,
-order/calibration sensitivities, the selected FLAG panel and candidate joins
-are explicitly secondary or exploratory. These labels describe analysis
-roles, not preregistration or prospective confirmatory status. All outcomes,
-including adverse transfer cases, remain reported in S1 Text.
+The core benchmark evaluates reporter prediction while keeping related peptides in the same validation group. The later analyses test identical peptides across reporter contexts, independent canonical tiles and paired sequence changes. These analyses address the main question of this paper, but they were developed retrospectively after earlier results were known. Population exclusions, input and training-overlap checks, order and calibration sensitivity analyses, the selected FLAG panel and candidate matching are secondary or exploratory analyses. This hierarchy describes their role in the paper; it does not imply preregistration or prospective confirmation. S1 Text reports all outcomes, including failed prediction across contexts.
 
 
 \subsection{Controlled catalogue context and clustering reproduction}
-The controlled catalogue analysis reconstructed 28,359 TransCODE Phase 2
-candidates against hg38, audited current GENCODE v50 coding overlap and
+To check whether catalogue-level sequence differences persist after
+controlling for length and GC content, the controlled catalogue analysis
+reconstructed 28,359 TransCODE Phase 2 candidates against hg38, audited current GENCODE v50 coding overlap and
 retained 27,670 eligible nORFs. Canonical representatives were the longest
 valid translated isoform per gene (19,563 genes). The protr descriptor
 definitions were versioned \cite{xiao}. Default lag/lambda 30 restricted the
@@ -561,11 +558,14 @@ descriptors, equal-feature or equal-family weighting, PCA retaining 50
 components, $k=2,3,5,8$, multiple seeds and 80\% subsampling. Native sequences
 were compared with composition-preserving shuffles. A separate computational
 rerun checked saved PCA memberships and two t-SNE maps. This reproduces the
-controlled computation; the original cluster memberships remain unresolved. UMAP was not
+controlled computation; the original cluster memberships could not be recovered. UMAP was not
 rerun. The original matrix and complete historical settings remain unavailable.
 
 \subsection{Experimental sources and target definitions}
-Guo supplementary tables supply normalized fusion-reporter scores
+We used the Guo data because they contain reporter measurements,
+paired reporter contexts and measured sequence edits. This lets us test
+different uses of a score while retaining exact sequence and parent links.
+The Guo supplementary tables supply normalized fusion-reporter scores
 \cite{guo}. The primary development set comprises 1,072 valid wild-type (WT)
 GFP--microprotein (GFP--MP) cargos; 1,071 have both reported biological
 replicates. The opposite MP--mCherry orientation supplies 1,046 measured WTs.
@@ -621,8 +621,7 @@ set mixes these selection schemes and ORF classes; it is not a population-wide
 validation sample.
 
 \subsection{Dependence audit and score provenance}
-Exact peptide identity, parental construct, available gene identities and
-catalogue overlap groups supplied dependence links. Engineered sequences
+We grouped records linked by identical peptide sequences, a shared parental construct, available gene identities or overlapping catalogue entries. Engineered sequences
 shared by different parents connected those parents. We exhaustively aligned
 eligible pairs among native assay peptides, Yang natives, annotation-reference
 sequences and available ShortStop positive-reference counterparts. Local
@@ -631,8 +630,7 @@ Primary edges required at least 60\% identity over alignment columns and at
 least 80\% coverage of \textbf{both} full sequences; a 40\% identity graph was a
 declared sensitivity. Length and composition bounds only removed pairs that
 could not meet these criteria. Connected components defined split groups.
-These are operational dependence groups, not proof of no remote homology or
-pretraining exposure.
+These groups keep known linked records together during validation. They do not rule out distant homology or earlier exposure during pretraining.
 
 The annotation-trained AAC classifier retained the original fixed Extra Trees
 configuration: 200 trees, maximum depth 10, minimum leaf 10, square-root
@@ -640,7 +638,7 @@ feature sampling, balanced classes and seed 100. Whole reference pairs and
 linked reference split groups were removed to a fixed point if connected to
 any Guo or Yang parent. Seeds 101 and 102 were sensitivity analyses. Higher
 scores indicate canonical resemblance, opposite to the nORF Score convention \cite{gounder};
-this classifier never fitted reporter outcomes.
+this classifier was not trained on reporter measurements.
 
 ShortStop v1.2.0 (28 October 2026) precomputed scores were joined only after
 independent GTF translation against hg38 verified exact peptide identity.
@@ -648,23 +646,22 @@ The primary continuous score was mean SAM probability across released models.
 Published standard and stringent consensus calls were retained as distinct
 threshold analyses. Actual supervised-positive identifiers were distinguished
 from ToBePredicted records, which the inspected training code excludes from
-supervision. The available 1,571 positive counterparts are current reviewed
-sequences, not a complete historical training-sequence archive. Thus absence
+supervision. The 1,571 available positive-reference sequences are from the current reviewed release, which does not provide a complete archive of historical training sequences. Thus absence
 of exact matches does not establish complete training or pretraining separation.
 
 The frozen PAP human30 model was reimplemented from safely parsed published
 numeric coefficients \cite{voutsinos}. Primary transfer uses the final
 $\min(30,L)$ residues. Composition terms scale residue counts to 30 positions;
 terminal, pair and triplet terms follow the released positional definition.
-The full-peptide normalized-composition version is a secondary transfer, not
-a newly fitted PAP model. Deposited Guo classification/regression predictions
+The full-peptide version uses normalized composition and is evaluated as a secondary analysis; PAP was not refitted. Deposited Guo classification/regression predictions
 were evaluated only on the additional natural sequences and their strict
 subset, not against other methods' held-out predictions on Guo's own training
 rows. Supplied PepScore values were used only for the exact Yang constructs;
-missing transcript, domain or evolutionary covariates were not invented.
+unavailable transcript, domain and evolutionary inputs were left missing.
 
 \subsection{Endpoint models, order controls and nested validation}
-Models used five outer and three inner group folds. Groups were randomly
+To evaluate predictions on peptides whose related records were absent
+from training, models used five outer and three inner group folds. Groups were randomly
 tie-broken with seed 20261031, sorted by descending size and greedily assigned
 to the smallest fold without using outcomes. Ridge penalties
 $\{0.1,1,10,100,1000\}$ were selected by inner mean absolute error (MAE).
@@ -679,11 +676,10 @@ short-range property-product averages: eight default Moreau--Broto AAindex
 properties at lags 1--5, standardized across amino acids, then centered and
 scaled against 199 within-peptide shuffles. Shuffles preserve exact composition
 and the first and last five residues. Zero null variance produces a zero
-residual. This avoids lag-30 imputation and supplies features for short cargos.
+residual. This provides features for short cargos without imputing lag-30 values.
 
 Three independent shuffled-order representations add the same 40 standardized
-features to T using additional shuffled realizations. They test representation
-effects conditional on composition and terminal residues; the shuffled
+features to T using additional shuffled realizations. They test whether residue order adds predictive information after composition and terminal residues are held fixed; the shuffled
 peptides have no measured outcomes and are not labelled experimental negatives.
 Raw order features, two extra fold seeds, 40\% identity grouping and fixed
 Extra Trees regression for A/T/O were declared sensitivities. The tree
@@ -692,12 +688,10 @@ No outer-fold winner was substituted for the primary Ridge analysis.
 
 Primary contrasts are O-minus-T rank correlation and T-minus-O MAE, with
 1,000 operational-group bootstrap resamples conditional on saved predictions.
-These intervals do not include full model-retraining uncertainty. Additional
+These intervals keep the fitted models fixed and therefore omit uncertainty from retraining. Additional
 intervals and subgroup results are descriptive; no secondary significance
 claims or multiplicity-adjusted discovery list is made. No equivalence test
-was performed. Median absolute biological-replicate disagreement and half
-that value provide descriptive scale context, not a formal noise floor or
-biological relevance threshold.
+was performed. We report the median absolute difference between biological replicates and half that value to show the scale of replicate variation. Neither is a formal noise floor or a threshold for biological relevance.
 
 \subsection{Calibration, perturbation prediction and independent transfer}
 Frozen scores were mapped to reporter scale using isotonic regression fitted
@@ -713,8 +707,7 @@ were analyzed separately.
 Secondary mutation-trained Ridge models use mutant-minus-WT changes in A/T/O
 features and grouped nested evaluation within each family. Opposite-family
 transfer trains on the other edit family after excluding all held-out parent
-groups. This distinguishes native-score extrapolation, learning an edit
-family, and transfer between edit families.
+groups. These tests distinguish using an unmodified-peptide score to predict an edit, training directly on that type of edit, and applying a model trained on a different edit type.
 
 Before scoring Yang outcomes, main predictions and model choices were saved
 in a validation-release receipt. Primary direct transfer trained on MP--mCherry
@@ -723,11 +716,10 @@ context choice for a C-terminal FLAG construct. Actual FLAG-fusion sequence
 features were primary; native-only features and GFP--MP training were declared
 sensitivities. Every training group connected to any Yang construct was removed
 from these direct-model fits. We did not fit, invert, calibrate or select models
-on the Yang outcomes. The representation is still a cargo approximation: neither
-Guo carrier architecture is identical to a FLAG construct. Analyses report all
+on the Yang outcomes. The input representation remains an approximation because neither Guo reporter construct is identical to a FLAG construct. Analyses report all
 37, the 27 without exact Guo overlap, and the 20 passing strict separation from
 all retrieved Guo natural cohorts. Rank correlation and AUROC at the authors'
-5\% expression threshold are reported; cross-assay absolute MAE is suppressed.
+5\% expression threshold are reported; absolute MAE is not reported across assays with different measurement scales.
 
 
 \subsection{Exploratory paired reporter-context analysis}
@@ -759,11 +751,13 @@ it is not a sequence-only method. Training-target means supplied an MAE
 baseline. We repeated the sequence analysis with the prior 40\% identity
 graph and split seed 20261032. Descriptive intervals use 1,000 group-bootstrap
 resamples conditional on saved predictions, including paired contrasts on
-identical target rows. No multiplicity-adjusted discoveries are claimed.
+identical target rows. These analyses do not identify discoveries after adjustment for multiple comparisons.
 
 \subsection{Independent canonical-peptide transfer extension}
-After examining the paired-context results, we specified a new comparison
-before evaluating predictions against an independent target. We used the
+To test whether predictions remained useful outside the source study,
+we specified a comparison with independent canonical peptides after examining
+the paired-context results but before evaluating the new predictions against
+the target measurements. We used the
 author-held-out cytosolic 30-mer library from Voutsinos et al. \cite{voutsinos},
 pinning the repository at commit
 \texttt{9b3eafa6bd9730c558cd018063fa0180edf9db1a}.
@@ -773,8 +767,7 @@ members before exclusions and report this discrepancy. Exact author-training
 peptide duplicates were absent. Excluding genes shared with the retrieved
 Guo/annotation inputs and peptide matches at $\geq60\%$ identity and
 $\geq80\%$ coverage of both sequences left 14,143 tiles from 383 ENSG
-gene groups. The $40\%$ identity sensitivity retained 13,730 tiles. These
-operational rules do not guarantee absence of remote homology.
+gene groups. The $40\%$ identity sensitivity retained 13,730 tiles. These exclusion rules do not rule out distant homology.
 
 A and T heads were fitted separately to the original 1,072 GFP--MP and
 1,046 MP--mCherry WTs, using the benchmark's source-group tuning and
@@ -814,7 +807,7 @@ commit \texttt{85979b1b4123b6b5391b617d16551969eda9f56e}
 the sum of residue coefficients by $17/L$ before the published logistic
 transform; it is a declared alternative representation, not the ordinary
 17-mer-window output. No labeled training 17-mer exactly matched the tested
-windows. This check is not an exhaustive homology certificate. The human25
+windows. This exact-match check does not rule out all homologous sequences. The human25
 composition model was retained with first-25 and whole-cargo normalization;
 its native-tile results are target-study-trained references (S10 Data).
 
@@ -897,8 +890,7 @@ of other predictors; its protocol preceded the new terminal-model associations
 descriptor and native CatBoost inference functions with all 2,997 named model
 features. The source's unused feature-selection regular expression was not
 applied. Current dependencies reproduced all 12 rounded author examples;
-the authors' unversioned environment prevents an exact historical-runtime
-certificate. Only the C-terminal model was applied to the new target.
+the authors did not specify dependency versions, so we cannot verify exact agreement with their historical runtime. Only the C-terminal model was applied to the new target.
 
 We recovered the 22,564-row Koren C23 screen through its primary redistribution
 in Hickey et al. Supplementary Table 5A, whose notes attribute columns A--L
@@ -936,8 +928,7 @@ population and cannot identify a causal effect of development-screen exposure.
 We linked the 60 distinct full peptide sequences in Sandmann et al.
 Supplementary Table S2 to all retrieved natural Guo assay records and existing
 edit pairs \cite{sandmann,guo}. Only whitespace and one terminal stop were
-normalized. Candidate names and Ribo-seq identifiers were retained as
-annotations; neither authorized a join when full sequences differed. All
+normalized. Candidate names and Ribo-seq identifiers were retained as annotations, but records were joined only when their full peptide sequences matched. All
 60 candidates, including unmatched records, were retained. Original source
 Supplementary Table S3 supplied synthetic binding tiles, domain/SLiM
 annotations, tagged-expression and phosphorylation records. Exact tile
@@ -970,9 +961,7 @@ Spectrum Identifier (USI) linked the community benchmark's full PSM table
 to its curator-rating table \cite{wacholder}. Its Fig 1c label correction
 was checked \cite{wacholdercorrection}; no study-level plot was used to
 assign candidate confidence. An independent pandas replay checked all
-60 candidates and 4,143 cells from the later tables. These are published-table
-audits, not new spectrum interpretation, raw-data reprocessing or independent
-experimental replication (S14 Data).
+60 candidates and 4,143 cells from the later tables. These checks use published tables; they do not reinterpret spectra, reprocess raw data or independently repeat the experiments (S14 Data).
 For a further native-context comparison, all 60 candidates were matched by
 exact full sequence to brain-atlas Tables S1, S2, S3 and S5 \cite{brain}.
 An independent worksheet-XML reader checked all retained source rows and
@@ -992,35 +981,53 @@ Literature validation examples were separated by construct, measurement
 and intervention rather than pooled as functional labels. S18 Data records
 primary-source scope for evolutionary age, engineered terminal exposure
 and endogenous variant readouts. These annotations introduce no new
-candidate phenotypes or predictor outcomes.
+candidate phenotypes or predictor outcomes. The public supporting-data map
+locates the derived tables, scripts and recorded verification scope for each
+S1--S18 Data label; original source files are obtained from their providers.
 
 
 \section*{Generative AI disclosure}
 OpenAI Codex agents contributed substantially to source discovery, literature synthesis, and mathematical exposition.
 
 \section*{Data and Code Availability}
-Public assay data and predictor releases are cited in the references and
-S1 Text. A separate public reproducibility bundle is prepared with original
-study scripts, frozen derived outcomes and predictions, split/dependence
-records, publication artwork, source provenance and an offline point-metric
-verifier. It omits original source papers/workbooks, third-party implementation
-copies, model weights and runtime libraries; these must be obtained from the
-pinned upstream sources under their respective terms. The public bundle is
-therefore distinct from the full local S1--S18 review collection described
-in S1 Text. The verifier does not refit models, recompute bootstrap intervals
-or reconstruct raw inputs. The corresponding author will insert the durable
-repository/release reference after publication succeeds; no accession or
-reuse licence is asserted here.
+The public repository is \url{https://github.com/Kohze/microprotein-score-transfer}.
+The preceding release is v0.1.0; this revised manuscript and reproducibility
+bundle are prepared as v0.1.1. The exact released tag and commit should be
+reported when citing the analysis. The bundle includes study scripts,
+frozen derived outcomes and predictions, split and related-sequence records,
+artwork and source provenance. \texttt{SUPPORTING\_DATA\_MAP.csv} resolves
+all S1--S18 Data labels to actual public paths. The offline verifier
+recomputes point metrics and checks file hashes; it does not refit models,
+recompute bootstrap intervals or reconstruct raw source inputs.
+Original papers, workbooks, third-party predictor implementations, weights
+and runtime libraries are obtained from the pinned upstream sources.
+Original study code is released under the MIT licence; this licence does
+not cover third-party data, models or publications.
 
 \section*{Funding}
-This work was supported by BBSRC funding. The grant identifier and funder-role statement await author confirmation.
+Robin Gounder was supported by a Biotechnology and Biological Sciences
+Research Council (\mbox{BBSRC}) Doctoral Training Partnership studentship at the
+University of Cambridge (studentship reference 2116112).
 
-\section*{Author contributions and competing interests}
-The author contributions and competing-interest statements await author confirmation.
+\section*{Author contributions}
+Robin Gounder: conceptualization, methodology, software, formal analysis,
+investigation, data curation, visualization, and writing---original draft.
+\par Samuel Schmidt: writing---review and editing.
+
+\section*{Competing interests}
+The authors declare no competing interests. Samuel Schmidt's affiliation
+with Vaionex Corporation is disclosed in the author information.
 
 \section*{Research scope}
 No new participant, animal or laboratory experiments were performed.
 
+\section*{Supporting information}
+S1 Text contains the extended benchmark specifications, complete detailed
+results, exploratory diagnostics and candidate-source audits, six
+supporting figures, two supporting tables and the S1--S18 Data guide.
+All adverse outcomes and sensitivity analyses remain available there.
+
+\begingroup\small
 \begin{thebibliography}{99}
 \bibitem{mudge} Mudge JM et al. Standardized annotation of translated open reading frames. Nature Biotechnology. 2022. \href{https://doi.org/10.1038/s41587-022-01369-0}{doi:10.1038/s41587-022-01369-0}.
 \bibitem{chothani} Chothani S et al. An expanded reference catalog of translated open reading frames for biomedical research. Nucleic Acids Research. 2026;54:gkag234. \href{https://doi.org/10.1093/nar/gkag234}{doi:10.1093/nar/gkag234}.
@@ -1030,7 +1037,7 @@ No new participant, animal or laboratory experiments were performed.
 \bibitem{shepelev} Shepelev NM et al. Translation of numerous upstream open reading frames rather than their products is essential for proliferation of human cells of distinct origin. bioRxiv [Preprint]. 2025 July 7;version 1. \href{https://doi.org/10.1101/2025.07.07.663426}{doi:10.1101/2025.07.07.663426}.
 \bibitem{ghosh} Ghosh A et al. Suppressive cancer nonstop extension mutations increase C-terminal hydrophobicity and disrupt evolutionarily conserved amino acid patterns. Nature Communications. 2024;15:9209. \href{https://doi.org/10.1038/s41467-024-52779-4}{doi:10.1038/s41467-024-52779-4}.
 \bibitem{hasenjaeger} Hasenj{\"a}ger S, Bologna A, Essen LO, Spadaccini R, Taxis C. C-terminal sequence stability profiling in Saccharomyces cerevisiae reveals protective protein quality control pathways. Journal of Biological Chemistry. 2023;299:105166. \href{https://doi.org/10.1016/j.jbc.2023.105166}{doi:10.1016/j.jbc.2023.105166}.
-\bibitem{gounder} Gounder R. The Elusive Dynamic of the Genome: Novel Sequence Patterns, Splicing and Regulation. PhD thesis, University of Cambridge. 2025. Chapter 2 and Appendix A; supplied thesis PDF.
+\bibitem{gounder} Gounder R. The Elusive Dynamic of the Genome: Novel Sequence Patterns, Splicing and Regulation. PhD thesis, University of Cambridge. 2025. Chapter 2 and Appendix A. \href{https://doi.org/10.17863/CAM.129295}{doi:10.17863/CAM.129295}.
 \bibitem{qcdpred} Johansson KE, Mashahreh B, Hartmann-Petersen R, Ravid T, Lindorff-Larsen K. Prediction of quality-control degradation signals in yeast proteins. Journal of Molecular Biology. 2023;435:167915. \href{https://doi.org/10.1016/j.jmb.2022.167915}{doi:10.1016/j.jmb.2022.167915}.
 \bibitem{mashahreh} Mashahreh B et al. Conserved degronome features governing quality control associated proteolysis. Nature Communications. 2022;13:7588. \href{https://doi.org/10.1038/s41467-022-35298-y}{doi:10.1038/s41467-022-35298-y}.
 \bibitem{zhanginternal} Zhang Z et al. Elucidation of E3 ubiquitin ligase specificity through proteome-wide internal degron mapping. Molecular Cell. 2023;83:3377--3392.e6. \href{https://doi.org/10.1016/j.molcel.2023.08.022}{doi:10.1016/j.molcel.2023.08.022}.
@@ -1062,7 +1069,7 @@ No new participant, animal or laboratory experiments were performed.
 \bibitem{brain} Miller B et al. A microprotein atlas of the human frontal cortex in Alzheimer's disease. Nature Aging. 2026;6:1979--1997. \href{https://doi.org/10.1038/s43587-026-01207-x}{doi:10.1038/s43587-026-01207-x}. Source repository: \url{https://github.com/brendan-miller-salk/brain-microprotein-atlas}.
 \bibitem{schlesinger} Schlesinger D et al. A large-scale sORF screen identifies putative microproteins involved in cancer cell fitness. iScience. 2025;28:111884. \href{https://doi.org/10.1016/j.isci.2025.111884}{doi:10.1016/j.isci.2025.111884}.
 \bibitem{kondo} Kondo A et al. Long noncoding RNA JHDM1D-AS1 promotes tumor growth by regulating angiogenesis in response to nutrient starvation. Molecular and Cellular Biology. 2017;37:e00125-17. \href{https://doi.org/10.1128/MCB.00125-17}{doi:10.1128/MCB.00125-17}.
-\bibitem{larsen} Larsen FB et al. Comprehensive degron mapping in human transcription factors. bioRxiv [Preprint]. 2025;2025.05.16.654404. Version 1, posted 17 May 2025. \href{https://doi.org/10.1101/2025.05.16.654404}{doi:10.1101/2025.05.16.654404}.
+\bibitem{larsen} Larsen FB et al. Comprehensive degron mapping in human transcription factors. Science Advances. 2026;12(45):eaee1766. \href{https://doi.org/10.1126/sciadv.aee1766}{doi:10.1126/sciadv.aee1766}.
 \bibitem{salinas2018} Salinas VH, Ranganathan R. Coevolution-based inference of amino acid interactions underlying protein function. eLife. 2018;7:e34300. \href{https://doi.org/10.7554/eLife.34300}{doi:10.7554/eLife.34300}.
 \bibitem{architecture} Faure AJ, Mart\'{i}-Aranda A, Hidalgo-Carcedo C, Beltran A, Schmiedel JM, Lehner B. The genetic architecture of protein stability. Nature. 2024;634:995--1003. \href{https://doi.org/10.1038/s41586-024-07966-0}{doi:10.1038/s41586-024-07966-0}.
 \bibitem{pdzcomparative} Mart\'{i}-Aranda A, Lehner B. Seven complete comparative maps of allosteric mutations in a protein family. Nature Communications. 2026;17:5487. \href{https://doi.org/10.1038/s41467-026-71005-x}{doi:10.1038/s41467-026-71005-x}.
@@ -1084,12 +1091,8 @@ No new participant, animal or laboratory experiments were performed.
 \bibitem{devaux} Devaux A et al. Identification of microprotein-coding intronic polyadenylation isoforms and function in genotoxic anticancer drug response. Genome Biology. 2025;26:366. \href{https://doi.org/10.1186/s13059-025-03829-7}{doi:10.1186/s13059-025-03829-7}.
 
 
+\bibitem{guideselection} Gounder R, Schmidt S. Guide selection transfers depletion effects across noncanonical ORF screens. Public research manuscript and data/code resource. 2026. \url{https://github.com/Kohze/norf-guide-selection}. Accessed 10 November 2026.
 \end{thebibliography}
-
-\section*{Supporting information}
-S1 Text contains the extended benchmark specifications, complete detailed
-results, exploratory diagnostics and candidate-source audits, six
-supporting figures, two supporting tables and the S1--S18 Data guide.
-All adverse outcomes and sensitivity analyses remain available there.
+\endgroup
 
 \end{document}

@@ -1,0 +1,1135 @@
+[
+  {
+    "candidate_key": "Sandmann_S2_row2",
+    "candidate_name": "RP1-206D15.6",
+    "sequence": "MRPVGLVLRWKKRAVLPNHRLSFLFTVSGMSIQFPLLRDLVTEARQRFHLGEGER",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row3",
+    "candidate_name": "GAS5",
+    "sequence": "MVLGADAVWLWIAPYGQLCPQGRMRIATEVLKSKPNSSHWHTGIRQKAGS",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row4",
+    "candidate_name": "LINC01128",
+    "sequence": "MEFFIPTSVDLKILPLSACLGSAVSSLPWFSDDACNNAMRFAHSWVTLVIHSGGDLTCHCEQLLLLDDPGHRPASTYPSVLENRARLLPLC",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row5",
+    "candidate_name": "IDI2-AS1",
+    "sequence": "MQWPEVPALPLLSSLCMAMVRKSSALGKEVGRRVKEMVMLVAPFRQSSSLSRTFSSRKVVKAHASLHGARLSPLSRNIRG",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row6",
+    "candidate_name": "RP11-432J24.5",
+    "sequence": "MHIQVFVDMCFLLSWINVSTWASWVSRTSPADVAGPGLAMEKAEPASQWVPVRNSSTGLSSFWEMHFASSRNLPDDPECSPPTFPALCGHLISTGLGKQMQSAFQNVFVLHMTLLWKK",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row7",
+    "candidate_name": "RP11-432J24.5",
+    "sequence": "MKKKKYSHWKRGKVIVIS",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row8",
+    "candidate_name": "RP11-464C19.3",
+    "sequence": "MRFMPLDPTGALGKRWLGSLRGSRRAFGAHGCRPEWRWLWLGRKRNHPARSQDTFGGPGRRVCWWGR",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row9",
+    "candidate_name": "CUL5",
+    "sequence": "MLPLPSQVGSRYLLSIRRSGLPERVHEVFRVGKLR",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row10",
+    "candidate_name": "NAV2-AS2",
+    "sequence": "MPRRHEPVWEMTGFFLPDVLLSDSSDTSEGFRLHLEPGSIFMPLSEPPSDFLTSSPDHREFLSTCECFSASVCGQRLSELVLPQSQAGKPLTPKAKMPKHWSS",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row11",
+    "candidate_name": "NAV2-AS2",
+    "sequence": "MRPVEELWLGTPPLLREMSMDSQLVWRLLTD",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row12",
+    "candidate_name": "TBX5-AS1",
+    "sequence": "MSSYLTSEPRWAGNRGLGPAGAARKRGNSERSVFSLWFLSPASRTAGPAATWTGIQRILQVQLHRLAFPDAPKPAPRTE",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row13",
+    "candidate_name": "RNF10",
+    "sequence": "MKAENRCRRRPPPALNAMSLGPRRARSAPTAVAAEAPVDAAELPQRRRHRLRHGQEQRLQQLLRLFGQQQRATAAPLRLGGASRRV",
+    "source_rows": {
+      "S1 Discovery": [
+        {
+          "CLICK_UCSC": "A0A6Q8PGS0",
+          "Microprotein Sequence": "MKAENRCRRRPPPALNAMSLGPRRARSAPTAVAAEAPVDAAELPQRRRHRLRHGQEQRLQQLLRLFGQQQRATAAPLRLGGASRRV",
+          "smORF Coordinates": "chr12:120534697-120534954",
+          "smORF Class": "TrEMBL",
+          "Parent Gene": "LOC128071547",
+          "Microprotein Length": 86,
+          "Annotation Status": "RiboCode_SAM",
+          "MS Evidence Type": "No MS",
+          "DDA Grade": "No MS",
+          "PhyloCSF Score": 1.063
+        }
+      ],
+      "S2 Proteomics": [
+        {
+          "Status": "Unreviewed",
+          "CLICK_UCSC": "A0A6Q8PGS0",
+          "sequence": "MKAENRCRRRPPPALNAMSLGPRRARSAPTAVAAEAPVDAAELPQRRRHRLRHGQEQRLQQLLRLFGQQQRATAAPLRLGGASRRV",
+          "TMT_log2fc_50pct_missing": null,
+          "TMT_t_statistic_50pct_missing": null,
+          "TMT_df_50pct_missing": null,
+          "TMT_conf_low_50pct_missing": null,
+          "TMT_conf_high_50pct_missing": null,
+          "TMT_cohens_d_50pct_missing": null,
+          "TMT_pvalue_50pct_missing": null,
+          "TMT_qvalue_50pct_missing": null,
+          "TMT_log2fc_0pct_missing": null,
+          "TMT_t_statistic_0pct_missing": null,
+          "TMT_df_0pct_missing": null,
+          "TMT_conf_low_0pct_missing": null,
+          "TMT_conf_high_0pct_missing": null,
+          "TMT_cohens_d_0pct_missing": null,
+          "TMT_pvalue_0pct_missing": null,
+          "TMT_qvalue_0pct_missing": null,
+          "rate_control": null,
+          "rate_ad": null,
+          "Database": "Salk",
+          "protein_class_length": "Microprotein",
+          "gene_symbol": "LOC128071547",
+          "gene_name": "LOC128071547",
+          "protein_length": 86,
+          "start_codon": "ATG",
+          "smorf_type": "TrEMBL",
+          "total_razor_spectral_counts": 0,
+          "total_unique_spectral_counts": 0,
+          "mean_phylocsf": 1.063
+        }
+      ],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": [
+        {
+          "CLICK_UCSC": "A0A6Q8PGS0",
+          "Microprotein Sequence": "MKAENRCRRRPPPALNAMSLGPRRARSAPTAVAAEAPVDAAELPQRRRHRLRHGQEQRLQQLLRLFGQQQRATAAPLRLGGASRRV",
+          "smORF ID": "LOC128071547",
+          "Gene Body (Name)": "LOC128071547",
+          "smORF Class": "TrEMBL",
+          "ShortStop Label": "SAM-Intracellular",
+          "ShortStop Score": 0.94234973,
+          "Annotation Status": "RiboCode_SAM",
+          "PhyloCSF Score": 1.063
+        }
+      ]
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row14",
+    "candidate_name": "RP11-644F5.11",
+    "sequence": "MAGRLWRRSGEQKKGVFIRFLIVLPLDARHVLGLGAARRGRQRPCPLLAGRTEFWPHCEERQKPAVAAG",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row15",
+    "candidate_name": "RP11-620J15.3",
+    "sequence": "MKWTQHVKTILSRSLAVKENRECAKEHTDTEQTGHLCNHMEVCLILKLKKLSWKTERPSPDDIV",
+    "source_rows": {
+      "S1 Discovery": [
+        {
+          "CLICK_UCSC": "chr12:57931610-57935539",
+          "Microprotein Sequence": "MKWTQHVKTILSRSLAVKENRECAKEHTDTEQTGHLCNHMEVCLILKLKKLSWKTERPSPDDIV",
+          "smORF Coordinates": "chr12:57931613-57935536",
+          "smORF Class": "lncRNA",
+          "Parent Gene": "GIHCG",
+          "Microprotein Length": 64,
+          "Annotation Status": "RiboCode_SAM",
+          "MS Evidence Type": "No MS",
+          "DDA Grade": "No MS",
+          "PhyloCSF Score": -7.128
+        }
+      ],
+      "S2 Proteomics": [
+        {
+          "Status": "Unreviewed",
+          "CLICK_UCSC": "chr12:57931610-57935539",
+          "sequence": "MKWTQHVKTILSRSLAVKENRECAKEHTDTEQTGHLCNHMEVCLILKLKKLSWKTERPSPDDIV",
+          "TMT_log2fc_50pct_missing": null,
+          "TMT_t_statistic_50pct_missing": null,
+          "TMT_df_50pct_missing": null,
+          "TMT_conf_low_50pct_missing": null,
+          "TMT_conf_high_50pct_missing": null,
+          "TMT_cohens_d_50pct_missing": null,
+          "TMT_pvalue_50pct_missing": null,
+          "TMT_qvalue_50pct_missing": null,
+          "TMT_log2fc_0pct_missing": null,
+          "TMT_t_statistic_0pct_missing": null,
+          "TMT_df_0pct_missing": null,
+          "TMT_conf_low_0pct_missing": null,
+          "TMT_conf_high_0pct_missing": null,
+          "TMT_cohens_d_0pct_missing": null,
+          "TMT_pvalue_0pct_missing": null,
+          "TMT_qvalue_0pct_missing": null,
+          "rate_control": null,
+          "rate_ad": null,
+          "Database": "Salk",
+          "protein_class_length": "Microprotein",
+          "gene_symbol": "ENST00000655884.1-chr12:57931613-57935536_F:1_P:10_M",
+          "gene_name": "GIHCG",
+          "protein_length": 64,
+          "start_codon": "ATG",
+          "smorf_type": "lncRNA",
+          "total_razor_spectral_counts": 0,
+          "total_unique_spectral_counts": 0,
+          "mean_phylocsf": -7.128
+        }
+      ],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": [
+        {
+          "CLICK_UCSC": "chr12:57931610-57935539",
+          "Microprotein Sequence": "MKWTQHVKTILSRSLAVKENRECAKEHTDTEQTGHLCNHMEVCLILKLKKLSWKTERPSPDDIV",
+          "smORF ID": "ENST00000655884.1-chr12:57931613-57935536_F:1_P:10_M",
+          "Gene Body (Name)": "GIHCG",
+          "smORF Class": "lncRNA",
+          "ShortStop Label": "SAM-Intracellular",
+          "ShortStop Score": 0.78167546,
+          "Annotation Status": "RiboCode_SAM",
+          "PhyloCSF Score": -7.128
+        }
+      ]
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row16",
+    "candidate_name": "SOCS4",
+    "sequence": "MAMVMAAVTRTTPVKLRSGRYIQKVPRRNFLLEKMKKQYL",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row17",
+    "candidate_name": "CRNDE",
+    "sequence": "MLAEIHPKAGLQSLQFIMELLYWLLEGGDSEDKEDATGNVEMKNIQPLVFEISCDVFQSRCKEHGKIKVLEWFKYVLGIPVYRL",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row18",
+    "candidate_name": "ABR",
+    "sequence": "MVSRCLSEPVSLTACPRLLQPLLGLMGTGPAWWVVSEVLAEQRRPGMRLQNSG",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row19",
+    "candidate_name": "SNHG16",
+    "sequence": "MATPVGVEHGEQSQAFSDDGAVSLSFQSRKRIL",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row20",
+    "candidate_name": "RAB12",
+    "sequence": "MRVWIRAPRCRGGPGAAAVWARAPRRCRAARAAGGSSPPGRPTSSCRSSLSAPAAWARPA",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row21",
+    "candidate_name": "PPP1R15A",
+    "sequence": "MNALASLTVRTCDRFWQTEPALLPPG",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row22",
+    "candidate_name": "CTC-471J1.11",
+    "sequence": "MMAVTSQLNGKLKSPLGTSVTIVNAKRFRSRIKTEARETRTKNKRAVRCR",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row23",
+    "candidate_name": "MTLN",
+    "sequence": "MADVSERTLQLSVLVAFASGVLLGWQANRLRRRYLDWRKRRLQDKLAATQKKLDLA",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [
+        {
+          "Status": "Reviewed",
+          "CLICK_UCSC": "Q8NCU8",
+          "sequence": "MADVSERTLQLSVLVAFASGVLLGWQANRLRRRYLDWRKRRLQDKLAATQKKLDLA",
+          "TMT_log2fc_50pct_missing": null,
+          "TMT_t_statistic_50pct_missing": null,
+          "TMT_df_50pct_missing": null,
+          "TMT_conf_low_50pct_missing": null,
+          "TMT_conf_high_50pct_missing": null,
+          "TMT_cohens_d_50pct_missing": null,
+          "TMT_pvalue_50pct_missing": null,
+          "TMT_qvalue_50pct_missing": null,
+          "TMT_log2fc_0pct_missing": null,
+          "TMT_t_statistic_0pct_missing": null,
+          "TMT_df_0pct_missing": null,
+          "TMT_conf_low_0pct_missing": null,
+          "TMT_conf_high_0pct_missing": null,
+          "TMT_cohens_d_0pct_missing": null,
+          "TMT_pvalue_0pct_missing": null,
+          "TMT_qvalue_0pct_missing": null,
+          "rate_control": null,
+          "rate_ad": null,
+          "Database": "Swiss-Prot-MP",
+          "protein_class_length": "Microprotein",
+          "gene_symbol": "MTLN",
+          "gene_name": "MTLN",
+          "protein_length": 56,
+          "start_codon": "ATG",
+          "smorf_type": null,
+          "total_razor_spectral_counts": 0,
+          "total_unique_spectral_counts": 0,
+          "mean_phylocsf": 6.473
+        }
+      ],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row24",
+    "candidate_name": "ZEB2",
+    "sequence": "MLTLRALQLSLPTKIGGACFRVSRLSPTEKKKKKMSLEEA",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row25",
+    "candidate_name": "NDUFB3",
+    "sequence": "MAHEHGHEHGHHKMELPDYRQWKIEGTPLETIQKKLAAKGLRDPWGRNEAWRYMGGFAKSVSFSDVFFKGFKWGFAAFVVAVGAEYYLESLNKDKKHH",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [
+        {
+          "Status": "Reviewed",
+          "CLICK_UCSC": "O43676",
+          "sequence": "MAHEHGHEHGHHKMELPDYRQWKIEGTPLETIQKKLAAKGLRDPWGRNEAWRYMGGFAKSVSFSDVFFKGFKWGFAAFVVAVGAEYYLESLNKDKKHH",
+          "TMT_log2fc_50pct_missing": -0.0339064384028813,
+          "TMT_t_statistic_50pct_missing": -2.60295766859684,
+          "TMT_df_50pct_missing": 291,
+          "TMT_conf_low_50pct_missing": -0.0595437902637491,
+          "TMT_conf_high_50pct_missing": -0.0082690865420134,
+          "TMT_cohens_d_50pct_missing": -0.314035704332576,
+          "TMT_pvalue_50pct_missing": 0.009715992988888,
+          "TMT_qvalue_50pct_missing": 0.0376254608825669,
+          "TMT_log2fc_0pct_missing": -0.0292085256916938,
+          "TMT_t_statistic_0pct_missing": -2.58334717049895,
+          "TMT_df_0pct_missing": 283,
+          "TMT_conf_low_0pct_missing": -0.0514639680256537,
+          "TMT_conf_high_0pct_missing": -0.0069530833577339,
+          "TMT_cohens_d_0pct_missing": -0.316011810454481,
+          "TMT_pvalue_0pct_missing": 0.0102865422405509,
+          "TMT_qvalue_0pct_missing": 0.0847707288200463,
+          "rate_control": 0.9910714285714286,
+          "rate_ad": 0.9792746113989638,
+          "Database": "Swiss-Prot-MP",
+          "protein_class_length": "Microprotein",
+          "gene_symbol": "NDUFB3",
+          "gene_name": "NDUFB3",
+          "protein_length": 98,
+          "start_codon": "ATG",
+          "smorf_type": null,
+          "total_razor_spectral_counts": 2717,
+          "total_unique_spectral_counts": 0,
+          "mean_phylocsf": 3.577
+        }
+      ],
+      "S3 Tryptic Peptides": [
+        {
+          "sequence": "MAHEHGHEHGHHKMELPDYRQWKIEGTPLETIQKKLAAKGLRDPWGRNEAWRYMGGFAKSVSFSDVFFKGFKWGFAAFVVAVGAEYYLESLNKDKKHH",
+          "protein_id": "sp|O43676|NDUB3_HUMAN",
+          "peptide_sequence": "['SVSFSDVFFK']",
+          "start": "[60]",
+          "end": "[69]",
+          "is_unique_peptide": true,
+          "SA_degrees": "[10.33]",
+          "SA_normalized": "[0.8852]",
+          "Match_coverage": "['Majority']",
+          "Match_coverage_pct": "[100.0]",
+          "Confidence": "['Strong']"
+        }
+      ],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row26",
+    "candidate_name": "MRPL33",
+    "sequence": "MFLSAVFFAKSKSKNILVRMVSEAGTGFCFNTKRNRLREKLTLLHYDPVVKQRVLFVEKKKIRSL",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [
+        {
+          "Status": "Reviewed",
+          "CLICK_UCSC": "O75394",
+          "sequence": "MFLSAVFFAKSKSKNILVRMVSEAGTGFCFNTKRNRLREKLTLLHYDPVVKQRVLFVEKKKIRSL",
+          "TMT_log2fc_50pct_missing": null,
+          "TMT_t_statistic_50pct_missing": null,
+          "TMT_df_50pct_missing": null,
+          "TMT_conf_low_50pct_missing": null,
+          "TMT_conf_high_50pct_missing": null,
+          "TMT_cohens_d_50pct_missing": null,
+          "TMT_pvalue_50pct_missing": null,
+          "TMT_qvalue_50pct_missing": null,
+          "TMT_log2fc_0pct_missing": null,
+          "TMT_t_statistic_0pct_missing": null,
+          "TMT_df_0pct_missing": null,
+          "TMT_conf_low_0pct_missing": null,
+          "TMT_conf_high_0pct_missing": null,
+          "TMT_cohens_d_0pct_missing": null,
+          "TMT_pvalue_0pct_missing": null,
+          "TMT_qvalue_0pct_missing": null,
+          "rate_control": null,
+          "rate_ad": null,
+          "Database": "Swiss-Prot-MP",
+          "protein_class_length": "Microprotein",
+          "gene_symbol": "MRPL33",
+          "gene_name": "MRPL33",
+          "protein_length": 65,
+          "start_codon": "ATG",
+          "smorf_type": null,
+          "total_razor_spectral_counts": 0,
+          "total_unique_spectral_counts": 0,
+          "mean_phylocsf": 3.663
+        }
+      ],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row27",
+    "candidate_name": "MKKS",
+    "sequence": "MKNTSWIRKNWLLVAGISFIGVHLGTYFLQRSAKQSVKFQSQSKQKSIEE",
+    "source_rows": {
+      "S1 Discovery": [
+        {
+          "CLICK_UCSC": "V9GZ13",
+          "Microprotein Sequence": "MKNTSWIRKNWLLVAGISFIGVHLGTYFLQRSAKQSVKFQSQSKQKSIEE",
+          "smORF Coordinates": "chr20:10413738-10413887",
+          "smORF Class": "TrEMBL",
+          "Parent Gene": "LOC128706666",
+          "Microprotein Length": 50,
+          "Annotation Status": "RiboCode_SAM",
+          "MS Evidence Type": "No MS",
+          "DDA Grade": "No MS",
+          "PhyloCSF Score": 2.497
+        }
+      ],
+      "S2 Proteomics": [
+        {
+          "Status": "Unreviewed",
+          "CLICK_UCSC": "V9GZ13",
+          "sequence": "MKNTSWIRKNWLLVAGISFIGVHLGTYFLQRSAKQSVKFQSQSKQKSIEE",
+          "TMT_log2fc_50pct_missing": null,
+          "TMT_t_statistic_50pct_missing": null,
+          "TMT_df_50pct_missing": null,
+          "TMT_conf_low_50pct_missing": null,
+          "TMT_conf_high_50pct_missing": null,
+          "TMT_cohens_d_50pct_missing": null,
+          "TMT_pvalue_50pct_missing": null,
+          "TMT_qvalue_50pct_missing": null,
+          "TMT_log2fc_0pct_missing": null,
+          "TMT_t_statistic_0pct_missing": null,
+          "TMT_df_0pct_missing": null,
+          "TMT_conf_low_0pct_missing": null,
+          "TMT_conf_high_0pct_missing": null,
+          "TMT_cohens_d_0pct_missing": null,
+          "TMT_pvalue_0pct_missing": null,
+          "TMT_qvalue_0pct_missing": null,
+          "rate_control": null,
+          "rate_ad": null,
+          "Database": "Salk",
+          "protein_class_length": "Microprotein",
+          "gene_symbol": "LOC128706666",
+          "gene_name": "LOC128706666",
+          "protein_length": 50,
+          "start_codon": "ATG",
+          "smorf_type": "TrEMBL",
+          "total_razor_spectral_counts": 0,
+          "total_unique_spectral_counts": 0,
+          "mean_phylocsf": 2.497
+        }
+      ],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": [
+        {
+          "CLICK_UCSC": "V9GZ13",
+          "Microprotein Sequence": "MKNTSWIRKNWLLVAGISFIGVHLGTYFLQRSAKQSVKFQSQSKQKSIEE",
+          "smORF ID": "LOC128706666",
+          "Gene Body (Name)": "LOC128706666",
+          "smORF Class": "TrEMBL",
+          "ShortStop Label": "SAM-Intracellular",
+          "ShortStop Score": 0.84056157,
+          "Annotation Status": "RiboCode_SAM",
+          "PhyloCSF Score": 2.497
+        }
+      ]
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row28",
+    "candidate_name": "MKKS",
+    "sequence": "MSLRNLWRDYKVLVVMVPLVGLIHLGWYRIKSSPVFQIPKNDDIPEQDSLGLSNLQKSQIQGK",
+    "source_rows": {
+      "S1 Discovery": [
+        {
+          "CLICK_UCSC": "Q9HB66",
+          "Microprotein Sequence": "MSLRNLWRDYKVLVVMVPLVGLIHLGWYRIKSSPVFQIPKNDDIPEQDSLGLSNLQKSQIQGK",
+          "smORF Coordinates": "chr20:10420549-10420737",
+          "smORF Class": "TrEMBL",
+          "Parent Gene": "MKKS",
+          "Microprotein Length": 63,
+          "Annotation Status": "MS",
+          "MS Evidence Type": "DDA only",
+          "DDA Grade": "Strong",
+          "PhyloCSF Score": 0.05
+        }
+      ],
+      "S2 Proteomics": [
+        {
+          "Status": "Unreviewed",
+          "CLICK_UCSC": "Q9HB66",
+          "sequence": "MSLRNLWRDYKVLVVMVPLVGLIHLGWYRIKSSPVFQIPKNDDIPEQDSLGLSNLQKSQIQGK",
+          "TMT_log2fc_50pct_missing": -0.062648896097702,
+          "TMT_t_statistic_50pct_missing": -4.97794777564863,
+          "TMT_df_50pct_missing": 296,
+          "TMT_conf_low_50pct_missing": -0.0874168738158679,
+          "TMT_conf_high_50pct_missing": -0.0378809183795361,
+          "TMT_cohens_d_50pct_missing": -0.596452928745476,
+          "TMT_pvalue_50pct_missing": 1.0927950985801e-06,
+          "TMT_qvalue_50pct_missing": 2.42073628533681e-05,
+          "TMT_log2fc_0pct_missing": -0.0534305989535918,
+          "TMT_t_statistic_0pct_missing": -4.19360512517062,
+          "TMT_df_0pct_missing": 288,
+          "TMT_conf_low_0pct_missing": -0.0785078251274524,
+          "TMT_conf_high_0pct_missing": -0.0283533727797312,
+          "TMT_cohens_d_0pct_missing": -0.509376566383533,
+          "TMT_pvalue_0pct_missing": 3.65847769579827e-05,
+          "TMT_qvalue_0pct_missing": 0.0013480381679411,
+          "rate_control": 1,
+          "rate_ad": 1,
+          "Database": "Salk",
+          "protein_class_length": "Microprotein",
+          "gene_symbol": "MKKS",
+          "gene_name": "MKKS",
+          "protein_length": 63,
+          "start_codon": "ATG",
+          "smorf_type": "TrEMBL",
+          "total_razor_spectral_counts": 1004,
+          "total_unique_spectral_counts": 1004,
+          "mean_phylocsf": 0.05
+        }
+      ],
+      "S3 Tryptic Peptides": [
+        {
+          "sequence": "MSLRNLWRDYKVLVVMVPLVGLIHLGWYRIKSSPVFQIPKNDDIPEQDSLGLSNLQKSQIQGK",
+          "protein_id": "tr|Q9HB66|Q9HB66_HUMAN",
+          "peptide_sequence": "['NDDIPEQDSLGLSNLQK', 'SSPVFQIPK', 'SSPVFQIPKNDDIPEQDSLGLSNLQK']",
+          "start": "[41, 32, 32]",
+          "end": "[57, 40, 57]",
+          "is_unique_peptide": true,
+          "SA_degrees": "[7.63, 10.4, 44.78]",
+          "SA_normalized": "[0.9152, 0.8845, 0.5024]",
+          "Match_coverage": "['Majority', 'Majority', 'Majority']",
+          "Match_coverage_pct": "[93.8, 100.0, 76.0]",
+          "Confidence": "['Strong', 'Strong', 'Moderate']"
+        }
+      ],
+      "S5 ShortStop": [
+        {
+          "CLICK_UCSC": "Q9HB66",
+          "Microprotein Sequence": "MSLRNLWRDYKVLVVMVPLVGLIHLGWYRIKSSPVFQIPKNDDIPEQDSLGLSNLQKSQIQGK",
+          "smORF ID": "MKKS",
+          "Gene Body (Name)": "MKKS",
+          "smORF Class": "TrEMBL",
+          "ShortStop Label": "SAM-Intracellular",
+          "ShortStop Score": 0.7864245,
+          "Annotation Status": "MS",
+          "PhyloCSF Score": 0.05
+        }
+      ]
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row29",
+    "candidate_name": "THAP7",
+    "sequence": "MARACRVTAPPPAAAHGTRARRATAASPSTDFPRRTTRGEACGWPTASGWTPAARACGTRHPSTSTSAPNTLRRTALSWWESVDITG",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row30",
+    "candidate_name": "TUG1",
+    "sequence": "MARPPPLPGLVGRRNGRAVDRAIGWRLFLLLWHPALGAQARPPRRAPGGRWRSRRVFLLVRRTRAAAYAFAIRRGVVRVVGGGGQLLRPAPGEAAAAAAAGFGAAGEAGVAGAGLEAWRHPSGPARTQLGGQEGAGGWLVVGFLLCLFLLMPP",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row31",
+    "candidate_name": "MIEF1-MP",
+    "sequence": "MAPWSREAVLSLYRALLRQGRQLRYTDRDFYFASIRREFRKNQKLEDAEARERQLEKGLVFLNGKLGRII",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [
+        {
+          "Status": "Reviewed",
+          "CLICK_UCSC": "L0R8F8",
+          "sequence": "MAPWSREAVLSLYRALLRQGRQLRYTDRDFYFASIRREFRKNQKLEDAEARERQLEKGLVFLNGKLGRII",
+          "TMT_log2fc_50pct_missing": null,
+          "TMT_t_statistic_50pct_missing": null,
+          "TMT_df_50pct_missing": null,
+          "TMT_conf_low_50pct_missing": null,
+          "TMT_conf_high_50pct_missing": null,
+          "TMT_cohens_d_50pct_missing": null,
+          "TMT_pvalue_50pct_missing": null,
+          "TMT_qvalue_50pct_missing": null,
+          "TMT_log2fc_0pct_missing": -0.0303640986266987,
+          "TMT_t_statistic_0pct_missing": -1.2531042348679,
+          "TMT_df_0pct_missing": 132,
+          "TMT_conf_low_0pct_missing": -0.0782956167384973,
+          "TMT_conf_high_0pct_missing": 0.0175674194850999,
+          "TMT_cohens_d_0pct_missing": -0.224766764503396,
+          "TMT_pvalue_0pct_missing": 0.212382963856504,
+          "TMT_qvalue_0pct_missing": 0.510868164180121,
+          "rate_control": 0.4642857142857143,
+          "rate_ad": 0.4715025906735751,
+          "Database": "Swiss-Prot-MP",
+          "protein_class_length": "Microprotein",
+          "gene_symbol": "MIEF1",
+          "gene_name": "MIEF1",
+          "protein_length": 70,
+          "start_codon": "ATG",
+          "smorf_type": null,
+          "total_razor_spectral_counts": 39,
+          "total_unique_spectral_counts": 39,
+          "mean_phylocsf": 6.339
+        }
+      ],
+      "S3 Tryptic Peptides": [
+        {
+          "sequence": "MAPWSREAVLSLYRALLRQGRQLRYTDRDFYFASIRREFRKNQKLEDAEARERQLEKGLVFLNGKLGRII",
+          "protein_id": "sp|L0R8F8|MIDUO_HUMAN",
+          "peptide_sequence": "['EAVLSLYR', 'LEDAEAR', 'YTDRDFYFASIR', 'GLVFLNGK']",
+          "start": "[7, 45, 25, 58]",
+          "end": "[14, 51, 36, 65]",
+          "is_unique_peptide": true,
+          "SA_degrees": "[18.42, 10.71, 23.71, 10.8]",
+          "SA_normalized": "[0.7954, 0.881, 0.7366, 0.88]",
+          "Match_coverage": "['Majority', 'Majority', 'Majority', 'Majority']",
+          "Match_coverage_pct": "[100.0, 100.0, 81.8, 100.0]",
+          "Confidence": "['Strong', 'Strong', 'Moderate', 'Strong']"
+        }
+      ],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row32",
+    "candidate_name": "PRR34-AS1",
+    "sequence": "MFCCAQCEEAKEKKDLLKMCTSTCSLKIPSARHFSWRK",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row33",
+    "candidate_name": "LINC00881",
+    "sequence": "MRNKREGAFPCAALGETHTDRGSGMTGKGGNGFC",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row34",
+    "candidate_name": "LINC00881",
+    "sequence": "MASVNLSFSFSRPSHALFLFPFPVLTVTQGTTCEMKDLRCCIGS",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row35",
+    "candidate_name": "PARL",
+    "sequence": "MVGQRLGRWRGEAGRREAGAAARRGVRRWAAAAARSSLRS",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row36",
+    "candidate_name": "PDZRN3-AS1",
+    "sequence": "MLTAEVRTGRRLITPMIMSTTALLQFWFVLCVHSVIFPLRKLRLEEG",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row37",
+    "candidate_name": "SNHG8",
+    "sequence": "MIIGPKLTALPKRQRSQDIGRSGAALETLKFTSMRGLECSLGRRASTCSPGP",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row38",
+    "candidate_name": "SNHG8",
+    "sequence": "MDDGNIRLSRNPSGNGRSLFSIRQWTYRSWGNGCSE",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row39",
+    "candidate_name": "PALLD",
+    "sequence": "MKTVQICQGPPPMSPSMTPSQTCRKKARILTSSRAFLLSSARKR",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row40",
+    "candidate_name": "HAND2-AS1",
+    "sequence": "MILPALKLLLFLKYVLLFFSLHVEHYTLLFFRILFFPSG",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row41",
+    "candidate_name": "DANCR",
+    "sequence": "MLVATGQCSRCFMFTFSTFSFNCHNSEVDSVRDRLPQDHSAPANSMQLTLTLNTLQLHS",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row42",
+    "candidate_name": "RP11-12K22.1",
+    "sequence": "MNGLTTGRPALLQMLKKVLPRKKKGNLMETCVYQMERRAMGILTTSVRKKVECGDGENTEVQKKRRQEATHGSSFSHKSRNATDYK",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row43",
+    "candidate_name": "RP11-12K22.1",
+    "sequence": "MRFLHSECVLMRYDSLKVCGSSPILLSLPSPVIHKMNGLTTGRPALLQMLKKVLPRKKKGNLMETCVYQMERRAMGILTTSVRKKVECGDGENTEVQKKRRQEATHGSSFSHKSRNATDYK",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row44",
+    "candidate_name": "C5orf56",
+    "sequence": "MKAVVARTGAAAVSGEGRRMQRPPAWSAGPGAATRAGRGGSTPWAPHSPPQVLRMASRETRKWTPWLLES",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row45",
+    "candidate_name": "CTD-2366F13.1",
+    "sequence": "MGRGGERKQSVWKWRNGLPCMSFSPGGRSWCRRADARLLDTCRLRYGGLANNLAGVFRLFHWLTFRLLTLLPTIEKRRDSMRLEM",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row46",
+    "candidate_name": "TRDN-AS1",
+    "sequence": "MNGNKSWDWKGASQPQGNHKVLYKERYSSVKEAWMKKQRQSQ",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row47",
+    "candidate_name": "TRDN-AS1",
+    "sequence": "MNGNKSWDWKGLMKPAVMLMRLMCQGTEDGP",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row48",
+    "candidate_name": "RP3-332B22.1",
+    "sequence": "MAILRQNMASLDFFLWRLDSKIESRSYMFSPSRAFRLHFCNILLMKASHKTRLIQGVEK",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row49",
+    "candidate_name": "PSMB8-AS1",
+    "sequence": "MECAGLRRLSFWSICRSLHHGPVAPLFLHELLVGSPLPDSASFQKEDVVSLLHQAEVLGDEKH",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row50",
+    "candidate_name": "RP11-140K17.3",
+    "sequence": "MSRKKAQPAGLSWKPSSLWNSEMSTSLSVVPRQLNFCISSGSRSTSMPSMAGTGHPLPRLFTTKPPPRRRARGPGGGPLLASFATPLL",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row51",
+    "candidate_name": "RP11-140K17.3",
+    "sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS",
+    "source_rows": {
+      "S1 Discovery": [
+        {
+          "CLICK_UCSC": "chr6:34696983-34697305",
+          "Microprotein Sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS",
+          "smORF Coordinates": "chr6:34696986-34697302",
+          "smORF Class": "lncRNA",
+          "Parent Gene": "ILRUN-AS1",
+          "Microprotein Length": 52,
+          "Annotation Status": "RiboCode_SAM",
+          "MS Evidence Type": "No MS",
+          "DDA Grade": "No MS",
+          "PhyloCSF Score": -8.281
+        }
+      ],
+      "S2 Proteomics": [
+        {
+          "Status": "Unreviewed",
+          "CLICK_UCSC": "chr6:34696983-34697305",
+          "sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS",
+          "TMT_log2fc_50pct_missing": null,
+          "TMT_t_statistic_50pct_missing": null,
+          "TMT_df_50pct_missing": null,
+          "TMT_conf_low_50pct_missing": null,
+          "TMT_conf_high_50pct_missing": null,
+          "TMT_cohens_d_50pct_missing": null,
+          "TMT_pvalue_50pct_missing": null,
+          "TMT_qvalue_50pct_missing": null,
+          "TMT_log2fc_0pct_missing": null,
+          "TMT_t_statistic_0pct_missing": null,
+          "TMT_df_0pct_missing": null,
+          "TMT_conf_low_0pct_missing": null,
+          "TMT_conf_high_0pct_missing": null,
+          "TMT_cohens_d_0pct_missing": null,
+          "TMT_pvalue_0pct_missing": null,
+          "TMT_qvalue_0pct_missing": null,
+          "rate_control": null,
+          "rate_ad": null,
+          "Database": "Salk",
+          "protein_class_length": "Microprotein",
+          "gene_symbol": "ENST00000667026.3+chr6:34696986-34697302_F:0_P:1_M",
+          "gene_name": "ILRUN-AS1",
+          "protein_length": 52,
+          "start_codon": "ATG",
+          "smorf_type": "lncRNA",
+          "total_razor_spectral_counts": 0,
+          "total_unique_spectral_counts": 0,
+          "mean_phylocsf": -8.281
+        }
+      ],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": [
+        {
+          "CLICK_UCSC": "chr6:34696983-34697305",
+          "Microprotein Sequence": "MERKVRKLKSRERQWQGQVAKCTQPSQQGVCHSRLKDVFEELLSQWDAALKS",
+          "smORF ID": "ENST00000667026.3+chr6:34696986-34697302_F:0_P:1_M",
+          "Gene Body (Name)": "ILRUN-AS1",
+          "smORF Class": "lncRNA",
+          "ShortStop Label": "SAM-Intracellular",
+          "ShortStop Score": 0.6682475,
+          "Annotation Status": "RiboCode_SAM",
+          "PhyloCSF Score": -8.281
+        }
+      ]
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row52",
+    "candidate_name": "IFRD1",
+    "sequence": "MYRFRSQLFTGISAAATAHSYPRRFSTLLLAEDSPLSRPPHRRTSKKCSSIG",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row53",
+    "candidate_name": "JHDM1D-AS1",
+    "sequence": "MCRGIQTLENVPPEFPASSKETRASMEPPLVAGGLSPRGIHHCRPLGGTNLEMGLVERGIEKSRRAYK",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row54",
+    "candidate_name": "EBAG9",
+    "sequence": "MLRSRVGDWAVGYRPGKHAASKAAFLREICVTLLPSVYRPCTSPGRFFHNLNLSSPGIQLQQLRAFHVTPGARRRLV",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row55",
+    "candidate_name": "PVT1",
+    "sequence": "MGPRAGRARGGRDEEGRRRAASKDVPRDPRHLPVDFLAERMLAVPVTCGDTARSALQPDLLARRRLKRCPSRWLCLSAAWSFVQVFSEPDGFTVIFSGLGNNAGGTMHWNDTRPAHFRILKVVLREAVAECLMDSYSLDVHGGRRTAAG",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row56",
+    "candidate_name": "SNHG6",
+    "sequence": "MPVWWRRRRLRARSWALRGARKPLR",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row57",
+    "candidate_name": "SLCO5A1",
+    "sequence": "MSPGRARRLPQATARRGTPSRAHRSTARTPAPCGTRLRSLEAVSVIRMHWAPRSW",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row58",
+    "candidate_name": "PEX2",
+    "sequence": "MRQGFHRRTWSKNSHCHSYRLSSLEGAAGTGKRDLQRRHGFQKRECEECKQSAKNKPVGCT",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row59",
+    "candidate_name": "BANCR",
+    "sequence": "MDSTVILSCVRSKNLLVGSGLGPFSGNIFLVTMKGQY",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row60",
+    "candidate_name": "LINC01560",
+    "sequence": "MGALFRLLLQERGKAAEFYSRGRKQRRPSASCTFGGIWSSGVDMLPNGAVGSLTQLGPSRPVLGIDYSKKEFRGTAENVTGLNTILHFRKRTRS",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  },
+  {
+    "candidate_key": "Sandmann_S2_row61",
+    "candidate_name": "JPX",
+    "sequence": "MAAFARSAITASLRGLQGVRSMSPLTKVQKLAS",
+    "source_rows": {
+      "S1 Discovery": [],
+      "S2 Proteomics": [],
+      "S3 Tryptic Peptides": [],
+      "S5 ShortStop": []
+    }
+  }
+]

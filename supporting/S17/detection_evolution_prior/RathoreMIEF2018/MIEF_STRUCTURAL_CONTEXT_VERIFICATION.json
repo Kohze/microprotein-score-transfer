@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "independent_sources": "PDB entity_poly_seq monomers and author-chain atoms; original XLSX ZIP/XML; primary article XML",
+  "roster_candidates": 60,
+  "polymer_entities_checked": 56,
+  "exact_PDB_candidate_matches": 2,
+  "products": [
+    "MRPL33_65",
+    "MIEF1-MP70"
+  ],
+  "MIEF_specific_matches": 1,
+  "product": "MIEF1-MP70",
+  "PDB": "5OOL",
+  "entity": "55",
+  "author_chain": "v",
+  "encoded_residues": 70,
+  "modeled_residues": 69,
+  "modeled_positions": "2-70",
+  "main_Table1_records": 42,
+  "original_XLSX_172_to153_AvgSpec_threshold_reconciled": true,
+  "STRING_153_preys_verified": true,
+  "source_binary_hashes_verified": true,
+  "new_native_or_edited_function_measurement": false
+}

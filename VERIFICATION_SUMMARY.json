@@ -1,48 +1,11 @@
 {
   "status": "passed",
-  "absolute_tolerance": 1e-12,
-  "maximum_absolute_metric_error": 9.71445146547012e-17,
-  "checks": {
-    "core": {
-      "correlation_rows": 261,
-      "reported_MAE_rows": 140,
-      "group_fold_assignments": 6,
-      "exact_edit_rows": 2021
-    },
-    "same_peptide_context": {
-      "correlation_rows": 144,
-      "MAE_rows": 108,
-      "unsaved_constant_baseline_rows_excluded": 36
-    },
-    "canonical_tiles": {
-      "correlation_rows": 30
-    },
-    "independent_paired_effects": {
-      "metric_rows": 176,
-      "correlations": 880,
-      "neural_metric_rows": 200,
-      "neural_delta_correlations": 520,
-      "one_to_one_source_rows": 3249
-    },
-    "transfer_metrics": {
-      "metric_rows": 48,
-      "correlations": 240
-    },
-    "window_control_metrics": {
-      "metric_rows": 16,
-      "correlations": 80
-    },
-    "terminal_exposure_population_counts": {
-      "all1743_provenance_limited": 1743,
-      "either_endpoint_screen_matched": 1454,
-      "neither_endpoint_screen_matched": 289,
-      "neither_endpoint_or_available_symbol_overlap": 97
-    }
-  },
-  "model_refit": false,
-  "network_access": false,
-  "raw_input_reconstruction": false,
-  "bootstrap_interval_recomputation": false,
-  "pretrained_inference": false,
-  "scope": "Frozen point metrics and manifest only; no new validation of native biology, model training or reported confidence intervals. The final manifest is checked on every verifier invocation."
+  "edition": "v0.1.1",
+  "manifest_members": 414,
+  "correlations_recomputed": 2155,
+  "reported_MAEs_recomputed": 248,
+  "previous_frozen_analysis_and_artwork_files_unchanged": 323,
+  "added_derived_evidence_files_checked_against_original": 61,
+  "candidate_evidence_records_per_added_panel": 60,
+  "scope": "Frozen point metrics and hashes; no model refit, raw-input reconstruction or confidence-interval recomputation"
 }

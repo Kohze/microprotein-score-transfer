@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "independent_reader": "Original XLSX ZIP/XML and CSV;no openpyxl",
+  "source_ORFs_checked": 553,
+  "candidates_checked": 60,
+  "exact_candidate_records": 11,
+  "matched_V5_flagged": 5,
+  "matched_RR_and_TAS_flagged": 8,
+  "matched_CRISPR_flagged": 0,
+  "matches_with_primary_reporter": 6,
+  "TableS16_source_rows_checked": 14,
+  "gene_ID_only_different_product_records": 4,
+  "terminal_stop_notation_records": 3,
+  "source_tiling_records_checked": 41,
+  "new_native_or_edited_function_measurement": false
+}

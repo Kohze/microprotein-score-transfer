@@ -1,0 +1,21 @@
+[
+  {
+    "table": 7,
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10459-x/MediaObjects/41586_2026_10459_MOESM9_ESM.xlsx",
+    "bytes": 282174,
+    "sha256": "31139f75c6e9e2e2d1005a955afdc8dfd883174c6a2b090618631d849aa69a65",
+    "sheets": [
+      "Table S7",
+      "Column descriptions"
+    ]
+  },
+  {
+    "table": 9,
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10459-x/MediaObjects/41586_2026_10459_MOESM11_ESM.xlsx",
+    "bytes": 2444412,
+    "sha256": "eef5025630824486ca2993c3b786b86a9a69ef3bf2f1d51618696743cb184263",
+    "sheets": [
+      "Sheet1"
+    ]
+  }
+]

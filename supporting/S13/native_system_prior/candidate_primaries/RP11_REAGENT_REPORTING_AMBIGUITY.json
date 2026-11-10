@@ -1,0 +1,23 @@
+{
+  "source": "RP11Glycolysis2023 Supplementary TableS2, PDF page2",
+  "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13062-023-00370-0/MediaObjects/13062_2023_370_MOESM1_ESM.pdf",
+  "source_sha256": "67cc27e81744d82b39959844999b5affe36cb210aee591a62316a3db16e8e445",
+  "visual_review": "All4 supplement pages inspected; repeated oligo labels confirmed on page2",
+  "identical_reported_sequences": [
+    {
+      "labels": [
+        "RP11-620J15.3-sh1",
+        "TBP-si1"
+      ],
+      "sequence": "AAUAUCUCUGCCUCUCCCGUU"
+    },
+    {
+      "labels": [
+        "RP11-620J15.3-sh2",
+        "TBP-si2"
+      ],
+      "sequence": "UUUAGCACAUUCUCUGUUUUU"
+    }
+  ],
+  "conclusion": "Published reagent labels/sequences are ambiguous; historical reagents actually delivered are not verified. This alone does not invalidate the experiments or establish a peptide contribution."
+}

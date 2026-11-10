@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "independent_reader": "Raw XLSX ZIP/XML and CSV;no openpyxl dependency",
+  "source_young_ORF_rows": 504,
+  "candidates_checked": 60,
+  "human_exact_matches": 5,
+  "nonhuman_sequence_matches": 1,
+  "matching_primary_reporter_candidates": 2,
+  "CRISPRi_numeric_rows_checked": 73222,
+  "new_function_label_assigned": false,
+  "new_native_or_independent_reporter_validation": false
+}

@@ -1,0 +1,35 @@
+S18 Primary validation precedents and citation scope
+2 November2026
+
+These annotations support literature claims in the working manuscript. They
+do not add predictor outcomes, candidate activity labels or native edited
+protein measurements. The CSV and JSON contain the same nine source records:
+seven completed scientific reviews and two explicitly partial reviews.
+Completed scientific review does not mean replay of every raw assay,
+workbook cell, historical pipeline or paper in its citation chain.
+
+Coverage records retain each source's actual scope. Hasenjaeger supplementary
+figures were reviewed from original embedded images and its editable S14
+alignment; whole Word-page layout was not rendered. No separate Hames2001
+SI was identified. Cloutier's main article remains unread, and Chen's detailed
+SI remains unread. Those restrictions also qualify the manuscript citations.
+
+Samandi's full scientific figure review was completed after the older S17
+bundle was frozen. S18 records the later coverage without rewriting that
+earlier artifact. Its original source-definition ambiguities are retained.
+
+PRIMARY_SOURCE_ARCHIVE_MAP.json maps four separate evidence archives by path,
+size and SHA256. S17_SOURCE_ARCHIVE_MAP.json retains the earlier cis/screen/
+assembly archive mappings, including Cloutier's public supporting material.
+The mapped archives are separate files: this small annotation bundle is not
+a self-contained copy of all original primary PDFs and workbooks. Verify the
+listed hashes when opening those archives. Primary DOIs are recorded per row.
+
+The current68-record ledger,26-claim matrix and scientific-reading queue are
+snapshots for traceability. The queue still identifies26 scientific gaps.
+These counts are not a certificate of exhaustive literature completion.
+
+The linked reading archives also retain a source-only Ghosh/Chu matched-tail
+feasibility check. That prospective contrast is not included as a new Result,
+performance claim or validation cohort in this manuscript revision. Its
+measurements and overlapping variant ascertainment require separate review.

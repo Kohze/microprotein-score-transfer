@@ -1,0 +1,19 @@
+{
+  "annotation_rows": 9,
+  "completed_scientific_reviews": 7,
+  "partial_scientific_reviews": 2,
+  "separate_primary_archives": 4,
+  "ledger_rows": 68,
+  "claim_rows": 26,
+  "remaining_scientific_gaps": 26,
+  "no_new_native_candidate_or_model_validation": true,
+  "source_coverage_files": {
+    "Ghosh2024": "46e94c06543502e5b474062b1a32aa342f7e2f5c8c903a911dd2d14791676e01",
+    "Hasenjaeger2023": "590aea981a91efa9b1437ed8503d7e425ef6200d597b665d19290c4abb865425",
+    "HamesNek2A2001": "e14af828798751ccf85766e6d6ba23d36f6d34b90dd265dd211ebd79c5d9c938",
+    "Vakirlis2022": "2801e38907f7f71a156ade2aaebfb50d6b3a40da8c8d2ead3137e558a8aea4d3",
+    "Samandi2017": "9cf059a13a6a02fe1e09048fae711776c549a644562978d45043d3f09762e814",
+    "Chu2026": "3ac4175b3d1b8d4acf90750579774cc19da4636b1fe0780223a34f7ea0dbe1ef",
+    "Degronopedia2024": "ac4fc3510b169561d0fa79e0fe62523dd253f316b37aea2724ee017f184df682"
+  }
+}

@@ -189,15 +189,18 @@ def figure6():
                 color=col,capsize=2,lw=.7)
             record('Fig6','a',source+'__'+k,r.rho,r.low if i<2 else None,r.high if i<2 else None)
         vals=[float(pol[pol.model.eq(source+'__'+k)].selected_mean_assay_score.iloc[0]) for k in ['A','T']]
-        ax[1].plot(np.arange(2)+off,vals,marker=marker,color=col)
-        for k,val in zip(['A','T'],vals):record('Fig6','b',source+'__'+k,val)
+        for i,(k,val) in enumerate(zip(['A','T'],vals)):
+            ax[1].plot(i+off,val,marker=marker,color=col,ls='none',zorder=3)
+            ax[1].annotate(f'{val:.4f}',(i+off,val),xytext=(0,7 if off<0 else -11),
+                textcoords='offset points',ha='center',va='bottom' if off<0 else 'top',size=6)
+            record('Fig6','b',source+'__'+k,val)
     pap=float(d[d.model.eq('PAP_full')].rho.iloc[0])
     ax[0].axhline(pap,color=GREY,lw=.7,ls='--')
     ax[0].text(.98,.94,'PAP: target-study reference',transform=ax[0].transAxes,ha='right',size=6)
     ax[0].set(xticks=range(6),xticklabels=['A','T','T without\nPAP','N4','C4','I4'],
         ylabel='Spearman correlation',ylim=(.6,.89),xlim=(-.5,5.5))
     ax[1].set(xticks=[0,1],xticklabels=['A: composition','T: + terminals'],xlim=(-.35,1.35),
-        ylim=(.52,.64),ylabel='Mean selected assay score')
+        ylim=(.52,.64),ylabel='Mean measured score in selected set')
     handles,labels=ax[0].get_legend_handles_labels()
     fig.legend(handles,labels,frameon=False,ncol=2,loc='lower center',bbox_to_anchor=(.54,.025))
     panels(fig,ax,['Independent 30-mer ranking','Top-decile selection']);save(fig,'Fig6')

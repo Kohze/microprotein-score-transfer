@@ -6,8 +6,8 @@ This study asks when a microprotein sequence score remains useful outside the as
 
 ## Start here
 
-- `paper/manuscript.pdf`: focused SSRN draft, 24 pages, five inline figures.
-- `paper/S1_Text.pdf`: supplementary methods, detailed results and exploratory diagnostics, 24 pages, six figures.
+- `paper/manuscript.pdf`: revised manuscript, five inline figures.
+- `paper/S1_Text.pdf`: supplementary methods, supporting-file map, detailed results and exploratory diagnostics, six figures.
 - `paper/figures/`: publication-numbered vector PDF/SVG and high-resolution PNG artwork, with frozen plotting tables.
 - `analysis/stability_benchmark_2026-10-31/`: original core benchmark scripts, saved outputs and dependence/feature records.
 - `analysis/paired_context_2026-11-01/`: same-peptide context-transfer extension.
@@ -34,12 +34,27 @@ See `REPRODUCING.md`. Original scripts preserve their historical directory layou
 
 The core benchmark is distinguished from later retrospective transfer extensions and exploratory diagnostics. These labels describe their role in the paper and do not imply preregistration or prospective confirmation. No new predictor, dataset or model fit was added for this release.
 
-This is a research draft prepared for public reproducibility, not an SSRN submission or peer-reviewed publication. Final author contributions, competing interests, BBSRC award/funder-role details and author approval remain to be completed. BBSRC funding was supplied by the corresponding author. No repository DOI is assigned. The prepared target is `Kohze/microprotein-score-transfer`; an actual repository/release exists only after publication succeeds.
+This is a research manuscript and reproducibility resource, not an SSRN
+submission or a claim of peer review. The 10 November revision is prepared
+as v0.1.1, incorporating the earlier local abstract/Fig3 revision.
+The preceding public release is [v0.1.0](https://github.com/Kohze/microprotein-score-transfer/releases/tag/v0.1.0).
+Robin Gounder performed the main study work and original drafting; Samuel Schmidt
+contributed review and editing. Both authors declare no competing interests.
+Robin was supported by a BBSRC DTP studentship (reference 2116112 in the Cambridge
+thesis record). `SUPPORTING_DATA_MAP.csv` resolves every S1-S18 label to actual
+bundle paths, including the added frozen native-context annotations.
+
+Related work: [Guide selection transfers depletion effects across noncanonical
+ORF screens](https://github.com/Kohze/norf-guide-selection) addresses earlier
+CRISPR guide choice and later depletion estimates. Some ORFs and reference
+resources are shared; the present reporter and paired-edit endpoints differ.
 
 ## Attribution, rights and citation
 
-Original source data and predictor methods are cited in the manuscript and `provenance/UPSTREAM_SOURCE_REGISTRY.json`. Derived tables retain source identifiers and upstream provenance. Raw papers/workbooks, third-party code copies, weights and runtime libraries are excluded. Their rights remain with their respective owners. No blanket licence is granted for upstream data or models. The authors have not yet selected a reuse licence for this study's original code; public availability does not itself grant one. See `RIGHTS_AND_ATTRIBUTION.md`.
+Original source data and predictor methods are cited in the manuscript and `provenance/UPSTREAM_SOURCE_REGISTRY.json`. Derived tables retain source identifiers and upstream provenance. Raw papers/workbooks, third-party code copies, weights and runtime libraries are excluded. Their rights remain with their respective owners. No blanket licence is granted for upstream data or models. Original study code is released under the MIT licence in `LICENSE`. See `RIGHTS_AND_ATTRIBUTION.md`.
 
 Use `CITATION.cff` to cite this draft and identify the actual release tag/commit when available.
 
 AI disclosure: OpenAI Codex agents contributed substantially to source discovery, literature synthesis, and mathematical exposition.
+
+The abstract and Fig3b have also been revised; see `ABSTRACT_AND_FIGURE_REVISION.md`.

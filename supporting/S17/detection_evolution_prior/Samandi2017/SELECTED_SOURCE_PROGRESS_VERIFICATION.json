@@ -1,0 +1,22 @@
+{
+  "source_workbooks": [
+    {
+      "file": "elife-27860-supp1.xlsx",
+      "method": "TIS",
+      "populated_accession_rows": 12616,
+      "all_60_candidate_join_results_agree": true
+    },
+    {
+      "file": "elife-27860-supp2.xlsx",
+      "method": "MS",
+      "populated_accession_rows": 4872,
+      "all_60_candidate_join_results_agree": true
+    }
+  ],
+  "morphology_numeric_cells_checked": 27,
+  "passed": true,
+  "reader": "openpyxl independent of the raw XLSX XML reader",
+  "audit_sha256": "92c6026d8ce30bbd0be4a037d2719cc7bc1360518dc17bb7c87f308b3f2623bd",
+  "frozen_roster_sha256": "b9b13d219b815ebfa2d6b002c217e02f4209456eba253062597ce98cccd93143",
+  "paper_pdf_sha256": "8b85e5ea032e113150e540a9c7305dab62eb93928105ed959bb73171039a2b4e"
+}

@@ -1,0 +1,134 @@
+{
+  "scope": "Exploratory selected-panel source-table join; no new raw-spectrum analysis or function labels",
+  "normalization": "None: full amino-acid sequence equality; ORF IDs used only after sequence equality",
+  "roster": 60,
+  "exact_S9_candidates": 45,
+  "S9_rows": 7264,
+  "S9_HLA_detected_rows": 1785,
+  "JHDM_shotgun_PSM": [
+    {
+      "﻿study_pmid": "31155234",
+      "unmodified_peptide": "CRGIQTLENVPPEFPASSK",
+      "orf_name": "human-lv-merged.30212.4_238_442",
+      "noncanonical_protein_matches": "CONTRIB_smORFs_Cui_491509",
+      "canonical_protein_matches": "",
+      "pxd_identifier": "PXD006675",
+      "filename": "20160802_QEp2_SoDo_SA_LC12-13_correct_Ao4-frac4",
+      "scan_num": "21701",
+      "charge": "4",
+      "modified_peptide": "C[CARBAMIDOMETHYL]RGIQTLENVPPEFPASSK",
+      "usi": "mzspec:PXD006675:20160802_QEp2_SoDo_SA_LC12-13_correct_Ao4-frac4:scan:21701:C[Carbamidomethyl]RGIQTLENVPPEFPASSK/4",
+      "is_HLA": "FALSE",
+      "instrument": "Q Exactive",
+      "LTQ": "No",
+      "has_canonical_match_peptideatlas": "FALSE",
+      "has_canonical_match_uniprotkb2016": "FALSE",
+      "assigned_for_evaluation": "TRUE"
+    }
+  ],
+  "JHDM_exact_USI_ratings": [
+    {
+      "USI": "mzspec:PXD006675:20160802_QEp2_SoDo_SA_LC12-13_correct_Ao4-frac4:scan:21701:C[Carbamidomethyl]RGIQTLENVPPEFPASSK/4",
+      "Instrument": "Q Exactive",
+      "LTQ": "No",
+      "Rating..1.5.": "1",
+      "curator": "F",
+      "pmid": "31155234",
+      "HLA": "FALSE",
+      "peptide": "CRGIQTLENVPPEFPASSK",
+      "orf": "human-lv-merged.30212.4_238_442"
+    }
+  ],
+  "JHDM_SRM_peptide": "ASMEPPLVAGGLSPR",
+  "JHDM_SRM_in_Wacholder_tables": false,
+  "JHDM_SRM_scope": "Main text explicitly excludes SRM from reassessment; missing rating is not a quality verdict",
+  "RP11_shared_peptide": "EVCLILKLK",
+  "RP11_other_ORF_rows": [
+    {
+      "group(d=1, u=0)": 1.0,
+      "orf_name": "c12riboseqorf86",
+      "sequence": "MKCGPVAPHCRFSSFLPPFRKCAKEHTDTEQTGHLCNHMEVCLILKLKKLSWKTERPSPDDIV",
+      "aa_length": 63.0,
+      "orf_biotype1": 0.0,
+      "orf_biotype2": 0.0,
+      "orf_biotype3": 0.0,
+      "orf_biotype4": 1.0,
+      "orf_biotype5": 0.0,
+      "orf_biotype6": 0.0,
+      "orf_biotype7": 0.0,
+      "MolWeight_div_aaLength": 132.5934921,
+      "n_predHLAbinders_div_aaLength": 0.38095238,
+      "netCharge": 0.04761905,
+      "pI": 6.27031746,
+      "log10RelMutab": 1.88397671,
+      "percent_disorder": 39.6825397,
+      "InstabilityIndex": 42.4968254,
+      "SolubilityIndex": -0.4714286,
+      "AliphaticIndex": 20.6349206,
+      "StabilityScale": 2.91761905,
+      "PhyloCSF": -1524.3,
+      "SideChainContrib_ProtStab": 10.2095238,
+      "AlphaHelix_Propensity": 0.02460318,
+      "PositiveCharge": 0.22222222,
+      "Avrg_FlexibilityIndices": 0.43042857,
+      "MeanPolarity": 0.12142857,
+      "8AcontactNumber": 0.01412698,
+      "NormFreqAlphaHelixUnweight": 1.03634921,
+      "NormFreqBetaSheetUnweight": 0.95714286,
+      "percentage_basic_amino_acids": 22.2222222,
+      "percentage_amino_acids_in_Helix": 23.8095238,
+      "percentage_amino_acids_in_Turn": 20.6349206,
+      "percentage_amino_acids_in_Sheet": 22.2222222,
+      "Flexibility": -0.4714286,
+      "NormFreqAlphaHelix": 1.03476191,
+      "ElectrIonInteracPotentialVal": 0.04717778,
+      "RelStabilScale": 2.95174603,
+      "AmphiphilicityIndex": 0.82698413,
+      "RatioAccesBuriedMolfrac": 1.39444444,
+      "PercExposedResidues": 35.8571429,
+      "FreeESol_inWater": 0.5004127,
+      "SignalSeqHelicalPotential": 1.04603175,
+      "ratioAvrgComputedComp": 0.9931746,
+      "AvrgVolResidues": 144.420635,
+      "NEIGIndex": 49.5063492,
+      "group": 1.0,
+      "Probability": 0.46290094
+    }
+  ],
+  "tier_scope": "Source-reported final tiers in retrieved S7; single-HLA entries not all manually validated",
+  "missingness": "No exact match or no table row is not evidence of absent translation, protein or function",
+  "sources": [
+    {
+      "path": "novelty_audit_2026-11-01\\native_system_prior\\candidate_primaries\\candidate_native_evidence.json",
+      "sha256": "844bf69f7420a98f8df992c17fee4f64cc27fe1d4bafe81edf9b541774c04b34"
+    },
+    {
+      "path": "novelty_audit_2026-11-01\\ms_evidence_standards\\Deutsch_TableS3.xlsx",
+      "sha256": "21aec0f2fc963c9125b948aa6a6b876f585b6b533e79b3bb0ce718f61db3c155"
+    },
+    {
+      "path": "novelty_audit_2026-11-01\\ms_evidence_standards\\Deutsch_TableS6.xlsx",
+      "sha256": "2d2f4c140d9853478115dc2bb5b54a85708d7045956baffc7a5f2c6ebd4766e9"
+    },
+    {
+      "path": "novelty_audit_2026-11-01\\ms_evidence_standards\\Deutsch_TableS7.xlsx",
+      "sha256": "31139f75c6e9e2e2d1005a955afdc8dfd883174c6a2b090618631d849aa69a65"
+    },
+    {
+      "path": "novelty_audit_2026-11-01\\ms_evidence_standards\\Deutsch_TableS9.xlsx",
+      "sha256": "eef5025630824486ca2993c3b786b86a9a69ef3bf2f1d51618696743cb184263"
+    },
+    {
+      "path": "novelty_audit_2026-11-01\\ms_evidence_standards\\Deutsch_TableS12.xlsx",
+      "sha256": "b5d33ae4e52fe28eaadc5f2269e4be25a6c35f8161fa9a6467d53021a4a2ce15"
+    },
+    {
+      "path": "novelty_audit_2026-11-01\\ms_evidence_standards\\Wacholder_41467_2025_68002_MOESM3_ESM.csv",
+      "sha256": "9bfb75642361dda9f3cc6690a1b483c3536d249bca1d90b837ebd58a9088b55d"
+    },
+    {
+      "path": "novelty_audit_2026-11-01\\ms_evidence_standards\\Wacholder_41467_2025_68002_MOESM5_ESM.csv",
+      "sha256": "0ee5fe638c98ef959977d72ab92985497f3c32b62a4d0c2ccb2fa5b5aabc42af"
+    }
+  ]
+}

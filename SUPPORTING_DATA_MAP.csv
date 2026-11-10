@@ -1,0 +1,36 @@
+label,description,public_path,kind,verification_scope
+S1 Data,Reporter prediction metrics,analysis/stability_benchmark_2026-10-31/results/metrics.csv,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S1 Data,Reporter prediction metrics,analysis/stability_benchmark_2026-10-31/results/common_coverage_metrics.csv,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S1 Data,Reporter prediction metrics,analysis/stability_benchmark_2026-10-31/results/conditional_intervals.csv,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S2 Data,Paired-edit summaries,analysis/stability_benchmark_2026-10-31/results/metrics.csv,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S2 Data,Paired-edit summaries,analysis/stability_benchmark_2026-10-31/results/native_contrasts.json,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S3 Data,Selected expression-panel predictions and coverage,analysis/stability_benchmark_2026-10-31/results/Yang_validation.parquet,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S3 Data,Selected expression-panel predictions and coverage,analysis/stability_benchmark_2026-10-31/validation_assay_records.parquet,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S3 Data,Selected expression-panel predictions and coverage,analysis/stability_benchmark_2026-10-31/results/Yang_full_ShortStop_coverage_audit.csv,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S4 Data,Reporter row-level predictions,analysis/stability_benchmark_2026-10-31/results/native_GFP_MP.parquet,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S4 Data,Reporter row-level predictions,analysis/stability_benchmark_2026-10-31/results/native_MP_mCherry.parquet,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S4 Data,Reporter row-level predictions,analysis/stability_benchmark_2026-10-31/results/native_GFP_MP_mutagenesis.parquet,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S4 Data,Reporter row-level predictions,analysis/stability_benchmark_2026-10-31/results/additional_transfer.parquet,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S5 Data,Verified mutation pairs and predictions,analysis/stability_benchmark_2026-10-31/results/mutation_predictions.parquet,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S6 Data,Exploratory prediction diagnostics,analysis/stability_benchmark_2026-10-31/results/exploratory_top_decile_prioritization.csv,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S6 Data,Exploratory prediction diagnostics,analysis/stability_benchmark_2026-10-31/results/mutation_coupling_diagnostics.csv,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S6 Data,Exploratory prediction diagnostics,analysis/stability_benchmark_2026-10-31/results/exploratory_additional_substitution_metrics.csv,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S7 Data,"Protocols, dependence records and verification",analysis/stability_benchmark_2026-10-31/INPUT_FREEZE.json,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S7 Data,"Protocols, dependence records and verification",analysis/stability_benchmark_2026-10-31/EXECUTION_PROTOCOL.txt,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S7 Data,"Protocols, dependence records and verification",analysis/stability_benchmark_2026-10-31/sequence_dependence_groups.parquet,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S7 Data,"Protocols, dependence records and verification",analysis/stability_benchmark_2026-10-31/results/fit_receipts.json,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S7 Data,"Protocols, dependence records and verification",verify_saved_results.py,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S7 Data,"Protocols, dependence records and verification",provenance/UPSTREAM_SOURCE_REGISTRY.json,file,frozen derived results; upstream-dependent source reconstruction separately documented
+S8 Data,Same-peptide reporter transfer,analysis/paired_context_2026-11-01/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S9 Data,Canonical-tile transfer,analysis/novelty_audit_2026-11-01/independent_test/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S10 Data,Independent paired effects and published baselines,analysis/novelty_audit_2026-11-01/independent_interventions/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S10 Data,Independent paired effects and published baselines,analysis/novelty_audit_2026-11-01/published_predictor_comparison/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S10 Data,Independent paired effects and published baselines,analysis/novelty_audit_2026-11-01/pap_neural_comparison/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S11 Data,Terminal exposure and matched-input controls,analysis/novelty_audit_2026-11-01/terminal_predictor_comparison/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S12 Data,Source edit filtering and exact candidate links,analysis/novelty_audit_2026-11-01/native_function_bridge/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S13 Data,Native-candidate evidence and RNA-context annotations,supporting/S13/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S14 Data,Current MS evidence annotations,supporting/S14/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S15 Data,Brain-context sequence annotations,supporting/S15/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S16 Data,Cardiac and cancer-study candidate annotations,supporting/S16/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S17 Data,"Regulatory, screen and structural-control annotations",supporting/S17/,directory,frozen derived results; upstream-dependent source reconstruction separately documented
+S18 Data,Primary validation precedent annotations,supporting/S18/,directory,frozen derived results; upstream-dependent source reconstruction separately documented

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "HumanHeart2019",
+    "query": "DOI:\"10.1016/j.cell.2019.05.010\"",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.cell.2019.05.010%22&format=json&resultType=core",
+    "title": "The Translational Landscape of the Human Heart.",
+    "doi": "10.1016/j.cell.2019.05.010",
+    "pmcid": null,
+    "retrieval_is_reading": false
+  },
+  {
+    "id": "JHDMStarvation2017",
+    "query": "PMCID:PMC5574049",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC5574049&format=json&resultType=core",
+    "title": "Long Noncoding RNA JHDM1D-AS1 Promotes Tumor Growth by Regulating Angiogenesis in Response to Nutrient Starvation.",
+    "doi": "10.1128/mcb.00125-17",
+    "pmcid": "PMC5574049",
+    "retrieval_is_reading": false,
+    "xml_status": 200,
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5574049/fullTextXML",
+    "xml_bytes": 133747,
+    "xml_sha256": "d9e4045c65a03f1123a9f06db2448b69feca1c4990f33f3cc7943792a8f0c525",
+    "paragraphs": 89,
+    "words": 6538,
+    "previous_query_rejected": "An unverified PMID selected a different title; never used for reading or inference."
+  },
+  {
+    "id": "JHDMInflammation2022",
+    "query": "PMCID:PMC9315269",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC9315269&format=json&resultType=core",
+    "title": "The Long Non-Coding Antisense RNA JHDM1D-AS1 Regulates Inflammatory Responses in Human Monocytes.",
+    "doi": "10.3389/fcimb.2022.934313",
+    "pmcid": "PMC9315269",
+    "retrieval_is_reading": false,
+    "xml_status": 200,
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9315269/fullTextXML",
+    "xml_bytes": 104786,
+    "xml_sha256": "d6d7a2454d762420e75f7836f850b8e17a2cec430b9aa71eb8ce6b50aff5dc57",
+    "paragraphs": 69,
+    "words": 5830
+  },
+  {
+    "id": "RP11Glycolysis2023",
+    "query": "PMCID:PMC10077620",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC10077620&format=json&resultType=core",
+    "title": "LncRNA RP11-620J15.3 promotes HCC cell proliferation and metastasis by targeting miR-326/GPI to enhance glycolysis.",
+    "doi": "10.1186/s13062-023-00370-0",
+    "pmcid": "PMC10077620",
+    "retrieval_is_reading": false,
+    "xml_status": 200,
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10077620/fullTextXML",
+    "xml_bytes": 87705,
+    "xml_sha256": "38c90df8a6cc5fe72e335d49dfaecf4a9eb1993747f140629a0105db4c5abb70",
+    "paragraphs": 130,
+    "words": 5610
+  },
+  {
+    "id": "JHDMDHX152019",
+    "query": "PMCID:PMC6861564",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC6861564&format=json&resultType=core",
+    "title": "Long Non-coding RNA JHDM1D-AS1 Interacts with DHX15 Protein to Enhance Non-Small-Cell Lung Cancer Growth and Metastasis.",
+    "doi": "10.1016/j.omtn.2019.09.028",
+    "pmcid": "PMC6861564",
+    "retrieval_is_reading": false,
+    "xml_status": 200,
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6861564/fullTextXML",
+    "xml_bytes": 90709,
+    "xml_sha256": "579ddeec5282357bb1fa3236dc0d6716e0c20e28afd0e7c2ffb016a63231d884",
+    "paragraphs": 84,
+    "words": 5145
+  }
+]

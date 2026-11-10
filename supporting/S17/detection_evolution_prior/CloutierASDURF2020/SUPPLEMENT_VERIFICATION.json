@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "public_assets_MD5_and_SHA256_checked": 9,
+  "independent_reader": "Original XLSX ZIP/XML; no openpyxl",
+  "original_ASDURF_protein_group_rows_checked": 6,
+  "full_scientific_main_unread": true,
+  "new_native_turnover_or_pairwise_affinity_measurement": false
+}

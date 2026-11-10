@@ -1,0 +1,65 @@
+{
+  "scope": "Selected exact-candidate lookup and source endpoint feasibility only",
+  "source": {
+    "path": "novelty_audit_2026-11-01\\native_detection_prior\\BrainAtlas2026\\43587_2026_1207_MOESM4_ESM.xlsx",
+    "sha256": "8a2cc43f35e8d65abe8e736d1f77236ab2294de433927ab0a0e9f191ac5d633b"
+  },
+  "roster_source": {
+    "path": "novelty_audit_2026-11-01\\native_system_prior\\candidate_primaries\\candidate_native_evidence.json",
+    "sha256": "844bf69f7420a98f8df992c17fee4f64cc27fe1d4bafe81edf9b541774c04b34"
+  },
+  "normalization": "No sequence normalization at this join; exact full sequence from the previously verified roster",
+  "worksheet_reading": "openpyxl read_only with reset_dimensions; source workbook unchanged",
+  "table_rows": {
+    "S1 Discovery": 4814,
+    "S2 Proteomics": 6592,
+    "S3 Tryptic Peptides": 3955,
+    "S5 ShortStop": 3123
+  },
+  "exact_candidate_matches": {
+    "S1 Discovery": 5,
+    "S2 Proteomics": 9,
+    "S3 Tryptic Peptides": 3,
+    "S5 ShortStop": 5
+  },
+  "S1_annotation_status": {
+    "MS": 3247,
+    "RiboCode_SAM": 1567
+  },
+  "S1_MS_evidence_type": {
+    "DDA only": 3204,
+    "No MS": 1567,
+    "DIA only": 30,
+    "DDA+DIA": 13
+  },
+  "S1_DDA_grade": {
+    "Moderate": 1433,
+    "No MS": 1561,
+    "Insufficient": 158,
+    "Strong": 1067,
+    "Weak": 343,
+    "No PROSIT": 252
+  },
+  "S2_status": {
+    "Reviewed": 1778,
+    "Unreviewed": 4814
+  },
+  "unreviewed_S2_rows": 4814,
+  "unreviewed_with_positive_unique_PSM_counts": 3217,
+  "unreviewed_zero_unique_counts": 1597,
+  "exact_S3_coverage_of_count_positive": 3195,
+  "count_positive_standard_AA_31_to_150": 2353,
+  "outcomes_not_established": [
+    "Native half-life",
+    "Molar abundance across products",
+    "Peptide-dependent activity",
+    "Functional-negative labels"
+  ],
+  "target_notes": [
+    "TMT disease log fold changes are within-product relative responses, not baseline between-product concentrations",
+    "Unique PSM counts measure MS recovery and depend on length, tryptic capacity, RNA/translation, sequence and search workflow",
+    "RiboCode_SAM no-MS subset is ShortStop-selected and cannot serve as an unselected independent ShortStop validation cohort",
+    "DDA search and PROSIT grading are not described as requiring ShortStop positivity",
+    "No-MS or absent lookup is not a functional negative; no source result is reclassified here"
+  ]
+}

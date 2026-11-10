@@ -1,0 +1,19 @@
+{
+  "candidates": 60,
+  "exact_source_candidates": 49,
+  "full_sequence_source_links": 49,
+  "S5_candidates": 36,
+  "S3_candidates": 13,
+  "SRM_reported_detected_candidates": 15,
+  "SRM_run_sequence_conflicts": 0,
+  "SRM_run_threshold_disagreements": 0,
+  "all_candidates_retained": true,
+  "assay_scores_refit": false,
+  "native_function_demonstrated": false,
+  "source_sha256": {
+    "HumanHeart2019_mmc3_candidate.xlsx": "94d7795f14bab97627fe0e91e078f377a9e160525ab7dc83eab01dcd001ce246",
+    "HumanHeart2019_mmc5_candidate.xlsx": "e213387e9bcb70bfab281624fa9de0a2d6cf869601b842b691c9070c9cb30efe",
+    "NR_024451_1.gb": "4c23c8e0637e7cc52fd7b7500c9673858ae937ef8e942b5f79339ba3ce747be3",
+    "candidate_bridge.csv": "b9b13d219b815ebfa2d6b002c217e02f4209456eba253062597ce98cccd93143"
+  }
+}
